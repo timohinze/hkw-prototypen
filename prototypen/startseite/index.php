@@ -1,47 +1,18 @@
-	<!DOCTYPE html>
-	<html lang="de" dir="ltr">
-	  <head>
-	    <meta charset="utf-8">
-	    <title>HKW</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php include_once("../../functions/header.php"); ?>
 
-      <link rel="stylesheet" href="/assets/css/styles.css" />
 
-      <link rel="stylesheet" href="/assets/js/flickity.min.css" />
-
-			<script
-						src="https://code.jquery.com/jquery-3.6.0.min.js"
-						integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-						crossorigin="anonymous">
-			</script>
-
-			<script src="/assets/js/flickity.pkgd.min.js"></script>
-
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/balance-text/3.3.0/balancetext.min.js"></script>
-		  <script>
-		    balanceText();
-		  </script>
-
-		</head>
-
-		<body>
-
-      <header>
-        <p>Header</p>
-      </header>
-
-      <div class="page-wrap">
         <main class="home">
 
           <!-- Scroll Bühne -->
-          <!-- Background oder IMGs? -->
-          <!-- Imgs wären evt besser wegen ALT-Titeln -->
+
+					<!-- Oder Picture Element mit verschiedenen source Angaben für responsive Bildgrößen -->
 
           <ul class="scroll-buhne-element">
         		<li class="scroll-buhne-item">
         			<a href="#">
-        				<div class="scroll-buhne-item__visual" style="background-image: url(https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg);">
-        				</div>
+        				<div class="scroll-buhne-item__visual">
+									<img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
+								</div>
 
         				<div class="scroll-buhne-item__text">
         					<h2 class="balance-text">Digital Violence  Investigative Commons</h2>
@@ -54,7 +25,7 @@
 
         		<li class="scroll-buhne-item">
         			<a href="#">
-        				<div class="scroll-buhne-item__visual" style="background-image: url(https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg);">
+        				<div class="scroll-buhne-item__visual"><img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
         				</div>
 
         			<div class="scroll-buhne-item__text balance-text">
@@ -62,7 +33,7 @@
         				<p class="scroll-buhne-item__subtitle balance-text">Ausstellung von Nicholas Bussmann</p>
         				<p class="balance-text">Wie stehen Musik, soziale Praxis und Vergesellschaftung miteinander in Verbindung? Nicholas Bussmann lädt zur Mitwirkung an seinen vielschichtigen Versuchsanordnungen ein.</p>
         				<p class="balance-text"><span  class=" nobr">Ausstellung bis 19.9.</span> <span class="icon-separator"></span>  <span class=" nobr">	Performances 15.–17.9.</span></p>
-        			</div>
+							</div>
         		</a>
         	</li>
 
@@ -83,11 +54,13 @@
         		</a>
         	</li>
 
-
+					<!-- Fokus Punkt via object position -->
         		<li class="scroll-buhne-item">
         			<a href="#">
-        				<div class="scroll-buhne-item__visual" style="background-image: url(https://hkw.de/media/bilder/2021/illiberal_arts/steve_reinke_the_natural_look_imgsize_buehne.jpg);     background-position-x: 5%;   background-position-y: 0;">
+        				<div class="scroll-buhne-item__visual"><img style="object-position: 0 100%" src="https://hkw.de/media/bilder/2021/illiberal_arts/steve_reinke_the_natural_look_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
         				</div>
+
+
         			<div class="scroll-buhne-item__text">
         				<h2 class="balance-text">Wie frei ist die Kunst im Kapitalismus?</h2>
         				<p class="scroll-buhne-item__subtitle balance-text">Illiberal Arts</p>
@@ -99,7 +72,7 @@
 
         		<li class="scroll-buhne-item">
         			<a href="#">
-        				<div class="scroll-buhne-item__visual" style="background-image: url(https://www.hkw.de/media/bilder/2021/the_sound_of_distance/simon_keckeisen_the_sound_of_distance_imgsize_buehne.jpg);">
+        				<div class="scroll-buhne-item__visual"><img src="https://www.hkw.de/media/bilder/2021/the_sound_of_distance/simon_keckeisen_the_sound_of_distance_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
         				</div>
 
         			<div class="scroll-buhne-item__text">
@@ -119,10 +92,9 @@
 
 	<div class="super-teaser-item add-gradient add-gradient--static color4">
 		<a href="#">
-		<div class="super-teaser-item__visual"> <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" /> </div>
+		<div class="super-teaser-item__visual"> <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" alt="Lorem Ipsum" /> </div>
 		<div class="super-teaser-item__text ">
-				<p class="teaser-item__date">30.9.21&#8211;<span class="nobr">3.12.22</span></p>
-				<p class="teaeser-item__category balance-text"> <span class="icon-separator"></span> Online-Archiv, Installation, Thementage</p>
+				<p class="teaser-item__topline">30.9.21&#8211; <span class="nobr">3.12.22</span> <span class="icon-separator"></span> Online-Archiv, Installation, Thementage</p>
 
 			<h2>Archiv der Flucht</h2>
 			<p> Welche Formen des Erinnerns braucht es in heutigen Einwanderungs&shy;gesell&shy;schaften? Das Oral-History-Projekt betrachtet die Erinnerungen nach Deutschland migrierter Menschen als integralen Bestandteil deutscher Nachkriegs&shy;geschichte und bewahrt sie vor dem Vergessen und Verdrängen. </p>
@@ -133,23 +105,22 @@
 
 
   <div class="super-teaser-item--small add-gradient color3">
-  	<a href="#">
   	<div class="super-teaser-item__visual">
   		<div class="video-player-wrap">
   		<button class="video-player__play-button">▶</button>
 
-  		<img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" />
+  		<img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum"/>
   	</div>
   	</div>
   	<div class="super-teaser-item__text">
-  		<p class="teaser-item__date">30. Juni</p>
-  		<p class="teaeser-item__category balance-text"> <span class="icon-separator"></span> Lesungen, Gespräche</p>
+  		<p class="teaser-item__topline">30. Juni <span class="icon-separator"></span> Lesungen, Gespräche</p>
 
   		<h2>Internationaler Literaturpreis 2021</h2>
   		<p> Preis für übersetzte Gegenwartsliteraturen</p>
   		<p>Auf der Shortlist des diesjährigen Internationalen Literaturpreises stehen sechs Bücher, die es mit der Gegenwart aufnehmen, die Grenzen zwischen Ich und Welt verschieben und scheinbar Unvereinbares vereinen.</p>
   		</div>
-  	</a>
+			<p><a class="link-button" href="#">Mehr Informationen</a></p>
+
   	<p><a class="link-button" href="#">Livestream starten</a></p>
 
   </div>
@@ -167,7 +138,7 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum">Heute 15.Juli</div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_03_imgsize_M.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_03_imgsize_M.jpg" alt="Lorem Ipsum"/>
 					<h2>Bildungsschock</h2>
 					<p>Lernen, Politik und Architektur in den 1960er und 1970er Jahren</p>
 					<p><span class="icon-eintritt-frei"></span> Eintritt frei </p>
@@ -177,7 +148,7 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum"></div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://supercomputerstudio.com/clients/hkw-relaunch//templates/hkw-beispiel-bilder/image_projection_forensic_architecture_2021_imgsize_buehne_quadrat.jpg" />
+					<img src="https://supercomputerstudio.com/clients/hkw-relaunch//templates/hkw-beispiel-bilder/image_projection_forensic_architecture_2021_imgsize_buehne_quadrat.jpg" alt="Lorem Ipsum" />
 					<p>Investigative Commons</p>
 					<h2>Digital Violence</h2>
 					<p>Präsentation: Gespräche und Screenings</p>
@@ -188,7 +159,7 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum"></div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://www.hkw.de/media/bilder/2021/investigative_commons__forensic_architecture/satellite_imagery_forensic_architecture_2021_imgsize_buehne.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/investigative_commons__forensic_architecture/satellite_imagery_forensic_architecture_2021_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 					<p>Investigative Commons</p>
 					<h2>Digital Violence</h2>
 					<p>Präsentation: Gespräche und Screenings</p>
@@ -198,7 +169,7 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum">Morgen 16.Juli</div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/filipa_cesar_sonia_vaz_borges_skola_di_tarafe_film_still_imgsize_buehne.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/filipa_cesar_sonia_vaz_borges_skola_di_tarafe_film_still_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 					<h2>Bildungsschock</h2>
 					<p>Lernen, Politik und Architektur in den 1960er und 1970er Jahren</p>
 					<p><span class="icon-eintritt-frei"></span> Eintritt frei </p>
@@ -210,7 +181,7 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum">17.Juli</div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_03_imgsize_M.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_03_imgsize_M.jpg" alt="Lorem Ipsum"/>
 					<h2>Bildungsschock</h2>
 					<p>Lernen, Politik und Architektur in den 1960er und 1970er Jahren</p>
 				</a>
@@ -219,7 +190,7 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum"></div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://www.hkw.de/media/bilder/2021/investigative_commons__forensic_architecture/harness_forensic_architecture_2021_imgsize_buehne.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/investigative_commons__forensic_architecture/harness_forensic_architecture_2021_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 					<p>Investigative Commons</p>
 					<h2>Digital Violence</h2>
 					<p>Präsentation: Gespräche und Screenings</p>
@@ -229,14 +200,14 @@
 				<a href="#">
 				<div class="programmteaser-kalender-item__datum"></div>
 					<div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
-					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 					<h2>Bildungsschock</h2>
 					<p>Lernen, Politik und Architektur in den 1960er und 1970er Jahren</p>
 					<p> <span class="icon-Livestream"></span> Livestream </p>
 				</a>
 			</div>
 		</div>
-		<a class="link-button" href="#">Alle Veranstaltungen</a>
+		<a class="link-button link-button--bigger" href="#">Alle Veranstaltungen</a>
 </section>
 
 
@@ -249,7 +220,7 @@
 		<li class="teaser-item add-gradient width-50">
 			 <a href="#">
 				<div class="teaser-item__visual">
-						<img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" />
+						<img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
 				</div>
 				<div class="teaser-item__text">
 						<p class="teaser-item__topline">23. September <span class="icon-separator"></span> Präsentation: Gespräche und Screenings</p>
@@ -264,7 +235,7 @@
 		<li class="teaser-item add-gradient color2 width-50">
 			<a href="#">
 				<div class="teaser-item__visual">
-					 <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" />
+					 <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
 				 </div>
 				 <div class="teaser-item__text">
 					 <p class="teaser-item__topline">5. Juli <span class="icon-separator"></span> Online-Programm: Vortrag und Screenings</p>
@@ -279,7 +250,7 @@
 		<li class="teaser-item add-gradient color4 width-50">
 			<a href="#">
 				<div class="teaser-item__visual">
-					<img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" />
+					<img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 				</div>
 				<div class="teaser-item__text">
 					<p class="teaser-item__topline">ab 27. August <span class="icon-separator"></span> Ausstellung</p>
@@ -294,7 +265,7 @@
 		<li class="teaser-item add-gradient color3 width-50">
 			<a href="#">
 			<div class="teaser-item__visual">
-				<img src="https://hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_01_imgsize_buehne.jpg" />
+				<img src="https://hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_01_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 			</div>
 			<div class="teaser-item__text">
 				<p class="teaser-item__topline">Publikationsreihe: Das neue alphabet</p>
@@ -309,7 +280,7 @@
 		<li class="teaser-item add-gradient color7 width-50">
 			<a href="#">
 			<div class="teaser-item__visual">
-				<img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" />
+				<img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
 			</div>
 			<div class="teaser-item__text">
 				<p class="teaser-item__topline"> 5. Juli <span class="icon-separator"></span> Online-Programm: Vortrag und Screenings</p>
@@ -323,7 +294,7 @@
 		<li class="teaser-item add-gradient color8 width-50">
 			<a href="#">
 				<div class="teaser-item__visual">
-					<img src="https://www.hkw.de/media/bilder/2021/bib_audiowalk/campus_hannah_hoech.jpg" />
+					<img src="https://www.hkw.de/media/bilder/2021/bib_audiowalk/campus_hannah_hoech.jpg" alt="Lorem Ipsum"/>
 				</div>
 				<div class="teaser-item__text">
 					<p class="teaser-item__topline">Audiowalks</p>
@@ -338,7 +309,7 @@
 		<li class="teaser-item add-gradient color1 width-50">
 			<a href="#">
 			<div class="teaser-item__visual">
-				<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" />
+				<img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
 			</div>
 			<div class="teaser-item__text">
 				<p class="teaser-item__topline">Bis 11. Juli <span class="icon-separator"></span> Führungen</p>
@@ -353,7 +324,7 @@
 	<li class="teaser-item add-gradient color9 width-50">
 		<a href="#">
 		<div class="teaser-item__visual">
-			<img src="https://newalphabetschool.hkw.de/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-12-at-17.32.59-1.jpeg" />
+			<img src="https://newalphabetschool.hkw.de/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-12-at-17.32.59-1.jpeg" alt="Lorem Ipsum"/>
 		</div>
 		<div class="teaser-item__text">
 			<p class="teaser-item__topline">Blog New Alphabet School</p>
@@ -373,15 +344,29 @@
 
 
 <div class="add-gradient color-calendar-gradient video-teaser-element">
-	<div class="element slideshow-element"><h2>Zum Weitersehen</h2><div class="slideshow-element__carousel"><div class="slideshow-element__carousel__slide"><div class='video-player-wrap'><button class='video-player__play-button'>▶</button> <img src='https://film.kbb.eu/wtu/embed/preview/70496'/></div><h2>Die Gründung neuer Lernorte (Englisch)</h2><p><a href='#'>Mehr zum Video</a></p></div><div class="slideshow-element__carousel__slide"><div class='video-player-wrap'><button class='video-player__play-button'>▶</button><img src='https://film.kbb.eu/wtu/embed/preview/70489'/></div><h2>Einführung: A New School (Englisch)</h2><p><a href='#'>Mehr zum Video</a></p></div></div></div></div>
-
+   <div class="element slideshow-element">
+      <h2>Zum Weitersehen</h2>
+      <div class="slideshow-element__carousel">
+         <div class="slideshow-element__carousel__slide">
+            <div class='video-player-wrap'>
+							<button class='video-player__play-button'>▶</button>
+							<img src='https://film.kbb.eu/wtu/embed/preview/70496' alt="Lorem Ipsum"/>
+						</div>
+            <h3>Die Gründung neuer Lernorte (Englisch)</h3>
+            <p><a href='#'>Mehr zum Video</a></p>
+         </div>
+         <div class="slideshow-element__carousel__slide">
+            <div class='video-player-wrap'>
+							<button class='video-player__play-button'>▶</button>
+							<img src='https://film.kbb.eu/wtu/embed/preview/70489' alt="Lorem Ipsum"/>
+						</div>
+            <h3>Einführung: A New School (Englisch)</h3>
+            <p><a href='#'>Mehr zum Video</a></p>
+         </div>
+      </div>
+   </div>
+</div>
 
 </main>
-</div>
-<!-- page-wrap -->
 
-<footer>
-  <p>Footer</p>
-</footer>
-</body>
-</html>
+<?php include_once("../../functions/footer.php"); ?>

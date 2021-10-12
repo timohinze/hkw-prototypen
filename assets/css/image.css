@@ -1,0 +1,32 @@
+img{
+  width: 100%;
+  /* noch auf max-width: setzen */
+  height: auto;
+}
+
+figure{
+  margin: 0;
+}
+
+.image-element{
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.image-element__img{
+  width: 100%;
+  height: auto;
+}
+
+.image-element__caption{
+  margin-top: 0.7em;
+  font-size: 0.6em;
+  margin-left: 3em;
+}
+
+
+
+.header-image .image-element__caption{
+  text-align: right;
+  margin-right: 1em;
+}

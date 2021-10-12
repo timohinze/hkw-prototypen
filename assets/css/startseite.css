@@ -1,0 +1,414 @@
+/* Typografie */
+
+.home p {
+  font-size: var(--textsize1);
+}
+@media (min-width: 640px) {
+  .home p {
+    font-size: var(--textsize2);
+  }
+}
+
+.home h3 {
+	font-size: 2.67em;
+	line-height: 1.1;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+/* skizze */
+@media only screen and (max-width: 1024px) {
+  .home h3{
+    font-size: 2em;
+  }
+}
+
+/* Scrollbühne */
+
+/* damit die scrollbühne unter den elementen liegt*/
+.home .element{
+  position: relative;
+  z-index: 2;
+}
+
+
+/* scroll buhne */
+
+
+
+/* scroll buhne item */
+.scroll-buhne-element{
+  margin-bottom: 10em;
+}
+
+.scroll-buhne-item{
+  padding-bottom: 10em;
+
+}
+
+/* wird von javascript aktiviert */
+.scroll-buhne-item--js-prepared{
+  padding-bottom: 100vh;
+  position: relative;
+}
+
+/* wird von javascript aktiviert */
+.scroll-buhne-item--js-prepared .scroll-buhne-item__text{
+  position: absolute;
+}
+
+
+/* wird von javascript aktiviert, wenn item sichtbar */
+.scroll-buhne-item--visible .scroll-buhne-item__text {
+  left: 0;
+  right: 0;
+
+	position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+
+}
+
+/* zu groß */
+.scroll-buhne-item.scroll-buhne-item--too-high{
+  background-color: red;
+  padding-bottom: 0;
+}
+.scroll-buhne-item.scroll-buhne-item--too-high .scroll-buhne-item__text{
+  position: relative;
+  top: 0;
+  transform: none;
+}
+
+
+
+
+
+.scroll-buhne-item__text {
+	padding: 0 1em;
+	text-align: center;
+}
+@media only screen and (min-width: 375px) {
+	.scroll-buhne-item__text {
+		padding: 0 1.5em;
+	}
+}
+
+
+.scroll-buhne-item__text h2 {
+	font-size: 2rem;
+	font-family: "Lyno Stan HKW";
+	-webkit-hyphens: manual;
+	-ms-hyphens: manual;
+	hyphens: manual;
+	letter-spacing: 0.02em;
+	line-height: 0.9;
+	margin-bottom: 0.25rem;
+	min-height: 0.1vh;
+	text-transform: uppercase;
+}
+@media only screen and (min-width: 375px) {
+	.scroll-buhne-item__text h2 {
+		font-size: 3rem;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.scroll-buhne-item__text h2 {
+		font-size: min(max(3rem, 10vh), 5rem);
+	}
+}
+@media only screen and (min-width: 1400px) {
+	.scroll-buhne-item__text h2 {
+		font-size: min(max(3rem, 12vh), 10em);
+	}
+}
+
+
+.scroll-buhne-item__text .scroll-buhne-item__subtitle{
+  font-size: 2em;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  min-height: 0.1vh;
+}
+
+@media (max-width: 1024px) {
+	.scroll-buhne-item__text .scroll-buhne-item__subtitle {
+		font-size: 1.8em;
+	}
+}
+
+/* skizze */
+@media (max-width: 1024px) {
+	.scroll-buhne-item__text h2 {
+		font-size: 2.4em;
+	}
+}
+
+
+.scroll-buhne p {
+	max-width: 66vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scroll-buhne-item__text p {
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 45em;
+}
+
+.scroll-buhne-item__visual {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	/* background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+	z-index: 9;
+	position: relative;
+}
+
+.scroll-buhne-item__visual  img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display: block;
+}
+.scroll-buhne-item__visual figcaption{
+  font-size: 0.75em;
+  text-align: right;
+  padding: 0.25em;
+  background: white;
+}
+
+
+.scroll-buhne-item__visual video  {
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.scroll-buhne-item .info-detail{
+  margin-left: 0.67em;
+}
+
+
+
+
+/* Super Teaser */
+
+/* damit die scroll bühne hinter dem teaser verschwindet */
+.super-teaser-element {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 15em;
+}
+.super-teaser-item{
+  margin-bottom: 10em;
+}
+
+.super-teaser-item__title {
+	position: absolute;
+	font-family: "Lyno Stan HKW";
+	color: #FF4E00;
+	font-size: 4em;
+	padding: 0.5em;
+}
+
+.super-teaser-item__text {
+	margin-top: 1em;
+	max-width: 48em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.super-teaser-item--small {
+  padding-left: 13%;
+  padding-right: 13%;
+}
+.super-teaser-item--small  .super-teaser-item__text{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+.super-teaser-item__text h2 {
+  font-size: 2.5em;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+
+.super-teaser-item__text p, .teaser-item__text p {
+  margin-block-end: 0.75em;
+  margin-block-start: 0.25em;
+}
+
+
+
+
+/* Programmteaser-Kalender */
+
+
+.programmteaser-kalender-element .flickity-button,
+.element .flickity-button{
+	background: transparent;
+	color: white;
+}
+
+
+.programmteaser-kalender-element .flickity-button,
+.element .flickity-button:hover {
+    background: none;
+    cursor: pointer;
+}
+.programmteaser-kalender-element .flickity-button:disabled,
+.element .flickity-button:disabled {
+opacity: 0;
+}
+
+.programmteaser-kalender-element  .flickity-prev-next-button{
+  top: 33%;
+}
+
+
+.programmteaser-kalender-element {
+	padding-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 15em;
+
+}
+
+.programmteaser-kalender-element-slideshow{
+  padding-left: 2rem;
+
+}
+
+.programmteaser-kalender-item {
+	width: 42%;
+	margin: 1em;
+}
+
+@media (min-width: 1200px) {
+	.programmteaser-kalender-item {
+		width: 28%;
+		margin: 1em;
+	}
+}
+
+.programmteaser-kalender-item__datum {
+	min-height: 1.75em;
+	font-size: 1.75em;
+}
+
+.programmteaser-kalender img {
+	margin-bottom: 0.5em;
+}
+
+.programmteaser-kalender-item__uhrzeit {
+	font-size: 1.75em;
+	margin-bottom: 0.25em;
+}
+
+.programmteaser-kalender-item h2 {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+.programmteaser-kalender-item p {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+
+.programmteaser-kalender-element  .link-button{
+  margin-left: 2rem;
+}
+
+
+
+/* teaser (mit verlauf) */
+
+.width-50 {
+	width: 50%;
+}
+@media (max-width: 1024px) {
+	.width-50 {
+		width: 100%;
+	}
+}
+.width-33 {
+	width: 33.33%;
+}
+@media (max-width: 1024px) {
+	.width-33 {
+		width: 100%;
+	}
+}
+
+.teaser-item-element {
+	display: flex;
+	flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+
+/* .teaser-item p:first-child {
+	margin: 0;
+} */
+
+
+.teaser-item img.portrait{
+  height: auto;
+  max-height: 60vh;
+  width: auto;
+
+}
+
+.teaser-item {
+	position: relative;
+	padding-bottom: 150px;
+	padding-bottom: 150px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.teaser-item__visual {
+	margin-bottom: 0.67em;
+}
+
+.teaser-item__text {
+	margin-bottom: 2em;
+}
+
+
+.teaser-item__title{
+  font-size: 2.67em;
+line-height: 1.1;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+
+
+
+.teaser-item h3{
+  flex-basis: 100%;
+}
+
+
+
+/* Verlauf */
