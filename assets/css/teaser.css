@@ -1,50 +1,23 @@
 /* 2021 10 15 */
-
 /* Programmteaser-Kalender */
+
 /* Momentan nur auf der Startseite */
 
 
 
-.programmteaser-kalender-element  .flickity-prev-next-button{
-  top: 33%;
-}
-
-
-
-
-/* 
-.programmteaser-kalender-element  .flickity-prev-next-button.next{
-  	right: 0;
-  }
-  .programmteaser-kalender-element  .flickity-prev-next-button.previous{
-  	left: 0;
-  } */
-
-
-
 .programmteaser-kalender-element {
-	padding-top: 0;
-	margin-right: 0;
-	margin-left: 0;
 	margin-bottom: 15em;
-
 }
 
-.programmteaser-kalender-element-slideshow{
-  padding-left: 2rem;
-  padding-right: 2em;
-
-}
-
-
-
+/* .programmteaser-kalender-element__slideshow {
+	padding-left: 2rem;
+	padding-right: 2em;
+} */
 
 .programmteaser-kalender-item {
- width: 42%;
- margin: 1em;
+	width: 42%;
+	margin: 1em;
 }
-
-
 
 @media only screen and (min-width: 1200px) {
 	.programmteaser-kalender-item {
@@ -52,28 +25,23 @@
 	}
 }
 
-
-
 @media only screen and (max-width: 1024px) {
-  .programmteaser-kalender-item {
-  	width: 100%;
-  }
+	.programmteaser-kalender-item {
+		width: 100%;
+	}
 }
-
-
 
 .programmteaser-kalender-item__datum {
 	min-height: 1.75em;
 	font-size: 1.75em;
 }
 
-
 .programmteaser-kalender-item__uhrzeit {
 	font-size: 1.75em;
 	margin-bottom: 0.25em;
 }
 
-.programmteaser-kalender-item h2 {
+.programmteaser-kalender-item__title {
 	margin-top: 0.25em;
 	margin-bottom: 0.25em;
 }
@@ -83,38 +51,42 @@
 	margin-bottom: 0.25em;
 }
 
-.programmteaser-kalender-element  .link-button{
-  margin-left: 2rem;
-}
-
 
 
 /* Teaser (mit Verlauf) */
-/* Momentan nur auf der Startseite */
 
+
+/* Momentan nur auf der Startseite */
 
 .teaser-item-element {
 	display: flex;
 	flex-wrap: wrap;
-  margin-bottom: 5em;
-  z-index: 2;
-  position: relative;
+	margin-bottom: 5em;
+	z-index: 2;
+	position: relative;
 }
 
 
-.teaser-item img.portrait{
-  height: auto;
-  max-height: 60vh;
-  width: auto;
-
+.teaser-item img.portrait {
+	height: auto;
+	max-height: 60vh;
+	width: auto;
 }
+
+@media only screen and (max-width: 1024px) {
+  .teaser-item img.portrait {
+  	height: auto;
+  	max-height: auto;
+  	max-width: 100%;
+  }
+}
+
 
 .teaser-item {
 	position: relative;
-	padding-bottom: 150px;
-	padding-bottom: 150px;
-  padding-left: 2em;
-  padding-right: 2em;
+	padding-bottom: 8em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .teaser-item__visual {
@@ -124,14 +96,16 @@
 .teaser-item__text {
 	margin-bottom: 2em;
 }
-.teaser-item__text a{
-	text-decoration: underline;
+
+
+.teaser-item__title {
+	font-size: 2.67em;
+	line-height: 1.1;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
-
-.teaser-item__title{
-  font-size: 2.67em;
-line-height: 1.1;
-margin-top: 0.5rem;
-margin-bottom: 0.5rem;
+.teaser-item__text p {
+	margin-block-end: 0.75em;
+	margin-block-start: 0.25em;
 }

@@ -9,6 +9,12 @@
   margin-left: 0rem;
   margin-right: 0rem;
 }
+.element--padding{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 
 /* .element:last-child{

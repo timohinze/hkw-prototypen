@@ -1,102 +1,86 @@
 /* 2021 10 15 */
-
 /* 2021 10 13 */
 
+.flickity-prev-next-button {
+	top: 33%;
+}
 
-.slideshow-element{
-  padding-top: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  /* padding-left: 2em; */
-  padding-right: 0;
-  position: relative;
+.flickity-prev-next-button.next {
+	right: 0;
+}
 
+.flickity-prev-next-button.previous {
+	left: 0;
+}
+
+.flickity-button {
+	background: transparent;
+	color: white;
+}
+
+.flickity-button:hover {
+	background: none;
+	cursor: pointer;
+}
+
+.flickity-button:disabled {
+	opacity: 0;
+}
+
+
+.slideshow-element {
+	padding-top: 1em;
+	position: relative;
+	padding-right: 2rem;
   padding-left: 2rem;
-    padding-right: 2em;
 }
 
 .slideshow-element img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
-
-.slideshow-element__carousel__slide{
-  width: 70%;
-  height: auto;
-  margin-right: 2em;
+.slideshow-element__slide {
+	width: 70%;
+	height: auto;
+	margin-right: 2em;
 }
 
 @media only screen and (max-width: 1024px) {
-
-.slideshow-element__carousel__slide{
-  width: 100%;
-}
-}
-
-.slideshow-element a{
-text-decoration: underline;
+	.slideshow-element__slide {
+		width: 100%;
+	}
 }
 
-.slideshow-element__next-btn{
-  position: absolute;
-  top: 1em;
-  right: 2em;
+.slideshow-element a {
+	text-decoration: underline;
 }
 
-.slideshow-element .flickity-button{
-  background: none;
-    cursor: pointer;
+.slideshow-element__next-btn {
+	position: absolute;
+	top: 1em;
+	right: 2em;
 }
 
-.slideshow-element .flickity-button:hover{
-  background: none;
-    cursor: pointer;
+.slideshow-element .flickity-button {
+	background: none;
+	cursor: pointer;
+}
+
+.slideshow-element .flickity-button:hover {
+	background: none;
+	cursor: pointer;
 }
 
 .slideshow-element .slideshow-element__titel {
-    font-weight: normal;
-    font-size: 1.5em;
-    margin-block-end: 0.5em;
-    margin-block-start: 0.75em;
+	font-weight: normal;
+	font-size: 1.5em;
+	margin-block-end: 0.5em;
+	margin-block-start: 0.75em;
 }
 
 @media only screen and (min-width: 1024px) {
-  .slideshow-element .slideshow-element__titel {
-    font-size: 1.75em;
-  }
+	.slideshow-element .slideshow-element__titel {
+		font-size: 1.75em;
+	}
 }
-
-
-
-
-
-
-
-
-.flickity-prev-next-button.next{
-  	right: 0;
-  }
-
-.flickity-prev-next-button.previous{
-  	left: 0;
-  }
-
-
-
-.flickity-button{
-  	background: transparent;
-  	color: white;
-  }
-.flickity-button:hover {
-      background: none;
-      cursor: pointer;
-  }
-.flickity-button:disabled {
-  opacity: 0;
-  }
-
-
-/* .caption{
-  font-size: 0.75em;
-} */

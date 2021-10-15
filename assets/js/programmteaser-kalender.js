@@ -1,7 +1,7 @@
 /* 2021 10 13 */
 
 $( document ).ready(function() {
-    $('.programmteaser-kalender-element-slideshow').flickity({
+    $('.programmteaser-kalender-element__slideshow').flickity({
       // options
       cellAlign: 'left',
       contain: true,
