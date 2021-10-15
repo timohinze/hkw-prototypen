@@ -68,6 +68,35 @@ text-decoration: underline;
 }
 
 
+
+
+
+
+
+
+.flickity-prev-next-button.next{
+  	right: 0;
+  }
+
+.flickity-prev-next-button.previous{
+  	left: 0;
+  }
+
+
+
+.flickity-button{
+  	background: transparent;
+  	color: white;
+  }
+.flickity-button:hover {
+      background: none;
+      cursor: pointer;
+  }
+.flickity-button:disabled {
+  opacity: 0;
+  }
+
+
 /* .caption{
   font-size: 0.75em;
 } */

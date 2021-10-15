@@ -1,8 +1,15 @@
+/* 2021 10 15 */
+
 /* 2021 10 13 */
 
 .element{
   margin: 2rem;
 }
+.element--kein-rand{
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
 
 /* .element:last-child{
   margin-bottom: 0;

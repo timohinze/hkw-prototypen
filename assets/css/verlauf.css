@@ -5,9 +5,9 @@
 	position: relative;
 }
 
-
+/* defalut farbe */
 .add-gradient:before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #D8FDC8FB 20%, #D8FDC8FB 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 20%, #CCDAE3 80%, rgba(255, 255, 255, 0) 100%);
 	opacity: 0;
 	transition: all 1.5s ease;
 	position: absolute;
@@ -31,9 +31,6 @@
 
 }
 
-.color-calendar-gradient::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 20%, #CCDAE3 80%, rgba(255, 255, 255, 0) 100%);
-}
 
 .color2::before {
 	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC8F5FB 20%, #FDC8F5FB 80%, rgba(255, 255, 255, 0) 100%);

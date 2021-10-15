@@ -208,3 +208,21 @@ strong {
     display: none;
   }
 }
+
+
+.width-50 {
+	width: 50%;
+}
+@media (max-width: 1024px) {
+	.width-50 {
+		width: 100%;
+	}
+}
+.width-33 {
+	width: 33.33%;
+}
+@media (max-width: 1024px) {
+	.width-33 {
+		width: 100%;
+	}
+} 

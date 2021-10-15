@@ -6,6 +6,9 @@
   <p>Footer</p>
 </footer>
 </body>
+<script src="../../assets/js/scripts.js"></script>
+
+
 <script src="../../assets/js/scrollbuhne.js"></script>
 
 <script src="../../assets/js/slideshow.js"></script>
