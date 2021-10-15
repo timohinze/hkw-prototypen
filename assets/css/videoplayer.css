@@ -1,3 +1,4 @@
+/* 2021 10 15 */
 /* 2021 10 13 */
 
 
@@ -21,11 +22,6 @@
   border-width: 8vw 0 8vw 13vw;
   border-color: transparent transparent transparent #ffffffeb;
 	}
-  /* @media only screen and (max-width: 768px) {
-  	.video-player__play-button{
-      border-width: 5.5em 0 5.5em 11em;
-  	}
-  } */
 
 .video-player__play-button:hover{
   border-color: transparent transparent transparent white;

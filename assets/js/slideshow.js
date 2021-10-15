@@ -1,7 +1,7 @@
 /* 2021 10 13 */
 
 $( document ).ready(function() {
-  $('.slideshow-element__carousel').flickity({
+  $('.slideshow-element__slideshow').flickity({
     // options
     cellAlign: 'left',
     contain: true,

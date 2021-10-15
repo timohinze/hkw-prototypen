@@ -1,16 +1,18 @@
-
 /* 2021 10 15 */
 /* 2021 10 13 */
 
 /* Typografie */
 
+/* Schriftgröße für Startseite */
+
 .home p {
-  font-size: var(--textsize1);
+	font-size: var(--textsize1);
 }
+
 @media (min-width: 640px) {
-  .home p {
-    font-size: var(--textsize2);
-  }
+	.home p {
+		font-size: var(--textsize2);
+	}
 }
 
 .home h3 {
@@ -19,61 +21,60 @@
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
-/* skizze */
-@media only screen and (max-width: 1024px) {
-  .home h3{
-    font-size: 2em;
-  }
-}
 
+
+/* skizze */
+
+@media only screen and (max-width: 1024px) {
+	.home h3 {
+		font-size: 2em;
+	}
+}
 
 
 /* Scrollbühne */
-
 /* damit die scrollbühne unten liegt brauchen die nachfolgenden Elemente z-index*/
 
 /* scroll buhne item */
-.scroll-buhne-element{
-  margin-bottom: 10em;
+.scroll-buhne-element {
+	margin-bottom: 10em;
 }
 
-.scroll-buhne-item{
-  padding-bottom: 10em;
-
-}
-
-/* wird von javascript aktiviert */
-.scroll-buhne-item--js-prepared{
-  padding-bottom: 100vh;
-  position: relative;
+.scroll-buhne-item {
+	padding-bottom: 10em;
 }
 
 /* wird von javascript aktiviert */
-.scroll-buhne-item--js-prepared .scroll-buhne-item__text{
-  position: absolute;
+.scroll-buhne-item--js-prepared {
+	padding-bottom: 100vh;
+	position: relative;
+}
+
+/* wird von javascript aktiviert */
+.scroll-buhne-item--js-prepared .scroll-buhne-item__text {
+	position: absolute;
 }
 
 
 /* wird von javascript aktiviert, wenn item sichtbar */
 .scroll-buhne-item--visible .scroll-buhne-item__text {
-  left: 0;
-  right: 0;
-
+	left: 0;
+	right: 0;
 	position: fixed;
-  top: 50%;
-  transform: translate(0, -50%);
-
+	top: 50%;
+	transform: translate(0, -50%);
 }
 
-/* zu groß */
-.scroll-buhne-item.scroll-buhne-item--too-high{
-  background-color: red;
-  padding-bottom: 0;
+/* zu viel Text, passt nicht in Viewport */
+.scroll-buhne-item--too-high {
+	background-color: red;
+	padding-bottom: 0;
 }
-.scroll-buhne-item.scroll-buhne-item--too-high .scroll-buhne-item__text{
-  position: relative;
-  top: 0;
-  transform: none;
+
+.scroll-buhne-item--too-high .scroll-buhne-item__text {
+	position: relative;
+	top: 0;
+	transform: none;
 }
 
 
@@ -81,14 +82,14 @@
 	padding: 0 1em;
 	text-align: center;
 }
+
 @media only screen and (min-width: 375px) {
 	.scroll-buhne-item__text {
 		padding: 0 1.5em;
 	}
 }
 
-
-.scroll-buhne-item__text h2 {
+.scroll-buhne-item__title {
 	font-size: 2rem;
 	font-family: "Lyno Stan HKW";
 	/* -webkit-hyphens: manual;
@@ -100,43 +101,37 @@
 	min-height: 0.1vh;
 	text-transform: uppercase;
 }
+
 @media only screen and (min-width: 375px) {
-	.scroll-buhne-item__text h2 {
+	.scroll-buhne-item__title {
 		font-size: 3rem;
 	}
 }
+
 @media only screen and (min-width: 768px) {
-	.scroll-buhne-item__text h2 {
+	.scroll-buhne-item__title {
 		font-size: min(max(3rem, 10vh), 5rem);
 	}
 }
+
 @media only screen and (min-width: 1400px) {
-	.scroll-buhne-item__text h2 {
+	.scroll-buhne-item__title {
 		font-size: min(max(3rem, 12vh), 10em);
 	}
 }
 
-
-.scroll-buhne-item__text .scroll-buhne-item__subtitle{
-  font-size: 2em;
-  margin-bottom: 0.8rem;
-  margin-top: 1rem;
-  min-height: 0.1vh;
+.scroll-buhne-item__text .scroll-buhne-item__subtitle {
+	font-size: 2em;
+	margin-bottom: 0.8rem;
+	margin-top: 1rem;
+	min-height: 0.1vh;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	.scroll-buhne-item__text .scroll-buhne-item__subtitle {
 		font-size: 1.8em;
 	}
 }
-
-/* skizze */
-/* @media (max-width: 1024px) {
-	.scroll-buhne-item__text h2 {
-		font-size: 2.4em;
-	}
-} */
-
 
 .scroll-buhne-item__text p {
 	margin-block-start: 0.5em;
@@ -153,29 +148,19 @@
 	position: relative;
 }
 
-.scroll-buhne-item__visual img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  display: block;
+.scroll-buhne-item__visual img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	display: block;
 }
 
-/*
-skizze */
-.scroll-buhne-item__visual figcaption{
-  font-size: 0.75em;
-  text-align: right;
-  padding: 0.25em;
-  background: white;
-}
-
-
-.scroll-buhne-item__visual video  {
-     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.scroll-buhne-item__visual video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
