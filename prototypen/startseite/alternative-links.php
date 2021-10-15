@@ -123,7 +123,6 @@ position: relative;
 
 
   <li class="teaser-item add-gradient color2 width-50 link-container">
-    <a href="#">
       <div class="teaser-item__visual">
          <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
        </div>
@@ -134,7 +133,6 @@ position: relative;
           <p> Inwiefern kann Kreativität Gewalt abwenden? Bei der Ausgabe der New Alphabet School in Porto geht es in Vorträgen und Screenings um Überleben, Sorge tragen und Widerstand. Die Online-Workshops wollen individuelle Resilienzen zu einer widerständigen Kraft bündeln, Gegen-Monumente schaffen oder transnational solidarisches Kino entdecken. <a style="text-decoration: underline" href="http://google.de">Zweiter Link</a> <a style="text-decoration: underline" href="http://tagesschau.de">Dritter Link</a> </p>
 
       </div>
-    </a>
   </li>
 
 
