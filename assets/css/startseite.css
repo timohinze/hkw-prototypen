@@ -1,3 +1,7 @@
+
+/* 2021 10 15 */
+/* 2021 10 13 */
+
 /* Typografie */
 
 .home p {
@@ -22,18 +26,11 @@
   }
 }
 
+
+
 /* Scrollbühne */
 
-/* damit die scrollbühne unter den elementen liegt*/
-.home .element{
-  position: relative;
-  z-index: 2;
-}
-
-
-/* scroll buhne */
-
-
+/* damit die scrollbühne unten liegt brauchen die nachfolgenden Elemente z-index*/
 
 /* scroll buhne item */
 .scroll-buhne-element{
@@ -80,9 +77,6 @@
 }
 
 
-
-
-
 .scroll-buhne-item__text {
 	padding: 0 1em;
 	text-align: center;
@@ -97,9 +91,9 @@
 .scroll-buhne-item__text h2 {
 	font-size: 2rem;
 	font-family: "Lyno Stan HKW";
-	-webkit-hyphens: manual;
+	/* -webkit-hyphens: manual;
 	-ms-hyphens: manual;
-	hyphens: manual;
+	hyphens: manual; */
 	letter-spacing: 0.02em;
 	line-height: 0.9;
 	margin-bottom: 0.25rem;
@@ -144,12 +138,6 @@
 }
 
 
-.scroll-buhne p {
-	max-width: 66vw;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .scroll-buhne-item__text p {
 	margin-block-start: 0.5em;
 	margin-block-end: 0.5em;
@@ -161,24 +149,20 @@
 .scroll-buhne-item__visual {
 	width: 100%;
 	height: 100vh;
-	background-color: black;
-	/* background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; */
 	z-index: 9;
 	position: relative;
 }
 
-.scroll-buhne-item__visual  img{
+.scroll-buhne-item__visual img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
   display: block;
 }
+
+/*
+skizze */
 .scroll-buhne-item__visual figcaption{
   font-size: 0.75em;
   text-align: right;
@@ -197,11 +181,6 @@
 }
 
 
-.scroll-buhne-item .info-detail{
-  margin-left: 0.67em;
-}
-
-
 
 
 /* Super Teaser */
@@ -216,13 +195,7 @@
   margin-bottom: 10em;
 }
 
-.super-teaser-item__title {
-	position: absolute;
-	font-family: "Lyno Stan HKW";
-	color: #FF4E00;
-	font-size: 4em;
-	padding: 0.5em;
-}
+
 
 .super-teaser-item__text {
 	margin-top: 1em;
@@ -242,9 +215,6 @@
 }
 
 
-
-
-
 .super-teaser-item__text h2 {
   font-size: 2.5em;
   margin-block-end: 0;
@@ -257,6 +227,9 @@
   margin-block-start: 0.25em;
 }
 
+.super-teaser-item__text a{
+  text-decoration: underline;
+}
 
 
 
@@ -285,6 +258,18 @@ opacity: 0;
 }
 
 
+
+
+
+.programmteaser-kalender-element  .flickity-prev-next-button.next{
+  	right: 0;
+  }
+  .programmteaser-kalender-element  .flickity-prev-next-button.previous{
+  	left: 0;
+  }
+
+
+
 .programmteaser-kalender-element {
 	padding-top: 0;
 	margin-right: 0;
@@ -295,29 +280,41 @@ opacity: 0;
 
 .programmteaser-kalender-element-slideshow{
   padding-left: 2rem;
+  padding-right: 2em;
 
 }
+
+
+
 
 .programmteaser-kalender-item {
-	width: 42%;
-	margin: 1em;
+ width: 42%;
+ margin: 1em;
 }
 
-@media (min-width: 1200px) {
+
+
+@media only screen and (min-width: 1200px) {
 	.programmteaser-kalender-item {
 		width: 28%;
-		margin: 1em;
 	}
 }
+
+
+
+@media only screen and (max-width: 1024px) {
+  .programmteaser-kalender-item {
+  	width: 100%;
+  }
+}
+
+
 
 .programmteaser-kalender-item__datum {
 	min-height: 1.75em;
 	font-size: 1.75em;
 }
 
-.programmteaser-kalender img {
-	margin-bottom: 0.5em;
-}
 
 .programmteaser-kalender-item__uhrzeit {
 	font-size: 1.75em;
@@ -334,14 +331,13 @@ opacity: 0;
 	margin-bottom: 0.25em;
 }
 
-
 .programmteaser-kalender-element  .link-button{
   margin-left: 2rem;
 }
 
 
 
-/* teaser (mit verlauf) */
+/* teaser (mit Verlauf) */
 
 .width-50 {
 	width: 50%;
@@ -364,11 +360,9 @@ opacity: 0;
 	display: flex;
 	flex-wrap: wrap;
   margin-bottom: 5em;
+  z-index: 2;
+  position: relative;
 }
-
-/* .teaser-item p:first-child {
-	margin: 0;
-} */
 
 
 .teaser-item img.portrait{
@@ -393,6 +387,9 @@ opacity: 0;
 .teaser-item__text {
 	margin-bottom: 2em;
 }
+.teaser-item__text a{
+	text-decoration: underline;
+}
 
 
 .teaser-item__title{
@@ -401,14 +398,3 @@ line-height: 1.1;
 margin-top: 0.5rem;
 margin-bottom: 0.5rem;
 }
-
-
-
-
-.teaser-item h3{
-  flex-basis: 100%;
-}
-
-
-
-/* Verlauf */

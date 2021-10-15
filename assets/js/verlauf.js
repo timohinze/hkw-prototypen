@@ -1,3 +1,5 @@
+/* 2021 10 13 */
+
 // Teaser mit Gradient
 	const callback = (entries, observer) => {
 		entries.forEach((entry) => {

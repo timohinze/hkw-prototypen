@@ -1,3 +1,6 @@
+/* 2021 10 15 */
+/* 2021 10 13 */
+
 /* Schriften */
 
 /* Fakt Pro Italic Woff2 fehlt */
@@ -34,9 +37,16 @@
 }
 
 :root {
+  --textsize0: 0.85em;
   --textsize1: 1.2em;
   --textsize2: 1.33em;
 }
+@media only screen and (min-width: 1400px) {
+  :root {
+    --textsize0: 0.8em;
+  }
+}
+
 
 ::selection {
   background: #ffff80;
@@ -118,10 +128,13 @@ h1 a {
 h2{
   font-weight: normal;
   font-size: 1.5em;
+  margin-block-end: 0.5em;
+  margin-block-start: 0.75em;
+
 }
 @media (min-width: 1024px) {
   h2 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 }
 
@@ -194,20 +207,4 @@ strong {
   .desktop{
     display: none;
   }
-}
-
-
-
-
-
-
-/*
-elements */
-
-.element{
-  margin: 2rem;
-}
-
-.element:last-child{
-  margin-bottom: 0;
 }

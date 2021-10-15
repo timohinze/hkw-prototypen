@@ -1,17 +1,18 @@
+/* 2021 10 13 */
+
+
+
 /* Links */
 
 
 /* Link, der aussieht wie ein Button */
 .link-button {
-border: 0.1em solid black;
-padding: 0.25em 0.5em;
-display: inline-block;
-/* font-size: 1.75rem; */
-
-font-size: 1em;
-padding-top: 0.35em;
+  border: 0.1em solid black;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  font-size: 1em;
+  padding-top: 0.35em;
 }
-
 
 .link-button--big{
   font-size: 3.67rem;
@@ -20,7 +21,6 @@ padding-top: 0.35em;
 .link-button--bigger{
   font-size: var(--textsize2);
 }
-
 
 .link-button--small{
   font-size: 1em;
@@ -38,55 +38,4 @@ a.external-link:after{
   padding-right: 0.25em;
   content: ' \2197';
   display: inline-block;
-}
-
-
-
-/* Icons */
-
-.icon-separator{
-  height: 0.3em;
-  width: 0.3em;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 0.1em;
-  position: relative;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
-}
-
-
-.icon-eintritt-frei{
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15.755 14.008'%3E%3Cpath fill='%23121212' d='M13.118 0l-5.1 6.129L5.891.1 5 .548l2.088 5.957H.239L0 7.465h6.885l-5 6.024.753.517 5-5.955 2.09 5.922.889-.448-2.124-6.058h7.056l.205-.96H8.939l5-5.992z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75% auto;
-}
-
-.icon-Livestream{
-      height: 0.5em;
-      width: 0.5em;
-      background-color: black;
-      border-radius: 50%;
-      display: inline-block;
-      bottom: 0.1em;
-      position: relative;
-      margin-left: 0.1em;
-      margin-right: 0.1em;
-}
-
-.icon-extern{
-  height: 0.5em;
-  width: 0.5em;
-  background-color: black;
-  display: inline-block;
-  bottom: 0.1em;
-  position: relative;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
-
 }

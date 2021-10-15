@@ -1,5 +1,3 @@
-<!-- 2021 10 15 -->
-
 <!-- 2021 10 13 -->
 
 	<?php include_once("../../functions/header.php"); ?>
@@ -94,35 +92,7 @@
 
 <div class="super-teaser-element">
 
-
-
-	<div class="super-teaser-item add-gradient add-gradient--static color4">
-		<a href="#">
-		<div class="super-teaser-item__visual"> <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" alt="Lorem Ipsum" /> </div>
-		<div class="super-teaser-item__text ">
-				<p class="teaser-item__topline">30.9.21&#8211; <span class="nobr">3.12.22</span> <span class="icon-separator"></span> Online-Archiv, Installation, Thementage</p>
-
-			<h2 class="hyphenate">Archiv der Flucht</h2>
-			<p> Welche Formen des Erinnerns braucht es in heutigen Einwanderungs&shy;gesell&shy;schaften? Das Oral-History-Projekt betrachtet die Erinnerungen nach Deutschland migrierter Menschen als integralen Bestandteil deutscher Nachkriegs&shy;geschichte und bewahrt sie vor dem Vergessen und Verdrängen. </p>
-		</div>
-	</a>
-</div>
-
-<div class="super-teaser-item add-gradient add-gradient--static color4">
-	<a href="#">
-	<div class="super-teaser-item__visual"> <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" alt="Lorem Ipsum" /> </div>
-	<div class="super-teaser-item__text ">
-			<p class="teaser-item__topline">30.9.21&#8211; <span class="nobr">3.12.22</span> <span class="icon-separator"></span> Online-Archiv, Installation, Thementage</p>
-
-		<h2 class="hyphenate">Archiv der Flucht</h2>
-		<p> Welche Formen des Erinnerns braucht es in heutigen Einwanderungs&shy;gesell&shy;schaften? Das Oral-History-Projekt betrachtet die Erinnerungen nach Deutschland migrierter Menschen als integralen Bestandteil deutscher Nachkriegs&shy;geschichte und bewahrt sie vor dem Vergessen und Verdrängen. </p>
-	</div>
-</a>
-</div>
-
-
-
-  <div class="super-teaser-item super-teaser-item--small add-gradient color3">
+	<div class="super-teaser-item super-teaser-item--small add-gradient color3">
   	<div class="super-teaser-item__visual">
   		<div class="video-player-wrap">
   		<button class="video-player__play-button"></button>
@@ -136,14 +106,13 @@
   		<h2 class="hyphenate">Internationaler Literaturpreis 2021</h2>
   		<p> Preis für übersetzte Gegenwartsliteraturen</p>
   		<p>Auf der Shortlist des diesjährigen Internationalen Literaturpreises stehen sechs Bücher, die es mit der Gegenwart aufnehmen, die Grenzen zwischen Ich und Welt verschieben und scheinbar Unvereinbares vereinen.</p>
+  		</div>
 			<p><a href="#">Mehr Informationen</a></p>
 
   	<p><a class="link-button" href="#">Livestream starten</a></p>
 
-
-  		</div>
-
   </div>
+
 
 
 	<div class="super-teaser-item add-gradient add-gradient--static color4">
@@ -157,6 +126,7 @@
 		</div>
 	</a>
 </div>
+
 
 
 

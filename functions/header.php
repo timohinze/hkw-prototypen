@@ -27,7 +27,7 @@
   <body>
 
     <header>
-      <p>Header</p>
+      <p style="z-index:99;position: relative;">Header</p>
     </header>
 
     <div class="page-wrap">

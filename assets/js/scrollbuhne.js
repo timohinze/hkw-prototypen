@@ -1,3 +1,5 @@
+/* 2021 10 13 */
+
 // scroll buhne
 // wenn javascript aktiv ist aktiviere Css-Klassen
 $( document ).ready(function() {

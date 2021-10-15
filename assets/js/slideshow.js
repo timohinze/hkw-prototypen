@@ -1,3 +1,5 @@
+/* 2021 10 13 */
+
 $( document ).ready(function() {
   $('.slideshow-element__carousel').flickity({
     // options
