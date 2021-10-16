@@ -1,3 +1,5 @@
+/* 2021 10 16 */
+
 /* 2021 10 15 */
 
 
@@ -10,11 +12,9 @@
 .super-bild-media-element {
 	z-index: 2;
 	position: relative;
-	margin-bottom: 15em;
 }
 
 .super-bild-media-item {
-	margin-bottom: 10em;
 }
 
 .super-bild-media-item__text {
@@ -28,10 +28,22 @@
 	padding-left: 13%;
 	padding-right: 13%;
 }
+@media only screen and (max-width: 1024px) {
+	.super-bild-media-item--small {
+		padding-left: inherit;
+		padding-right: inherit;
+	}
+}
 
 .super-bild-media-item--small .super-bild-media-item__text {
 	padding-left: 0;
 	padding-right: 0;
+}
+@media only screen and (max-width: 1024px) {
+	.super-bild-media-item--small .super-bild-media-item__text {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 }
 
 .super-bild-media-item__title {

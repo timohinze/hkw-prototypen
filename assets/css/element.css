@@ -1,3 +1,5 @@
+/* 2021 10 16 */
+
 /* 2021 10 15 */
 
 /* 2021 10 13 */
@@ -5,7 +7,7 @@
 .element{
   margin: 2rem;
 }
-.element--kein-rand{
+.element--fullbleed{
   margin-left: 0rem;
   margin-right: 0rem;
 }
@@ -14,6 +16,33 @@
   margin-right: 0rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+
+
+.element--rand-unten1{
+  margin-bottom: 5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .element--rand-unten2{
+    margin-bottom: 3rem;
+  }
+}
+.element--rand-unten2{
+  margin-bottom: 10rem;
+}
+@media only screen and (max-width: 1024px) {
+  .element--rand-unten2{
+    margin-bottom: 6rem;
+  }
+}
+.element--rand-unten3{
+  margin-bottom: 15rem;
+}
+@media only screen and (max-width: 1024px) {
+  .element--rand-unten3{
+    margin-bottom: 10rem;
+  }
 }
 
 
