@@ -20,6 +20,8 @@
   right: 0;
 }
 
+
+
 .add-gradient--visible:before {
 	opacity: 1;
 }

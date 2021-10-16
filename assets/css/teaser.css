@@ -1,18 +1,9 @@
+/* 2021 10 16 */
 /* 2021 10 15 */
 /* Programmteaser-Kalender */
 
 /* Momentan nur auf der Startseite */
 
-
-
-.programmteaser-kalender-element {
-	margin-bottom: 15em;
-}
-
-/* .programmteaser-kalender-element__slideshow {
-	padding-left: 2rem;
-	padding-right: 2em;
-} */
 
 .programmteaser-kalender-item {
 	width: 42%;
@@ -61,7 +52,6 @@
 .teaser-item-element {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 5em;
 	z-index: 2;
 	position: relative;
 }
