@@ -46,6 +46,12 @@ padding: 2rem;
   border-top: 1px solid black;
 }
 
+/* kein rand oben wenn davor ein rand unten */
+.element--rand-unten+.element--rand-oben{
+  border-top: none;
+}
+
+
 .element--rand-unten{
   border-bottom: 1px solid black;
 }

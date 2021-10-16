@@ -6,6 +6,14 @@
 
 /* Links */
 
+.element p a:not(.link-button){
+    text-decoration: underline;
+}
+/* .element li a:not(.link-button){
+    text-decoration: underline;
+} */
+
+
 
 /* Link, der aussieht wie ein Button */
 .link-button {
