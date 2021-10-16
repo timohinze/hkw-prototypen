@@ -77,8 +77,8 @@
    <!-- Die Elemente nach der Scrollbühne müssen die Scrollbühne überlagern (z-index) -->
 
    <!-- Super Bild Media Element -->
-   <div class="element element--fullbleed element--rand-unten3 super-bild-media-element">
-      <div class="super-bild-media-item element--rand-unten2 add-gradient add-gradient--static color4">
+   <div class="element element--fullbleed element--abstand-unten3 super-bild-media-element">
+      <div class="super-bild-media-item element--abstand-unten2 add-gradient add-gradient--static color4">
          <a href="#">
             <div class="super-bild-media-item__visual">
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" alt="Lorem Ipsum" />
@@ -90,7 +90,7 @@
             </div>
          </a>
       </div>
-      <div class="super-bild-media-item super-bild-media-item--small element--rand-unten2 add-gradient color3">
+      <div class="super-bild-media-item super-bild-media-item--small element--abstand-unten2 add-gradient color3">
          <div class="super-bild-media-item__visual">
             <div class="video-player-wrap">
                <button class="video-player__play-button"></button>
@@ -110,7 +110,7 @@
 
    <!-- Programmteaser-Kalender -->
    <!-- Momentan mit Flickity -->
-   <div class="element element--padding element--rand-unten3 programmteaser-kalender-element add-gradient">
+   <div class="element element--padding element--abstand-unten3 programmteaser-kalender-element add-gradient">
       <div class="programmteaser-kalender-element__slideshow">
          <div class="programmteaser-kalender-item">
             <a href="#">
@@ -189,7 +189,7 @@
 
 
    <!-- Teaser mit Verläufen -->
-   <ul class="element element--fullbleed element--rand-unten3 teaser-item-element">
+   <ul class="element element--fullbleed element--abstand-unten3 teaser-item-element">
       <li class="teaser-item add-gradient width-50">
          <a href="#">
             <div class="teaser-item__visual">
@@ -300,7 +300,7 @@
    <!-- Slideshow -->
    <!-- Momentan mit Flickity -->
    <!-- Hier gibt es noch eine zusätzliche h2 -->
-      <div class="element element--padding element--rand-unten2 slideshow-element add-gradient">
+      <div class="element element--padding element--abstand-unten2 slideshow-element add-gradient">
          <h2>Zum Weitersehen</h2>
          <div class="slideshow-element__slideshow">
             <div class="slideshow-element__slide">
