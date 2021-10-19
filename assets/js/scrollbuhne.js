@@ -1,3 +1,4 @@
+/* 2021 10 19 */
 /* 2021 10 13 */
 
 // scroll buhne
@@ -30,17 +31,22 @@ function check_height() {
 
 
 
+
 $(window).scroll(function() {
+
   var $window = $(window),
       $body = $('body'),
       $item = $('.scroll-buhne-item');
 
-  var scroll = $window.scrollTop() + ($window.height());
+  // kompatibel mit mobile safari
+  var windowHeight = window.innerHeight ? window.innerHeight : $(window).height();
+
+  var scroll = $window.scrollTop() + windowHeight;
 
   $item.each(function () {
     var $this = $(this);
 
-    if ($this.position().top <= scroll-($window.height()) && $this.position().top + $this.outerHeight() > scroll-($window.height())) {
+    if ($this.position().top <= scroll-windowHeight && $this.position().top + $this.outerHeight() > scroll-windowHeight) {
       $this.addClass('scroll-buhne-item--visible');
     }else{
       $this.removeClass('scroll-buhne-item--visible');
