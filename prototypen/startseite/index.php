@@ -78,7 +78,7 @@
    <!-- Die Elemente nach der Scrollbühne müssen die Scrollbühne überlagern (z-index) -->
 
    <!-- Super Bild Media Element -->
-   <div class="element element--fullbleed element--abstand-unten3 super-bild-media-element">
+   <div class="element element--fullbleed element--abstand-unten3 super-text-media-element">
       <div class="super-text-media-item element--abstand-unten2 add-gradient add-gradient--static color4">
          <a href="#">
             <div class="super-text-media-item__media">

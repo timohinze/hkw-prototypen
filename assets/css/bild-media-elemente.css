@@ -1,3 +1,4 @@
+/* 2021 10 19 */
 /* 2021 10 16 */
 
 /* 2021 10 15 */
@@ -9,7 +10,7 @@
 
 /* z-index ist nötig, damit die scroll bühne hinter dem teaser verschwindet*/
 
-.super-bild-media-element {
+.super-text-media-element {
 	z-index: 2;
 	position: relative;
 }
