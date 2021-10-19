@@ -79,7 +79,7 @@
 
    <!-- Super Bild Media Element -->
    <div class="element element--fullbleed element--abstand-unten3 super-text-media-element">
-      <div class="super-text-media-item element--abstand-unten2 add-gradient add-gradient--static color4">
+      <div class="super-text-media-item element--padding-unten2 add-gradient add-gradient--static color4">
          <a href="#">
             <div class="super-text-media-item__media">
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" alt="Lorem Ipsum" />
@@ -91,7 +91,7 @@
             </div>
          </a>
       </div>
-      <div class="super-text-media-item super-text-media-item--small element--abstand-unten2 add-gradient color3">
+      <div class="super-text-media-item super-text-media-item--small element--padding-unten2 add-gradient color3">
          <div class="super-text-media-item__media">
             <div class="video-player-wrap">
                <button class="video-player__play-button"></button>
@@ -111,7 +111,8 @@
 
    <!-- Programmteaser-Kalender -->
    <!-- Momentan mit Flickity -->
-   <div class="element element--padding element--abstand-unten3 programmteaser-kalender-element add-gradient">
+   <!-- zeige auf dem phone alle Datumsangaben, auf dem deskop nur wenn es ein neuer Tag ist -->
+   <div class="element element--padding-left element--abstand-unten3 programmteaser-kalender-element add-gradient">
       <div class="programmteaser-kalender-element__slideshow">
          <div class="programmteaser-kalender-item">
             <a href="#">
@@ -125,7 +126,7 @@
          </div>
          <div class="programmteaser-kalender-item">
             <a href="#">
-               <div class="programmteaser-kalender-item__datum"></div>
+               <div class="programmteaser-kalender-item__datum"><span class="mobile">Heute 15.Juli</span></div>
                <div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch//templates/hkw-beispiel-bilder/image_projection_forensic_architecture_2021_imgsize_buehne_quadrat.jpg" alt="Lorem Ipsum" />
                <p>Investigative Commons</p>
@@ -136,7 +137,7 @@
          </div>
          <div class="programmteaser-kalender-item">
             <a href="#">
-               <div class="programmteaser-kalender-item__datum"></div>
+               <div class="programmteaser-kalender-item__datum"><span class="mobile">Heute 15.Juli</span></div>
                <div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
                <img src="https://www.hkw.de/media/bilder/2021/investigative_commons__forensic_architecture/satellite_imagery_forensic_architecture_2021_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
                <p>Investigative Commons</p>
@@ -166,7 +167,7 @@
          </div>
          <div class="programmteaser-kalender-item">
             <a href="#">
-               <div class="programmteaser-kalender-item__datum"></div>
+               <div class="programmteaser-kalender-item__datum"><span class="mobile">Heute 17.Juli</span></div>
                <div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
                <img src="https://www.hkw.de/media/bilder/2021/investigative_commons__forensic_architecture/harness_forensic_architecture_2021_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
                <p>Investigative Commons</p>
@@ -176,7 +177,7 @@
          </div>
          <div class="programmteaser-kalender-item">
             <a href="#">
-               <div class="programmteaser-kalender-item__datum"></div>
+               <div class="programmteaser-kalender-item__datum"><span class="mobile">Heute 17.Juli</span></div>
                <div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
                <img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
                <h2 class="programmteaser-kalender-item__title hyphenate">Bildungsschock</h2>
@@ -301,7 +302,10 @@
    <!-- Slideshow -->
    <!-- Momentan mit Flickity -->
    <!-- Hier gibt es noch eine zusätzliche h2 -->
-      <div class="element element--padding element--abstand-unten2 slideshow-element add-gradient">
+
+   <p>hier fehlt noch styling </p>
+
+      <div class="element element--padding-left element--abstand-unten2 slideshow-element add-gradient">
          <h2>Zum Weitersehen</h2>
          <div class="slideshow-element__slideshow">
             <div class="slideshow-element__slide">
