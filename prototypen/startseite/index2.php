@@ -13,33 +13,19 @@
   } */
 
   .scroll-buhne-item--js-prepared .scroll-buhne-item__text2 {
-    position: fixed;
-    left: 0;
-    right: 0;
-    /* top: 50%; */
-    bottom: 0;
-    /* transform: translate(0, -50%); */
-    background: antiquewhite;
-    opacity: 0.04;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-text-align: center;
+    position: absolute;
+        top: 100vh;
+        transform: 0;
+        left: 0;
+        right: 0;
+        background: antiquewhite;
+        height: 100vh;
   }
 
 
   .scroll-buhne-item--visible .scroll-buhne-item__text2 {
-    left: 0;
-    right: 0;
-    position: fixed;
-    /* top: 50%;
-    transform: translate(0, -50%); */
-    opacity: 1;
-    /* min-height: 100vh; */
-    bottom: 0;
+      position: fixed;
+    top: 0;
 }
 
 </style>
