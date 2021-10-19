@@ -28,6 +28,10 @@
     top: 0;
 }
 
+.hyphenate{
+  hyphens: auto;
+}
+
 </style>
 
 <main class="home">
