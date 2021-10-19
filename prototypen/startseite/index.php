@@ -1,3 +1,4 @@
+<!-- 2021 10 19 -->
 <!-- 2021 10 15 -->
 <!-- 2021 10 13 -->
 <?php include_once("../../functions/header.php"); ?>
@@ -8,7 +9,7 @@
    <ul class="scroll-buhne-element">
       <li class="scroll-buhne-item">
          <a href="#">
-            <div class="scroll-buhne-item__visual">
+            <div class="scroll-buhne-item__media">
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="scroll-buhne-item__text">
@@ -21,7 +22,7 @@
       </li>
       <li class="scroll-buhne-item">
          <a href="#">
-            <div class="scroll-buhne-item__visual"><img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
+            <div class="scroll-buhne-item__media"><img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="scroll-buhne-item__text balance-text">
                <h2 class="scroll-buhne-item__title balance-text hyphenate">Kosmos&shy;kopien<br> </h2>
@@ -33,7 +34,7 @@
       </li>
       <li class="scroll-buhne-item">
          <a href="#">
-            <div class="scroll-buhne-item__visual">
+            <div class="scroll-buhne-item__media">
                <div class="">
                   <video autoplay loop src="https://player.vimeo.com/external/456333322.hd.mp4?s=36c1ef08e6776bbd5a48da511cb6071210d7cb1f&amp;profile_id=175
                      " preload="metadata" playsinline="" muted=""></video>
@@ -49,7 +50,7 @@
       <!-- Fokus Punkt via object position -->
       <li class="scroll-buhne-item">
          <a href="#">
-            <div class="scroll-buhne-item__visual"><img style="object-position: 0 100%" src="https://hkw.de/media/bilder/2021/illiberal_arts/steve_reinke_the_natural_look_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
+            <div class="scroll-buhne-item__media"><img style="object-position: 0 100%" src="https://hkw.de/media/bilder/2021/illiberal_arts/steve_reinke_the_natural_look_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="scroll-buhne-item__text">
                <h2 class="scroll-buhne-item__title balance-text hyphenate">Wie frei ist die Kunst im Kapitalismus?</h2>
@@ -61,7 +62,7 @@
       </li>
       <li class="scroll-buhne-item">
          <a href="#">
-            <div class="scroll-buhne-item__visual"><img src="https://www.hkw.de/media/bilder/2021/the_sound_of_distance/simon_keckeisen_the_sound_of_distance_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
+            <div class="scroll-buhne-item__media"><img src="https://www.hkw.de/media/bilder/2021/the_sound_of_distance/simon_keckeisen_the_sound_of_distance_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="scroll-buhne-item__text">
                <h2 class="scroll-buhne-item__title balance-text hyphenate">The Sound of Distance </h2>
@@ -78,28 +79,28 @@
 
    <!-- Super Bild Media Element -->
    <div class="element element--fullbleed element--abstand-unten3 super-bild-media-element">
-      <div class="super-bild-media-item element--abstand-unten2 add-gradient add-gradient--static color4">
+      <div class="super-text-media-item element--abstand-unten2 add-gradient add-gradient--static color4">
          <a href="#">
-            <div class="super-bild-media-item__visual">
+            <div class="super-text-media-item__media">
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/slowglass.jpg" alt="Lorem Ipsum" />
             </div>
-            <div class="super-bild-media-item__text ">
+            <div class="super-text-media-item__text ">
                <p class="teaser-item__topline">30.9.21&#8211; <span class="nobr">3.12.22</span> <span class="icon-separator"></span> Online-Archiv, Installation, Thementage</p>
-               <h2 class="super-bild-media-item__title hyphenate">Archiv der Flucht</h2>
+               <h2 class="super-text-media-item__title hyphenate">Archiv der Flucht</h2>
                <p> Welche Formen des Erinnerns braucht es in heutigen Einwanderungs&shy;gesell&shy;schaften? Das Oral-History-Projekt betrachtet die Erinnerungen nach Deutschland migrierter Menschen als integralen Bestandteil deutscher Nachkriegs&shy;geschichte und bewahrt sie vor dem Vergessen und Verdrängen. </p>
             </div>
          </a>
       </div>
-      <div class="super-bild-media-item super-bild-media-item--small element--abstand-unten2 add-gradient color3">
-         <div class="super-bild-media-item__visual">
+      <div class="super-text-media-item super-text-media-item--small element--abstand-unten2 add-gradient color3">
+         <div class="super-text-media-item__media">
             <div class="video-player-wrap">
                <button class="video-player__play-button"></button>
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum"/>
             </div>
          </div>
-         <div class="super-bild-media-item__text">
+         <div class="super-text-media-item__text">
             <p class="teaser-item__topline">30. Juni <span class="icon-separator"></span> Lesungen, Gespräche</p>
-            <h2 class="super-bild-media-item__title  hyphenate">Internationaler Literaturpreis 2021</h2>
+            <h2 class="super-text-media-item__title  hyphenate">Internationaler Literaturpreis 2021</h2>
             <p> Preis für übersetzte Gegenwartsliteraturen</p>
             <p>Auf der Shortlist des diesjährigen Internationalen Literaturpreises stehen sechs Bücher, die es mit der Gegenwart aufnehmen, die Grenzen zwischen Ich und Welt verschieben und scheinbar Unvereinbares vereinen.</p>
             <p><a href="#">Mehr Informationen</a></p>
@@ -192,7 +193,7 @@
    <ul class="element element--fullbleed element--abstand-unten3 teaser-item-element">
       <li class="teaser-item add-gradient width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -205,7 +206,7 @@
       </li>
       <li class="teaser-item add-gradient color2 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -218,7 +219,7 @@
       </li>
       <li class="teaser-item add-gradient color4 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -231,7 +232,7 @@
       </li>
       <li class="teaser-item add-gradient color3 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_01_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -243,7 +244,7 @@
       </li>
       <li class="teaser-item add-gradient color7 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -256,7 +257,7 @@
       </li>
       <li class="teaser-item add-gradient color8 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://www.hkw.de/media/bilder/2021/bib_audiowalk/campus_hannah_hoech.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -268,7 +269,7 @@
       </li>
       <li class="teaser-item add-gradient color1 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">
@@ -280,7 +281,7 @@
       </li>
       <li class="teaser-item add-gradient color9 width-50">
          <a href="#">
-            <div class="teaser-item__visual">
+            <div class="teaser-item__media">
                <img src="https://newalphabetschool.hkw.de/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-12-at-17.32.59-1.jpeg" alt="Lorem Ipsum"/>
             </div>
             <div class="teaser-item__text">

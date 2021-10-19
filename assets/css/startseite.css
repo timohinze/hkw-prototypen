@@ -141,14 +141,14 @@
 	max-width: 45em;
 }
 
-.scroll-buhne-item__visual {
+.scroll-buhne-item__media {
 	width: 100%;
 	height: 100vh;
 	z-index: 9;
 	position: relative;
 }
 
-.scroll-buhne-item__visual img {
+.scroll-buhne-item__media img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -156,7 +156,7 @@
 	display: block;
 }
 
-.scroll-buhne-item__visual video {
+.scroll-buhne-item__media video {
 	position: absolute;
 	top: 0;
 	left: 0;
