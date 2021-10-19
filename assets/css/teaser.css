@@ -8,7 +8,10 @@
 
 .programmteaser-kalender-item {
 	width: 42%;
-	margin: 1em;
+
+/* ????? */
+	/* margin: 1rem; */
+	margin-right: 1rem;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -19,7 +22,9 @@
 
 @media only screen and (max-width: 1024px) {
 	.programmteaser-kalender-item {
-		width: 100%;
+		width: 80%;
+		margin-left: 0;
+		margin-right: 1rem;
 	}
 }
 
@@ -76,9 +81,16 @@
 .teaser-item {
 	position: relative;
 	padding-bottom: 8em;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
+@media only screen and (max-width: 1024px) {
+	.teaser-item {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
 
 .teaser-item__media {
 	margin-bottom: 0.67em;

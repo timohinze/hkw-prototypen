@@ -1,12 +1,18 @@
+/* 2021 10 19 */
 /* 2021 10 16 */
-
 /* 2021 10 15 */
-
 /* 2021 10 13 */
+
 
 .element{
   margin: 2rem;
 }
+@media only screen and (max-width: 1024px) {
+  .element{
+    margin: 1rem;
+  }
+}
+
 .element--fullbleed{
   margin-left: 0rem;
   margin-right: 0rem;
@@ -15,6 +21,25 @@
   margin: 0;
 padding: 2rem;
 }
+@media only screen and (max-width: 1024px) {
+  .element--padding{
+    margin: 0;
+  padding: 1rem;
+  }
+}
+
+.element--padding-left{
+margin: 0;
+padding-right: 0;
+padding-left: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+  .element--padding-left{
+  padding-right: 0;
+  padding-left: 1rem;
+  }
+}
+
 
 
 .element--abstand-unten1{
@@ -42,9 +67,29 @@ padding: 2rem;
   }
 }
 
+
+/* ... */
+
+.element--padding-unten2{
+  margin: 0;
+  padding-bottom: 10em;
+}
+@media only screen and (max-width: 1024px) {
+  .element--abstand-unten2{
+    padding-bottom: 6rem;
+  }
+}
+
+/* ... */
+
+
+
+
+
 .element--rand-oben{
   border-top: 1px solid black;
 }
+
 
 /* kein rand oben wenn davor ein rand unten */
 .element--rand-unten+.element--rand-oben{

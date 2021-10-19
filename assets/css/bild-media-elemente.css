@@ -24,6 +24,15 @@
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+@media only screen and (max-width: 1024px) {
+	.super-text-media-item__text {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+
+
 
 .super-text-media-item--small {
 	padding-left: 13%;
@@ -42,8 +51,8 @@
 }
 @media only screen and (max-width: 1024px) {
 	.super-text-media-item--small .super-text-media-item__text {
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
