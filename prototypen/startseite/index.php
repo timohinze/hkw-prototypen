@@ -190,7 +190,7 @@
       <a class="link-button link-button--bigger" href="#">Alle Veranstaltungen</a>
    </div>
      <!-- Teaser mit Verläufen -->
-     <ul class="element element--fullbleed element--abstand-unten1 teaser-item-element">
+     <ul class="element element--fullbleed element--abstand-unten2 teaser-item-element">
         <li class="teaser-item add-gradient width-50">
            <a href="#">
               <div class="teaser-item__media">
