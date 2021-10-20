@@ -1,3 +1,4 @@
+<!-- 2021 10 20 -->
 <!-- 2021 10 19 -->
 <!-- 2021 10 15 -->
 <!-- 2021 10 13 -->
@@ -303,28 +304,34 @@
    <!-- Momentan mit Flickity -->
    <!-- Hier gibt es noch eine zusätzliche h2 -->
 
-   <p>hier fehlt noch styling </p>
-
-      <div class="element element--padding-left element--abstand-unten2 slideshow-element add-gradient">
-         <h2>Zum Weitersehen</h2>
-         <div class="slideshow-element__slideshow">
-            <div class="slideshow-element__slide">
-               <div class='video-player-wrap'>
-                  <button class='video-player__play-button'></button>
-                  <img src='https://film.kbb.eu/wtu/embed/preview/70496' alt="Lorem Ipsum"/>
+     <div class="element element--padding-left element--abstand-unten2 slideshow-element add-gradient">
+              <h2>Zum Weitersehen</h2>
+              <div class="slideshow-element__slideshow">
+                 <div class="slideshow-element__slide">
+                   <div class="slideshow-element__media">
+                    <div class="video-player-wrap">
+                       <button class="video-player__play-button"></button>
+                       <img src="https://film.kbb.eu/wtu/embed/preview/70496" alt="Lorem Ipsum">
+                    </div>
+                  </div>
+                  <div class="slideshow-element__text">
+                    <h3 class="slideshow-element__titel hyphenate">Die Gründung neuer Lernorte (Englisch)</h3>
+                    <p><a href="#">Mehr zum Video</a></p>
+                 </div>
                </div>
-               <h3 class="slideshow-element__titel hyphenate">Die Gründung neuer Lernorte (Englisch)</h3>
-               <p><a href='#'>Mehr zum Video</a></p>
-            </div>
-            <div class="slideshow-element__slide">
-               <div class='video-player-wrap'>
-                  <button class='video-player__play-button'></button>
-                  <img src='https://film.kbb.eu/wtu/embed/preview/70489' alt="Lorem Ipsum"/>
+                 <div class="slideshow-element__slide">
+                   <div class="slideshow-element__media">
+                    <div class="video-player-wrap">
+                       <button class="video-player__play-button"></button>
+                       <img src="https://film.kbb.eu/wtu/embed/preview/70489" alt="Lorem Ipsum">
+                    </div>
+                  </div>
+                  <div class="slideshow-element__text">
+                    <h3 class="slideshow-element__titel hyphenate">Einführung: A New School (Englisch)</h3>
+                    <p><a href="#">Mehr zum Video</a></p>
+                 </div>
                </div>
-               <h3 class="slideshow-element__titel hyphenate">Einführung: A New School (Englisch)</h3>
-               <p><a href='#'>Mehr zum Video</a></p>
-            </div>
-         </div>
-      </div>
-</main>
+              </div>
+           </div>
+  </main>
 <?php include_once("../../functions/footer.php"); ?>
