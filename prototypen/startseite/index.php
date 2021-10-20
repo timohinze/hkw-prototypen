@@ -296,10 +296,6 @@
 
 
 
-
-
-     <!-- <?php show_slideshow_element("content/programm/projekte/bauhaus-imaginista/slideshow-videos.txt"); ?> -->
-
      <div class="element element--padding-left element--abstand-unten2 slideshow-element add-gradient">
               <h2 class="slideshow-element__titel">Zum Weitersehen</h2>
               <div class="slideshow-element__slideshow">
