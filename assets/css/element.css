@@ -22,8 +22,8 @@
   margin: 0;
 padding-left: 2rem;
 padding-right: 2rem;
-padding-top: calc(2rem - 0.5em);
-padding-bottom: calc(2rem - 0.5em);
+padding-top: 2em;
+padding-bottom: 2em;
 }
 @media only screen and (max-width: 1024px) {
   .element--padding{
@@ -36,8 +36,8 @@ padding-bottom: calc(2rem - 0.5em);
   margin: 0;
 padding-left: 2rem;
 padding-right: 0;
-padding-top: calc(2rem - 0.5em);
-padding-bottom: calc(2rem - 0.5em);
+padding-top: 2em;
+padding-bottom: 2em;
 }
 @media only screen and (max-width: 1024px) {
   .element--padding-left{
