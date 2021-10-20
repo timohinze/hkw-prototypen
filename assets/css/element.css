@@ -1,3 +1,4 @@
+/* 2021 10 20 */
 /* 2021 10 19 */
 /* 2021 10 16 */
 /* 2021 10 15 */
@@ -19,7 +20,10 @@
 }
 .element--padding{
   margin: 0;
-padding: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: calc(2rem - 0.5em);
+padding-bottom: calc(2rem - 0.5em);
 }
 @media only screen and (max-width: 1024px) {
   .element--padding{
@@ -29,9 +33,11 @@ padding: 2rem;
 }
 
 .element--padding-left{
-margin: 0;
-padding-right: 0;
+  margin: 0;
 padding-left: 2rem;
+padding-right: 0;
+padding-top: calc(2rem - 0.5em);
+padding-bottom: calc(2rem - 0.5em);
 }
 @media only screen and (max-width: 1024px) {
   .element--padding-left{
