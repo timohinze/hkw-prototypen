@@ -189,123 +189,119 @@
       </div>
       <a class="link-button link-button--bigger" href="#">Alle Veranstaltungen</a>
    </div>
-
-
-   <!-- Teaser mit Verläufen -->
-   <ul class="element element--fullbleed element--abstand-unten3 teaser-item-element">
-      <li class="teaser-item add-gradient width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">23. September <span class="icon-separator"></span> Präsentation: Gespräche und Screenings</p>
-               <h2 class="teaser-item__title hyphenate">Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung</h2>
-               <p>Mit Forensic Architecture, ECCHR, Laura Poitras, Edward Snowden u.v.a. Präsentation: Gespräche und Screenings</p>
-               <p> Wie kann eine Spyware Staatsterrorismus ermöglichen? Forensic Architecture u. a. präsentieren im HKW erstmals eine neue Untersuchung zur globalen Landschaft der Cyber-Überwachung von Menschenrechtler*innen der Öffentlichkeit – und zeigen damit, wie die Arbeit kollaborativer Recherchenetzwerke in der Praxis funktioniert. Mit Laura Poitras, Eyal Weizman, Edward Snowden u.v.a. </p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color2 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">5. Juli <span class="icon-separator"></span> Online-Programm: Vortrag und Screenings</p>
-               <h2 class="teaser-item__title hyphenate">New Alphabet School: #Survivance</h2>
-               <p> With Filipa César, Elizabeth Povinelli, Karrabing Film Collective and others</p>
-               <p> Inwiefern kann Kreativität Gewalt abwenden? Bei der Ausgabe der New Alphabet School in Porto geht es in Vorträgen und Screenings um Überleben, Sorge tragen und Widerstand. Die Online-Workshops wollen individuelle Resilienzen zu einer widerständigen Kraft bündeln, Gegen-Monumente schaffen oder transnational solidarisches Kino entdecken. </p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color4 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">ab 27. August <span class="icon-separator"></span> Ausstellung</p>
-               <h2 class="teaser-item__title hyphenate">Kosmoskopien</h2>
-               <p> von Nicholas Bussmann</p>
-               <p> Alle Politik und gesellschaftliche Praxis ist eine Fortsetzung der Musik mit anderen Mitteln. So ließe sich die Herangehensweise des Künstlers und Musikers Nicholas Bussmann beschreiben. Im HKW lädt Bussmann zur Mitwirkung an seinen vielschichtigen Versuchsanordnungen zu Komposition, Ritualistik und Polyphonie von Gesellschaft ein</p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color3 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_01_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">Publikationsreihe: Das neue alphabet</p>
-               <h2 class="teaser-item__title hyphenate">Band 6: Carrier Bag Fiction</h2>
-               <p> Wie ist die Welt der Zeichen mit der Welt der Dinge und Handlungen verbunden? Im neuen Band dient Ursula K. Le Guins Carrier Bag Theory of Fiction als Mittel gegen Entfremdung. Die Beiträge von Jenna Sutela, Enis Maci, Sophia Al-Maria u. a. begleiten Le Guins Essay und bilden ein Versuchslabor für neue Alphabete. </p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color7 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline"> 5. Juli <span class="icon-separator"></span> Online-Programm: Vortrag und Screenings</p>
-               <h2 class="teaser-item__title hyphenate">New Alphabet School: #Survivance</h2>
-               <p>With Filipa César, Elizabeth Povinelli, Karrabing Film Collective and others</p>
-               <p> Inwiefern kann Kreativität Gewalt abwenden? Bei der Ausgabe der New Alphabet School in Porto geht es in Vorträgen und Screenings um Überleben, Sorge tragen und Widerstand. Die Online-Workshops wollen individuelle Resilienzen zu einer widerständigen Kraft bündeln, Gegen-Monumente schaffen oder transnational solidarisches Kino entdecken. </p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color8 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://www.hkw.de/media/bilder/2021/bib_audiowalk/campus_hannah_hoech.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">Audiowalks</p>
-               <h2 class="teaser-item__title hyphenate">Betonwalks</h2>
-               <p> Auf vier Spaziergängen entlang von acht Schulen in Lichtenberg, Kreuzberg, Neukölln und im Märkischen Viertel lassen sich die Schularchitekturen und die Perspektiven der Schüler*innen auf ihre Lernorte erkunden: von vergangenen Utopien über Fantasiereisen bis zum Schulalltag heute. </p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color1 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">Bis 11. Juli <span class="icon-separator"></span> Führungen</p>
-               <h2 class="teaser-item__title hyphenate">Bildungsschock: Vermittlung</h2>
-               <p> Von Typenbauten zu Homeschooling – Bei der Expertinnenführung Plattenbau und Polytechnik geht es um emanzipatorische Momente von Bildung in der DDR. Im Workshop Bewegungen bilden können Teilnehmende die Bildungsarchitektur des HKW körperlich erkunden. Die globale Bedeutung der Bildungsdebatten der 1960er und 1970er Jahre beleuchtet Kurator Tom Holert bei einer Führung durch die Ausstellung. </p>
-            </div>
-         </a>
-      </li>
-      <li class="teaser-item add-gradient color9 width-50">
-         <a href="#">
-            <div class="teaser-item__media">
-               <img src="https://newalphabetschool.hkw.de/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-12-at-17.32.59-1.jpeg" alt="Lorem Ipsum"/>
-            </div>
-            <div class="teaser-item__text">
-               <p class="teaser-item__topline">Blog New Alphabet School</p>
-               <h2 class="teaser-item__title hyphenate">Surviving</h2>
-               <p> Wie wirkt sich die Pandemie auf das Leben im Gazastreifen aus? In seinem Blogbeitrag beschreibt der Co-Kurator der <i>#Transmitting</i>-Ausgabe Mahmoud Al-Shaer seine Gefühle angesichts der Ausbreitung des Virus um ihn herum.</p>
-            </div>
-         </a>
-         <p><a href="https://newalphabetschool.hkw.de/" target="_blank" class="link-button link-button--small external-link">Öffne Blog</a></p>
-      </li>
-   </ul>
+     <!-- Teaser mit Verläufen -->
+     <ul class="element element--fullbleed element--abstand-unten1 teaser-item-element">
+        <li class="teaser-item add-gradient width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">23. September <span class="icon-separator"></span> Präsentation: Gespräche und Screenings</p>
+                 <h2 class="teaser-item__title hyphenate">Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung</h2>
+                 <p>Mit Forensic Architecture, ECCHR, Laura Poitras, Edward Snowden u.v.a. Präsentation: Gespräche und Screenings</p>
+                 <p> Wie kann eine Spyware Staatsterrorismus ermöglichen? Forensic Architecture u. a. präsentieren im HKW erstmals eine neue Untersuchung zur globalen Landschaft der Cyber-Überwachung von Menschenrechtler*innen der Öffentlichkeit – und zeigen damit, wie die Arbeit kollaborativer Recherchenetzwerke in der Praxis funktioniert. Mit Laura Poitras, Eyal Weizman, Edward Snowden u.v.a. </p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color2 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">5. Juli <span class="icon-separator"></span> Online-Programm: Vortrag und Screenings</p>
+                 <h2 class="teaser-item__title hyphenate">New Alphabet School: #Survivance</h2>
+                 <p> With Filipa César, Elizabeth Povinelli, Karrabing Film Collective and others</p>
+                 <p> Inwiefern kann Kreativität Gewalt abwenden? Bei der Ausgabe der New Alphabet School in Porto geht es in Vorträgen und Screenings um Überleben, Sorge tragen und Widerstand. Die Online-Workshops wollen individuelle Resilienzen zu einer widerständigen Kraft bündeln, Gegen-Monumente schaffen oder transnational solidarisches Kino entdecken. </p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color4 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">ab 27. August <span class="icon-separator"></span> Ausstellung</p>
+                 <h2 class="teaser-item__title hyphenate">Kosmoskopien</h2>
+                 <p> von Nicholas Bussmann</p>
+                 <p> Alle Politik und gesellschaftliche Praxis ist eine Fortsetzung der Musik mit anderen Mitteln. So ließe sich die Herangehensweise des Künstlers und Musikers Nicholas Bussmann beschreiben. Im HKW lädt Bussmann zur Mitwirkung an seinen vielschichtigen Versuchsanordnungen zu Komposition, Ritualistik und Polyphonie von Gesellschaft ein</p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color3 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_01_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">Publikationsreihe: Das neue alphabet</p>
+                 <h2 class="teaser-item__title hyphenate">Band 6: Carrier Bag Fiction</h2>
+                 <p> Wie ist die Welt der Zeichen mit der Welt der Dinge und Handlungen verbunden? Im neuen Band dient Ursula K. Le Guins Carrier Bag Theory of Fiction als Mittel gegen Entfremdung. Die Beiträge von Jenna Sutela, Enis Maci, Sophia Al-Maria u. a. begleiten Le Guins Essay und bilden ein Versuchslabor für neue Alphabete. </p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color7 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/maimuna_arafam.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline"> 5. Juli <span class="icon-separator"></span> Online-Programm: Vortrag und Screenings</p>
+                 <h2 class="teaser-item__title hyphenate">New Alphabet School: #Survivance</h2>
+                 <p>With Filipa César, Elizabeth Povinelli, Karrabing Film Collective and others</p>
+                 <p> Inwiefern kann Kreativität Gewalt abwenden? Bei der Ausgabe der New Alphabet School in Porto geht es in Vorträgen und Screenings um Überleben, Sorge tragen und Widerstand. Die Online-Workshops wollen individuelle Resilienzen zu einer widerständigen Kraft bündeln, Gegen-Monumente schaffen oder transnational solidarisches Kino entdecken. </p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color8 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://www.hkw.de/media/bilder/2021/bib_audiowalk/campus_hannah_hoech.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">Audiowalks</p>
+                 <h2 class="teaser-item__title hyphenate">Betonwalks</h2>
+                 <p> Auf vier Spaziergängen entlang von acht Schulen in Lichtenberg, Kreuzberg, Neukölln und im Märkischen Viertel lassen sich die Schularchitekturen und die Perspektiven der Schüler*innen auf ihre Lernorte erkunden: von vergangenen Utopien über Fantasiereisen bis zum Schulalltag heute. </p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color1 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">Bis 11. Juli <span class="icon-separator"></span> Führungen</p>
+                 <h2 class="teaser-item__title hyphenate">Bildungsschock: Vermittlung</h2>
+                 <p> Von Typenbauten zu Homeschooling – Bei der Expertinnenführung Plattenbau und Polytechnik geht es um emanzipatorische Momente von Bildung in der DDR. Im Workshop Bewegungen bilden können Teilnehmende die Bildungsarchitektur des HKW körperlich erkunden. Die globale Bedeutung der Bildungsdebatten der 1960er und 1970er Jahre beleuchtet Kurator Tom Holert bei einer Führung durch die Ausstellung. </p>
+              </div>
+           </a>
+        </li>
+        <li class="teaser-item add-gradient color9 width-50">
+           <a href="#">
+              <div class="teaser-item__media">
+                 <img src="https://newalphabetschool.hkw.de/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-12-at-17.32.59-1.jpeg" alt="Lorem Ipsum"/>
+              </div>
+              <div class="teaser-item__text">
+                 <p class="teaser-item__topline">Blog New Alphabet School</p>
+                 <h2 class="teaser-item__title hyphenate">Surviving</h2>
+                 <p> Wie wirkt sich die Pandemie auf das Leben im Gazastreifen aus? In seinem Blogbeitrag beschreibt der Co-Kurator der <i>#Transmitting</i>-Ausgabe Mahmoud Al-Shaer seine Gefühle angesichts der Ausbreitung des Virus um ihn herum.</p>
+              </div>
+           </a>
+           <p><a href="https://newalphabetschool.hkw.de/" target="_blank" class="link-button link-button--small external-link">Öffne Blog</a></p>
+        </li>
+     </ul>
 
 
 
 
 
-   <!-- Slideshow -->
-   <!-- Momentan mit Flickity -->
-   <!-- Hier gibt es noch eine zusätzliche h2 -->
+     <!-- <?php show_slideshow_element("content/programm/projekte/bauhaus-imaginista/slideshow-videos.txt"); ?> -->
 
      <div class="element element--padding-left element--abstand-unten2 slideshow-element add-gradient">
-              <h2>Zum Weitersehen</h2>
+              <h2 class="slideshow-element__titel">Zum Weitersehen</h2>
               <div class="slideshow-element__slideshow">
                  <div class="slideshow-element__slide">
                    <div class="slideshow-element__media">
@@ -334,4 +330,5 @@
               </div>
            </div>
   </main>
+
 <?php include_once("../../functions/footer.php"); ?>
