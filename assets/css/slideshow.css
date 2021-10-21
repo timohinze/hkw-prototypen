@@ -1,3 +1,4 @@
+/* 2021 10 21 */
 /* 2021 10 20 */
 /* 2021 10 15 */
 /* 2021 10 13 */
@@ -28,14 +29,6 @@
 	opacity: 0;
 }
 
-
-.slideshow-element {
-	/* padding-top: 1em;
-	position: relative;
-	padding-right: 2rem;
-  padding-left: 2rem; */
-}
-
 .slideshow-element img {
 	width: 100%;
 	height: auto;
@@ -55,17 +48,7 @@
 }
 
 .slideshow-element__text {
-    margin-top: 1em;
-}
-
-.slideshow-element a {
-	text-decoration: underline;
-}
-
-.slideshow-element__next-btn {
-	position: absolute;
-	top: 1em;
-	right: 2em;
+	margin-top: 1em;
 }
 
 .slideshow-element .flickity-button {
@@ -81,15 +64,33 @@
 .slideshow-element .slideshow-element__titel {
 	font-weight: normal;
 	font-size: 1.5em;
-	margin-top: 0;
-
-	/* ?? */
-	/* margin-block-end: 0.5em;
-	margin-block-start: 0.75em; */
 }
 
 @media only screen and (min-width: 1024px) {
 	.slideshow-element .slideshow-element__titel {
 		font-size: 1.75em;
 	}
+}
+
+
+/* Slideshow für	Header auf Projektseiten */
+
+.header-slideshow {
+	padding: 0;
+}
+
+.header-slideshow .slideshow-element__slide {
+	width: 100%;
+}
+
+.header-slideshow .flickity-prev-next-button {
+	top: 50%;
+}
+
+.header-slideshow figcaption {
+	text-align: right;
+	margin-right: 1em;
+	margin-top: 0.7em;
+	margin-bottom: 1em;
+	font-size: 0.6em;
 }
