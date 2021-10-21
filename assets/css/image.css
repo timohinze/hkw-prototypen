@@ -1,3 +1,5 @@
+/* 2021 10 21 */
+
 /* 2021 10 13 */
 
 img{
@@ -10,9 +12,14 @@ figure{
   margin: 0;
 }
 
+figcaption{
+  font-size: 0.75em;
+  margin-top: 0.7em;
+
+}
+
 .image-element{
   margin: 0;
-  margin-bottom: 1em;
 }
 
 .image-element__img{
@@ -28,7 +35,9 @@ figure{
 
 
 
-.header-image .image-element__caption{
+.header-image figcaption{
   text-align: right;
   margin-right: 1em;
+	font-size: 0.6em;
+
 }
