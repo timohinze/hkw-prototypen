@@ -53,3 +53,17 @@ a.external-link:after{
   content: ' \2197';
   display: inline-block;
 }
+
+a.download-link:after{
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  content: ' \2193';
+  display: inline-block;
+}
+
+a.to-the-right-link:after{
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  content: ' \2192';
+  display: inline-block;
+}
