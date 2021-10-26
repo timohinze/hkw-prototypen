@@ -14,4 +14,6 @@
 <script src="../../assets/js/slideshow.js"></script>
 <script src="../../assets/js/programmteaser-kalender.js"></script>
 <script src="../../assets/js/verlauf.js"></script>
+<script src="../../assets/js/kalender.js"></script>
+
 </html>

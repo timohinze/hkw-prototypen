@@ -11,6 +11,7 @@
 	padding-top: 2rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
+	padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 840px) {
@@ -20,6 +21,7 @@
 	}
 }
 
+.calendar-filter-toggle-btn [type="button"]+label,
 .calendar-filter-toggle-btn [type="checkbox"]+label {
 	cursor: pointer;
 	border: 0.07em solid black;
@@ -35,11 +37,12 @@
 	margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 840px) {
+/* @media only screen and (max-width: 840px) {
+	.calendar-filter-toggle-btn [type="button"]+label,
 	.calendar-filter-toggle-btn [type="checkbox"]+label {
 		font-size: 1.25em;
 	}
-}
+} */
 
 .calendar-filter-toggle-btn [type="checkbox"]:checked+label {
 	background: black;
@@ -99,11 +102,11 @@
 	margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 840px) {
+/* @media only screen and (max-width: 840px) {
 	.calendar-filter [type="checkbox"]+label {
 		font-size: 1.25em;
 	}
-}
+} */
 
 .calendar-filter [type="checkbox"]:checked+label {
 	background: black;
@@ -115,10 +118,12 @@
 }
 
 
+
 /* hide inputs */
 
 .calendar-filter [type="checkbox"],
-.calendar-filter-toggle-btn [type="checkbox"]{
+.calendar-filter-toggle-btn [type="checkbox"],
+.calendar-filter-toggle-btn  [type="button"]{
 	position: absolute!important;
 	width: 1px!important;
 	height: 1px!important;
@@ -171,7 +176,6 @@
 	letter-spacing: 0.033em;
 	font-family: "Lyno Stan HKW";
 	text-transform: uppercase;
-	/* margin-top: 0.25em; */
 	margin-bottom: 0.25em;
 	margin-left: calc(25% + 4rem);
 }
@@ -179,7 +183,6 @@
 .calendar__topline {
 	width: 100%;
 	margin-left: calc(25% + 4rem);
-	/* margin-top: 0.25em; */
 	margin-bottom: 0.5em;
 	padding-right: 1rem;
 }
@@ -193,19 +196,16 @@
 }
 
 .calendar__time {
-	/* margin-top: 0.3em; */
 	margin-bottom: 0.5rem;
 	font-size: 1.75em;
 	line-height: 1.1;
 }
 
 .calendar__place {
-	/* margin-top: 0.5em; */
 	margin-bottom: 1rem;
 }
 
 .calendar__image {
-	/* margin-top: 1em; */
 	margin-bottom: 0;
 }
 
@@ -249,7 +249,6 @@
 
 
 .calendar__subtitle {
-	/* margin-top: 0.5em; */
 	margin-bottom: 1em;
 }
 
@@ -373,8 +372,6 @@ margin-bottom: 0.5rem;
 		padding-left: 0;
 	}
 	.calendar__topline {
-		/* margin-top: 0.5em; */
-		/* margin-bottom: 0; */
 		padding-left: 1rem;
 		order: 2;
 		margin-left: auto;
