@@ -410,7 +410,7 @@ array(
       <input type="checkbox" name="show-date-picker" id="show-date-picker">
       <label for="show-date-picker">Kalender <span>&#65291;</span></label>
 
-      <input type="checkbox" name="reset-filter" id="reset-filter">
+      <input type="button" name="reset-filter" id="reset-filter">
       <label for="reset-filter">Zurücksetzen</label>
 
 
@@ -475,17 +475,6 @@ array(
 </main>
 
 <script>
-$( "#show-filter" ).click(function() {
-  $( ".calendar-filter" ).toggle();
-
-});
-
-$( "#reset-filter" ).click(function() {
-  $( '.calendar-filter input[type="checkbox"]' ).prop( "checked", false );
-});
-
-
-
 </script>
 
 <?php include_once("../../functions/footer.php"); ?>
