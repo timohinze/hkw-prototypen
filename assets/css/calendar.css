@@ -23,8 +23,8 @@
 .calendar-filter-toggle-btn [type="checkbox"]+label {
 	cursor: pointer;
 	border: 0.07em solid black;
-	padding-top: 0.55em;
-	padding-bottom: 0.35em;
+	padding-top: 0.75em;
+	padding-bottom: 0.50em;
 	padding-left: 1em;
 	padding-right: 1em;
 	display: inline-block;
@@ -48,10 +48,11 @@
 
 .calendar-filter-toggle-btn label span {
 	transition: transform .3s;
+	line-height: 1;
+	display: inline-block;
 }
 
 .calendar-filter-toggle-btn [type="checkbox"]:checked+label span {
-	display: inline-block;
 	transform: rotate(45deg);
 }
 
@@ -83,7 +84,7 @@
 	}
 }
 
-.calendar-filter [type="radio"]+label {
+.calendar-filter [type="checkbox"]+label {
 	cursor: pointer;
 	border: 0.07em solid black;
 	padding-top: 0.55em;
@@ -99,26 +100,25 @@
 }
 
 @media only screen and (max-width: 840px) {
-	.calendar-filter [type="radio"]+label {
+	.calendar-filter [type="checkbox"]+label {
 		font-size: 1.25em;
 	}
 }
 
-.calendar-filter [type="radio"]:checked+label {
+.calendar-filter [type="checkbox"]:checked+label {
 	background: black;
 	color: white;
 }
 
-.calendar-filter [type="radio"]:checked+label {
+.calendar-filter [type="checkbox"]:checked+label {
 	fill: white;
 }
 
 
 /* hide inputs */
 
-.calendar-filter-toggle-btn [type="checkbox"],
-.calendar-filter-toggle-btn [type="radio"],
-.calendar-filter [type="radio"] {
+.calendar-filter [type="checkbox"],
+.calendar-filter-toggle-btn [type="checkbox"]{
 	position: absolute!important;
 	width: 1px!important;
 	height: 1px!important;
@@ -134,7 +134,7 @@
 .calendar__date {
 	padding-left: 2rem;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0.6rem;
 	font-size: 1.75em;
 	width: 100%;
 	position: sticky;
@@ -153,10 +153,15 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	border-bottom: 2px solid white;
-	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
 	/* default Farbe */
 	background: #CCDAE3;
+	position: relative;
+}
+
+.calendar__item a{
+	text-decoration: underline;
 }
 
 .calendar__schwerpunktprojekt-titel {
@@ -166,16 +171,16 @@
 	letter-spacing: 0.033em;
 	font-family: "Lyno Stan HKW";
 	text-transform: uppercase;
-	margin-top: 0.25em;
-	margin-bottom: 0;
+	/* margin-top: 0.25em; */
+	margin-bottom: 0.25em;
 	margin-left: calc(25% + 4rem);
 }
 
 .calendar__topline {
 	width: 100%;
 	margin-left: calc(25% + 4rem);
-	margin-top: 0.25em;
-	margin-bottom: 0;
+	/* margin-top: 0.25em; */
+	margin-bottom: 0.5em;
 	padding-right: 1rem;
 }
 
@@ -188,19 +193,19 @@
 }
 
 .calendar__time {
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
+	/* margin-top: 0.3em; */
+	margin-bottom: 0.5rem;
 	font-size: 1.75em;
 	line-height: 1.1;
 }
 
 .calendar__place {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	/* margin-top: 0.5em; */
+	margin-bottom: 1rem;
 }
 
 .calendar__image {
-	margin-top: 1em;
+	/* margin-top: 1em; */
 	margin-bottom: 0;
 }
 
@@ -222,23 +227,42 @@
 .calendar__title {
 	font-size: 1.75em;
 	line-height: 1.1;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+.calendar__title a{
+	text-decoration: none;
 }
 
+.calendar__title a::after{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: " ";
+}
+
+.calendar__item a:not(h3 a) {
+    position: relative;
+}
+
+
 .calendar__subtitle {
-	margin-top: 0.5em;
-	margin-bottom: 1.5em;
+	/* margin-top: 0.5em; */
+	margin-bottom: 1em;
 }
 
 .calendar__category {
-	margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+.calendar__werbeinfo p{
+	margin-top: 0;
 	margin-bottom: 0.5em;
 }
 
 .calendar__show-details {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+margin-bottom: 0.5rem;
 }
 
 
@@ -248,7 +272,7 @@
 	width: 30%;
 	margin-left: 2rem;
 	padding-right: 2rem;
-	margin-top: 1em;
+	margin-top: 1.3em;
 	font-size: 0.75em;
 }
 
@@ -259,7 +283,6 @@
 .calendar__ticket,
 .calendar__save-date {
 	margin-top: 0.5em;
-	margin-bottom: 0.5em;
 }
 
 
@@ -272,11 +295,11 @@
 }
 
 .calendar__item--canceld {
-	color: gray;
+	color: #3d3d3d
 }
 
 .calendar__item--canceld a {
-	color: gray;
+	color: #3d3d3d;
 }
 
 .calendar__item--canceld .calendar__image {
@@ -320,6 +343,7 @@
 	}
 	.calendar__group2-2 {
 		width: 100%;
+		margin-top: 1em;
 	}
 	.calendar__image {
 		max-width: 100%;
@@ -339,13 +363,18 @@
 	.calendar__schwerpunktprojekt-titel {
 		margin-left: 1rem;
 	}
+	.calendar__image {
+		margin-bottom: 0.5rem;
+	}
+
+
 	.calendar__group1 {
 		margin-left: 1rem;
 		padding-left: 0;
 	}
 	.calendar__topline {
-		margin-top: 0.5em;
-		margin-bottom: 0;
+		/* margin-top: 0.5em; */
+		/* margin-bottom: 0; */
 		padding-left: 1rem;
 		order: 2;
 		margin-left: auto;
@@ -364,7 +393,7 @@
 		margin-left: 1rem;
 	}
 	.calendar__group2-2 {
-		margin-top: 0;
+		margin-top: 0.5rem;
 		margin-left: 1rem;
 	}
 	.calendar__group2-2 p:first-child {

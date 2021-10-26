@@ -1,4 +1,4 @@
-
+<!-- 21 10 26 -->
 <?php
 function show_kalender_element($calendar_posts) {
 
@@ -6,12 +6,15 @@ function show_kalender_element($calendar_posts) {
 
             echo '<div class="calendar__day-group">';
 
-            if(empty($day_group)){
-              //Wenn Heute keine Veranstaltungen sind
-              echo '<div class="calendar__date calendar__date--empty">'. $date. ' keine Veranstaltungen</div>';
-            }else{
-              echo '<div class="calendar__date">' . $date . '</div>';
-            }
+            // if(empty($day_group)){
+            //   //Wenn Heute keine Veranstaltungen sind
+            //   echo '<div class="calendar__date calendar__date--empty">'. $date. ' keine Veranstaltungen</div>';
+            // }else{
+            //   echo '<div class="calendar__date">' . $date . '</div>';
+            // }
+
+            echo '<div class="calendar__date">' . $date . '</div>';
+
 
             foreach ($day_group as $calendar_post) {
 
@@ -20,6 +23,8 @@ function show_kalender_element($calendar_posts) {
                 }else{
                   echo '<div class="calendar__item" style="background:' . $calendar_post["projektfarbe"] . '">';
                 }
+
+
 
                 if (!empty($calendar_post["schwerpunktprojekt-titel"])) {
                     echo '<div class="calendar__schwerpunktprojekt-titel hyphenate">' . $calendar_post["schwerpunktprojekt-titel"] . '</div>';
@@ -49,7 +54,7 @@ function show_kalender_element($calendar_posts) {
                 echo '<div class="calendar__group calendar__group2">';
                 echo '<div class="calendar__group calendar__group2-1">';
                   if (!empty($calendar_post["titel"])) {
-                      echo '<h3 class="calendar__title hyphens">' . $calendar_post["titel"] . '</h3>';
+                      echo '<h3 class="calendar__title hyphens"><a href="#kalenderlink">' . $calendar_post["titel"] . '</a></h3>';
                   }
                   if (!empty($calendar_post["untertitel"])) {
                       echo '<div class="calendar__subtitle">' . $calendar_post["untertitel"] . '</div>';
@@ -61,7 +66,7 @@ function show_kalender_element($calendar_posts) {
                         echo '<div class="calendar__werbeinfo">' . $calendar_post["werbeinfo"] . '</div>';
                       }
 
-                  echo '<div class="calendar__show-details"><a href="#">Details anzeigen</a></div>';
+                  echo '<div class="calendar__show-details"><a href="#detailsanzeigen">Details anzeigen</a></div>';
 
                 echo '</div>';
 
@@ -71,8 +76,6 @@ function show_kalender_element($calendar_posts) {
                   if (!empty($calendar_post["information"])) {
                       echo '<div class="calendar__info">' . $calendar_post["information"] . '</div>';
                   }
-
-
 
                   if (!empty($calendar_post["sprache"])) {
                       echo '<div class="calendar__language">' . $calendar_post["sprache"] . '</div>';
@@ -90,7 +93,7 @@ function show_kalender_element($calendar_posts) {
                   echo '<div class="calendar__ticket"><a class="external-link" href="#">Tickets</a></div>';
                   }
 
-                  echo '<div class="calendar__save-date"><a class="download-link" href="#">Termin speichern</a></div>';
+                  echo '<div class="calendar__save-date"><a class="download-link" href="#terminspeichern">Termin speichern</a></div>';
 
 
 
@@ -99,6 +102,8 @@ function show_kalender_element($calendar_posts) {
                 echo '</div>';
 
                 echo '</div>';
+
+
             }
 
             echo '</div>';

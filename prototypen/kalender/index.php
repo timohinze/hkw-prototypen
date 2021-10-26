@@ -5,9 +5,6 @@
 
 <?php
 $calendar_posts = array(
-  "Heute" => array(
-  ),
-
   'Morgen' => array(
      array(
          'schwerpunktprojekt' => true,
@@ -310,34 +307,6 @@ array(
 
  ),
 
-
- array(
-   'schwerpunktprojekt' => true,
-   'schwerpunktprojekt-titel' => "WHY ARE WE HERE NOW?",
-   'projektfarbe' => "rgba(29, 229, 118, 1)",
-   'zeit' => "14h&ndash;17h",
-   'ort' => "Auditorium",
-   'bild' => "",
-   'abgesagt' => false,
-
-   'topline' => "",
-   'titel' => "Unsanft gebrochener Fluss des Reisens",
-   'untertitel' => "Untertitel Lorem Ipsum",
-   'typ' => "Categoy Lorem Ipsum",
-   'werbeinfo' => "<b>Boris Buden: </b><i>From Orient to Archaeology: A Railway through Time</i>, Vortrag<br><b>Zeynep Çelik:</b> <i>Railways and Politics of Archaeology</i>, Vortrag<br><b>Yazid Anani:</b> <i>an imaginary train ride</i>, 1926, Lecture Performance<br><b>Shahana Rajani &amp; Zahra Malkani:</b> <i>Afterlives of Imperial Formations</i>, Lecture Performance<br>- After the Wildly Improbable",
-
-
-   'sprache' => "Sprache Lorem",
-   'information' => "Weitere Informationen Ipsum",
-   'ticketlink' => "",
-   'freiereintritt' =>false,
-   'eintritt' =>"Abendtickets: 13€/10€  Festivalpass: 30€",
-
-
- ),
-
-
-
 ),
      'Dienstag 2.11.' => array(
 
@@ -386,6 +355,36 @@ array(
 
       ),
 
+      array(
+          'schwerpunktprojekt' => false,
+          'schwerpunktprojekt-titel' => "",
+          'projektfarbe' => "#E9F0F5",
+          'datum' => "",
+          'zeit' => "14&ndash;17h",
+          'ort' => "HKW Auditorium",
+          'bild' => "",
+          'abgesagt' => false,
+
+          'topline' => "Why Are We Here Now?",
+          'titel' => "Unsaft gebrochner Fluss des Reisens",
+          'untertitel' => "",
+          'typ' => "Vorträge, Performances",
+          'werbeinfo' => "
+          <p> Boris Buden: <i>From Orient to Archaeology: A Railway through Time,</i> Vortrag</p>
+          <p> Zeynep Çelik: <i>Railways and Politics of Archaeology,</i> Vortrag</p>
+          <p> Yazid Anani: <i>an imaginary train ride, 1926,</i> Lecture Performance</p>
+          <p> Shahana Rajani & Zahra Malkani: <i>Afterlives of Imperial Formations,</i> Lecture Performance</p>
+
+          ",
+
+          'sprache' => "",
+          'information' => "",
+          'ticketlink' => "",
+          'freiereintritt' =>false,
+          'eintritt' =>"Nachmittagsticket: 6€/4€<br> Tagesticket: 10€/6€",
+
+      ),
+
     )
 
 
@@ -410,6 +409,11 @@ array(
 
       <input type="checkbox" name="show-date-picker" id="show-date-picker">
       <label for="show-date-picker">Kalender <span>&#65291;</span></label>
+
+      <input type="checkbox" name="reset-filter" id="reset-filter">
+      <label for="reset-filter">Zurücksetzen</label>
+
+
   </form>
 </div>
 
@@ -417,44 +421,46 @@ array(
 
   <form>
     <fieldset>
-      <input type="radio" name="category-method" id="filter__category--ausstellungen">
+      <input type="checkbox" name="category-method" id="filter__category--ausstellungen">
       <label for="filter__category--ausstellungen">Ausstellungen</label>
 
-      <input type="radio" name="category-method" id="filter__category--diskurs">
+      <input type="checkbox" name="category-method" id="filter__category--diskurs">
       <label for="filter__category--diskurs">Diskurs</label>
 
-      <input type="radio" name="category-method" id="filter__category--literatur">
+      <input type="checkbox" name="category-method" id="filter__category--literatur">
       <label for="filter__category--literatur">Literatur</label>
 
-      <input type="radio" name="category-method" id="filter__category--musik">
+      <input type="checkbox" name="category-method" id="filter__category--musik">
       <label for="filter__category--musik">Musik</label>
 
-      <input type="radio" name="category-method" id="filter__category--performacing-arts">
+      <input type="checkbox" name="category-method" id="filter__category--performacing-arts">
       <label for="filter__category--performacing-arts">Performing Arts</label>
 
-      <input type="radio" name="category-method" id="filter__category--fuerungen">
+      <input type="checkbox" name="category-method" id="filter__category--fuerungen">
       <label for="filter__category--fuerungen">Führungen</label>
 
-      <input type="radio" name="category-method" id="filter__category--workshops">
+      <input type="checkbox" name="category-method" id="filter__category--workshops">
       <label for="filter__category--workshops">Workshops</label>
   </fieldset>
 
   <fieldset>
     <span class="filter_subgroup">
-      <input type="radio" name="filter-method" id="filter--berlin">
+      <input type="checkbox" name="filter-method" id="filter--berlin">
       <label for="filter--berlin">Berlin</label>
 
-      <input type="radio" name="filter-method" id="filter--international">
+      <input type="checkbox" name="filter-method" id="filter--international">
       <label for="filter--international">International</label>
 
-      <input type="radio" name="filter-method" id="filter--digital">
+      <input type="checkbox" name="filter-method" id="filter--digital">
       <label for="filter--digital">Digital</label>
     </span>
     <span class="filter_subgroup">
-      <input type="radio" name="filter-method" id="filter--eintritt-frei">
+      <input type="checkbox" name="filter-method" id="filter--eintritt-frei">
       <label for="filter--eintritt-frei"> Eintritt frei</label>
+    </span>
 
-      <input type="radio" name="filter-method" id="filter--englisch">
+    <span class="filter_subgroup">
+      <input type="checkbox" name="filter-method" id="filter--englisch">
       <label for="filter--englisch">Englisch</label>
     </span>
 
@@ -473,6 +479,13 @@ $( "#show-filter" ).click(function() {
   $( ".calendar-filter" ).toggle();
 
 });
+
+$( "#reset-filter" ).click(function() {
+  $( '.calendar-filter input[type="checkbox"]' ).prop( "checked", false );
+});
+
+
+
 </script>
 
 <?php include_once("../../functions/footer.php"); ?>
