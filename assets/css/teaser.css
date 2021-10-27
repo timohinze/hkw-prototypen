@@ -61,7 +61,7 @@
 .teaser-item-element {
 	display: flex;
 	flex-wrap: wrap;
-	z-index: 2;
+	z-index: 1;
 	position: relative;
 }
 
