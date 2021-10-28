@@ -1,43 +1,43 @@
+/* 2021 10 27 */
 /* 2021 10 16 */
 /* 2021 10 15 */
 /* 2021 10 13 */
 
 
-
 /* Links */
 
-.element p a:not(.link-button){
-    text-decoration: underline;
+.element p a:not(.link-button),
+.element li a:not(.link-button) {
+	text-decoration: underline;
 }
-/* .element li a:not(.link-button){
-    text-decoration: underline;
-} */
-
 
 
 /* Link, der aussieht wie ein Button */
+
 .link-button {
-  border: 0.1em solid black;
-  padding: 0.25em 0.5em;
-  display: inline-block;
-  font-size: 1em;
-  padding-top: 0.35em;
-  text-decoration: none;
-  /* to do */
-  position: relative;
-  z-index: 9;
+	padding-top: 0.35em;
+	padding-right: 0.5em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	border: 1px solid black;
+	display: inline-block;
+	font-size: 1em;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	line-height: 1.4;
 }
 
-.link-button--big{
-  font-size: 3.67rem;
+.link-button--big {
+	font-size: 3.67rem;
 }
 
-.link-button--bigger{
-  font-size: var(--textsize2);
+.link-button--bigger {
+	font-size: var(--textsize2);
 }
 
-.link-button--small{
-  font-size: 1em;
+.link-button--small {
+	font-size: 1em;
 }
 
 .link-button:hover {
@@ -45,25 +45,25 @@
 }
 
 
-
 /* Externer Link */
-a.external-link:after{
-  padding-left: 0.25em;
-  padding-right: 0.25em;
-  content: ' \2197';
-  display: inline-block;
+
+a.external-link:after {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	content: ' \2197';
+	display: inline-block;
 }
 
-a.download-link:after{
-  padding-left: 0.25em;
-  padding-right: 0.25em;
-  content: ' \2193';
-  display: inline-block;
+a.download-link:after {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	content: ' \2193';
+	display: inline-block;
 }
 
-a.to-the-right-link:after{
-  padding-left: 0.25em;
-  padding-right: 0.25em;
-  content: ' \2192';
-  display: inline-block;
+a.to-the-right-link:after {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	content: ' \2192';
+	display: inline-block;
 }

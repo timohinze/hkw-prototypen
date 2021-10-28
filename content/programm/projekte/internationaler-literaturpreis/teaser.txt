@@ -1,0 +1,7 @@
+column1:
+<figure><img src="https://www.hkw.de/media/bilder/2021/internationaler_literaturpreis_2021/christian_werner_los_angeles_2_imgsize_L.jpg"/></figure>
+<h2>Preisverleihung</h2>
+<p>Auf der Shortlist des diesjährigen Internationalen Literaturpreises stehen sechs Bücher, die es mit der Gegenwart aufnehmen, die Grenzen zwischen Ich und Welt verschieben und scheinbar Unvereinbares vereinen. Welches Buch wird von der Jury ausgezeichnet? Was macht das Werk preiswürdig?</p>
+
+----
+color: #FFFCB7

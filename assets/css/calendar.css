@@ -1,3 +1,5 @@
+/* 21 10 26  */
+
 /* Filter */
 
 .calendar-filter fieldset {
@@ -403,6 +405,9 @@ margin-bottom: 0.5rem;
 
 
 /* Kalender auf Projektseiten */
+.calendar--projektseite{
+	margin-bottom: 2em;
+}
 
 .calendar--projektseite .calendar__date {
 	position: relative;
@@ -410,11 +415,10 @@ margin-bottom: 0.5rem;
 
 .calendar--projektseite .calendar__header {
 	margin: 0;
-	font-size: 1.75em;
+	font-size: 2.25em;
 	padding-left: 2rem;
-	border-bottom: 2px solid white;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-right: 2rem;
+
 }
 
 .calendar--projektseite .calendar_header h2 {
@@ -424,6 +428,7 @@ margin-bottom: 0.5rem;
 @media only screen and (max-width: 840px) {
 	.calendar--projektseite .calendar__header {
 		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
@@ -440,8 +445,14 @@ margin-bottom: 0.5rem;
 }
 
 .calendar--projektseite .calendar_footer {
-	font-size: 2rem;
+	font-size: 1.75em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	padding-left: 1em;
+	padding-left: 2rem;
+}
+
+@media only screen and (max-width: 840px) {
+	.calendar--projektseite .calendar_footer {
+		padding-left: 1rem;
+	}
 }

@@ -1,0 +1,7 @@
+title: Mit Arbeiten von
+----
+classes: 
+----
+list: <ul>
+  <li><a href="#">Anni Albers</a></li> <li>Gertrud Arndt</li> <li>Kader Attia</li> <li><a href="#">Lena Bergner</a></li> <li>Nandalal Bose</li> <li>Ahmed Cherkaoui</li> <li>Alice Creischer</li> <li>Zvi Efrat</li> <li>Luca Frei</li> <li>Walter Gropius</li> <li>Doreen Mende</li> <li><a href="#">Hannes Meyer</a></li> <li>Takehiko Mizutani</li> <li>László Moholy-Nagy</li> <li>Wendelien van Oldenborgh</li> <li>Hélio Oiticica</li> <li>The Otolith Group</li> <li>Lygia Pape</li> <li>Paulo Tavares</li> <li>Iwao Yamawak</li>
+</ul>

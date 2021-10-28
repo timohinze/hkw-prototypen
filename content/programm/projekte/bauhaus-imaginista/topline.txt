@@ -1,0 +1,7 @@
+text: <p>15. März –10. Juni 2019, HKW und online</p>
+----
+classes:
+----
+icon:
+----
+category:

@@ -1,0 +1,9 @@
+column1: <p>
+Kuratiert von <a href="#">Marion von Osten</a> und <a href="#">Grant Watson</a> in Zusammenarbeit mit einem <a href="#">Team</a> internationaler Forscher*innen und Künstler*innen </p>
+<p><a href="#">Zum kuratorischen Statement </a></p>
+
+----
+column2: <p>Eine Zusammenarbeit zwischen der Bauhaus Kooperation Berlin Dessau Weimar, dem Goethe-Institut und dem HKW </p>
+<p>Im Rahmen von <a href="#">100 Jahre Gegenwart</a></p>
+----
+classes: element--padding element--rand-oben element--rand-unten
