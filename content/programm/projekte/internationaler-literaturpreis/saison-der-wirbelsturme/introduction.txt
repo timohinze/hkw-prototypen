@@ -1,0 +1,19 @@
+column1:
+<figure>
+<img src="https://www.hkw.de/media/bilder/2019/internationaler_literaturpreis_2019/saison_der_wirbelstuerme_imgsize_L.jpg"/>
+<figcaption> Saison der Wirbelstürme | Foto: Kaspar Lerch</figcaption>
+</figure>
+----
+column2:
+<p>Ausgezeichnet mit dem Internationalen Literaturpreis 2019 <br>
+<a href="#">Zur Laudatio</a></p>
+<blockquote>
+<p><i>„Es heißt, dass sie in Wirklichkeit gar nicht gestorben sei, weil Hexen nicht so leicht sterben.“</i>
+</blockquote>
+</p>
+
+<h2>Jurykommentar</h2>
+<p>Fernanda Melchors Buch handelt in wuterfüllten, mitreißenden Sätzen von der Geschichte eines Frauenmords im ländlichen Mexiko. Erzählt wird von Menschen, die mit dem Opfer – der Hexe – Umgang pflegten bis zu ihrem Tod: von jungen Männern, die auf der Suche nach billigem Sex und Kokain sind, und noch jüngeren Frauen, die sie wegen des staatlichen Abtreibungsverbotes aufsuchen. Indem Melchor den Ereignissen nachspürt, die zu diesem grausamen Verbrechen geführt haben, entblößt sie die psychologischen und sozioökonomischen Mechanismen, die den von Zuckerrohr umgebenen Ort La Matosa prägen. Die titelgebenden Wirbelstürme zeugen nicht nur von den dort herrschenden Verhältnissen, sie brechen auch dank der sprachlichen Ausdruckskraft der Autorin über uns herein. Angelica Ammar hat die Wirbelstürme dieser Prosa hervorragend erfindungsreich ins Deutsche übertragen.</p>
+<p>— Daniel Medin</p>
+----
+classes:

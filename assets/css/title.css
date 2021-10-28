@@ -1,0 +1,27 @@
+.title-element{
+  max-width: 70em;
+ padding-bottom: 0.75em;
+}
+.topline-element{
+  max-width: 45em;
+  padding-bottom: 1.25em;
+}
+.topline-element+.title-element{
+  padding-top: 0;
+}
+
+.subhead-element{
+  max-width: 45em;
+}
+ /* .title-element + .subhead-element{
+  padding-top: 0;
+} */
+.title-element + .element:not(.element--full-width){
+  padding-top: 0;
+}
+
+
+
+.subhead-element + .element:not(.element--full-width){
+  padding-top: 0;
+}

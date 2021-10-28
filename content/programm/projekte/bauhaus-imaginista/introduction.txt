@@ -1,0 +1,15 @@
+column1: <p><strong><i>bauhaus imaginista</i> erzählt die internationalen Geschichten des Bauhauses. Seit ihrer Gründung 1919 stand die Schule in Kontakt mit avantgardistischen Bewegungen weltweit.</strong><p>
+----
+column2: <p><i>bauhaus imaginista </i>schlägt eine neue Lesart des Bauhauses als globaler Resonanzraum und kosmopolitisches Projekt vor: Eine Ausstellung und zwei Konferenzen verfolgen die transnationalen Beziehungen, die Korrespondenzen und Migrationsgeschichten, die über die Jahre des Bauhauses als Schule (bis 1933) hinausreichen. Das Projekt verfolgt erstmals die Übersetzung von Bauhaus-Konzepten in verschiedene politische und geografische Kontexte. </p>
+<p>Der Titel bauhaus imaginista verweist auf den Imaginationsraum, den das Bauhaus öffnete, und die vielschichtigen Lesarten, die der Begriff bis heute birgt. Zwischen Archivmaterialien und zeitgenössischen Beiträgen übersetzt das Projekt historische Perspektiven in Fragen zur Gegenwart: Wie lässt sich heute im Sinne des Bauhauses Kultur als soziales Projekt neu denken? Welche Art von Institutionen braucht ein solches Projekt? Wie regt das Bauhaus noch heute visionäre Praktiken und Diskurse an? </p>
+<p> Die Ausstellung reflektiert die künstlerische Erforschung von Handwerkstechniken, Materialitäten und Praktiken; untersucht, wie Konzepte des Bauhauses zur gesellschaftlichen Bedeutung von Gestaltung transformiert, angepasst oder auch in Frage gestellt wurden; und zeigt, wie der innovative Gebrauch von Medien am Bauhaus Kunst und Popkultur bis heute prägt. </p>
+<p>Seit März 2018 entstanden Ausstellungen, Symposien und Workshops in Rabat, Hangzhou, New York, Kyoto und Tokio, Moskau, São Paulo, Lagos und Delhi in Zusammenarbeit mit den Goethe-Instituten und Partner*innen vor Ort. Im HKW entfaltet sich auf dieser Basis nun eine Gesamtschau von bauhaus imaginista. </p>
+<p>
+<ul class="tags">
+<li> #20. Jahrhundert</li>
+<li> #Architektur</li>
+<li>#Archiv</li> <li>#Ausstellung</li>
+<li>#Avantgarde</li> <li>#Kosmopolismus</li> <li>#Migration</li> <li>#Transnationalismus</li> <li>#Kunst</li></ul>
+
+----
+classes:

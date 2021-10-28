@@ -1,0 +1,12 @@
+column1: <p>Ausstellung, Konferenzen</p>
+<p>Haus der Kulturen der Welt <br><a href="#">Besucherinformationen</a></p>
+<p>Täglich (außer Di) 11–19h <br> Feiertags geöffnet</p>
+<p><a class="external-link" href="#">Lange Nacht der Ideen</a><br> 06.06. 11–0h <br>Ab 18h <span class="icon-eintritt-frei"></span> Eintritt frei</p>
+----
+column2: <p>Eintritt: 9€/7€ <br> inkl. Zweitbesuch und Ausstellungsguide <br><a href="#">Mehr Infos</a></p>
+<p> <a href="#">Ausstellungsguide</a> <br><a href="#">Audioguide</a> </p>
+<p><a href="#">Tickets kaufen</a></p>
+----
+classes: element--full-width
+----
+color: #FFE3E9

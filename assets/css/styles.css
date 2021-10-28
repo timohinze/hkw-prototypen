@@ -1,12 +1,19 @@
 /* 2021 10 13 */
 
+/* 2021 10 13 */
+
 @import url("main.css");
+@import url("header.css");
+@import url("footer.css");
+
 
 @import url("image.css");
 @import url("link-button.css");
 @import url("icon.css");
 
+
 @import url("element.css");
+
 
 @import url("slideshow.css");
 
@@ -18,4 +25,15 @@
 
 
 @import url("startseite.css");
+
+@import url("linkrail.css");
+
+@import url("read-more.css");
+
+@import url("title.css");
+@import url("text.css");
+@import url("two-columns.css");
+@import url("service-info.css");
+@import url("list.css");
 @import url("calendar.css");
+@import url("teaser.css");

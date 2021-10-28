@@ -1,0 +1,12 @@
+column1:
+<h2>Übersetzerin: Angelica Ammar</h2>
+<p>Angelica Ammar ist in München geboren und aufgewachsen. Nach einem längeren Aufenthalt in Ghana studierte sie Romanistik und Ethnologie in München, Madrid und Paris, wo sie zehn Jahre lebte. 2007 zog sie nach Barcelona. Für ihren Debütroman Tolmedo erhielt sie 2006 den Literaturpreis der Jürgen-Ponto-Stiftung, 2010 erschien ihr zweiter Roman Die Zeit der grünen Mandeln. Sie übersetzte u. a. Sergio Pitol, Mario Vargas Llosa, Rita Indiana,Gioconda Belli, Eduardo Galeano und Horacio Quiroga aus dem Spanischen.</p>
+
+----
+column2:
+<figure>
+<img src="https://www.hkw.de/media/bilder/2019/internationaler_literaturpreis_2019/angelica_ammar.jpg"/>
+<figcaption> Angelica Ammar | © Ann-Christine Woehrl</figcaption>
+</figure>
+----
+classes: element--rand-oben

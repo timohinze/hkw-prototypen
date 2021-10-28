@@ -1,0 +1,7 @@
+column1: <p>Videoserie, Vorträge, Diskussionen</p>
+----
+column2: <p><span class="icon-eintritt-frei"></span>Kostenfrei</p>
+----
+color: #FFFCB7
+----
+classes: element--full-width

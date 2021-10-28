@@ -1,0 +1,13 @@
+column1:
+<h2>Autorin: Fernanda Melchor</h2>
+<p>Fernanda Melchor, 1982 im mexikanischen Bundesstaat Veracruz geboren, schreibt Romane und Reportagen (crónicas), für die sie bereits mehrere Preise gewonnen hat. Sie lebt in Puebla und gilt als eine der talentiertesten Autor*innen ihrer Generation. 2013 veröffentlichte sie ihren ersten Roman Falsa liebre sowie eine Sammlung von crónicas Aquí no es Miami. Ihr zweiter Roman Saison der Wirbelstürme erscheint gleichzeitig in mehreren Ländern, u. a. in den USA, Italien, Frankreich und Großbritannien.</p>
+
+----
+column2:
+<figure>
+<img src="https://www.hkw.de/media/bilder/2019/internationaler_literaturpreis_2019/fernanda_melchor.jpg"/>
+<figcaption> Fernanda Melchor | © privat</figcaption>
+</figure>
+
+----
+classes: 

@@ -1,3 +1,5 @@
+/* 2021 10 21 */
+
 /* 2021 10 20 */
 /* 2021 10 19 */
 /* 2021 10 16 */
@@ -6,45 +8,70 @@
 
 
 .element{
-  margin: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 @media only screen and (max-width: 1024px) {
   .element{
-    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
 .element--fullbleed{
-  margin-left: 0rem;
-  margin-right: 0rem;
+  padding: 0;
 }
-.element--padding{
-  margin: 0;
-padding-left: 2rem;
-padding-right: 2rem;
-padding-top: 2em;
-padding-bottom: 2em;
-}
-@media only screen and (max-width: 1024px) {
-  .element--padding{
-    margin: 0;
-  padding: 1rem;
-  }
+.element--full-width{
+  padding-left: 0;
+  padding-right: 0;
 }
 
+
+/* margins nur unten */
+.element p,
+.element h1,
+.element h2,
+.element h3,
+.element h4,
+.element ul{
+  margin-top: 0;
+}
+
+/* keine Ränder beim letzten */
+.element p:last-child,
+.element h1:last-child,
+.element h2:last-child,
+.element h3:last-child,
+.element h4:last-child,
+.element ul:last-child{
+  margin-bottom: 0;
+}
+
+
+
 .element--padding-left{
-  margin: 0;
-padding-left: 2rem;
-padding-right: 0;
-padding-top: 2em;
-padding-bottom: 2em;
+  padding-left: 2rem;
+  padding-right: 0;
 }
 @media only screen and (max-width: 1024px) {
   .element--padding-left{
-  padding-right: 0;
-  padding-left: 1rem;
+    padding-left: 1rem;
+    padding-right: 0;
   }
 }
+
+
+.element p{
+  line-height: 1.4;
+}
+
+
+/*
+
+
+to do */
 
 
 
@@ -74,19 +101,32 @@ padding-bottom: 2em;
 }
 
 
-/* ... */
+
+
+.element--abstand-oben2{
+  margin-top: 10rem;
+}
+@media only screen and (max-width: 1024px) {
+  .element--abstand-oben2{
+    margin-top: 6rem;
+  }
+}
+
+
+
+/* to do */
 
 .element--padding-unten2{
   margin: 0;
   padding-bottom: 10em;
 }
 @media only screen and (max-width: 1024px) {
-  .element--abstand-unten2{
+  .element--padding-unten2{
     padding-bottom: 6rem;
   }
 }
 
-/* ... */
+/* to do */
 
 
 
@@ -98,11 +138,23 @@ padding-bottom: 2em;
 
 
 /* kein rand oben wenn davor ein rand unten */
-.element--rand-unten+.element--rand-oben{
+/* .element--rand-unten+.element--rand-oben{
   border-top: none;
 }
 
 
 .element--rand-unten{
   border-bottom: 1px solid black;
+} */
+
+
+/* .element--abstand-links-rechts{
+  margin-left: 2rem;
+  margin-right: 2rem:
 }
+@media only screen and (max-width: 1024px) {
+  .element--abstand-links-rechts{
+    margin-left: 1rem;
+    margin-right: 1rem:
+  }
+} */

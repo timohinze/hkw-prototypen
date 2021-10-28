@@ -1,0 +1,9 @@
+headline: Programm bauhaus imaginista
+----
+footer: <a href="#">Alle Veranstaltungen bauhaus imaginista →</a>
+----
+classes:
+----
+array: kalender-array.json
+----
+color: #FFE3E9

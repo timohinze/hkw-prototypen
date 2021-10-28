@@ -1,0 +1,3 @@
+text: <p>Zur Ausstellung bauhaus imaginista</p>
+----
+classes:

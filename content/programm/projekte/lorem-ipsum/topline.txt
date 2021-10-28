@@ -1,0 +1,7 @@
+text: <p>Lorem ipsum dolor sit amet <span class="icon-separator"></span> consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <span class="icon-eintritt-frei"></span> labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+----
+classes:
+----
+icon:
+----
+category:

@@ -1,0 +1,14 @@
+column1:
+<h2>Saison der Wirbelstürme</h2>
+<p>Verlag Klaus Wagenbach, 2019<br>
+Spanisch: Temporada de huracanes<br>
+Literatura Random House, 2017</p>
+
+<p><a href="#">Mehr zum Buch und Leseprobe beim Verlag</a><br>
+<a href="#">Mehr zum Buch beim Originalverlag</a></p>
+----
+column2:
+----
+color: #FFFCB7
+----
+classes: 

@@ -1,0 +1,78 @@
+.text-element>h2 {
+	margin-bottom: 1.4rem
+}
+
+.text-element>h3,
+.text-element>p {
+	line-height: 1.4;
+	max-width: 35rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.4rem
+}
+
+
+
+@media (max-width: 39em) {
+	.text-element p {
+		margin-left: 0;
+	}
+}
+
+.text-element figure {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.text-element figure.portrait-wrap {
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 60em) {
+	.text-element figure {
+		margin-top: 1.4rem;
+		margin-bottom: 1.4rem;
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+	.text-element figure figcaption {
+		margin-left: 1rem;
+	}
+}
+
+.text-element figure.text-element__image--small {
+	max-width: 35rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem;
+}
+
+.text-element figure.text-element__image--small figcaption {
+	margin-left: 0;
+}
+
+.text-element blockquote {
+	max-width: 46rem;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem;
+}
+
+@media (max-width: 60em) {
+	.text-element blockquote {
+		max-width: 35rem;
+	}
+}
+
+
+/* read more in text */
+.text-element .read-more-wrap {
+	max-width: 35rem;
+	margin-left: auto;
+	margin-right: auto;
+}

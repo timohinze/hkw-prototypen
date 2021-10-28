@@ -1,0 +1,36 @@
+header: <p>13–30. November</p>
+<div class="read-more-wrap">
+<button class="readmore-btn">Alle Termine</button>
+<div class="more">
+<ul>
+<li> <span>Sonntag 6.9.2020</span><span>14.45h</span></li>
+<li> <span>Sonntag 13.9.2020</span><span>14.45h</span></li>
+<li> <span>Sonntag 6.9.2020</span><span>14.45h</span></li>
+<li> <span>Sonntag 13.9.2020</span><span>14.45h</span></li>
+<li> <span>Sonntag 6.9.2020</span><span>14.45h</span></li>
+<li> <span>Sonntag 13.9.2020</span><span>14.45h</span></li>
+
+</ul>
+</div>
+</div>
+----
+
+column1: <p>Lorem <a href="#">ipsum dolor sit</a> amet, consetetur sadipscing elitr, <a href="#" class="external-link">sed diam nonumy eirmod tempor</a> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+----
+column2: <p><span class="icon-Livestream"></span> Livestream </p>
+<p> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p> <p>Lorem Ipsum <span class="icon-eintritt-frei"></span> Kostenfrei</p>
+----
+column3: <p> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+<div class="read-more-wrap">
+<button class="readmore-btn">Read More</button>
+<div class="more">
+<p>read more ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
+</p>
+</div>
+</div>
+----
+
+
+color: #FFB1B1
+----
+classes: element--full-width
