@@ -247,7 +247,7 @@ show_kalender_element($calendar_posts);
 </div>
 
 
-<ul class="element element--full-width element--abstand-oben2 element--abstand-unten2 ressourcen-teaser-item-element">
+<ul class="element element--full-width element--abstand-oben2 ressourcen-teaser-item-element">
         <li class="teaser-item width-33 add-gradient color9">
               <div class="teaser-item__media">
                  <img src="https://hkw.de/media/de/bilder/publikationen_1/publikationen_2019/cover_bauhaus_imaginista.jpg" alt="Lorem Ipsum">
