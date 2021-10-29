@@ -3,6 +3,8 @@
 <?php include_once("../../functions/elements.php"); ?>
 <?php include_once("../../functions/linkrail.php"); ?>
 
+<?php get_header(); ?>
+
 <?php
 $linkrail = array (
   array(
@@ -50,7 +52,7 @@ $linkrail = array (
 );
 ?>
 
-
+<main class="projektstartseite-page">
 <div class="element element--fullbleed">
 <div class="video-player-wrap">
                  <button class="video-player__play-button"></button>
@@ -72,5 +74,5 @@ $linkrail = array (
 
 
 
-
+</main>
 <?php include_once("../../functions/footer.php"); ?>

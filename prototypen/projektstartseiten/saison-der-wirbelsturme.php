@@ -4,6 +4,7 @@
 <?php include_once("../../functions/linkrail.php"); ?>
 
 
+<?php get_header(); ?>
 
 <?php
 $linkrail = array (
@@ -52,6 +53,7 @@ $linkrail = array (
 );
 ?>
 
+<main class="projektstartseite-page">
 
 <?php show_title_element("../../content/programm/projekte/internationaler-literaturpreis/saison-der-wirbelsturme/title.txt"); ?>
 
@@ -65,5 +67,5 @@ $linkrail = array (
 
 <?php show_two_column_element("../../content/programm/projekte/internationaler-literaturpreis/saison-der-wirbelsturme/ubersetzerin.txt"); ?>
 
-
+</main>
 <?php include_once("../../functions/footer.php"); ?>

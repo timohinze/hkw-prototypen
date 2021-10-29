@@ -3,6 +3,8 @@
 <?php include_once("../../functions/elements.php"); ?>
 <?php include_once("../../functions/linkrail.php"); ?>
 
+<?php get_header(); ?>
+
 
 <?php
 $linkrail = array (
@@ -51,6 +53,7 @@ $linkrail = array (
 );
 ?>
 
+<main class="projektstartseite-page">
 
 <?php linkrail($linkrail); ?>
 
@@ -62,5 +65,5 @@ $linkrail = array (
 <?php show_text_element("../../content/programm/projekte/bauhaus-imaginista/kuratorisches-statement/text.txt"); ?>
 
 
-
+</main>
 <?php include_once("../../functions/footer.php"); ?>
