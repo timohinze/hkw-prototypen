@@ -76,7 +76,7 @@ header {
 	position: sticky;
 	top: 0;
 	background: white;
-	z-index: 1000;
+	z-index: 99;
 	left: 0;
 	right: 0;
 	display: flex;
