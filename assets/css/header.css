@@ -458,6 +458,10 @@ display: inline-block;
 	margin-top: 0.3rem;
 }
 
+.language-switch-btn:hover {
+	border-bottom: 0.1em solid;
+}
+
 @media only screen and (max-width: 1024px) {
 	.language-switch-btn {
 		margin-top: 0;
@@ -478,7 +482,7 @@ display: inline-block;
 .submenu {
 	padding-left: 2rem;
 	padding-right: 2rem;
-	font-size: 1rem;
+	font-size: var(--textsize1);
 	left: 0;
 	right: 0;
 	float: left;
@@ -497,6 +501,12 @@ display: inline-block;
 		padding-left: 0;
 		padding-right: 0;
 	}
+}
+
+@media only screen and (min-width: 1024px) {
+ .submenu {
+	 font-size: 1rem;
+ }
 }
 
 
