@@ -1,14 +1,3 @@
-/* Menü fährt beim scrollenr aus/rein */
-
-.page-header.nav-up {
-	top: -400px;
-}
-
-.page-header.nav-down {
-	top: 0;
-}
-
-
 /* Main menu typography styling */
 
 .programm-0,
@@ -87,7 +76,7 @@ header {
 	position: sticky;
 	top: 0;
 	background: white;
-	z-index: 99;
+	z-index: 1000;
 	left: 0;
 	right: 0;
 	display: flex;
@@ -698,4 +687,15 @@ display: inline-block;
 	top: 50%;
 	left: 0;
 	width: 4em;
+}
+
+
+/* Menü fährt beim scrollen raus/rein */
+
+.page-header.nav-up {
+	top: -400px;
+}
+
+.page-header.nav-down {
+	top: 0;
 }

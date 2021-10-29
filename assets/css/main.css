@@ -1,3 +1,4 @@
+/* 2021 10 29 */
 /* 2021 10 21 */
 /* 2021 10 20 */
 
@@ -214,7 +215,6 @@ strong {
   }
 }
 
-
 .width-50 {
 	width: 50%;
 }
@@ -226,13 +226,8 @@ strong {
 .width-33 {
 	width: 33.33%;
 }
-@media (max-width: 840px) {
+@media (max-width: 1024px) {
 	.width-33 {
 		width: 100%;
 	}
 }
-
-
-/* .page-wrap{
-  margin-top: 1em;
-} */
