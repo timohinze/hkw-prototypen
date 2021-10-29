@@ -482,7 +482,7 @@ display: inline-block;
 .submenu {
 	padding-left: 2rem;
 	padding-right: 2rem;
-	font-size: var(--textsize1);
+	font-size: 1.2rem;
 	left: 0;
 	right: 0;
 	float: left;
