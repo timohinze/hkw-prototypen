@@ -247,8 +247,8 @@ show_kalender_element($calendar_posts);
 </div>
 
 
-<ul class="element element--full-width ressourcen-teaser-item-element" style="background:#FFE3E9">
-        <li class="teaser-item width-33 ">
+<ul class="element element--full-width element--abstand-oben2 element--abstand-unten2 ressourcen-teaser-item-element">
+        <li class="teaser-item width-33 add-gradient color9">
               <div class="teaser-item__media">
                  <img src="https://hkw.de/media/de/bilder/publikationen_1/publikationen_2019/cover_bauhaus_imaginista.jpg" alt="Lorem Ipsum">
               </div>
@@ -259,7 +259,7 @@ show_kalender_element($calendar_posts);
                  <p><a href="#">Zur Publikation</a></p>
               </div>
         </li>
-        <li class="teaser-item width-33 ">
+        <li class="teaser-item width-33 add-gradient color9">
               <div class="teaser-item__media">
                  <img src="https://hkw.de/mediathek/hkw/_default/assets/000/069/884/69884_m_bauhaus-imaginista-ansicht-7-jpg_4slnfh.jpg" alt="Lorem Ipsum" >
               </div>
@@ -270,7 +270,7 @@ show_kalender_element($calendar_posts);
 
               </div>
         </li>
-        <li class="teaser-item width-33">
+        <li class="teaser-item width-33 add-gradient color9">
               <div class="teaser-item__media">
                  <img src="https://hkw.de/media/bilder/2019/bauhaus_imaginista_1/ausstellungsguide_bauhaus_imaginista_imgsize_S.png" alt="Lorem Ipsum">
               </div>
