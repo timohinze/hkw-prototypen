@@ -1,3 +1,8 @@
+<?php
+include_once("menu.php");
+include_once("config.php");
+
+function get_header($page=null, $subpage=null) { ?>
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
   <head>
@@ -27,8 +32,9 @@
 
   <body>
 
-    <header>
-      <p style="z-index:99;position: relative;">Header</p>
+    <header class="page-header">
+      <?php menu($page, $subpage);?>
     </header>
 
     <div class="page-wrap">
+<?php } ?>

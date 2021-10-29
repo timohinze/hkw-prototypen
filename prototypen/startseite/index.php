@@ -3,7 +3,11 @@
 <!-- 2021 10 15 -->
 <!-- 2021 10 13 -->
 <?php include_once("../../functions/header.php"); ?>
-<main class="home">
+
+<?php get_header(); ?>
+
+
+<main class="home-page">
 
    <!-- Scroll Bühne -->
    <!-- Evt Picture Element mit verschiedenen source Angaben für responsive Bildgrößen ?-->

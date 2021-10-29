@@ -3,6 +3,9 @@
 <?php include_once("../../functions/elements.php"); ?>
 <?php include_once("../../functions/linkrail.php"); ?>
 
+<?php get_header(); ?>
+
+
 <?php
 $linkrail = array (
   array(
@@ -49,7 +52,7 @@ $linkrail = array (
   )
 );
 ?>
-
+<main class="projektstartseite-page">
 <div class="element slideshow-element element--fullbleed header-slideshow">
    <div class="slideshow-element__slideshow">
       <div class="slideshow-element__slide">
@@ -280,5 +283,5 @@ show_kalender_element($calendar_posts);
      </ul>
 
 
-
+</main>
      <?php include_once("../../functions/footer.php"); ?>

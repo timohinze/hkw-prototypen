@@ -1,7 +1,7 @@
 <?php include_once("../../functions/header.php"); ?>
 <?php include_once("../../functions/kalender-element.php"); ?>
 
-
+<?php get_header("programm", "kalender"); ?>
 
 <?php
 $calendar_posts = array(
@@ -402,6 +402,7 @@ array(
 
 ?>
 <main class="calendar-page">
+
 <div class="calendar-filter-toggle-btn">
   <form>
       <input type="checkbox" name="show-filter" id="show-filter">
@@ -473,8 +474,5 @@ array(
 <?php show_kalender_element($calendar_posts)?>
 
 </main>
-
-<script>
-</script>
 
 <?php include_once("../../functions/footer.php"); ?>

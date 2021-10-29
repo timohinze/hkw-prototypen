@@ -3,6 +3,8 @@
 <?php include_once("../../functions/elements.php"); ?>
 <?php include_once("../../functions/linkrail.php"); ?>
 
+<?php get_header(); ?>
+
 
 <?php
 $linkrail = array (
@@ -50,6 +52,8 @@ $linkrail = array (
   )
 );
 ?>
+
+<main class="projektstartseite-page">
 
 <figure class="element image-element element--fullbleed header-image"><img class="image-element__img" src="https://supercomputerstudio.com/clients/hkw-relaunch/content/programm/projekte/lorem-ipsum/naoya_hatakeyama_slow_glass_066_imgsize_buehne.jpeg"><figcaption class="image-element__caption">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</figcaption></figure>
 
@@ -412,6 +416,6 @@ show_kalender_element($calendar_posts);
      </ul>
 
 
-
+</main>
 
 <?php include_once("../../functions/footer.php"); ?>
