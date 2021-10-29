@@ -1,8 +1,7 @@
 <?php
-define("BASE_URL", "http://localhost/hkw-prototypen/");
+//define("BASE_URL", "http://localhost/hkw-prototypen/");
 //define("BASE_URL", "http://localhost:8888/hkw-prototypen/");
-//define("BASE_URL", "https://supercomputerstudio.com/clients/hkw-prototypen/");
-
+define("BASE_URL", "https://supercomputerstudio.com/clients/hkw-prototypen/");
 
 
 ini_set('display_errors', 1);
