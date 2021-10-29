@@ -1,3 +1,4 @@
+/* 2021 10 29 */
 /* 2021 10 21 */
 
 /* 2021 10 20 */
@@ -68,29 +69,27 @@
 }
 
 
-/*
-
-
-to do */
-
-
+/* Abstände Unten*/
 
 .element--abstand-unten1{
   margin-bottom: 5rem;
 }
 @media only screen and (max-width: 1024px) {
-  .element--abstand-unten2{
+  .element--abstand-unten1{
     margin-bottom: 3rem;
   }
 }
+
 .element--abstand-unten2{
   margin-bottom: 10rem;
 }
+
 @media only screen and (max-width: 1024px) {
   .element--abstand-unten2{
     margin-bottom: 6rem;
   }
 }
+
 .element--abstand-unten3{
   margin-bottom: 15rem;
 }
@@ -102,6 +101,7 @@ to do */
 
 
 
+/* Abstände Oben */
 
 .element--abstand-oben2{
   margin-top: 10rem;
@@ -113,8 +113,7 @@ to do */
 }
 
 
-
-/* to do */
+/* Padding Unten */
 
 .element--padding-unten2{
   margin: 0;
@@ -126,35 +125,9 @@ to do */
   }
 }
 
-/* to do */
 
-
-
-
+/* Rand */
 
 .element--rand-oben{
   border-top: 1px solid black;
 }
-
-
-/* kein rand oben wenn davor ein rand unten */
-/* .element--rand-unten+.element--rand-oben{
-  border-top: none;
-}
-
-
-.element--rand-unten{
-  border-bottom: 1px solid black;
-} */
-
-
-/* .element--abstand-links-rechts{
-  margin-left: 2rem;
-  margin-right: 2rem:
-}
-@media only screen and (max-width: 1024px) {
-  .element--abstand-links-rechts{
-    margin-left: 1rem;
-    margin-right: 1rem:
-  }
-} */
