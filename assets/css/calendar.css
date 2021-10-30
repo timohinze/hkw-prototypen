@@ -131,8 +131,9 @@
 	padding-bottom: 0.6rem;
 	font-size: 1.75em;
 	width: 100%;
+	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: 0px;
 	z-index: 9;
 	background: white;
 	border-bottom: 2px solid white;
