@@ -7,8 +7,9 @@
 /*  projektmenu */
 
 .projektmenu-wrap {
+	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: 0px;
 	background: white;
 	z-index: 98;
 	padding-left: 2rem;
