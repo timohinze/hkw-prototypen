@@ -17,7 +17,7 @@ header: <p>13–30. November</p>
 
 column1: <p>Lorem <a href="#">ipsum dolor sit</a> amet, consetetur sadipscing elitr, <a href="#" class="external-link">sed diam nonumy eirmod tempor</a> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 ----
-column2: <p><span class="icon-Livestream"></span> Livestream </p>
+column2: <p><span class="icon-livestream"></span> Livestream </p>
 <p> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p> <p>Lorem Ipsum <span class="icon-eintritt-frei"></span> Kostenfrei</p>
 ----
 column3: <p> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
