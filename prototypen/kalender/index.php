@@ -316,7 +316,7 @@ array(
           'projektfarbe' => "#89B6A5",
           'datum' => "Heute",
           'zeit' => "ab 12h, den ganzen Tag",
-          'ort' => "<span class='icon-Livestream'></span> Livestream",
+          'ort' => "<span class='icon-livestream'></span> Livestream",
           'bild' => "https://www.hkw.de/media/bilder/2021/illiberal_arts/steve_reinke_the_natural_look_imgsize_buehne.jpg",
           'abgesagt' => false,
 
