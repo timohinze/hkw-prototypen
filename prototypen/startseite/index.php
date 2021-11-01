@@ -137,7 +137,7 @@
                <p>Investigative Commons</p>
                <h2 class="programmteaser-kalender-item__title hyphenate">Digital Violence</h2>
                <p>Präsentation: Gespräche und Screenings</p>
-               <p><span class="icon-Livestream"></span> Livestream </p>
+               <p><span class="icon-livestream"></span> Livestream </p>
             </a>
          </div>
          <div class="programmteaser-kalender-item">
@@ -187,7 +187,7 @@
                <img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_02_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
                <h2 class="programmteaser-kalender-item__title hyphenate">Bildungsschock</h2>
                <p>Lernen, Politik und Architektur in den 1960er und 1970er Jahren</p>
-               <p> <span class="icon-Livestream"></span> Livestream </p>
+               <p> <span class="icon-livestream"></span> Livestream </p>
             </a>
          </div>
       </div>
