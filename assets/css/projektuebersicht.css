@@ -1,0 +1,257 @@
+.project__time {
+	margin: 0;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 0.6rem;
+	font-size: 1.75em;
+	line-height: 1.4;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project__time {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+.project-item {
+	position: relative;
+	display: flex;
+	padding: 2rem;
+	border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-item {
+		display: block;
+		padding: 0;
+	}
+}
+
+.project-item__media {
+	margin-right: 2rem;
+	width: 45%;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-item__media {
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+}
+
+.project-item:nth-of-type(even) .project-item__media {
+	order: 2;
+	margin-left: 2rem;
+	margin-right: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-item:nth-of-type(even) .project-item__media {
+		order: unset;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.project-item__text {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-item__text {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-bottom: 1rem;
+	}
+}
+
+.project-item__header {
+	flex-grow: 1;
+}
+
+.project-item__title {
+	font-size: 2.25em;
+	line-height: 1.1;
+	letter-spacing: 0.033em;
+	font-family: "Lyno Stan HKW";
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.project-item__title a {
+	text-decoration: none;
+}
+
+.project-item__title a::after {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: " ";
+}
+
+.project-item a:not(h3 a) {
+	position: relative;
+}
+
+
+/* Filter */
+
+.project-archive-page form {
+	margin: 0;
+}
+
+.project-archive-page fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	min-width: 0;
+}
+
+.project-filter-years {
+	background: #E9F0F5;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 0;
+}
+
+.project-filter {
+	background: #E9F0F5;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 0;
+	border-bottom: 1px solid white;
+}
+
+
+/* Filter Toggle  */
+
+.project-filter-toggle-btn {
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-filter-toggle-btn {
+		display: block;
+	}
+}
+
+.project-filter-years-toggle-btn,
+.project-filter-toggle-btn {
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 0;
+	background: #E9F0F5;
+	border-bottom: 1px solid white;
+}
+
+.project-filter-years-toggle-btn [type="checkbox"]+label,
+.project-filter-toggle-btn [type="checkbox"]+label {
+	cursor: pointer;
+	border: 0.07em solid black;
+	padding-top: 0.75em;
+	padding-bottom: 0.50em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline-block;
+	font-size: 0.85em;
+	text-decoration: none;
+	border-radius: 0.1em;
+	margin-right: 1em;
+	margin-bottom: 1rem;
+}
+
+.project-filter-years-toggle-btn [type="checkbox"]:checked+label,
+.project-filter-toggle-btn [type="checkbox"]:checked+label {
+	background: black;
+	color: white;
+}
+
+.project-filter-years-toggle-btn label span,
+.project-filter-toggle-btn label span {
+	transition: transform .3s;
+	line-height: 1;
+	display: inline-block;
+}
+
+.project-filter-years-toggle-btn [type="checkbox"]:checked+label span,
+.project-filter-toggle-btn [type="checkbox"]:checked+label span {
+	transform: rotate(45deg);
+}
+
+
+/* Filter */
+
+.project-filter-years [type="checkbox"]+label,
+.project-filter [type="checkbox"]+label {
+	cursor: pointer;
+	border: 0.07em solid black;
+	padding-top: 0.55em;
+	padding-bottom: 0.35em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline-block;
+	font-size: 0.85em;
+	text-decoration: none;
+	border-radius: 1.25em;
+	margin-right: 1em;
+	margin-bottom: 1rem;
+	line-height: 1.4;
+}
+
+.project-filter-years [type="checkbox"]:checked+label,
+.project-filter [type="checkbox"]:checked+label {
+	background: black;
+	color: white;
+}
+
+.project-filter-years [type="checkbox"]:checked+label,
+.project-filter [type="checkbox"]:checked+label {
+	fill: white;
+}
+
+.project-filter-years {
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-filter {
+		display: none;
+	}
+}
+
+.project-filter-years #filter__year--all+label {
+	border-radius: 0.1em;
+}
+
+.project-filter-years #filter__year--all:checked+label {
+	background: transparent;
+	color: black;
+}
+
+
+/* hide inputs */
+
+.project-filter-years [type="checkbox"],
+.project-filter [type="checkbox"],
+.project-filter-years-toggle-btn [type="checkbox"],
+.project-filter-toggle-btn [type="checkbox"] {
+	position: absolute!important;
+	width: 1px!important;
+	height: 1px!important;
+	padding: 0!important;
+	border: 0!important;
+	overflow: hidden!important;
+	clip: rect(1px, 1px, 1px, 1px);
+}

@@ -17,5 +17,6 @@
 <script src="../../assets/js/verlauf.js"></script>
 <script src="../../assets/js/kalender.js"></script>
 <script src="../../assets/js/read-more.js"></script>
+<script src="../../assets/js/projektuebersicht.js"></script>
 
 </html>
