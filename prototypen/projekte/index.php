@@ -73,6 +73,7 @@ $project_posts = array(
 
 <main class="project-archive-page">
 
+<div class="project-filter-wrap">
   <div class="project-filter-toggle-btn">
     <form>
         <input type="checkbox" name="show-filter" id="show-filter">
@@ -177,7 +178,7 @@ $project_posts = array(
         </fieldset>
       </form>
     </div>
-
+  </div>
 
 
 
