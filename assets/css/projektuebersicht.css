@@ -123,6 +123,12 @@
 	padding-right: 2rem;
 	padding-bottom: 0;
 }
+@media only screen and (max-width: 1024px) {
+	.project-filter-years {
+    padding-left: 1rem;
+  	padding-right: 1rem;
+	}
+}
 
 .project-filter {
 	background: #E9F0F5;
@@ -133,6 +139,13 @@
 	border-bottom: 1px solid white;
 }
 
+@media only screen and (max-width: 1024px) {
+	.project-filter {
+    padding-left: 1rem;
+  	padding-right: 1rem;
+    padding-top: 1rem;
+	}
+}
 
 /* Filter Toggle  */
 
@@ -154,6 +167,14 @@
 	padding-bottom: 0;
 	background: #E9F0F5;
 	border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-filter-years-toggle-btn,
+  .project-filter-toggle-btn {
+    padding-left: 1rem;
+  	padding-right: 1rem;
+	}
 }
 
 .project-filter-years-toggle-btn [type="checkbox"]+label,
