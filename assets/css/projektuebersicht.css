@@ -105,6 +105,24 @@
 
 /* Filter */
 
+.project-filter-wrap{
+	padding-top: 2rem;
+	background: #E9F0F5;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+	justify-content: space-between;
+	    align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+	.project-filter-wrap{
+		display: block;
+		padding-top: 0;
+	}
+}
+
+
 .project-archive-page form {
 	margin: 0;
 }
@@ -117,11 +135,12 @@
 }
 
 .project-filter-years {
-	background: #E9F0F5;
 	padding-top: 1rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 0;
+	display: none;
+	border-top: 1px solid white;
 }
 @media only screen and (max-width: 1024px) {
 	.project-filter-years {
@@ -130,13 +149,17 @@
 	}
 }
 
+.project-filter-years--open{
+	display: block;
+}
+
 .project-filter {
-	background: #E9F0F5;
-	padding-top: 2rem;
+	/* padding-top: 2rem; */
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 0;
-	border-bottom: 1px solid white;
+	/* border-bottom: 1px solid white; */
+	display: block;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -144,6 +167,11 @@
     padding-left: 1rem;
   	padding-right: 1rem;
     padding-top: 1rem;
+		display: none;
+		border-bottom: 1px solid white;
+	}
+	.project-filter--open{
+		display: block;
 	}
 }
 
@@ -161,19 +189,20 @@
 
 .project-filter-years-toggle-btn,
 .project-filter-toggle-btn {
-	padding-top: 1rem;
+	/* padding-top: 2rem; */
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 0;
-	background: #E9F0F5;
-	border-bottom: 1px solid white;
+	/* border-bottom: 1px solid white; */
 }
 
 @media only screen and (max-width: 1024px) {
   .project-filter-years-toggle-btn,
   .project-filter-toggle-btn {
+		padding-top: 1rem;
     padding-left: 1rem;
   	padding-right: 1rem;
+		border-bottom: 1px solid white;
 	}
 }
 
@@ -189,7 +218,7 @@
 	font-size: 0.85em;
 	text-decoration: none;
 	border-radius: 0.1em;
-	margin-right: 1em;
+	/* margin-right: 1em; */
 	margin-bottom: 1rem;
 }
 
@@ -197,6 +226,7 @@
 .project-filter-toggle-btn [type="checkbox"]:checked+label {
 	background: black;
 	color: white;
+
 }
 
 .project-filter-years-toggle-btn label span,
@@ -242,15 +272,15 @@
 	fill: white;
 }
 
-.project-filter-years {
+/* .project-filter-years {
 	display: none;
-}
+} */
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
 	.project-filter {
 		display: none;
 	}
-}
+} */
 
 .project-filter-years #filter__year--all+label {
 	border-radius: 0.1em;

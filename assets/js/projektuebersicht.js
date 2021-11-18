@@ -1,8 +1,19 @@
 $( "#show-filter-years" ).click(function() {
-  $( ".project-filter-years" ).toggle();
+  if($( ".project-filter-years" ).hasClass("project-filter-years--open")){
+    $( ".project-filter-years" ).removeClass("project-filter-years--open");
+  }else{
+    $( ".project-filter-years" ).addClass("project-filter-years--open");
+  }
 });
+
+
 $( "#show-filter" ).click(function() {
-  $( ".project-filter" ).toggle();
+  if($( ".project-filter" ).hasClass("project-filter--open")){
+    $( ".project-filter" ).removeClass("project-filter--open");
+  }else{
+    $( ".project-filter" ).addClass("project-filter--open");
+  }
+
 });
 
 
