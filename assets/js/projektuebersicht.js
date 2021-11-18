@@ -8,10 +8,10 @@ $( "#show-filter" ).click(function() {
 
  $( "#filter__year--all" ).click(function() {
    if ($(this).prop('checked')) {
-     $( '.project-years input[type="checkbox"]' ).prop( "checked", true );
+     $( '.project-filter-years input[type="checkbox"]' ).prop( "checked", true );
      $(this).next("label").text("Zurücksetzen");
    }else{
-     $( '.project-years input[type="checkbox"]' ).prop( "checked", false );
+     $( '.project-filter-years input[type="checkbox"]' ).prop( "checked", false );
      $(this).next("label").text("Alle Jahre");
 
    }
