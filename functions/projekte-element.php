@@ -14,7 +14,7 @@ function show_projekte_element($project_posts) {
       echo '<div class="project-item__text">';
         echo '<div class="project-item__header">';
           if (!empty($project_post["titel"])) {
-            echo '<h3 class="project-item__title hyphenate"><a href="#prpjektlink">' . $project_post["titel"] . '</a></h3>';
+            echo '<h3 class="project-item__title hyphenate"><a href="#projektlink">' . $project_post["titel"] . '</a></h3>';
           }
           if (!empty($project_post["untertitel"])) {
             echo '<div class="project-item__subtitle hyphenate">' . $project_post["untertitel"] . '</div>';

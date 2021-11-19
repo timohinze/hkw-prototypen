@@ -74,7 +74,6 @@
 .project-item__header {
 	flex-grow: 1;
 	margin-bottom: 1.4rem;
-
 }
 
 .project-item__title {
@@ -104,29 +103,29 @@
 	position: relative;
 }
 
-.project-item__subtitle{
+.project-item__subtitle {
 	font-size: 1.75em;
 	line-height: 1.1;
 }
 
+
 /* Filter */
 
-.project-filter-wrap{
+.project-filter-wrap {
 	padding-top: 2rem;
 	background: #E9F0F5;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	justify-content: space-between;
 }
+
 @media only screen and (max-width: 1024px) {
-	.project-filter-wrap{
+	.project-filter-wrap {
 		display: block;
 		padding-top: 0;
 	}
 }
-
 
 .project-archive-page form {
 	margin: 0;
@@ -147,40 +146,40 @@
 	display: none;
 	border-top: 1px solid white;
 }
+
 @media only screen and (max-width: 1024px) {
 	.project-filter-years {
-    padding-left: 1rem;
-  	padding-right: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
-.project-filter-years--open{
+.project-filter-years--open {
 	display: block;
 }
 
 .project-filter {
-	/* padding-top: 2rem; */
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 0;
-	/* border-bottom: 1px solid white; */
 	display: block;
 	width: 80%;
 }
 
 @media only screen and (max-width: 1024px) {
 	.project-filter {
-    padding-left: 1rem;
-  	padding-right: 1rem;
-    padding-top: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-top: 1rem;
 		display: none;
 		border-bottom: 1px solid white;
 		width: 100%;
 	}
-	.project-filter--open{
+	.project-filter--open {
 		display: block;
 	}
 }
+
 
 /* Filter Toggle  */
 
@@ -196,19 +195,17 @@
 
 .project-filter-years-toggle-btn,
 .project-filter-toggle-btn {
-	/* padding-top: 2rem; */
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 0;
-	/* border-bottom: 1px solid white; */
 }
 
 @media only screen and (max-width: 1024px) {
-  .project-filter-years-toggle-btn,
-  .project-filter-toggle-btn {
+	.project-filter-years-toggle-btn,
+	.project-filter-toggle-btn {
 		padding-top: 1rem;
-    padding-left: 1rem;
-  	padding-right: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 		border-bottom: 1px solid white;
 	}
 }
@@ -225,7 +222,6 @@
 	font-size: 0.85em;
 	text-decoration: none;
 	border-radius: 0.1em;
-	/* margin-right: 1em; */
 	margin-bottom: 1rem;
 }
 
@@ -233,7 +229,6 @@
 .project-filter-toggle-btn [type="checkbox"]:checked+label {
 	background: black;
 	color: white;
-
 }
 
 .project-filter-years-toggle-btn label span,
@@ -278,16 +273,6 @@
 .project-filter [type="checkbox"]:checked+label {
 	fill: white;
 }
-
-/* .project-filter-years {
-	display: none;
-} */
-
-/* @media only screen and (max-width: 1024px) {
-	.project-filter {
-		display: none;
-	}
-} */
 
 .project-filter-years #filter__year--all+label {
 	border-radius: 0.1em;

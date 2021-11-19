@@ -1,4 +1,4 @@
-$( "#show-filter-years" ).click(function() {
+$( ".project-archive-page #show-filter-years" ).click(function() {
   if($( ".project-filter-years" ).hasClass("project-filter-years--open")){
     $( ".project-filter-years" ).removeClass("project-filter-years--open");
   }else{
@@ -7,7 +7,7 @@ $( "#show-filter-years" ).click(function() {
 });
 
 
-$( "#show-filter" ).click(function() {
+$( ".project-archive-page #show-filter" ).click(function() {
   if($( ".project-filter" ).hasClass("project-filter--open")){
     $( ".project-filter" ).removeClass("project-filter--open");
   }else{
@@ -17,7 +17,7 @@ $( "#show-filter" ).click(function() {
 });
 
 
- $( "#filter__year--all" ).click(function() {
+ $( ".project-archive-page #filter__year--all" ).click(function() {
    if ($(this).prop('checked')) {
      $( '.project-filter-years input[type="checkbox"]' ).prop( "checked", true );
      $(this).next("label").text("Zurücksetzen");
