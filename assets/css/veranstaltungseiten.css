@@ -1,0 +1,41 @@
+/* .veranstaltungsseite-page h1{
+  background: yellow;
+} */
+
+
+.veranstaltungsseite-program{
+
+
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .veranstaltungsseite-program .program__day-group{
+    width: calc(50% - 1rem);
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 1.4rem;
+  }
+.veranstaltungsseite-program .program__item{
+  margin-bottom: 1.4rem;
+}
+
+
+
+.veranstaltungsseite-program  .program__date{
+  font-size: 1.75em;
+  margin-bottom: 1.4rem;
+}
+
+.veranstaltungsseite-program  .program__time{
+  font-size: 1.75em;
+}
+
+
+.veranstaltungsseite-program  .program__title{
+  margin-bottom: 0;
+  font-size: 1em;
+  font-size: 1.75em;
+
+}

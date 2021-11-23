@@ -1,0 +1,159 @@
+.service-info-element__columns{
+  font-size: var(--textsize0);
+  line-height: 1.4;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-info-element__columns{
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.service-info-element__column{
+  width: 33%;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-info-element__column{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+  .service-info-element__column:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.service-info-element__header{
+  padding-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
+  font-size: 100%;
+  border-bottom: 2px solid white;
+}
+
+.service-info-element__header p {
+  font-size: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+  .service-info-element__header p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.service-info-element__header button {
+  font-size: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-info-element__header button{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.service-info-element__header ul li{
+  font-size: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: 33% 33%;
+  padding-top: 0.8em;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.4em;
+  border-top: 1px solid white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-info-element__header ul li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    grid-template-columns: 75% 25%;
+  }
+}
+
+
+
+
+/* Update 22.Nov */
+
+/* Multiline */
+.service-info-element--multiline .service-info-element__columns{
+  padding-bottom: 1.4em;
+  margin-bottom: 1.4em;
+  border-bottom: 1px solid white;
+}
+.service-info-element--multiline .service-info-element__columns:last-of-type{
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* accordion in service info */
+.service-info-element__accordion-header{
+  width: 100%;
+  background: fuchsia;
+}
+
+/* button für accordion */
+.service-info-element__toggle-btn{
+  margin-left: auto;
+  margin-right: 0;
+}
+.service-info-element__toggle-btn button {
+	cursor: pointer;
+	background: transparent;
+	font-size: 1em;
+	line-height: 1.4;
+	border: none;
+	height: 1.5em;
+	width: 1.5em;
+	position: relative;
+}
+
+.service-info-element__toggle-btn button:after,
+.service-info-element__toggle-btn button:before {
+		content: "";
+		display: block;
+		background-color: black;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+.service-info-element__toggle-btn button::before {
+		height: 100%;
+		width: 3px;
+	}
+
+.service-info-element__toggle-btn button::after {
+  height: 3px;
+  width: 100%;
+}
+
+
+
+
+.service-info-element__column--accordion-open{
+display: block!important;
+}
+
+.service-info-element__toggle-btn.open button::before{
+  display: none;
+}
+
+
+/* .multiteaser-item--accordion-open .multiteaser__toggle-btn button:before {
+  display: none;
+} */

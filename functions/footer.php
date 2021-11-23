@@ -19,4 +19,7 @@
 <script src="../../assets/js/read-more.js"></script>
 <script src="../../assets/js/projektuebersicht.js"></script>
 
+<script src="../../assets/js/multiteaser.js"></script>
+<script src="../../assets/js/serviceinfo.js"></script>
+
 </html>

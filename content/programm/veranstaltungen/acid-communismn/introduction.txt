@@ -1,0 +1,13 @@
+column1: <figure><img src="https://www.hkw.de/media/bilder/2021/acid_communism/autonmia_mask_e-flux_imgsize_M.jpg" alt="Lorem"/>
+</figure>
+----
+column2:
+<p>Inwiefern leben die vergessenen Utopien der 1960er und 70er Jahre im 21. Jahrhundert weiter? Und unter welchen materiellen und psychologischen Bedingungen konnten sie entstehen?</p>
+
+<p>Die Konferenz widmet sich der Geschichte und Gegenwart von Gegen- und Subkulturen. Theoretisch, künstlerisch und praxisorientiert setzen sich die Beitragenden mit der Idee des „Acid Communism“ auseinander, wie sie im Fragment des 2017 verstorbenen Theoretikers Mark Fisher artikuliert wurde. Das „Acid“ bezieht sich dabei auf die psychedelische Kultur der späten 60er und frühen 70er Jahre des 20. Jahrhunderts samt ihrer bewusstseinsverändernden Wirkung.</p>
+
+<p>Kuratiert von Pascal Jurt und Christian Werthschulte</p>
+
+<p>Mit Bernd Cailloux, Diedrich Diederichsen, Jeremy Gilbert, Owen Hatherley, Helen Hester, Nadia Idle, Keir Milburn, Maurizio Lazzarato, Cord Riechelmann, Barbara Sichtermann, McKenzie Wark, Alex Williams, Nona Willis Aronowitz u. a.</p>
+----
+classes:
