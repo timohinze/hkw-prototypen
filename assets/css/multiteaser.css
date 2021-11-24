@@ -7,7 +7,9 @@
 .multiteaser__title{
   margin-bottom: 0.25rem;
 }
-
+.multiteaser__text{
+  max-width: 40em;
+}
 
 .multiteaser__header{
   font-size: 1.75em;
@@ -51,9 +53,8 @@
     margin-right: 0;
   }
 }
-.multiteaser__title{
-  font-size: 1.75em;
-
+.multiteaser__title {
+    font-size: 1.75em;
 }
 
 /* .multiteaser__topline{
@@ -80,6 +81,15 @@
 } */
 .multiteaser-item--accordion .multiteaser__topline{
 margin-bottom: 0.1rem;
+}
+
+
+
+.multiteaser-item--accordion .multiteaser__title {
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
@@ -121,7 +131,7 @@ overflow: inherit;
 }
 @media only screen and (max-width: 1024px) {
  .multiteaser-item--accordion-open .multiteaser__content {
-   flex-direction: column;
+   /* flex-direction: column; */
  }
 }
 
@@ -132,7 +142,7 @@ overflow: inherit;
 @media only screen and (max-width: 1024px) {
  .multiteaser-item--accordion-open .multiteaser__media {
    margin-right: 0;
-   width: 100%;
+   width: calc(100% - 3rem);
  }
 }
 
@@ -144,8 +154,22 @@ overflow: inherit;
 @media only screen and (max-width: 1024px) {
  .multiteaser-item--accordion-open .multiteaser__text-wrap {
    width: 100%;
+   order: 3;
  }
 }
+
+.multiteaser-item--accordion-open .multiteaser__content{
+max-height: none;
+overflow: inherit;
+
+}
+
+.multiteaser-item--accordion-open .multiteaser__title{
+overflow: inherit;
+    text-overflow:inherit;
+    white-space: normal;
+}
+
 
 
 
@@ -157,15 +181,25 @@ display: block!important;
 .multiteaser__toggle-btn{
   margin-left: auto;
   margin-right: 0;
+  display: none;
 }
+
+@media only screen and (max-width: 1024px) {
+  .multiteaser__toggle-btn{
+    order: 2;
+  }
+}
+
+
+
 .multiteaser__toggle-btn button {
 	cursor: pointer;
 	background: transparent;
 	font-size: 1em;
 	line-height: 1.4;
 	border: none;
-	height: 1.5em;
-	width: 1.5em;
+	height: 1em;
+	width: 1em;
 	position: relative;
 }
 
