@@ -1,12 +1,44 @@
 
 /* generelles styling */
 
+.multiteaser__headline{
+width: 100%;
+ font-size: 1.75em;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+}
+@media only screen and (max-width: 1024px) {
+  .multiteaser__headline {
+  	padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.multiteaser__content{
+  position: relative;
+}
 .multiteaser__topline{
   margin-bottom: 0.25rem;
 }
 .multiteaser__title{
   margin-bottom: 0.25rem;
 }
+
+.multiteaser__title a::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: " ";
+}
+
+.multiteaser__content a:not(.multiteaser__title a) {
+	position: relative;
+}
+
+
 .multiteaser__text{
   max-width: 40em;
 }
@@ -51,6 +83,7 @@
   .multiteaser__media {
   	width: 100%;
     margin-right: 0;
+    margin-bottom: 0.5rem
   }
 }
 .multiteaser__title {
@@ -92,8 +125,16 @@ margin-bottom: 0.1rem;
     white-space: nowrap;
 }
 
+.multiteaser-item--accordion .multiteaser__title a{
+ pointer-events: none;
+}
 
-.multiteaser-item--accordion .multiteaser__content{
+
+
+
+/* javascript aktiviert */
+
+.multiteaser-item--accordion-js .multiteaser__content{
   max-height: 4.6rem;
   overflow: hidden;
   padding-top: 1rem;
@@ -263,7 +304,7 @@ padding-top: 0;
 .multiteaser-element--row .multiteaser__media{
 width:100%;
 margin-right: 0;
-margin-bottom: 0.25rem;
+margin-bottom: 0.5rem;
 }
 
 .multiteaser-element--row .multiteaser__text-wrap{
