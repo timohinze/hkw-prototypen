@@ -65,7 +65,40 @@ $project_posts = array(
             'typ' => "Installationen",
             'information' => "Lorem Ipsum",
             'laufzeit' => "Mai&ndash;Oktober 2020"
+        ),
+        array(
+            'titel' => "transmediale 2020 End to End",
+            'projektfarbe' => "#FEE5DB",
+            'bild' => "",
+            'typ' => "Ausstellung, Konferenzen",
+            'information' => "",
+            'laufzeit' => "28.1.&ndash;1.3.2020"
+        ),
+        array(
+            'titel' => "On Music",
+            'projektfarbe' => "#CDD8D8",
+            'bild' => "",
+            'typ' => "Panels, Konzerte, DJ-Sets, Podcast",
+            'information' => "In Kooperation mit <a href='http://google.com'>Lorem Ipsum Dolor</a> Est Lorem Ipsum Dolor Est Lorem Ipsum Dolor Est",
+            'laufzeit' => "Bis 2022"
+        ),
+        array(
+            'titel' => "Alphabet Readings",
+            'projektfarbe' => "#C2DDE6",
+            'bild' => "https://www.hkw.de/media/bilder/2020/alphabet_readings_1/metahaven_possessed_imgsize_buehne.jpg",
+            'typ' => "Literaturreihe",
+            'information' => "",
+            'laufzeit' => "2019&ndash;2022"
+        ),
+        array(
+            'titel' => "The Broken Archive",
+            'projektfarbe' => "#F3D7CF",
+            'bild' => "https://supercomputerstudio.com/clients/hkw-relaunch/content/programm/projekte/the-broken-archive/the-broken-archive.jpg",
+            'typ' => "Online-Reihe: Vorträge, Diskussionen",
+            'information' => "",
+            'laufzeit' => "2020/2021"
         )
+
       )
 
 

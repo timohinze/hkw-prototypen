@@ -32,13 +32,15 @@
 .project-item__media {
 	margin-right: 2rem;
 	width: 45%;
+	flex-grow: 1;
+flex-shrink: 0;
 }
 
 @media only screen and (max-width: 1024px) {
 	.project-item__media {
 		margin-right: 0;
 		width: 100%;
-		margin-bottom: 1rem;
+		margin-bottom: 0;
 	}
 }
 
@@ -59,7 +61,8 @@
 .project-item__text {
 	display: flex;
 	flex-direction: column;
-	width: 55%;
+	/* width: 55%; */
+	flex-grow: 1;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -68,6 +71,7 @@
 		padding-left: 1rem;
 		padding-right: 1rem;
 		padding-bottom: 1.5rem;
+		padding-top: 1rem;
 	}
 }
 
@@ -85,6 +89,8 @@
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 }
+
+
 
 .project-item__title a {
 	text-decoration: none;
