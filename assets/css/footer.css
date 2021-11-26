@@ -1,9 +1,126 @@
-footer{
+.page-footer ::selection{
+    color: black;
+}
+
+
+
+.page-footer a{
+  color: white;
+}
+
+.page-footer-gradient{
   position: relative;
   z-index: 2;
-  font-size: 0.78em;
+  font-size: 1em;
   color: white;
-  background: #121212;
-  min-height: 600px;
-  padding: 2em;
+  padding: 2rem;
+}
+
+
+
+.page-footer-gradient::before {
+    background: transparent linear-gradient(
+180deg, rgba(255, 255, 255, 0) 0%, #5102C1 1rem, #5102C1 calc(100% - 6rem), rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: calc(100% + 7rem);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+
+.page-footer-menu{
+  display: flex;
+}
+
+.page-footer-menu-column__header{
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
+.page-footer-submenu li a{
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+  display: block;
+}
+
+
+
+
+
+
+.page-footer-menu-column{
+  width: 25%;
+}
+
+
+
+
+
+
+.page-footer-adress{
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  font-size: 1.75em;
+}
+
+
+.page-footer-social{
+  display: flex;
+}
+
+.page-footer-social__item{
+  width: 25%;
+}
+
+
+.page-footer-social .link-button {
+    font-size: 1.5em;
+    border: 2px solid white;
+    min-width: 7em;
+    text-align: center;
+}
+
+.page-footer-social .link-button:hover{
+  background: unset;
+}
+
+
+.page-footer-media{
+  z-index: 0;
+width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.page-footer-media img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: 50% 50%;
+display: block;
+}
+
+
+/*
+verienheitlichen ––– */
+.page-footer__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.page-footer__logo svg{
+fill: white;
+width: 100%;
+height: auto;
 }
