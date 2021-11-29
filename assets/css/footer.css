@@ -3,29 +3,33 @@
 }
 
 
+.page-footer{
+  margin-top: 20rem;
+}
+
 
 .page-footer a{
-  color: white;
+  color: black;
 }
 
 .page-footer-gradient{
   position: relative;
   z-index: 2;
   font-size: 1em;
-  color: white;
+  color: black;
   padding: 2rem;
 }
 
 
 .page-footer-gradient::before {
     background: transparent linear-gradient(
-180deg, rgba(255, 255, 255, 0) 0%, #5102C1 1rem, #5102C1 calc(100% - 6rem), rgba(255, 255, 255, 0) 100%);
+180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 8rem, #CCDAE3 calc(100% - 6rem), rgba(255, 255, 255, 0) 100%);
     position: absolute;
     content: " ";
     width: 100%;
-    height: calc(100% + 7rem);
+    height: calc(100% + 17rem);
     z-index: -1;
-    top: -1rem;
+    top: -8rem;
     left: 0;
     right: 0;
     pointer-events: none;
@@ -75,14 +79,14 @@
 
 .page-footer-social .link-button {
     font-size: 1.5em;
-    border: 2px solid white;
+    border: 2px solid black;
     min-width: 7em;
     text-align: center;
 }
 
 .page-footer-social .link-button:hover{
-  background: white;
-  color: #5102C1;
+  background: black;
+  color: white;
 }
 
 
