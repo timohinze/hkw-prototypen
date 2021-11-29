@@ -71,7 +71,7 @@
             </div>
             <div class="scroll-buhne-item__text">
                <h2 class="scroll-buhne-item__title balance-text hyphenate">The Sound of Distance </h2>
-               <p class="scroll-buhne-item__subtitle hyphenate balance-text ">Neue Ideen für Musik, Raum und Architektur Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung</p>
+               <p class="scroll-buhne-item__subtitle hyphenate balance-text ">Neue Ideen für Musik, Raum und Architektur</p>
                <p class="balance-text">Wäre das HKW ein einziges großes Instrument – wie würde es klingen? Das viertägige Festival <i>The Sound of Distance</i> nimmt diese Frage ernst und sucht Antworten im erweiterten Resonanzraum. </p>
                <p class="balance-text">	Konzerte, Klanginstallationen, Talks <span class="icon-separator"></span>  <span class="nobr">21.–24.10.2021</span></p>
             </div>
@@ -202,7 +202,7 @@
               </div>
               <div class="teaser-item__text">
                  <p class="teaser-item__topline">23. September <span class="icon-separator"></span> Präsentation: Gespräche und Screenings</p>
-                 <h2 class="teaser-item__title hyphenate">Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung</h2>
+                 <h2 class="teaser-item__title hyphenate">Digital Violence Investigative Commons</h2>
                  <p>Mit Forensic Architecture, ECCHR, Laura Poitras, Edward Snowden u.v.a. Präsentation: Gespräche und Screenings</p>
                  <p> Wie kann eine Spyware Staatsterrorismus ermöglichen? Forensic Architecture u. a. präsentieren im HKW erstmals eine neue Untersuchung zur globalen Landschaft der Cyber-Überwachung von Menschenrechtler*innen der Öffentlichkeit – und zeigen damit, wie die Arbeit kollaborativer Recherchenetzwerke in der Praxis funktioniert. Mit Laura Poitras, Eyal Weizman, Edward Snowden u.v.a. </p>
               </div>
