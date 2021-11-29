@@ -3,7 +3,7 @@
 } */
 
 
-.veranstaltungsseite-program{
+.veranstaltungsseite-schedule{
 
 
       display: flex;
@@ -11,12 +11,12 @@
     flex-direction: column;
   }
 
-.veranstaltungsseite-program .program__header{
+.veranstaltungsseite-schedule .schedule__headline{
   margin-bottom: 1.4rem;
 }
 
 
-  .veranstaltungsseite-program .program__day-group{
+  .veranstaltungsseite-schedule .schedule__day-group{
     width: calc(50% - 1rem);
     margin-left: auto;
     margin-right: 0;
@@ -24,24 +24,24 @@
   }
 
   @media only screen and (max-width: 840px) {
-   .veranstaltungsseite-program .program__day-group {
+   .veranstaltungsseite-schedule .schedule__day-group {
      width: 100%;
    }
   }
 
 
-.veranstaltungsseite-program .program__item{
+.veranstaltungsseite-schedule .schedule-item{
   margin-bottom: 1.4rem;
 }
 
 
 
-.veranstaltungsseite-program  .program__date{
+.veranstaltungsseite-schedule  .schedule__date{
   font-size: 1.75em;
   margin-bottom: 1.4rem;
 }
 @media only screen and (max-width: 1024px) {
-  .veranstaltungsseite-program  .program__date{
+  .veranstaltungsseite-schedule  .schedule__date{
     font-size: 1.5em;
   }
 }
@@ -49,16 +49,16 @@
 
 
 
-.veranstaltungsseite-program  .program__time{
+.veranstaltungsseite-schedule  .schedule-item__time{
   font-size: 1.75em;
 }
 @media only screen and (max-width: 1024px) {
-  .veranstaltungsseite-program  .program__time{
+  .veranstaltungsseite-schedule  .schedule-item__time{
     font-size: 1.5em;
   }
 }
 
-.veranstaltungsseite-program  .program__title{
+.veranstaltungsseite-schedule  .schedule-item__title{
   margin-bottom: 0;
   font-size: 1em;
   font-size: 1.75em;
@@ -66,7 +66,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .veranstaltungsseite-program  .program__title{
+  .veranstaltungsseite-schedule  .schedule-item__title{
     font-size: 1.5em;
   }
 }

@@ -68,8 +68,8 @@ $linkrail = array (
 
 <?php show_two_column_element("../../content/programm/veranstaltungen/acid-communismn/introduction.txt"); ?>
 
-<div class="element program veranstaltungsseite-program">
- <h2 class="program__header">Programm Acid Communism</h2>
+<div class="element schedule veranstaltungsseite-schedule">
+ <h2 class="schedule__headline">Programm Acid Communism</h2>
 
 <?php
 $calendar_posts = array(
@@ -130,172 +130,9 @@ $calendar_posts = array(
      )
 );
 
-show_veranstaltungsseiten_program_element($calendar_posts);
+show_veranstaltungsseiten_schedule_element($calendar_posts);
 ?>
 </div>
-<!--
-
-<div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 super-text-media-element">
-      <div class="super-text-media-item super-text-media-item--small element--padding-unten2 add-gradient add-gradient--visible">
-         <div class="super-text-media-item__media">
-            <div class="video-player-wrap">
-               <button class="video-player__play-button"></button>
-               <img src="https://picsum.photos/800/450" alt="Lorem Ipsum" class="landscape">
-            </div>
-         </div>
-         <div class="super-text-media-item__text">
-            <h3 class="super-text-media-item__title  hyphenate">Film Titel</h3>
-         </div>
-      </div>
-
-      <div class="super-text-media-item super-text-media-item--small element--padding-unten2 add-gradient add-gradient--visible">
-         <div class="super-text-media-item__media">
-            <div class="video-player-wrap">
-               <button class="video-player__play-button"></button>
-               <img src="https://picsum.photos/1600/900" alt="Lorem Ipsum" class="landscape">
-            </div>
-         </div>
-         <div class="super-text-media-item__text">
-            <h3 class="super-text-media-item__title  hyphenate">Film Titel</h3>
-         </div>
-      </div>
-
-
-   </div>
-
-
-
-
-
-
-   <div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element">
-     <div class="multiteaser-item">
-       <div class="multiteaser__header">Am gleichen Abend</div>
-       <div class="multiteaser__content" style="background: #FFE3E9">
-         <div class="multiteaser__media">
-           <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-         </div>
-         <div class="multiteaser__text-wrap">
-           <div class="multiteaser__topline"> topline</div>
-           <div class="multiteaser__title">Title Lorem Ipsum</div>
-           <div class="multiteaser__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
-         </div>
-     </div>
-     </div>
- </div>
-
-
-
-
-<br><br> -->
-
-<div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element">
-  <div class="multiteaser-item">
-    <div class="multiteaser__header">Am gleichen Abend</div>
-    <div class="multiteaser__content" style="background: #FFE3E9">
-      <div class="multiteaser__media">
-        <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-      </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> topline</div>
-        <div class="multiteaser__title">Title Lorem Ipsum</div>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-      </div>
-  </div>
-  </div>
-  <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #FFE3E9">
-      <div class="multiteaser__media">
-        <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-      </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> topline</div>
-        <div class="multiteaser__title">Title Lorem Ipsum</div>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-      </div>
-  </div>
-  </div>
-
-
-</div>
-
-
-
-
-<br><br>
-
-<div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element">
-  <div class="multiteaser-item multiteaser-item--accordion">
-    <div class="multiteaser__header">Am gleichen Abend</div>
-    <div class="multiteaser__content" style="background: #FFE3E9">
-      <div class="multiteaser__media">
-        <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-      </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
-        <div class="multiteaser__title">Title Lorem Ipsum</div>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-      </div>
-      <!-- accordion braucht button -->
-      <div class="multiteaser__toggle-btn">
-          <button aria-label="Read more"></button>
-  </div>
-
-  </div>
-  </div>
-  <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #FFE3E9">
-      <div class="multiteaser__media">
-        <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-      </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> topline</div>
-        <div class="multiteaser__title">Title Lorem Ipsum</div>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-      </div>
-  </div>
-  </div>
-
-
-</div>
-
-
-<br><br>
-spalten<br><br>
-
-<div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element--row add-gradient">
-  <div class="multiteaser-item">
-    <div class="multiteaser__header">Am gleichen Abend</div>
-    <div class="multiteaser__content" style="background: #FFE3E9">
-      <div class="multiteaser__media">
-        <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-      </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> topline</div>
-        <div class="multiteaser__title">Title Lorem Ipsum</div>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-      </div>
-  </div>
-  </div>
-  <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #FFE3E9">
-      <div class="multiteaser__media">
-        <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
-      </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> topline</div>
-        <div class="multiteaser__title">Title Lorem Ipsum</div>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-      </div>
-  </div>
-  </div>
-
-
-</div>
-
 
 </main>
 <?php include_once("../../functions/footer.php"); ?>

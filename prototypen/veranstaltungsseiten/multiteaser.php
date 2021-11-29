@@ -59,41 +59,41 @@ $linkrail = array (
   <h2 class="multiteaser__headline">Weitere Veranstaltungen</h2>
 
   <div class="multiteaser-item">
-    <div class="multiteaser__header">Am gleichen Abend</div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header">Am gleichen Abend</div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/800/600" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> topline</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline"> topline</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
   </div>
   </div>
   <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header"></div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
   </div>
   </div>
   <div class="multiteaser-item">
-    <div class="multiteaser__header">Lorem Ipsum</div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header">Lorem Ipsum</div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/900/800" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <a href="http://google.de">labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit</a> amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <a href="http://google.de">labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit</a> amet.</p></div>
       </div>
   </div>
   </div>
@@ -106,15 +106,15 @@ $linkrail = array (
   <h2 class="multiteaser__headline">Weitere Veranstaltungen</h2>
 
   <div class="multiteaser-item multiteaser-item--accordion">
-    <div class="multiteaser__header">Am gleichen Abend</div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header">Am gleichen Abend</div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
       <!-- accordion braucht button -->
       <div class="multiteaser__toggle-btn">
@@ -123,15 +123,15 @@ $linkrail = array (
   </div>
   </div>
   <div class="multiteaser-item multiteaser-item--accordion">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header"></div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/1000/600" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
       <!-- accordion braucht button -->
       <div class="multiteaser__toggle-btn">
@@ -140,15 +140,15 @@ $linkrail = array (
   </div>
   </div>
   <div class="multiteaser-item multiteaser-item--accordion">
-    <div class="multiteaser__header">Lorem Ipsum</div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header">Lorem Ipsum</div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/600/900" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
       <!-- accordion braucht button -->
       <div class="multiteaser__toggle-btn">
@@ -159,15 +159,15 @@ $linkrail = array (
 
 
   <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header"></div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/1000/600" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
   </div>
   </div>
@@ -182,41 +182,41 @@ $linkrail = array (
   <h2 class="multiteaser__headline">Weitere Veranstaltungen</h2>
 
   <div class="multiteaser-item">
-    <div class="multiteaser__header">Am gleichen Abend</div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header">Am gleichen Abend</div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/1000/700" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
   </div>
   </div>
   <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header"></div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/900/600" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
   </div>
   </div>
   <div class="multiteaser-item">
-    <div class="multiteaser__header"></div>
-    <div class="multiteaser__content" style="background: #CCDAE3">
-      <div class="multiteaser__media">
+    <div class="multiteaser-item__header"></div>
+    <div class="multiteaser-item__content" style="background: #CCDAE3">
+      <div class="multiteaser-item__media">
         <img src="https://picsum.photos/1000/800" alt="Lorem Ipsum">
       </div>
-      <div class="multiteaser__text-wrap">
-        <div class="multiteaser__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
-        <h3 class="multiteaser__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+      <div class="multiteaser-item__text-wrap">
+        <div class="multiteaser-item__topline">  19.7.2019 <span class="icon-separator"></span> Film</div>
+        <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
       </div>
   </div>
   </div>
