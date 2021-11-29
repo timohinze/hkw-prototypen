@@ -15,17 +15,17 @@ width: 100%;
   }
 }
 
-.multiteaser__content{
+.multiteaser-item__content{
   position: relative;
 }
-.multiteaser__topline{
+.multiteaser-item__topline{
   margin-bottom: 0.25rem;
 }
-.multiteaser__title{
+.multiteaser-item__title{
   margin-bottom: 0.25rem;
 }
 
-.multiteaser__title a::after {
+.multiteaser-item__title a::after {
     position: absolute;
     left: 0;
     right: 0;
@@ -34,33 +34,33 @@ width: 100%;
     content: " ";
 }
 
-.multiteaser__content a:not(.multiteaser__title a) {
+.multiteaser-item__content a:not(.multiteaser-item__title a) {
 	position: relative;
 }
 
 
-.multiteaser__text{
+.multiteaser-item__text{
   max-width: 40em;
 }
 
-.multiteaser__header{
+.multiteaser-item__header{
   font-size: 1.75em;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 0.6rem;
 }
 @media only screen and (max-width: 1024px) {
-  .multiteaser__header {
+  .multiteaser-item__header {
   	padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 
 
-.multiteaser__header:empty{
+.multiteaser-item__header:empty{
   display: none;
 }
-.multiteaser__content{
+.multiteaser-item__content{
   display: flex;
   padding: 2rem;
   flex-wrap: wrap;
@@ -69,38 +69,38 @@ width: 100%;
   border-bottom: 1px solid white;
 }
 @media only screen and (max-width: 1024px) {
-  .multiteaser__content {
+  .multiteaser-item__content {
   	display: flex;
     padding: 1rem;
   }
 }
 
-.multiteaser__media{
+.multiteaser-item__media{
   margin-right: 2rem;
   width: 20rem;
 }
 @media only screen and (max-width: 1024px) {
-  .multiteaser__media {
+  .multiteaser-item__media {
   	width: 100%;
     margin-right: 0;
     margin-bottom: 0.5rem
   }
 }
-.multiteaser__title {
+.multiteaser-item__title {
     font-size: 1.75em;
 }
 
-/* .multiteaser__topline{
+/* .multiteaser-item__topline{
   width: 100%;
 }
-.multiteaser__title{
+.multiteaser-item__title{
   width: 100%;
 } */
-.multiteaser__text-wrap{
+.multiteaser-item__text-wrap{
   width: calc(100% - 22rem);
 }
 @media only screen and (max-width: 1024px) {
-  .multiteaser__text-wrap {
+  .multiteaser-item__text-wrap {
   	width: 100%;
   }
 }
@@ -108,24 +108,24 @@ width: 100%;
 
 /* accordion version */
 
-/* .multiteaser-item--accordion .multiteaser__content{
+/* .multiteaser-item--accordion .multiteaser-item__content{
   width: 10em;
   margin-right: 1rem;
 } */
-.multiteaser-item--accordion .multiteaser__topline{
+.multiteaser-item--accordion .multiteaser-item__topline{
 margin-bottom: 0.1rem;
 }
 
 
 
-.multiteaser-item--accordion .multiteaser__title {
+.multiteaser-item--accordion .multiteaser-item__title {
     text-overflow: ellipsis;
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
 }
 
-.multiteaser-item--accordion .multiteaser__title a{
+.multiteaser-item--accordion .multiteaser-item__title a{
  pointer-events: none;
 }
 
@@ -134,78 +134,78 @@ margin-bottom: 0.1rem;
 
 /* javascript aktiviert */
 
-.multiteaser-item--accordion-js .multiteaser__content{
+.multiteaser-item--accordion-js .multiteaser-item__content{
   max-height: 4.6rem;
   overflow: hidden;
   padding-top: 1rem;
 }
 
 
-.multiteaser-item--accordion .multiteaser__media{
+.multiteaser-item--accordion .multiteaser-item__media{
   width: 10em;
   margin-right: 1rem;
 
 }
 
 @media only screen and (max-width: 1024px) {
-  .multiteaser-item--accordion .multiteaser__media {
+  .multiteaser-item--accordion .multiteaser-item__media {
   	width: 20%;
   }
 }
 
-.multiteaser-item--accordion .multiteaser__text-wrap{
+.multiteaser-item--accordion .multiteaser-item__text-wrap{
   /* width: calc(100% - 12rem); */
 
 width: calc(100% - 20rem);
 }
  @media only screen and (max-width: 1024px) {
-  .multiteaser-item--accordion .multiteaser__text-wrap {
+  .multiteaser-item--accordion .multiteaser-item__text-wrap {
     width: calc(80% - 6rem);
   }
 }
 
 /* open accordion */
-.multiteaser-item--accordion-open .multiteaser__content{
+.multiteaser-item--accordion-open .multiteaser-item__content{
 max-height: none;
 overflow: inherit;
 
 }
 @media only screen and (max-width: 1024px) {
- .multiteaser-item--accordion-open .multiteaser__content {
+ .multiteaser-item--accordion-open .multiteaser-item__content {
    /* flex-direction: column; */
  }
 }
 
-.multiteaser-item--accordion-open .multiteaser__media{
+.multiteaser-item--accordion-open .multiteaser-item__media{
   margin-right: 2rem;
   width: 20rem;
 }
 @media only screen and (max-width: 1024px) {
- .multiteaser-item--accordion-open .multiteaser__media {
+ .multiteaser-item--accordion-open .multiteaser-item__media {
    margin-right: 0;
    width: calc(100% - 3rem);
  }
 }
 
 
-.multiteaser-item--accordion-open .multiteaser__text-wrap{
+.multiteaser-item--accordion-open .multiteaser-item__text-wrap{
   width: calc(100% - 25rem);
 }
 
 @media only screen and (max-width: 1024px) {
- .multiteaser-item--accordion-open .multiteaser__text-wrap {
+ .multiteaser-item--accordion-open .multiteaser-item__text-wrap {
    width: 100%;
    order: 3;
  }
 }
 
-.multiteaser-item--accordion-open .multiteaser__content{
+.multiteaser-item--accordion-open .multiteaser-item__content{
 max-height: none;
 overflow: inherit;
 
 }
 
-.multiteaser-item--accordion-open .multiteaser__title{
+.multiteaser-item--accordion-open .multiteaser-item__title{
 overflow: inherit;
     text-overflow:inherit;
     white-space: normal;
@@ -214,7 +214,7 @@ overflow: inherit;
 
 
 
-.multiteaser-item--accordion-open .multiteaser__text{
+.multiteaser-item--accordion-open .multiteaser-item__text{
 display: block!important;
 }
 
@@ -294,26 +294,26 @@ display: block!important;
 }
 
 
-.multiteaser-element--row .multiteaser__content{
+.multiteaser-element--row .multiteaser-item__content{
 background: none!important;
 flex-direction: column;
 border: none;
 padding-top: 0;
 }
 
-.multiteaser-element--row .multiteaser__media{
+.multiteaser-element--row .multiteaser-item__media{
 width:100%;
 margin-right: 0;
 margin-bottom: 0.5rem;
 }
 
-.multiteaser-element--row .multiteaser__text-wrap{
+.multiteaser-element--row .multiteaser-item__text-wrap{
 width: auto;
 }
 
-.multiteaser-element--row .multiteaser__header{
+.multiteaser-element--row .multiteaser-item__header{
 min-height: 2.1em;
 }
-.multiteaser-element--row .multiteaser__header:empty{
+.multiteaser-element--row .multiteaser-item__header:empty{
 display: block;
 }
