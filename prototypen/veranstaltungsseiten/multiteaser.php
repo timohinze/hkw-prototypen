@@ -56,7 +56,7 @@ $linkrail = array (
 
 
 <div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element">
-  <h2 class="multiteaser__headline">Weitere Veranstaltungen</h2>
+  <h2 class="multiteaser__headline" style="background: #CCDAE3">Weitere Veranstaltungen</h2>
 
   <div class="multiteaser-item">
     <div class="multiteaser-item__header">Am gleichen Abend</div>
@@ -103,7 +103,7 @@ $linkrail = array (
 
 
 <div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element">
-  <h2 class="multiteaser__headline">Weitere Veranstaltungen</h2>
+  <h2 class="multiteaser__headline" style="background: #CCDAE3">Weitere Veranstaltungen</h2>
 
   <div class="multiteaser-item multiteaser-item--accordion">
     <div class="multiteaser-item__header">Am gleichen Abend</div>
@@ -114,7 +114,13 @@ $linkrail = array (
       <div class="multiteaser-item__text-wrap">
         <div class="multiteaser-item__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
         <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Title Lorem Ipsum</a></h3>
-        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <!-- accordion braucht cta link -->
+        <p><a target="_blank" class="link-button external-link" href="http://google.de">Call to Action Button Style</a></p>
+
+
+        </div>
+
       </div>
       <!-- accordion braucht button -->
       <div class="multiteaser__toggle-btn">
@@ -131,7 +137,13 @@ $linkrail = array (
       <div class="multiteaser-item__text-wrap">
         <div class="multiteaser-item__topline"> 19.7.2019 <span class="icon-separator"></span> Film</div>
         <h3 class="multiteaser-item__title"><a href="#veranstlungslink">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</a></h3>
-        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
+        <div class="multiteaser-item__text"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <!-- accordion braucht cta link -->
+        <p><a class="external-link" target="_blank" href="http://google.de">Call to Action Link</a></p>
+
+        </div>
+
+
       </div>
       <!-- accordion braucht button -->
       <div class="multiteaser__toggle-btn">
@@ -179,7 +191,7 @@ $linkrail = array (
 
 
 <div class="element element--fullbleed element--abstand-unten2 element--abstand-oben2 multiteaser-element--row add-gradient">
-  <h2 class="multiteaser__headline">Weitere Veranstaltungen</h2>
+  <h2 class="multiteaser__headline" style="background: #CCDAE3">Weitere Veranstaltungen</h2>
 
   <div class="multiteaser-item">
     <div class="multiteaser-item__header">Am gleichen Abend</div>

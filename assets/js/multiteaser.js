@@ -8,7 +8,10 @@ $( document ).ready(function() {
 
 });
 
-$( ".multiteaser-item--accordion .multiteaser-item__content" ).click(function() {
-  $(this).parents(".multiteaser-item--accordion").toggleClass('multiteaser-item--accordion-open');
+$( ".multiteaser-item--accordion .multiteaser-item__content" ).click(function(e) {
+  // keine Action bei Klick auf Link
+  if (e.target.tagName != 'A'){
+    $(this).parents(".multiteaser-item--accordion").toggleClass('multiteaser-item--accordion-open');
+  }
 
 })
