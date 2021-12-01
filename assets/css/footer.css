@@ -38,6 +38,8 @@
 
 .page-footer-menu{
   display: flex;
+  flex-wrap: wrap;
+
 }
 
 .page-footer-menu__header{
@@ -59,6 +61,14 @@
   width: 25%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .page-footer-menu__column{
+    width: 100%;
+    margin-bottom: 1.4rem;
+  }
+
+}
+
 
 .page-footer-adress{
   display: block;
@@ -70,12 +80,22 @@
 
 .page-footer-social{
   display: flex;
+  flex-wrap: wrap;
+
 }
 
 .page-footer-social__item{
   width: 25%;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .page-footer-social__item{
+    width: 100%;
+    margin-bottom: 1.4rem;
+  }
+
+}
 
 .page-footer-social .link-button {
     font-size: 1.5em;
