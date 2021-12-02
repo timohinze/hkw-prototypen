@@ -230,6 +230,7 @@
 	height: 1em;
 	width: 1em;
 	position: relative;
+  padding: 0;
 }
 
 .multiteaser__toggle-btn button:after,
