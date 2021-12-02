@@ -1,3 +1,4 @@
+/* 2021 12 02 */
 /* 2021 10 21 */
 /* 2021 10 20 */
 /* 2021 10 15 */
@@ -54,8 +55,18 @@
 .slideshow-element .flickity-button {
 	background: none;
 	cursor: pointer;
+	width: 10rem;
+height: 10rem;
+background: transparent;
 }
 
+.flickity-prev-next-button .flickity-button-icon{
+	position: absolute;
+    left: 0;
+    top: 0;
+		width: auto;
+		height: auto;
+}
 .slideshow-element .flickity-button:hover {
 	background: none;
 	cursor: pointer;
@@ -90,7 +101,6 @@
 .header-slideshow figcaption {
 	text-align: right;
 	margin-right: 1em;
-	margin-top: 0.7em;
 	margin-bottom: 1em;
 	font-size: 0.6em;
 }

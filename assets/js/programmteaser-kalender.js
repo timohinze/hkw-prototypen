@@ -9,6 +9,6 @@ $( document ).ready(function() {
       pageDots: false,
       prevNextButtons: true,
       imagesLoaded: true,
-      // arrowShape: 'M 0,50 L 60,00 L 50,30 L 80,30 L 80,70 L 50,70 L 60,100 Z'
+      arrowShape: 'M49.2.4 26.8 50.3l22.6 49.4h22.2L48.9 50.2 71.3.4z'
     });
   });

@@ -1,3 +1,4 @@
+/* 2021 12 02 */
 /* 2021 10 19 */
 /* 2021 10 15 */
 /* 2021 10 13 */
@@ -6,28 +7,25 @@
 
 /* Schriftgröße für Startseite */
 
-.home p {
+.home-page p {
 	font-size: var(--textsize1);
 }
 
 @media (min-width: 640px) {
-	.home p {
+	.home-page p {
 		font-size: var(--textsize2);
 	}
 }
 
-.home h3 {
+.home-page h3 {
 	font-size: 2.67em;
 	line-height: 1.1;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 
-
-/* skizze */
-
 @media only screen and (max-width: 1024px) {
-	.home h3 {
+	.home-page h3 {
 		font-size: 2em;
 	}
 }
@@ -102,7 +100,7 @@
 	-ms-hyphens: manual;
 	hyphens: manual; */
 	letter-spacing: 0.02em;
-	line-height: 0.9;
+	line-height: 1;
 	margin-bottom: 0.25rem;
 	min-height: 0.1vh;
 	text-transform: uppercase;
@@ -110,7 +108,7 @@
 
 @media only screen and (min-width: 375px) {
 	.scroll-buhne-item__title {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 }
 
@@ -127,7 +125,8 @@
 }
 
 .scroll-buhne-item__text .scroll-buhne-item__subtitle {
-	font-size: 2em;
+	font-size: 1.66rem;
+	line-height: 1.1;
 	margin-bottom: 0.8rem;
 	margin-top: 1rem;
 	min-height: 0.1vh;
@@ -135,11 +134,12 @@
 
 @media only screen and (max-width: 1024px) {
 	.scroll-buhne-item__text .scroll-buhne-item__subtitle {
-		font-size: 1.8em;
+		font-size: 1.8rem;
 	}
 }
 
 .scroll-buhne-item__text p {
+	line-height: 1.3;
 	margin-block-start: 0.5em;
 	margin-block-end: 0.5em;
 	margin-left: auto;
