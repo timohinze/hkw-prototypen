@@ -1,154 +1,134 @@
-.page-footer ::selection{
-    color: black;
+
+.page-footer {
+	margin-top: 20rem;
 }
 
-
-.page-footer{
-  margin-top: 20rem;
+.page-footer a {
+	color: black;
 }
 
-
-.page-footer a{
-  color: black;
+.page-footer-gradient {
+	position: relative;
+	z-index: 2;
+	font-size: 1em;
+	color: black;
+	padding: 2rem;
 }
-
-.page-footer-gradient{
-  position: relative;
-  z-index: 2;
-  font-size: 1em;
-  color: black;
-  padding: 2rem;
-}
-
 
 .page-footer-gradient::before {
-    background: transparent linear-gradient(
-180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 8rem, #CCDAE3 calc(100% - 6rem), rgba(255, 255, 255, 0) 100%);
-    position: absolute;
-    content: " ";
-    width: 100%;
-    height: calc(100% + 17rem);
-    z-index: -1;
-    top: -8rem;
-    left: 0;
-    right: 0;
-    pointer-events: none;
+	background: transparent linear-gradient( 180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 8rem, #CCDAE3 calc(100% - 6rem), rgba(255, 255, 255, 0) 100%);
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: calc(100% + 17rem);
+	z-index: -1;
+	top: -8rem;
+	left: 0;
+	right: 0;
+	pointer-events: none;
 }
 
-
-.page-footer-menu{
-  display: flex;
-  flex-wrap: wrap;
-
+.page-footer-menu {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.page-footer-menu__header{
-    font-weight: 600;
-    margin-bottom: 0.7rem;
+.page-footer-menu__header {
+	font-weight: 600;
+	margin-bottom: 0.7rem;
 }
 
-.page-footer-submenu li a{
-  padding-top: 0.15em;
-  padding-bottom: 0.15em;
-  display: block;
+.page-footer-submenu li a {
+	padding-top: 0.15em;
+	padding-bottom: 0.15em;
+	display: block;
 }
 
-.page-footer-submenu li a:hover{
-  text-decoration: underline;
+.page-footer-submenu li a:hover {
+	text-decoration: underline;
 }
 
-.page-footer-menu__column{
-  width: 25%;
+.page-footer-menu__column {
+	width: 25%;
 }
 
 @media only screen and (max-width: 1024px) {
-  .page-footer-menu__column{
-    width: 100%;
-    margin-bottom: 1.4rem;
-  }
-
+	.page-footer-menu__column {
+		width: 100%;
+		margin-bottom: 1.4rem;
+	}
 }
 
-
-.page-footer-adress{
-  display: block;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-  font-size: 1.75em;
+.page-footer-adress {
+	display: block;
+  font-style: normal;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+	font-size: 1.75em;
 }
 
-
-.page-footer-social{
-  display: flex;
-  flex-wrap: wrap;
-
+.page-footer-social {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.page-footer-social__item{
-  width: 25%;
+.page-footer-social__item {
+	width: 25%;
 }
-
 
 @media only screen and (max-width: 1024px) {
-  .page-footer-social__item{
-    width: 100%;
-    margin-bottom: 1.4rem;
-  }
-
+	.page-footer-social__item {
+		width: 100%;
+		margin-bottom: 1.4rem;
+	}
 }
 
 .page-footer-social .link-button {
-    font-size: 1.5em;
-    border: 2px solid black;
-    min-width: 7em;
-    text-align: center;
+	font-size: 1.5em;
+	border: 2px solid black;
+	min-width: 7em;
+	text-align: center;
 }
 
-.page-footer-social .link-button:hover{
-  background: black;
-  color: white;
+.page-footer-social .link-button:hover {
+	background: black;
+	color: white;
 }
 
-
-.page-footer-media{
-  z-index: 0;
-width: 100%;
-    height: 100vh;
-    position: relative;
-    background: #CCDAE3;
-
+.page-footer-media {
+	z-index: 0;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: #CCDAE3;
 }
 
-.page-footer-media img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-object-position: 50% 50%;
-display: block;
+.page-footer-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	display: block;
 }
-
-
 
 .page-footer-logo {
-    position: absolute;
-    top: 50%;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    top: 50%;
-    width: 100%;
-    transform: translate(0, -50%);
+	position: absolute;
+	top: 50%;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	width: 100%;
+	transform: translate(0, -50%);
 }
 
 @media only screen and (max-width: 1024px) {
-  .page-footer-logo {
-      padding-left: 1rem;
-      padding-right: 1rem;
-  }
+	.page-footer-logo {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
-
-.page-footer-logo svg{
-fill: white;
-width: 100%;
-height: auto;
+.page-footer-logo svg {
+	fill: white;
+	width: 100%;
+	height: auto;
 }
