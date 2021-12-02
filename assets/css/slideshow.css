@@ -55,8 +55,8 @@
 .slideshow-element .flickity-button {
 	background: none;
 	cursor: pointer;
-	width: 10rem;
-height: 10rem;
+	width: 5rem;
+height: 5rem;
 background: transparent;
 }
 
@@ -103,4 +103,12 @@ background: transparent;
 	margin-right: 1em;
 	margin-bottom: 1em;
 	font-size: 0.6em;
+}
+
+.header-slideshow.slideshow-element .flickity-button {
+	background: none;
+	cursor: pointer;
+	width: 10rem;
+height: 10rem;
+background: transparent;
 }
