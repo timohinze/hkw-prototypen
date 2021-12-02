@@ -1,3 +1,4 @@
+<!-- 2020 12 02 -->
 <!-- 2020 10 13 -->
 </div>
 <!-- page-wrap -->
@@ -47,20 +48,20 @@
 
   </nav>
 
-<adress class="page-footer-adress">
+<address class="page-footer-adress">
   Haus der Kulturen der Welt<br>
   John-Foster-Dulles-Allee 10, 10557 Berlin<br>
   <a href="tel:+4930397870"> Tel + 49 30 397 87 0</a><br>
   <a href="mailto:info@hkw.de"  title="info@hkw.de">info@hkw.de</a>
-</adress>
+</address>
 
 
 <div class="page-footer-social">
 
-  <div class="page-footer-social__item"><a class="link-button" href="#">Newsletter</a></div>
-  <div class="page-footer-social__item"><a class="link-button" href="#">Instagram</a></div>
-  <div class="page-footer-social__item"><a class="link-button" href="#">Twitter</a></div>
-  <div class="page-footer-social__item"><a class="link-button" href="#">Facebook</a></div>
+  <div class="page-footer-social__item"><a class="link-button" href="#" >Newsletter</a></div>
+  <div class="page-footer-social__item"><a class="link-button" target="_blank" href="https://www.instagram.com/hkw_berlin/">Instagram</a></div>
+  <div class="page-footer-social__item"><a class="link-button" target="_blank" href="https://twitter.com/hkw_berlin">Twitter</a></div>
+  <div class="page-footer-social__item"><a class="link-button" target="_blank" href="https://www.facebook.com/hkw.de">Facebook</a></div>
 
 </div>
 </div>
