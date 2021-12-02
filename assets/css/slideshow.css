@@ -60,6 +60,13 @@ height: 5rem;
 background: transparent;
 }
 
+@media only screen and (max-width: 1024px) {
+	.slideshow-element .flickity-button  {
+		width: 44px;
+    height: 44px;
+	}
+}
+
 .flickity-prev-next-button .flickity-button-icon{
 	position: absolute;
     left: 0;
@@ -96,6 +103,7 @@ background: transparent;
 
 .header-slideshow .flickity-prev-next-button {
 	top: 50%;
+	border-radius: 0;
 }
 
 .header-slideshow figcaption {
@@ -108,7 +116,14 @@ background: transparent;
 .header-slideshow.slideshow-element .flickity-button {
 	background: none;
 	cursor: pointer;
-	width: 10rem;
-height: 10rem;
+	width: 8.5rem;
+height: 8.5rem;
 background: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+	.header-slideshow.slideshow-element .flickity-button  {
+		width: 44px;
+    height: 44px;
+	}
 }
