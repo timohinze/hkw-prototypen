@@ -71,6 +71,7 @@
 
 /* zu viel Text, passt nicht in Viewport */
 .scroll-buhne-item--too-high {
+	margin-bottom: 4rem;
 	padding-bottom: 0;
 }
 
