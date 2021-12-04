@@ -8,7 +8,7 @@ column2:
 <p>Ausgezeichnet mit dem Internationalen Literaturpreis 2019 <br>
 <a href="#">Zur Laudatio</a></p>
 <blockquote>
-<p><i>„Es heißt, dass sie in Wirklichkeit gar nicht gestorben sei, weil Hexen nicht so leicht sterben.“</i>
+<p>„Es heißt, dass sie in Wirklichkeit gar nicht gestorben sei, weil Hexen nicht so leicht sterben.“
 </blockquote>
 </p>
 
