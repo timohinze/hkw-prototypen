@@ -41,6 +41,7 @@
 .page-footer-submenu li a {
 	padding-top: 0.15em;
 	padding-bottom: 0.15em;
+	padding-right: 0.25em;
 	display: block;
 }
 
@@ -52,7 +53,7 @@
 	width: 25%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	.page-footer-menu__column {
 		width: 100%;
 		margin-bottom: 1.4rem;
@@ -61,11 +62,17 @@
 
 .page-footer-adress {
 	display: block;
-  font-style: normal;
+  font-style: normal!important;
 	margin-top: 2.5em;
 	margin-bottom: 2.5em;
 	font-size: 1.75em;
 }
+@media only screen and (max-width: 768px) {
+	.page-footer-adress {
+font-size: 1.5em;	}
+}
+
+
 
 .page-footer-social {
 	display: flex;
@@ -76,7 +83,7 @@
 	width: 25%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 840px) {
 	.page-footer-social__item {
 		width: 100%;
 		margin-bottom: 1.4rem;
@@ -88,6 +95,12 @@
 	border: 2px solid black;
 	min-width: 7em;
 	text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	.page-footer-social .link-button {
+		min-width: 5.5em;
+	}
 }
 
 .page-footer-social .link-button:hover {
