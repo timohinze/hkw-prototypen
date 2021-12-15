@@ -303,3 +303,23 @@
 .multiteaser-element--row .multiteaser-item__header:empty {
 	display: block;
 }
+
+
+/* Footer */
+.multiteaser__footer {
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+	.multiteaser__footer {
+		font-size: 1.75em;
+	}
+}
+@media only screen and (max-width: 840px) {
+	.multiteaser__footer {
+		padding-left: 1rem;
+	}
+}

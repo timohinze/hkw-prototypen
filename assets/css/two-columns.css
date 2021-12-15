@@ -20,6 +20,10 @@
   }
 }
 
+.two-column-element--one-column .two-column-element__column{
+  width: 45em;
+}
+
 .two-column-element p {
   line-height: 1.4;
   margin-bottom: 1.4rem;

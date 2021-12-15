@@ -28,7 +28,7 @@
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	.super-text-media-item__text {
 		padding-left: 1rem;
 		padding-right: 1rem;
@@ -42,7 +42,7 @@
 	padding-left: 13%;
 	padding-right: 13%;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	.super-text-media-item--small {
 		padding-left: inherit;
 		padding-right: inherit;
@@ -53,7 +53,7 @@
 	padding-left: 0;
 	padding-right: 0;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	.super-text-media-item--small .super-text-media-item__text {
 		padding-left: 1rem;
 		padding-right: 1rem;
@@ -66,7 +66,7 @@
 	margin-block-start: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	.super-text-media-item__title {
 		font-size: 2.2em;
 	}

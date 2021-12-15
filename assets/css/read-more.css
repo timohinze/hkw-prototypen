@@ -40,7 +40,6 @@
 } */
 
 
-
 .readmore-btn {
 	cursor: pointer;
 	background: transparent;
@@ -52,6 +51,7 @@
 	width: 1.5em;
 	border-radius: 50%;
 	position: relative;
+	margin-bottom: 1.4rem
 }
 
 .readmore-btn:hover {
@@ -85,4 +85,8 @@
 
 .open.readmore-btn:before {
   display: none;
+}
+
+.more{
+	margin-bottom: 1.4rem;
 }

@@ -496,6 +496,7 @@ display: inline-block;
 	background: white;
 	overflow-x: hidden;
 	display: none;
+	white-space: nowrap;
 }
 
 @media only screen and (max-width: 768px) {

@@ -187,8 +187,14 @@
 
 .calendar__time {
 	margin-bottom: 0.5rem;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.1;
+}
+
+@media only screen and (max-width: 840px) {
+	.calendar__time {
+		font-size: 1.75em;
+	}
 }
 
 .calendar__place {
@@ -440,11 +446,18 @@ margin-bottom: 0.5rem;
 }
 
 .calendar--projektseite .calendar_footer {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 2rem;
 }
+
+@media only screen and (min-width: 1024px) {
+	.calendar--projektseite .calendar_footer {
+		font-size: 1.75em;
+	}
+}
+
 
 @media only screen and (max-width: 840px) {
 	.calendar--projektseite .calendar_footer {
