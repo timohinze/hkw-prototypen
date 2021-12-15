@@ -1,43 +1,6 @@
+/* 2021 12 15 */
+
 /* 21 11 22 */
-
-/* .readmore-btn {
-	cursor: pointer;
-	border-radius: 0.1em;
-	margin-right: 1em;
-	background: transparent;
-	margin-bottom: 1.4rem;
-	border: 1px solid black;
-	padding-top: 0.35em;
-	padding-right: 0.5em;
-	padding-bottom: 0.25em;
-	padding-left: 0.5em;
-	display: inline-block;
-	font-size: 1em;
-	text-decoration: none;
-	position: relative;
-	z-index: 1;
-	line-height: 1.4;
-}
-
-.readmore-btn.open {
-	background: black;
-	color: white;
-}
-
-.more{
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
-}
-
-.read-more-wrap:last-child .readmore-btn{
-  margin-bottom: 0;
-
-}
-
-.read-more-wrap:last-child .more{
-  margin-bottom: 0;
-
-} */
 
 
 .readmore-btn {
