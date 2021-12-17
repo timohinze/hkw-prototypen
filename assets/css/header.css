@@ -191,7 +191,7 @@
 
 .menu {
 	flex-grow: 0.8;
-	line-height: 1.1;
+	/* line-height: 1.1; */
 }
 
 .menu__items {
