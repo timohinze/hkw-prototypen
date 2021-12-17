@@ -191,7 +191,7 @@
 
 .menu {
 	flex-grow: 0.8;
-	/* line-height: 1.1; */
+	 line-height: 1.1;
 }
 
 .menu__items {
@@ -199,6 +199,7 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
+	line-height: 1;
 }
 
 @media only screen and (max-width: 768px) {
