@@ -1,4 +1,4 @@
-/* 2021 12 15 */
+/* 2021 12 17 */
 
 /* Main menu typography styling */
 
@@ -74,7 +74,7 @@
 
 /* Header */
 
-header {
+.page-header {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0px;
@@ -90,10 +90,19 @@ header {
 	padding-bottom: 0;
 	transition: top 0.5s, bottom 0.5s;
 	min-width: 285px;
+	margin-bottom: 1rem;
 }
 
+@media (max-width: 900px) {
+	.page-header{
+		margin-bottom: 0;
+
+	}
+}
+
+
 @media only screen and (max-width: 768px) {
-	header {
+	.page-header {
 		display: block;
 		padding: 1rem;
 	}
@@ -205,7 +214,7 @@ header {
 
 .mainmenu__item {
 	display: block;
-	padding-bottom: 1rem;
+	/* padding-bottom: 1rem; */
 	font-size: calc(2em *0.955);
 
 }
@@ -496,9 +505,17 @@ display: inline-block;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	background: white;
-	overflow-x: hidden;
 	display: none;
 	white-space: nowrap;
+
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+}
+
+.submenu::-webkit-scrollbar {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -518,7 +535,7 @@ display: inline-block;
 /* Schaffe Raum für das Submenu */
 
 .mainmenu__item.menu__item--selected {
-	padding-bottom: 3rem;
+	padding-bottom: calc(3.15rem + 1px);
 }
 
 @media only screen and (max-width: 768px) {

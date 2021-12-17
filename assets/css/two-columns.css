@@ -1,3 +1,5 @@
+/* 2021 12 17 */
+
 /* 2021 12 15 */
 
 .two-column-element{
@@ -23,7 +25,8 @@
 }
 
 .two-column-element--one-column .two-column-element__column{
-  width: 45em;
+  max-width: 45em;
+  width: auto;
 }
 
 .two-column-element p {

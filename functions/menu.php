@@ -117,6 +117,48 @@ function submenu($page=null, $subpage=null){
         "slug" => "projekte",
         "is_no_link" => false,
         "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
+      ),
+      array(
+        "name" => "Lorem Ipsum",
+        "slug" => "lorem-ipsum",
+        "is_no_link" => false,
+        "url" => "#"
       )
     ),
     "das-haus" => array(

@@ -1,3 +1,6 @@
+
+// Mobile
+
 $( ".header__burger" ).click(function() {
   $(".page-header").toggleClass("header--open-menu");
   $(".header__burger").toggleClass("header__burger--open");
