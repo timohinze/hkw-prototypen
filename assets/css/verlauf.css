@@ -1,3 +1,5 @@
+/* 2021 12 15 */
+
 /* 2021 10 13 */
 
 
@@ -7,15 +9,16 @@
 
 /* default farbe */
 .add-gradient:before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 20%, #CCDAE3 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #CCDAE3 8rem, #CCDAE3 calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
+
 	opacity: 0;
 	transition: all 1.5s ease;
 	position: absolute;
 	content: " ";
 	width: 100%;
-	height: 140%;
+	height: calc(100% + 18rem);
 	z-index: -1;
-	top: -20%;
+	top: -9rem;
   left: 0;
   right: 0;
 	pointer-events: none;
@@ -34,37 +37,37 @@
 
 
 .color2::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC8F5FB 20%, #FDC8F5FB 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC8F5FB 8rem, #FDC8F5FB calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color3::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFEB95 20%, #FFEB95 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFEB95 8rem, #FFEB95 calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color4::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFB1B1 20%, #FFB1B1 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFB1B1 8rem, #FFB1B1 calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color5::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EFEAFD 20%, #EFEAFD 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EFEAFD 8rem, #EFEAFD calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color6::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFF85 20%, #FFFF85 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFF85 8rem, #FFFF85 calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color7::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC6E4EF 20%, #FDC6E4EF 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC6E4EF 8rem, #FDC6E4EF calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color8::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FF4E00 20%, #FF4E00 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FF4E00 8rem, #FF4E00 calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color-white::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 20%, white 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 8rem, white calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }
 
 .color9::before {
-	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFE3E9 20%, #FFE3E9 80%, rgba(255, 255, 255, 0) 100%);
+	background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFE3E9 8rem, #FFE3E9 calc(100% - 8rem), rgba(255, 255, 255, 0) 100%);
 }

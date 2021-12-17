@@ -58,14 +58,19 @@
 	max-width: 46rem;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.5em;
-	margin-top: 1.4rem;
-	margin-bottom: 1.4rem;
+	font-size: 1.75em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 @media (max-width: 60em) {
 	.text-element blockquote {
 		max-width: 35rem;
+	}
+}
+@media (max-width: 1024px) {
+	.text-element blockquote {
+		font-size: 1.5em;
 	}
 }
 

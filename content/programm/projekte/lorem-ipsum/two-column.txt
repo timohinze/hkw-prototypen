@@ -2,7 +2,7 @@ column1: <figure><img src="https://picsum.photos/800/600" alt="Lorem"/>
 <figcaption>Lorem Ipsum</figcaption></figure>
 
 <div class="read-more-wrap">
-<button class="readmore-btn">See More</button>
+<button class="readmore-btn"></button>
 <div class="more">
 <figure><img src="https://picsum.photos/600/800" alt="Lorem"/>
 <figcaption>Lorem Ipsum</figcaption></figure>

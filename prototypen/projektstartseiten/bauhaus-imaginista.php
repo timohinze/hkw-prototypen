@@ -49,7 +49,22 @@ $linkrail = array (
     "name" => "Mediathek",
     "slug" => "",
     "classes" => "",
-  )
+  ),
+  array(
+    "name" => "Lorem Ipsum Dolor",
+    "slug" => "",
+    "classes" => "",
+  ),
+  array(
+    "name" => "Lorem Ipsum Dolor",
+    "slug" => "",
+    "classes" => "",
+  ),
+  array(
+    "name" => "Lorem Ipsum Dolor",
+    "slug" => "",
+    "classes" => "",
+  )  
 );
 ?>
 <main class="projektstartseite-page">

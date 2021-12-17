@@ -1,3 +1,6 @@
+/* 2021 12 17 */
+/* 2021 12 15 */
+
 /* 21 10 26  */
 
 /* Filter */
@@ -10,7 +13,7 @@
 }
 
 .calendar-filter-toggle-btn {
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 1rem;
@@ -187,8 +190,14 @@
 
 .calendar__time {
 	margin-bottom: 0.5rem;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.1;
+}
+
+@media only screen and (max-width: 840px) {
+	.calendar__time {
+		font-size: 1.75em;
+	}
 }
 
 .calendar__place {
@@ -215,11 +224,18 @@
 }
 
 .calendar__title {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.1;
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 }
+
+@media only screen and (max-width: 840px) {
+	.calendar__title {
+		font-size: 1.75em;
+	}
+}
+
 .calendar__title a{
 	text-decoration: none;
 }
@@ -433,11 +449,18 @@ margin-bottom: 0.5rem;
 }
 
 .calendar--projektseite .calendar_footer {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 2rem;
 }
+
+@media only screen and (min-width: 1024px) {
+	.calendar--projektseite .calendar_footer {
+		font-size: 1.75em;
+	}
+}
+
 
 @media only screen and (max-width: 840px) {
 	.calendar--projektseite .calendar_footer {

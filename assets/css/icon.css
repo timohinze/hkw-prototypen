@@ -1,17 +1,20 @@
+/* 2021 12 17 */
+/* 2021 12 15 */
+
 /* 2021 11 01 */
 /* 2021 10 13 */
 
 /* Icons */
 .icon-separator{
-  height: 0.3em;
-  width: 0.3em;
-  background-color: black;
-  border-radius: 50%;
+  height: 0.375em;
+  width: 0.375em;
   display: inline-block;
-  bottom: 0.23em;
+  bottom: 0.11em;
   position: relative;
   margin-left: 0.1em;
   margin-right: 0.1em;
+  background-image:url('data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 10 10%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Ccircle cx=%225%22 cy=%225%22 r=%225%22 /%3E%3C/svg%3E');
+
 }
 
 
@@ -29,15 +32,19 @@
 }
 
 .icon-livestream{
-    height: 0.5em;
-    width: 0.5em;
-    background-color: black;
-    border-radius: 50%;
+    height: 0.55em;
+    width: 0.55em;
+    /* background-color: black;
+    border-radius: 50%; */
     display: inline-block;
     bottom: 0.1em;
     position: relative;
     margin-left: 0.1em;
     margin-right: 0.1em;
+
+    background-image:url('data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 10 10%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Ccircle cx=%225%22 cy=%225%22 r=%225%22 /%3E%3C/svg%3E');
+
+
 }
 
 .icon-extern{

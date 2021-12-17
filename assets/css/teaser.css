@@ -1,3 +1,5 @@
+/* 2021 12 15 */
+
 /* 2021 12 02 */
 /* 2021 10 21 */
 /* 2021 10 20 */
@@ -24,7 +26,7 @@
 	}
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	.programmteaser-kalender-item {
 		width: 80%;
 		margin-left: 0;
@@ -105,8 +107,12 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 
 /* to do */
 
-.teaser-item a{
+ .teaser-item a{
 	text-decoration: none!important;
+}
+
+.teaser-item p a{
+ text-decoration: underline!important;
 }
 
 .teaser-item__media {
@@ -119,7 +125,7 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 
 
 .teaser-item__title {
-	font-size: 2.5em;
+	font-size: 1.75em;
 	line-height: 1.1;
 	margin-top: 0.5rem;
 	margin-bottom: 0.75rem;
@@ -127,6 +133,16 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 
 @media only screen and (max-width: 1024px) {
 	.teaser-item__title {
+		font-size: 1.5em;
+	}
+}
+
+.home-page .teaser-item__title {
+	font-size: 2.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+	.home-page .teaser-item__title {
 		font-size: 2.2em;
 	}
 }
@@ -156,8 +172,11 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
   }
 }
 
+
+
+
 .ressourcen-teaser-item-element .teaser-item{
-	padding-bottom: 0;
+	padding-bottom: 2rem;
 }
 
 .ressourcen-teaser-item-element .teaser-item__topline{
@@ -166,3 +185,7 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 .ressourcen-teaser-item-element .teaser-item__title{
 	font-size: 1.5em;
 }
+
+/* .ressourcen-teaser-item-element a{
+	text-decoration: underline!important;
+} */

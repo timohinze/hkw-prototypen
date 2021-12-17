@@ -1,3 +1,6 @@
+/* 2021 12 17 */
+/* 2021 12 15 */
+
 /* 2021 10 27 */
 /* 2021 10 16 */
 /* 2021 10 15 */
@@ -47,23 +50,51 @@
 
 /* Externer Link */
 
-a.external-link:after {
+a.external-link{
+	padding-right: 1em;
+	display: inline-block;
+}
+
+a.external-link::after {
 	padding-left: 0.25em;
 	padding-right: 0.25em;
 	content: ' \2197';
-	display: inline-block;
+	 display: inline-block;
+	    white-space: nowrap;
+			text-decoration: none;
+			margin-right: -1em;
 }
 
-a.download-link:after {
+
+a.download-link{
+	padding-right: 1em;
+	display: inline-block;
+
+}
+
+a.download-link::after {
 	padding-left: 0.25em;
 	padding-right: 0.25em;
 	content: ' \2193';
+	 display: inline-block;
+	    white-space: nowrap;
+			text-decoration: none;
+			margin-right: -1em;
+
+		}
+a.to-the-right-link{
+	padding-right: 1em;
 	display: inline-block;
+
 }
 
-a.to-the-right-link:after {
+a.to-the-right-link::after {
 	padding-left: 0.25em;
 	padding-right: 0.25em;
 	content: ' \2192';
 	display: inline-block;
-}
+	    white-space: nowrap;
+			text-decoration: none;
+			margin-right: -1em;
+
+		}

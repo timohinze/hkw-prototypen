@@ -37,4 +37,11 @@ function get_header($page=null, $subpage=null) { ?>
     </header>
 
     <div class="page-wrap">
+
+      <?php if((isset($_GET["stoerer"]) AND ($_GET["stoerer"]==1))) { ?>
+        <div class="stoerer-wrap">
+          <div class="stoerer"><a class="to-the-right-link" href="https://google.com">Streik bei der BVG: Das HKW ist heute am besten über den Hauptbahnhof zu erreichen</a></div>
+      </div>
+      <?php } ?>
+
 <?php } ?>
