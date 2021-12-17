@@ -14,7 +14,8 @@
 	width: 1.5em;
 	border-radius: 50%;
 	position: relative;
-	margin-bottom: 1.4rem
+	margin-bottom: 1.4rem;
+	padding: 0;
 }
 
 .readmore-btn:hover {
