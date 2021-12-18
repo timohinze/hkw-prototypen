@@ -87,10 +87,10 @@
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 2rem;
-	padding-bottom: 0;
+	padding-bottom: 1rem;
 	transition: top 0.5s, bottom 0.5s;
 	min-width: 285px;
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
 }
 
 @media (max-width: 900px) {
