@@ -515,9 +515,9 @@ display: inline-block;
 
 }
 
-.submenu::-webkit-scrollbar {
+/* .submenu::-webkit-scrollbar {
   display: none;
-}
+} */
 
 @media only screen and (max-width: 768px) {
 	.submenu {
