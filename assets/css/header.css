@@ -87,7 +87,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 2rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0;
 	transition: top 0.5s, bottom 0.5s;
 	min-width: 285px;
 	/* margin-bottom: 1rem; */
@@ -215,7 +215,7 @@
 
 .mainmenu__item {
 	display: block;
-	/* padding-bottom: 1rem; */
+	 padding-bottom: 1rem;
 	font-size: calc(2em *0.955);
 
 }
