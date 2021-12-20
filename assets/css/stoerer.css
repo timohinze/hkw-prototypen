@@ -1,5 +1,13 @@
 /* 2021 12 17 */
 
+.stoerer-wrap{
+	  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}	
+	
 .stoerer{
   background: #F5FF00;
   display: inline-block;
@@ -7,10 +15,6 @@
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   border-radius: 1rem;
 }
 
