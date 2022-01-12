@@ -1,12 +1,11 @@
 //
 // Dragg Submenu
 
-var slider = document.querySelector('.scrollable-menu');
+const slider = document.querySelector('.scrollable-menu');
 
 
 
 var width = slider.innerWidth;
-console.log(width);
 
 window.addEventListener('resize', checkWindowSize);
 
@@ -57,21 +56,21 @@ slider.addEventListener('mouseleave', stopDragging, false);
 //alternative flickity menu
 
 
-var slider = document.querySelector('.scrollable-menu-flickity');
+const slider2 = document.querySelector('.scrollable-menu-flickity');
 
 
 
-var width = slider.innerWidth;
+var width = slider2.innerWidth;
 
-window.addEventListener('resize', checkWindowSize);
+window.addEventListener('resize', checkWindowSize2);
 
-checkWindowSize();
-function checkWindowSize(){
-if(slider.scrollWidth > slider.clientWidth){
+checkWindowSize2();
+function checkWindowSize2(){
+if(slider2.scrollWidth > slider2.clientWidth){
   console.log("hat overflow");
-  slider.classList.add("hat-overflow");
+  slider2.classList.add("hat-overflow");
 }else{
-  slider.classList.remove("hat-overflow");
+  slider2classList.remove("hat-overflow");
 
 }
 
