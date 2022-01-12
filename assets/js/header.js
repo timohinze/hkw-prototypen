@@ -19,7 +19,8 @@ const navs = document.querySelectorAll('.scrollable-menu');
           pageDots: false,
           contain: true,
           cellSelector: "li",
-          groupCells: true
+          groupCells: true,
+          watchCSS: true
 
         });
 

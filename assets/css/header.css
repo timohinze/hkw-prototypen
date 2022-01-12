@@ -775,6 +775,19 @@ display: inline-block;
 
 /* scrollable menu flickity  */
 
+/* enable */
+
+.scrollable-menu-flickity::after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+@media only screen and (max-width: 768px) {
+	.submenu .scrollable-menu-flickity::after {
+		content: '';
+
+	}
+}
+
 .flickity-prev-next-button .flickity-button-icon{
 	width: 100%!important;
 	height: 100%!important;
