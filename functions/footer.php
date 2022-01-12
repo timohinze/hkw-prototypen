@@ -1,5 +1,6 @@
-<!-- 2020 12 02 -->
-<!-- 2020 10 13 -->
+<!-- 2022 1 10 -->
+<!-- 2021 12 02 -->
+<!-- 2021 10 13 -->
 </div>
 <!-- page-wrap -->
 
@@ -107,4 +108,5 @@
 
 <script src="../../assets/js/multiteaser.js"></script>
 
+<script src="../../assets/js/add-blurry-bg.js"></script>
 </html>

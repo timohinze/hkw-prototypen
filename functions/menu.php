@@ -79,13 +79,35 @@ function menu($page=null, $subpage=null){
 <?php
 
           echo '</ul>';
+          ?>
 
-          echo '<div class="search-modal-wrap">
-          <div class="search-modal">
-          <input type="text" id="search"  placeholder="Suche" name="search">
-          <button class="search-modal-close"><span>＋</span></button>
-          </div>
-          </div>';
+          <!--
+          skizze -->
+
+          <style>
+          .search-overlay{
+            height: 200px;
+            background: grey;
+            position: absolute;
+            left: 0;
+            right: 0;
+            z-index: 11;
+          }
+          </style>
+                <div class="search-overlay">
+                  Such Overlay
+                </div>
+          <!-- skizze -->
+
+
+          <?php
+
+          // echo '<div class="search-modal-wrap">
+          // <div class="search-modal">
+          // <input type="text" id="search"  placeholder="Suche" name="search">
+          // <button class="search-modal-close"><span>＋</span></button>
+          // </div>
+          // </div>';
 
     echo '</nav>';
 
@@ -223,7 +245,7 @@ function submenu($page=null, $subpage=null){
 
 if(isset($submenuitems[$page])){
 echo '<div class="submenu">';
-  echo '<div class="submenu-inner">';
+  echo '<div class="submenu-inner scrollable-menu">';
     echo '<ul class="submenu__items">';
       foreach ($submenuitems[$page] as $submenuitem) {
         $status = null;

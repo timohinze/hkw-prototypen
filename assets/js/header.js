@@ -1,3 +1,120 @@
+//
+// Dragg Submenu
+
+var slider = document.querySelector('.scrollable-menu');
+
+
+
+var width = slider.innerWidth;
+console.log(width);
+
+window.addEventListener('resize', checkWindowSize);
+
+checkWindowSize();
+function checkWindowSize(){
+if(slider.scrollWidth > slider.clientWidth){
+  console.log("hat overflow");
+  slider.classList.add("scrollable-menu--scrollable");
+}else{
+  slider.classList.remove("scrollable-menu--scrollable");
+
+}
+
+}
+
+
+
+
+let mouseDown = false;
+let startX, scrollLeft;
+
+let startDragging = function (e) {
+  mouseDown = true;
+  startX = e.pageX - slider.offsetLeft;
+  scrollLeft = slider.scrollLeft;
+};
+let stopDragging = function (event) {
+  mouseDown = false;
+};
+
+slider.addEventListener('mousemove', (e) => {
+  e.preventDefault();
+  if(!mouseDown) { return; }
+  const x = e.pageX - slider.offsetLeft;
+  const scroll = x - startX;
+  slider.scrollLeft = scrollLeft - scroll;
+});
+
+// Add the event listeners
+slider.addEventListener('mousedown', startDragging, false);
+slider.addEventListener('mouseup', stopDragging, false);
+slider.addEventListener('mouseleave', stopDragging, false);
+
+
+
+
+
+//alternative flickity menu
+
+
+var slider = document.querySelector('.scrollable-menu-flickity');
+
+
+
+var width = slider.innerWidth;
+
+window.addEventListener('resize', checkWindowSize);
+
+checkWindowSize();
+function checkWindowSize(){
+if(slider.scrollWidth > slider.clientWidth){
+  console.log("hat overflow");
+  slider.classList.add("hat-overflow");
+}else{
+  slider.classList.remove("hat-overflow");
+
+}
+
+}
+
+
+function is_touch_device()
+{
+  // Checks for existence in all browsers and IE10/11 & Surface
+  return 'ontouchstart' in window || navigator.maxTouchPoints;
+}
+
+var navs = document.querySelectorAll('.scrollable-menu-flickity');
+
+if (!is_touch_device())
+{
+  for ( var i = 0, length = navs.length; i < length; i++ ) {
+    var nav = navs[i];
+
+    if(nav.classList.contains("hat-overflow")) {
+
+
+    new Flickity( nav, {
+      cellAlign: 'left',
+      freeScroll: true,
+      prevNextButtons: true,
+      pageDots: false,
+      contain: true,
+      cellSelector: ".projektmenu__item"
+    });
+
+  }else{
+    //remove flickity
+  }
+  }
+}
+
+
+
+
+
+
+
 
 // Mobile
 
