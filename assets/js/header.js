@@ -85,8 +85,8 @@ function is_touch_device()
 
 var navs = document.querySelectorAll('.scrollable-menu-flickity');
 
-if (!is_touch_device())
-{
+// if (!is_touch_device())
+// {
   for ( var i = 0, length = navs.length; i < length; i++ ) {
     var nav = navs[i];
 
@@ -105,7 +105,7 @@ if (!is_touch_device())
   }else{
     //remove flickity
   }
-  }
+  // }
 }
 
 
