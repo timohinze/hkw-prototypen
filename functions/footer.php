@@ -109,4 +109,8 @@
 <script src="../../assets/js/multiteaser.js"></script>
 
 <script src="../../assets/js/add-blurry-bg.js"></script>
+
+<script src="../../assets/js/suche.js"></script>
+
+
 </html>
