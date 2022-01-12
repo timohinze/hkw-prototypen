@@ -507,13 +507,13 @@ display: inline-block;
 	margin-bottom: 1rem;
 	background: white;
 	display: none;
+	white-space: nowrap;
+	overflow-x: auto;
 
 }
 
-
+/*
 .scrollable-menu{
-	white-space: nowrap;
-	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 
@@ -554,7 +554,7 @@ display: inline-block;
 
 .submenu--scrollable .submenu__item:last-child{
 	padding-right: 3.3rem;
-}
+} */
 
 
 
@@ -770,4 +770,41 @@ display: inline-block;
 
 .page-header.nav-down {
 	top: 0;
+}
+
+
+/* scrollable menu flickity  */
+
+.flickity-prev-next-button .flickity-button-icon{
+	width: 100%!important;
+	height: 100%!important;
+}
+
+
+.scrollable-menu-flickity .flickity-button{
+  color: black!important;
+}
+
+.scrollable-menu-flickity .flickity-prev-next-button{
+   height: 1rem!important;
+  width: 1rem!important;
+   top: 40%!important;
+}
+
+.scrollable-menu-flickity .flickity-prev-next-button::before{
+  content: " ";
+  width: 4rem;
+  position: absolute;
+  height: 1.5rem;
+  top: -0.3rem;
+  right: 0;
+
+  background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0) 0, white 82%);
+
+}
+.scrollable-menu-flickity .flickity-prev-next-button.previous::before{
+  right: auto;
+  left: 0;
+  background: transparent linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, white 82%);
+
 }

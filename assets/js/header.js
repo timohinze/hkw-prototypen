@@ -1,113 +1,36 @@
-//
-// Dragg Submenu
 
-const slider = document.querySelector('.scrollable-menu');
+// scrollable menu menu flickity
 
+const navs = document.querySelectorAll('.scrollable-menu');
 
-
-var width = slider.innerWidth;
-
-window.addEventListener('resize', checkWindowSize);
-
-checkWindowSize();
-function checkWindowSize(){
-if(slider.scrollWidth > slider.clientWidth){
-  console.log("hat overflow");
-  slider.classList.add("scrollable-menu--scrollable");
-}else{
-  slider.classList.remove("scrollable-menu--scrollable");
-
-}
-
-}
-
-
-
-
-let mouseDown = false;
-let startX, scrollLeft;
-
-let startDragging = function (e) {
-  mouseDown = true;
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-};
-let stopDragging = function (event) {
-  mouseDown = false;
-};
-
-slider.addEventListener('mousemove', (e) => {
-  e.preventDefault();
-  if(!mouseDown) { return; }
-  const x = e.pageX - slider.offsetLeft;
-  const scroll = x - startX;
-  slider.scrollLeft = scrollLeft - scroll;
-});
-
-// Add the event listeners
-slider.addEventListener('mousedown', startDragging, false);
-slider.addEventListener('mouseup', stopDragging, false);
-slider.addEventListener('mouseleave', stopDragging, false);
-
-
-
-
-
-//alternative flickity menu
-
-
-const slider2 = document.querySelector('.scrollable-menu-flickity');
-
-
-
-var width = slider2.innerWidth;
-
-window.addEventListener('resize', checkWindowSize2);
-
-checkWindowSize2();
-function checkWindowSize2(){
-if(slider2.scrollWidth > slider2.clientWidth){
-  console.log("hat overflow");
-  slider2.classList.add("hat-overflow");
-}else{
-  slider2classList.remove("hat-overflow");
-
-}
-
-}
-
-
-function is_touch_device()
-{
-  // Checks for existence in all browsers and IE10/11 & Surface
-  return 'ontouchstart' in window || navigator.maxTouchPoints;
-}
-
-var navs = document.querySelectorAll('.scrollable-menu-flickity');
-
-// if (!is_touch_device())
-// {
+// window.addEventListener('resize', checkWindowSize);
+//  checkWindowSize();
+// function checkWindowSize(){
   for ( var i = 0, length = navs.length; i < length; i++ ) {
     var nav = navs[i];
 
-    if(nav.classList.contains("hat-overflow")) {
+       // if(nav.scrollWidth > nav.clientWidth){
+        // console.log( nav +" hat overflow");
+       nav.classList.add("scrollable-menu-flickity");
+        new Flickity( nav, {
+          cellAlign: 'left',
+          freeScroll: true,
+          prevNextButtons: true,
+          pageDots: false,
+          contain: true,
+          cellSelector: "li",
+          groupCells: true
 
+        });
 
-    new Flickity( nav, {
-      cellAlign: 'left',
-      freeScroll: true,
-      prevNextButtons: true,
-      pageDots: false,
-      contain: true,
-      cellSelector: ".projektmenu__item"
-    });
+     //  }else{
+     //    nav.remove("scrollable-menu-flickity");
+     //     //remove flickity
+     //
+     // }
 
-  }else{
-    //remove flickity
-  }
-  // }
-}
-
+ }
+ // }
 
 
 
