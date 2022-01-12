@@ -4,8 +4,8 @@
 }
 
 .scrollable-menu-flickity .flickity-prev-next-button{
-  height: 1em!important;
-  width: 1em!important;
+  height: 1rem!important;
+  width: 1rem!important;
   top: 40%!important;
 }
 
