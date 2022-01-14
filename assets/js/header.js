@@ -40,43 +40,41 @@ const navs = document.querySelectorAll('.scrollable-menu');
  // add functionality for swipe gestures
  //src: https://codepen.io/richiksc/pen/LGEZKd?editors=1111
 
-  $( document ).ready(function() {
-
-   function $(selector) {
-    return document.querySelector(selector);
-   }
-
-var swipe_timer = 0;
-
- var flkty = new Flickity('.scrollable-menu-flickity');
- $('.scrollable-menu-flickity').addEventListener('wheel', e => {
- clearTimeout(swipe_timer);
- swipe_timer = setTimeout(function () {
-   swipe_slide(e)
- }, 25)
-
- });
-
- function swipe_slide(e){
-
-   console.log(e.deltaX);
-   if(e.deltaX > 6) {
-    e.preventDefault();
-   flkty.next();
-     console.log("next");
-     e.deltaX=0;
-   } else if (e.deltaX < -6) {
-    e.preventDefault();
-     flkty.previous();
-     console.log("prev");
-    e.deltaX=0;
-
-   }
- }
+//  function $(selector) {
+//  return document.querySelector(selector);
+// }
 
 
- });
 
+
+var flkty = new Flickity('.scrollable-menu-flickity');
+
+$(function(){
+  $(".scrollable-menu-flickity").bind("wheel", function (event) {
+    console.log(event.touches.length);
+  });
+});
+
+// $('.scrollable-menu-flickity').addEventListener('wheel', e => {
+//  e.preventDefault();
+//
+//  console.log(e.deltaX);
+//  const selected = $('.scrollable-menu-flickity');
+//  const currentTransform = window.getComputedStyle(selected)
+//  .getPropertyValue('transform');
+//  const matrix = new DOMMatrixReadOnly(currentTransform);
+//  const currentTranslation = matrix.m41;
+//  const newTranslation = currentTranslation - e.deltaX;
+//
+//  selected.style.transform = `translate(${newTranslation}px)`;
+//  const threshold = 50;
+//
+//  if(newTranslation < -threshold) {
+//    flkty.next();
+//  } else if (newTranslation > threshold) {
+//    flkty.previous();
+//  }
+// });
 
 
 
