@@ -1,6 +1,8 @@
 .text-element>h2 {
 	margin-bottom: 1.4rem
 }
+.text-element ul,
+.text-element ol,
 .text-element>h2,
 .text-element>h3,
 .text-element>p {
@@ -80,4 +82,33 @@
 	max-width: 35rem;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*
+list */
+
+
+.text-element ul li {
+  list-style: none;
+  position: relative;
+	padding-left: 1em;
+}
+
+.text-element  ul li:before {
+  content:"\2219";
+  width: 1em;
+  height: 1em;
+	margin-right: 1.3em;
+  position: absolute;
+  left: 0;
+
+}
+.text-element ol {
+	padding-left: 1em;
+}
+
+.text-element ol li {
+  list-style: unset;
+  position: relative;
+	padding-left: 0;
 }
