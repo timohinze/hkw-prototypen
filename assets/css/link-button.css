@@ -50,52 +50,23 @@
 
 /* Externer Link */
 
-a.external-link{
-	/* padding-right: 1.5em; */
-	/* display: inline-block; */
-}
+
 
 a.external-link::after {
-	/* padding-left: 0.25em; */
 	padding-right: 0.25em;
-	content: ' \2197';
-	 /* display: inline-block; */
-	    white-space: nowrap;
-			text-decoration: none;
-			/* margin-right: -1.5em; */
+	content: '\00A0\2197';
 }
 
 
-a.download-link{
-	/* padding-right: 1.5em; */
-	/* display: inline-block; */
-
-}
 
 a.download-link::after {
-	/* padding-left: 0.25em; */
-	padding-bottom: 0.1em;
 	padding-right: 0.25em;
-	content: ' \2193';
-	 /* display: inline-block; */
-	    white-space: nowrap;
-			text-decoration: none;
-			/* margin-right: -1.5em; */
-
-		}
-a.to-the-right-link{
-	/* padding-right: 1.5em; */
-	/* display: inline-block; */
-
+	content: '\00A0\2193';
 }
 
+
 a.to-the-right-link::after {
-	/* padding-left: 0.25em; */
 	padding-right: 0.25em;
-	content: ' \2192';
-	/* display: inline-block; */
-	    white-space: nowrap;
-			text-decoration: none;
-			/* margin-right: -1.5em; */
+	content: '\00A0\2192';
 
 		}

@@ -79,8 +79,8 @@ const navs = document.querySelectorAll('.scrollable-menu');
 $( ".header__burger" ).click(function() {
 
 // close search overlay
-  $(".search-overlay").removeClass("search-overlay--open");
-  $(".search-btn").removeClass("search-btn--open");
+  // $(".search-overlay").removeClass("search-overlay--open");
+  // $(".search-btn").removeClass("search-btn--open");
 
   $(".page-header").toggleClass("header--open-menu");
   $(".header__burger").toggleClass("header__burger--open");
