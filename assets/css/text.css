@@ -104,11 +104,16 @@ list */
 
 }
 .text-element ol {
-	padding-left: 1em;
+	padding: 0;
 }
 
 .text-element ol li {
-  list-style: unset;
+  list-style: decimal inside;
   position: relative;
-	padding-left: 0;
+}
+
+.text-element ol li::before {
+  content: "";
+  width: 0.06em;
+  display: inline-block;
 }
