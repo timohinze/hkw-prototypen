@@ -37,6 +37,51 @@ const navs = document.querySelectorAll('.scrollable-menu');
 
 
 
+ // add functionality for swipe gestures
+ //src: https://codepen.io/richiksc/pen/LGEZKd?editors=1111
+
+  $( document ).ready(function() {
+
+   function $(selector) {
+    return document.querySelector(selector);
+   }
+
+var swipe_timer = 0;
+
+ var flkty = new Flickity('.scrollable-menu-flickity');
+ $('.scrollable-menu-flickity').addEventListener('wheel', e => {
+ clearTimeout(swipe_timer);
+ swipe_timer = setTimeout(function () {
+   swipe_slide(e)
+ }, 25)
+
+ });
+
+ function swipe_slide(e){
+
+   console.log(e.deltaX);
+   if(e.deltaX > 6) {
+    e.preventDefault();
+   flkty.next();
+     console.log("next");
+     e.deltaX=0;
+   } else if (e.deltaX < -6) {
+    e.preventDefault();
+     flkty.previous();
+     console.log("prev");
+    e.deltaX=0;
+
+   }
+ }
+
+
+ });
+
+
+
+
+
+
 
 
 // Mobile
