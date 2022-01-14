@@ -51,8 +51,8 @@
 /* Externer Link */
 
 a.external-link{
-	padding-right: 1em;
-	display: inline-block;
+	padding-right: 1.5em;
+	/* display: inline-block; */
 }
 
 a.external-link::after {
@@ -62,13 +62,13 @@ a.external-link::after {
 	 display: inline-block;
 	    white-space: nowrap;
 			text-decoration: none;
-			margin-right: -1em;
+			margin-right: -1.5em;
 }
 
 
 a.download-link{
-	padding-right: 1em;
-	display: inline-block;
+	padding-right: 1.5em;
+	/* display: inline-block; */
 
 }
 
@@ -79,12 +79,12 @@ a.download-link::after {
 	 display: inline-block;
 	    white-space: nowrap;
 			text-decoration: none;
-			margin-right: -1em;
+			margin-right: -1.5em;
 
 		}
 a.to-the-right-link{
-	padding-right: 1em;
-	display: inline-block;
+	padding-right: 1.5em;
+	/* display: inline-block; */
 
 }
 
@@ -95,6 +95,6 @@ a.to-the-right-link::after {
 	display: inline-block;
 	    white-space: nowrap;
 			text-decoration: none;
-			margin-right: -1em;
+			margin-right: -1.5em;
 
 		}

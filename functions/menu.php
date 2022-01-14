@@ -73,9 +73,31 @@ function menu($page=null, $subpage=null){
 
 ?>
 <li class="menu__item language-switch-btn"><a href="#">EN</a></li>
-<li class="menu__item search-btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.5 56.6" width="40px" height="56px">
-    <path d="M32.5 34.2c8.1-7.1 8.9-19.5 1.7-27.6S14.7-2.3 6.6 4.9C-1.5 12-2.3 24.4 4.9 32.5c5.3 6.1 13.9 8.2 21.4 5.4l5.4 7.6h8.7l-7.9-11.3zm-12.9-2.4c-6.7 0-12.1-5.4-12.1-12.1 0-6.7 5.4-12.1 12.1-12.1 6.7 0 12.1 5.4 12.1 12.1 0 6.6-5.4 12.1-12.1 12.1z"></path>
-  </svg></a></li>
+<li class="menu__item search-btn">
+
+  <a href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.5 56.6" width="40px" height="56px">
+      <g class="open">
+      	<path d="M32.1,33.8c8-7,8.8-19.3,1.7-27.3S14.5-2.2,6.5,4.9c-8,7-8.8,19.3-1.7,27.3c5.2,6,13.7,8.1,21.1,5.3l5.3,7.5h8.6
+      		C39.9,45,32.1,33.8,32.1,33.8z M19.4,31.5c-6.6,0-12-5.3-12-12s5.3-12,12-12s12,5.3,12,12C31.3,26,26,31.5,19.4,31.5z"/>
+      </g>
+      <g class="close">
+      	<rect x="16" y="-3.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -8.2532 20.0221)" width="8" height="46.3"/>
+      	<rect x="-3.2" y="16" transform="matrix(0.707 -0.7072 0.7072 0.707 -8.2878 19.9408)" width="46.3" height="8"/>
+      </g>
+      </svg>
+
+
+    </svg>
+
+  <!-- <span class="search-close">
+      <span></span>
+      <span></span>
+      <span></span>
+  </span> -->
+
+
+</a></li>
 <?php
 
           echo '</ul>';
@@ -93,6 +115,8 @@ function menu($page=null, $subpage=null){
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.5 56.6" width="40px" height="56px">
                   <path d="M32.5 34.2c8.1-7.1 8.9-19.5 1.7-27.6S14.7-2.3 6.6 4.9C-1.5 12-2.3 24.4 4.9 32.5c5.3 6.1 13.9 8.2 21.4 5.4l5.4 7.6h8.7l-7.9-11.3zm-12.9-2.4c-6.7 0-12.1-5.4-12.1-12.1 0-6.7 5.4-12.1 12.1-12.1 6.7 0 12.1 5.4 12.1 12.1 0 6.6-5.4 12.1-12.1 12.1z"></path>
                     </svg>
+
+
                     <span class=scr-only>Suche</span>
                   </button>
 

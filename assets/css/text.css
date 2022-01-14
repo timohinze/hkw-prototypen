@@ -1,7 +1,7 @@
 .text-element>h2 {
 	margin-bottom: 1.4rem
 }
-
+.text-element>h2,
 .text-element>h3,
 .text-element>p {
 	line-height: 1.4;

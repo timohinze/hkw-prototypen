@@ -47,16 +47,21 @@ padding-right: 1rem;
 .projektmenu__item {
 	margin-right: 2em;
 	margin-top: 0;
+	border-bottom: 3px solid transparent;
+
+}
+
+.projektmenu__item a {
+	display: block;
 	padding-top: 0.35em;
 	padding-bottom: 0.35em;
-	border-bottom: 2px solid transparent;
 }
 
 
 .projektmenu__item:hover {
-	border-bottom: 2px solid black;
+	border-bottom: 3px solid black;
 }
 
 .projektmenu__item--selected {
-	border-bottom: 2px solid black;
+	border-bottom: 3px solid black;
 }
