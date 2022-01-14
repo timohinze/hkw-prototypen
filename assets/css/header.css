@@ -611,7 +611,8 @@ display: inline-block;
 	}
 }
 
-.submenu__item{
+.submenu__item a{
+	display: block;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
@@ -788,6 +789,17 @@ display: inline-block;
 	}
 }
 
+
+
+.flickity-prev-next-button svg{
+	display: none!important;
+}
+.scrollable-menu-flickity:hover .flickity-prev-next-button svg{
+	display: block!important;
+}
+
+
+
 .flickity-prev-next-button .flickity-button-icon{
 	width: 100%!important;
 	height: 100%!important;
@@ -799,8 +811,8 @@ display: inline-block;
 }
 
 .scrollable-menu-flickity .flickity-prev-next-button{
-   height: 1rem!important;
-  width: 1rem!important;
+   height: 0.7rem!important;
+  width: 0.7rem!important;
    top: 40%!important;
 }
 
@@ -819,5 +831,19 @@ display: inline-block;
   right: auto;
   left: 0;
   background: transparent linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, white 82%);
+
+}
+
+@media only screen and (max-width: 768px) {
+	.scrollable-menu-flickity .flickity-prev-next-button::before{
+	  width: 2rem;
+	}
+
+	.flickity-prev-next-button{
+		pointer-events: none;
+	}
+	.scrollable-menu-flickity:hover .flickity-prev-next-button svg{
+		display: none!important;
+	}
 
 }
