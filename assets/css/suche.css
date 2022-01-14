@@ -1,5 +1,20 @@
 /* search  overlay */
 
+@media only screen and (max-width: 768px) {
+	.header--open-search {
+		top: 0!important;
+		height: 100vh;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		position: fixed;
+		width: 100%;
+		z-index: 99;
+		background: blue;
+	}
+}
+
+
+
 .search-overlay {
   width: 100%;
   padding-left: 10%;
@@ -18,9 +33,16 @@
   .search-overlay{
     padding-left: 2rem;
     padding-right: 2rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: red;
+}
+}
+.header--open-search .search-overlay{
+  display: block;
+}
 
-}
-}
 
 .search-overlay--open {
 display: block;
