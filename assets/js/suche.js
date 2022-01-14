@@ -1,6 +1,12 @@
 $( ".search-btn" ).click(function() {
   if(!$("main").hasClass('search-result-page')){
 
+    // close menu
+    $(".page-header").removeClass("header--open-menu");
+    $(".header__burger").removeClass("header__burger--open");
+
+
+
     $(".page-header").toggleClass("header--open-search");
     $(".header__burger").toggleClass("header__burger--search");
 
