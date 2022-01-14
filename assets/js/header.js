@@ -82,6 +82,11 @@ $( ".header__burger" ).click(function() {
   // $(".search-overlay").removeClass("search-overlay--open");
   // $(".search-btn").removeClass("search-btn--open");
 
+  $(".page-header").removeClass("header--open-search");
+$( ".search-btn" ).removeClass('search-btn--open');
+
+
+
   $(".page-header").toggleClass("header--open-menu");
   $(".header__burger").toggleClass("header__burger--open");
 });
