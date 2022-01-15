@@ -126,7 +126,7 @@
 
 /* Logo */
 .header__logo{
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
 }
 @media only screen and (max-width: 768px) {
 	.header__logo{
@@ -346,7 +346,7 @@
 @media (min-width: 768px) {
 	.menu__item.search-btn svg {
 		height: calc(2.5em *0.955);
-		margin-top: 0.3rem;
+		margin-top: 0.1rem;
 	}
 }
 
@@ -380,7 +380,7 @@
 @media only screen and (max-width: 768px) {
 	.menu__item.search-btn {
 		position: absolute;
-		right: 5rem;
+		right: 4.5rem;
 		top: 1rem;
 	}
 }
@@ -474,7 +474,7 @@ display: inline-block;
 
 
 .language-switch-btn{
-	margin-top: 0.3rem;
+	margin-top: 0.1rem;
 	z-index: 100;
 	position: relative;
 }
@@ -703,7 +703,7 @@ display: inline-block;
 /* Burger */
 
 .header__burger {
-	height: 2.7em;
+	height: 3em;
 	width: 3.5em;
 	background: transparent;
 	border: 0;
@@ -736,11 +736,11 @@ display: inline-block;
 }
 
 .header__burgericon span:nth-of-type(2) {
-	top: 50%;
+	top: calc(50% - 0.25em);
 }
 
 .header__burgericon span:nth-of-type(3) {
-	top: 100%;
+	top: calc(100% - 0.5em);
 }
 
 

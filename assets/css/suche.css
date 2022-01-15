@@ -31,12 +31,11 @@
 
 @media only screen and (max-width: 768px) {
   .search-overlay{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   position: fixed;
   top: 0;
   bottom: 0;
-  background: red;
 }
 }
 .header--open-search .search-overlay{
@@ -62,7 +61,8 @@ display: none;
 	display: flex;
 	flex-direction: row;
 	border-bottom: 2px solid black;
-	padding: 0.2rem;
+	padding: 0.1rem;
+	padding-bottom: 0.2rem
 }
 
 .search-form button {
@@ -97,7 +97,7 @@ display: none;
 }
 @media only screen and (max-width: 768px) {
   .search-form input {
-  	font-size: 2rem;
+  	font-size: 1.5rem;
   }
 }
 .search-form input::placeholder {
@@ -108,7 +108,7 @@ display: none;
 
 @media only screen and (max-width: 768px) {
   .search-form input::placeholder {
-  	font-size: 2rem;
+  	font-size: 1.5rem;
   }
 }
 
