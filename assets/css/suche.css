@@ -92,6 +92,7 @@ display: none;
 	font-size: 3rem;
 	line-height: 1.1;
 	font-family: inherit;
+	padding: 0;
 	padding-top: 0.5rem;
   width: 100%;
 }
@@ -148,6 +149,11 @@ display: none;
 
 
 /* search result item */
+.search-result-item p{
+	margin-top: 0;
+	line-height: 1.4;
+	margin-bottom: 1.4rem;
+}
 
 .search-result-item {
 	position: relative;
@@ -168,6 +174,7 @@ display: none;
 .search-result-item__media {
 	width: 10rem;
 	margin-right: 1.5rem;
+	margin-bottom: 1.4rem;
 }
 @media only screen and (max-width: 768px) {
   .search-result-item__media {
@@ -182,16 +189,26 @@ display: none;
 	line-height: inherit;
 	font-weight: inherit;
 	margin: 0;
+	margin-bottom: 1.4rem;
 	text-decoration: underline;
 }
 
 .search-result-item__date {
-	width: 10rem;
+	width: 8rem;
 }
+@media only screen and (max-width: 768px) {
+	.search-result-item__date {
+		width: auto;
+	}
+}
+
 
 .search-result-item__text {
 	flex: 1;
 }
+
+
+
 
 
 
