@@ -325,8 +325,7 @@
 
 .menu__item.search-btn svg {
 	/* height: calc(1.7em *0.955); */
-	height: calc(3em *0.955);
-
+height: 2.4em;
 	width: auto;
 	z-index: 100;
 	position: relative;
