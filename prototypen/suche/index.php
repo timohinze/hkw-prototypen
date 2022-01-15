@@ -68,7 +68,7 @@
       <img src="https://www.hkw.de/media/bilder/2021/newalphabetschool/juan_pablo_estrada_imgsize_S.jpg">
     </div>
     <div class="search-result-item__date">
-      Fr 10.12.2021 <br>19h
+      <p>Fr 10.12.2021 <br>19h</p>
     </div>
     <div class="search-result-item__text">
     <h2 class="search-result-item__title"><a href="#">#CommunityBuilding</a></h2>

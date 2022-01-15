@@ -171,6 +171,7 @@
 	text-transform: uppercase;
 	margin-bottom: 0.25em;
 	margin-left: calc(25% + 4rem);
+	padding-right: 0.25em;
 }
 
 .calendar__topline {
@@ -277,7 +278,7 @@ margin-bottom: 0.5rem;
 	width: 30%;
 	margin-left: 2rem;
 	padding-right: 2rem;
-	margin-top: 1.3em;
+	/* margin-top: 1.3em; */
 	font-size: 0.75em;
 }
 
