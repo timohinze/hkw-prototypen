@@ -5,11 +5,11 @@ function show_projekte_element($project_posts) {
 
     echo '<div class="project-item" style="background:' . $project_post["projektfarbe"] . '">';
 
+    echo '<div class="project-item__media">';
       if (!empty($project_post["bild"])) {
-        echo '<div class="project-item__media">';
         echo '<div class="project-item__image"><img src="' . $project_post["bild"] . '" alt="Alt Text Lorem Ipsum"/></div>';
-        echo '</div>';
       }
+      echo '</div>';
 
       echo '<div class="project-item__text">';
         echo '<div class="project-item__header">';
