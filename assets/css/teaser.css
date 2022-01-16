@@ -162,7 +162,7 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 }
 @media (max-width: 840px) {
 	.ressourcen-teaser-item-element img{
-		max-width: 75%;
+		max-width: 100%;
 	}
 }
 
