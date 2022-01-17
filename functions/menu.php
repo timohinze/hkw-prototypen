@@ -90,13 +90,6 @@ function menu($page=null, $subpage=null){
 
     </svg>
 
-  <!-- <span class="search-close">
-      <span></span>
-      <span></span>
-      <span></span>
-  </span> -->
-
-
 </a></li>
 <?php
 
