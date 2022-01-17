@@ -1,5 +1,5 @@
 
-// scrollable menu menu flickity
+// scrollable menu flickity
 
 const navs = document.querySelectorAll('.scrollable-menu');
   for ( var i = 0, length = navs.length; i < length; i++ ) {
@@ -21,10 +21,8 @@ const navs = document.querySelectorAll('.scrollable-menu');
 
 
 
-// test
-/// add functionality for swipe gestures
-
-
+// just a test
+// add functionality for swipe gestures
 
  $( document ).ready(function() {
 
@@ -33,9 +31,6 @@ const navs = document.querySelectorAll('.scrollable-menu');
  }
 
  var swipe_timer = 0;
-
-
-
 
  var carousel = document.querySelector('.scrollable-menu')
  var flkty = Flickity.data( carousel )
@@ -78,15 +73,11 @@ const navs = document.querySelectorAll('.scrollable-menu');
 
 $( ".header__burger" ).click(function() {
 
-// close search overlay
-  // $(".search-overlay").removeClass("search-overlay--open");
-  // $(".search-btn").removeClass("search-btn--open");
-
+//close search overlay
   $(".page-header").removeClass("header--open-search");
-$( ".search-btn" ).removeClass('search-btn--open');
+  $( ".search-btn" ).removeClass('search-btn--open');
 
-
-
+//open mobile menu
   $(".page-header").toggleClass("header--open-menu");
   $(".header__burger").toggleClass("header__burger--open");
 });

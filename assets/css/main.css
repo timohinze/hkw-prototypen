@@ -117,21 +117,27 @@ a {
 /* Typografie */
 
 h1 {
-  font-size: 2.25em;
+  /* font-size: 2.25em; */
+  font-size: 1.85em;
   font-weight: normal;
   line-height: 1.1;
   margin: 0 0 0 0;
 }
 @media (min-width: 640px) {
   h1 {
-    font-size: 3em;
+    /* font-size: 3em; */
+  font-size: 2.5em;
   }
 }
 @media (min-width: 1024px) {
   h1 {
-    font-size: 4em;
+    /* font-size: 4em; */
+  font-size: 3.1em;
   }
 }
+
+
+
 
 h1 a {
   text-decoration: none;
