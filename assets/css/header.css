@@ -3,37 +3,50 @@
 /* Main menu typography styling */
 
 .programm-0,
-.programm-3 {
+.programm-3,
+.program-0,
+.program-3 {
 	letter-spacing: 0.02em;
 }
 
 .programm-1,
-.programm-2 {
+.programm-2,
+.program-1,
+.program-2 {
 	letter-spacing: 0.01em;
 }
 
 .programm-6,
+.thehaus-1,
 .medien-0,
 .medien-1,
 .medien-3,
-.medien-4 {
+.medien-4,
+.media-0,
+.media-1,
+.media-3 {
 	letter-spacing: 0.03em;
 }
 
-.medien-0 {
+.medien-0,
+.media-1 {
 	text-transform: lowercase;
 }
 
-.medien-2 {
+.medien-2,
+.media-2 {
 	letter-spacing: 0.02em;
 }
 
-.medien-3 {
+.medien-3,
+.media-3 {
 	text-transform: uppercase;
 }
 
 .programm-1,
-.programm-4 {
+.programm-4,
+.program-1,
+.program-4, {
 	text-transform: uppercase;
 }
 
@@ -45,25 +58,32 @@
 	letter-spacing: -0.03em;
 }
 
-.dashaus-2 {
+.dashaus-2,
+.thehaus-2 {
 	letter-spacing: -0.13em;
 }
 
-.dashaus-5 {
+.dashaus-5,
+.thehaus-5 {
 	letter-spacing: -0.045em;
 }
 
-.dashaus-6 {
+.dashaus-6,
+.thehaus-6 {
 	letter-spacing: 0.005em;
 }
 
 @media only screen and (min-width: 1800px) {
 	.programm-0,
-	.programm-3 {
+	.programm-3,
+	.program-0,
+	.program-3 {
 		letter-spacing: 0.005em;
 	}
 	.programm-1,
-	.programm-2 {
+	.programm-2,
+	.program-1,
+	.program-2 {
 		letter-spacing: 0;
 	}
 	.programm-6 {
