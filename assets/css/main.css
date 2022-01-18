@@ -43,9 +43,9 @@
 }
 
 :root {
-  --textsize0: 0.85em;
-  --textsize1: 1.2em;
-  --textsize2: 1.33em;
+  --textsize0: 0.85rem;
+  --textsize1: 1.2rem;
+  --textsize2: 1.33rem;
 }
 @media only screen and (min-width: 1400px) {
   :root {
