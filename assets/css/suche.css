@@ -115,6 +115,7 @@ border: 2px solid rgb(210,0,255);
 	font-size: 3rem;
 	line-height: 1.1;
 	font-family: inherit;
+	color: black;
 }
 
 @media only screen and (max-width: 768px) {

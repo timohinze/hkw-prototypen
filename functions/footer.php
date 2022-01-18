@@ -51,7 +51,7 @@
 
 <address class="page-footer-adress">
   Haus der Kulturen der Welt<br>
-  John-Foster-Dulles-Allee 10, 10557 Berlin<br>
+  John-Foster-Dulles-Allee 10, <br class="mobile"> 10557 Berlin<br>
   <a href="tel:+4930397870"> Tel + 49 30 397 87 0</a><br>
   <a href="mailto:info@hkw.de"  title="info@hkw.de">info@hkw.de</a>
 </address>

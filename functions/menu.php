@@ -85,8 +85,6 @@ function menu($page=null, $subpage=null){
       	<rect x="16" y="-3.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -8.2532 20.0221)" width="8" height="46.3"/>
       	<rect x="-3.2" y="16" transform="matrix(0.707 -0.7072 0.7072 0.707 -8.2878 19.9408)" width="46.3" height="8"/>
       </g>
-      </svg>
-
 
     </svg>
 
@@ -97,7 +95,7 @@ function menu($page=null, $subpage=null){
           ?>
 
             <div class="search-overlay">
-              <div class="search-form">
+              <div class="search-form" role="search">
                 <form>
                   <label class="search-label" for="search" aria-labelledby="search-title">
                   </label>
@@ -106,11 +104,9 @@ function menu($page=null, $subpage=null){
 
                   <button type="button" onclick="alert('Search Btn pressed')">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.5 56.6" width="40px" height="56px">
+                        <title id="search-title">Suche</title>
                   <path d="M32.5 34.2c8.1-7.1 8.9-19.5 1.7-27.6S14.7-2.3 6.6 4.9C-1.5 12-2.3 24.4 4.9 32.5c5.3 6.1 13.9 8.2 21.4 5.4l5.4 7.6h8.7l-7.9-11.3zm-12.9-2.4c-6.7 0-12.1-5.4-12.1-12.1 0-6.7 5.4-12.1 12.1-12.1 6.7 0 12.1 5.4 12.1 12.1 0 6.6-5.4 12.1-12.1 12.1z"></path>
                     </svg>
-
-
-                    <span class=scr-only>Suche</span>
                   </button>
 
                 </form>
@@ -120,6 +116,18 @@ function menu($page=null, $subpage=null){
           <?php
 
     echo '</nav>';
+
+    ?>
+
+
+
+    <div class="jump-to-top">
+       <a href="#top">&#8593;</a>
+    </div>
+
+
+    <?php
+
 
 
 
@@ -273,7 +281,10 @@ echo '</div>';
 
 }
 
+
 }
+
+
 
 
 

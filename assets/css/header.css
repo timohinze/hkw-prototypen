@@ -853,3 +853,25 @@ display: inline-block;
 	}
 
 }
+
+/*
+to top */
+
+.jump-to-top{
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: 10;
+	display: none;
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	font-size: 2rem;
+	background: #ffffff9e;
+	text-align: center;
+line-height: 1.1;
+}
+
+.nav-down .jump-to-top{
+	display: block;
+}
