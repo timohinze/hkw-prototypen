@@ -862,16 +862,22 @@ to top */
 	bottom: 1rem;
 	right: 1rem;
 	z-index: 10;
-	display: none;
-	border-radius: 50%;
+	opacity: 0;
 	width: 2rem;
 	height: 2rem;
 	font-size: 2rem;
-	background: #ffffff9e;
-	text-align: center;
-line-height: 1.1;
+	/* background: #ffffff9e; */
+	/* text-align: center;
+line-height: 1.1; */
+
+transition: opacity 0.75s;
+
 }
 
 .nav-down .jump-to-top{
-	display: block;
+	opacity: 0.8;
+}
+
+.nav-down .jump-to-top:hover{
+	opacity: 1;
 }

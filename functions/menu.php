@@ -122,7 +122,11 @@ function menu($page=null, $subpage=null){
 
 
     <div class="jump-to-top">
-       <a href="#top">&#8593;</a>
+       <a href="#top">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 17.1">
+                   <path d="M17 0l17 17.1h-6.7L17 6.6 6.7 17.1H0L17 0z"></path>
+                 </svg>
+       </a>
     </div>
 
 

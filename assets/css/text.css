@@ -92,10 +92,12 @@ list */
   list-style: none;
   position: relative;
 	padding-left: 1em;
+	margin-bottom: 0.5em;
 }
 
 .text-element  ul li:before {
-  content:"\2219";
+  content:"\2022";
+	content: "\25CB";
   width: 1em;
   height: 1em;
 	margin-right: 1.3em;
@@ -110,6 +112,8 @@ list */
 .text-element ol li {
   list-style: decimal inside;
   position: relative;
+	margin-bottom: 0.5em;
+
 }
 
 .text-element ol li::before {

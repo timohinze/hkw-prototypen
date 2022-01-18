@@ -67,3 +67,11 @@
 	font-size: 0.75em;
 	margin-right: 0.5em;
 }
+
+/* abstract */
+
+.project-abstract,
+.project-abstract p{
+  font-size: var(--textsize1);
+  line-height: 1.3;
+}
