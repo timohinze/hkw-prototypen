@@ -35,21 +35,20 @@
 }
 
 .page-footer-menu__header {
-	font-weight: 600;
+	font-size: 1.75em;
 	margin-bottom: 0.7rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.page-footer-menu__header {
 	font-size: 1.25em;
-	font-weight: normal;
 	}
 }
 
 .page-footer-submenu li a {
 	padding-top: 0.15em;
 	padding-bottom: 0.15em;
-	padding-right: 0.25em;
+	padding-right: 0.35em;
 	display: block;
 }
 
@@ -81,7 +80,7 @@
 	margin-bottom: 2.5em;
 	font-size: 1.75em;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.page-footer-adress {
 font-size: 1.25em;	}
 }

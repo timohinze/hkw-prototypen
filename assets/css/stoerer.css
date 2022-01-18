@@ -6,8 +6,19 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 
-}	
-	
+}
+@media only screen and (max-width: 768px) {
+	.stoerer-wrap{
+		  margin-left: 0;
+	  margin-right: 0;
+	  margin-top: 0;
+	  margin-bottom: 1rem;
+
+	}
+}
+
+
+
 .stoerer{
   background: #F5FF00;
   display: inline-block;
