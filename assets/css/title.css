@@ -43,9 +43,13 @@
 .subhead-element{
   max-width: 45em;
 }
- /* .title-element + .subhead-element{
-  padding-top: 0;
-} */
+
+.subhead-element,
+.subhead-element p{
+  font-size: var(--textsize1);
+  line-height: 1.3;
+}
+
 .title-element + .element:not(.element--full-width){
   padding-top: 0;
 }

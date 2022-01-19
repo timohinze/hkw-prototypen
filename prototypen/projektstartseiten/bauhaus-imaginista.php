@@ -64,7 +64,7 @@ $linkrail = array (
     "name" => "Lorem Ipsum Dolor",
     "slug" => "",
     "classes" => "",
-  )  
+  )
 );
 ?>
 <main class="projektstartseite-page">
@@ -92,6 +92,9 @@ $linkrail = array (
 <?php show_topline_element("../../content/programm/projekte/bauhaus-imaginista/topline.txt"); ?>
 
 <?php show_title_element("../../content/programm/projekte/bauhaus-imaginista/title.txt"); ?>
+
+<?php show_subhead_element("../../content/programm/projekte/lorem-ipsum/subhead.txt"); ?>
+
 
 <?php show_service_info_element("../../content/programm/projekte/bauhaus-imaginista/service-info.txt"); ?>
 
@@ -291,7 +294,7 @@ show_kalender_element($calendar_posts);
               </div>
               <div class="teaser-item__text">
                  <h2 class="teaser-item__title hyphenate">Ausstellungsguide</h2>
-                 <p><a href="#">Download PDF</a></p>
+                 <p><a class="download-link" href="#">Download PDF</a></p>
               </div>
         </li>
 
