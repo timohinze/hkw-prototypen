@@ -13,10 +13,10 @@
 	margin-bottom: 1.4rem
 }
 
-.text-element>h2,
+/* .text-element>h2,
 .text-element>h3{
 	font-size: var(--textsize1);
-}
+} */
 
 
 @media (max-width: 39em) {
