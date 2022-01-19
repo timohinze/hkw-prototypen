@@ -148,10 +148,18 @@ border: 2px solid rgb(210,0,255);
 
 .search-result-number {
 	font-size: 1.5rem;
-	line-height: 1.1;
+	line-height: 1.4;
 	margin-top: 0;
 	margin-bottom: 3rem;
 }
+@media only screen and (max-width: 768px) {
+	.search-result-number {
+		font-size: 1.25rem;
+
+	}
+}
+
+
 
 .search-result-number a {
 	text-decoration: underline;
@@ -233,5 +241,4 @@ border: 2px solid rgb(210,0,255);
 /* mark results */
 mark{
 	background: #ffff80;
-	padding: 0.15rem;
 }
