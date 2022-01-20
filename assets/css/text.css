@@ -36,6 +36,8 @@ margin-bottom: 1.4rem;} */
 
 
 .text-element h2 {
+	font-size: 1.5em;
+line-height: 1.1;
 	margin-top: 2.8rem;
 	margin-bottom: 1.0rem;
 }
@@ -184,8 +186,14 @@ list */
 }
 
 
-/* half margin top for first image */
+/* no margin top for first image */
 .text-element figure:first-child,
 .text-element figure.text-element__image--small:first-child:first-child{
 	margin-top: 0;
+}
+
+.text-element figure:last-child,
+.text-element figure.text-element__image--small:last-child{
+	margin-bottom: 0;
+	outline: 2px solid red;
 }
