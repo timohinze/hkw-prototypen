@@ -34,12 +34,16 @@ margin-bottom: 1.4rem;} */
 }
 
 
+
 .text-element h2 {
 	margin-top: 2.8rem;
-	margin-bottom: 1.0rem
+	margin-bottom: 1.0rem;
 }
 
-
+.title-element+.text-element h2:first-child{
+	margin-top: 1.4rem;
+	color: fuchsia;
+}
 
 /* 20 sec */
 .text-element .element-cols-1 ul, .text-element .element-cols-1 h2, .text-element .element-cols-1 h3, .text-element .element-cols-1 p {
