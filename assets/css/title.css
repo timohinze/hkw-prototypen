@@ -54,6 +54,15 @@ line-height: 1.3;
 
 }
 
+@media (max-width: 840px) {
+  .subhead-element,
+  .subhead-element p{
+  font-size: var(--textsize2);
+  }
+}
+
+
+
 .title-element + .element:not(.element--full-width){
   padding-top: 0;
 }
