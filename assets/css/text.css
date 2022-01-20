@@ -43,6 +43,15 @@ line-height: 1.1;
 	margin-bottom: 1.0rem;
 }
 
+
+@media (max-width: 840px) {
+	.text-element h2,
+	.text-element h3 {
+  font-size: var(--textsize2);
+  }
+}
+
+
 .title-element+.text-element h2:first-child,
 .title-element+.text-element h3:first-child{
 	margin-top: 1.4rem;
