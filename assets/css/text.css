@@ -46,7 +46,6 @@ line-height: 1.1;
 .title-element+.text-element h2:first-child,
 .title-element+.text-element h3:first-child{
 	margin-top: 1.4rem;
-	color: fuchsia;
 }
 
 /* 20 sec */
@@ -197,5 +196,4 @@ list */
 .text-element figure:last-child,
 .text-element figure.text-element__image--small:last-child{
 	margin-bottom: 0;
-	outline: 2px solid red;
 }
