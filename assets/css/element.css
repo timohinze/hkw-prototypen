@@ -32,6 +32,15 @@
   padding-right: 0;
 }
 
+.element--no-top-padding{
+  padding-top: 0;
+}
+
+
+.element--no-bottom-padding{
+  padding-bottom: 0;
+}
+
 
 /* margins nur unten */
 .element p,

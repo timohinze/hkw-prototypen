@@ -1,11 +1,39 @@
-.text-element>h2 {
+.text-element{
+	/* padding-top: 0;
+	padding-bottom: 0; */
+
+}
+.text-element p{
+	/* margin-bottom: 1.4rem!important; */
+}
+
+
+/* test */
+/* .text-element.element--no-padding{
+	padding-bottom:  0;
+	background: yellow;
+}
+.text-element.element--no-padding p{
+margin-bottom: 1.4rem;} */
+
+
+
+
+.text-element h2 {
+	margin-top: 2.8rem;
 	margin-bottom: 1.4rem
 }
+.text-element h2:first-child {
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem
+}
+
+
 .text-element ul,
 .text-element ol,
-.text-element>h2,
-.text-element>h3,
-.text-element>p {
+.text-element h2,
+.text-element h3,
+.text-element p {
 	line-height: 1.3;
 	max-width: 35rem;
 	margin-left: auto;
@@ -15,7 +43,7 @@
 
 
 /* 20 sec */
-.text-element .element-cols-1 ul, .text-element .element-cols-1>h2, .text-element .element-cols-1>h3, .text-element .element-cols-1>p {
+.text-element .element-cols-1 ul, .text-element .element-cols-1 h2, .text-element .element-cols-1 h3, .text-element .element-cols-1 p {
     margin-left: auto;
     margin-right: auto;
     max-width: 35rem;
@@ -139,20 +167,21 @@ list */
 }
 
 /* kein padding zwischen text elementen */
-.text-element+.text-element {
+ .text-element+.text-element {
     padding-top: 0;
 }
 
 
 
 /* 20sec */
+
 .text-element figure.text-element__image {
     margin: 1.4rem auto;
     max-width: 35rem;
 }
 
 
-/* remove margin top for first image */
+/* half margin top for first image */
 .text-element figure:first-child,
 .text-element figure.text-element__image--small:first-child:first-child{
 	margin-top: 0;
