@@ -53,3 +53,18 @@
 	position: relative;
   z-index: 1;
 }
+
+
+
+/* presse fotos seite */
+
+.press-photos-item__images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+.press-photos-item__images img.portrait{
+  width: 66%;
+  height: auto;
+}
