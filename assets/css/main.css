@@ -132,7 +132,9 @@ h1 {
 @media (min-width: 1024px) {
   h1 {
     /* font-size: 4em; */
-  font-size: 3.1em;
+  /* font-size: 3.1em; */
+  font-size: 3.5em;
+  letter-spacing: -0.015em;
   }
 }
 
