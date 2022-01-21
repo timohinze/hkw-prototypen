@@ -10,7 +10,7 @@
     <form>
       <label class="search-label" for="search" aria-labelledby="search-title">
       </label>
-      <input id="search" type="text" placeholder="Suche">
+      <input id="search" type="text" >
 
 
       <button type="button" onclick="alert('Search Btn pressed')">
