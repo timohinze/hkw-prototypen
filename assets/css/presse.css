@@ -10,6 +10,7 @@
 
 
 .press-list-item{
+  position: relative;
   border-bottom: 1px solid black;
   padding-left: 25%;
   padding-right: 25%;
@@ -40,7 +41,7 @@
 }
 
 
-.press-list-item__show-details a::after {
+.press-list-item__title a::after {
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -49,7 +50,7 @@
 	content: " ";
 }
 
-.press-list-item a:not(.press-list-item__show-details a) {
+.press-list-item a:not(.press-list-item__title a) {
 	position: relative;
   z-index: 1;
 }

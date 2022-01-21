@@ -11,84 +11,65 @@
 
 <div class="element element--fullbleed press-list-element">
   <div class="press-list-item">
-    <h2 class="press-list-item__title">Die Ausstellung The Children Have to Hear Another Story – Alanis Obomsawin eröffnet am 23. Januar 2022
-      The Children Have to Hear Another Story – Alanis Obomsawin
+
+    <h2 class="press-list-item__title"><a href="#1">Die Ausstellung The Children Have to Hear Another Story – Alanis Obomsawin eröffnet am 23. Januar 2022
+      The Children Have to Hear Another Story – Alanis Obomsawin </a>
     </h2>
 
-    <div class="press-list-item__show-details">
-      <a href="#">Details anzeigen</a>
-    </div>
-
     <div class="press-list-item__published-on">
-      veröffentlicht am 29.10.2021
+      29.10.2021
     </div>
   </div>
 
 
   <div class="press-list-item">
-    <h2 class="press-list-item__title">Festival "Dear Future," am 18. & 19.11.
+    <h2 class="press-list-item__title"><a href="#2">Festival "Dear Future," am 18. & 19.11.</a>
     </h2>
 
-    <div class="press-list-item__show-details">
-      <a href="#">Details anzeigen</a>
-    </div>
 
     <div class="press-list-item__published-on">
-      veröffentlicht am 29.10.2021
+      29.10.2021
     </div>
   </div>
 
   <div class="press-list-item">
-    <h2 class="press-list-item__title">"Cultures d’Avenir" - Student*innen in Frankreich, Spanien und Deutschland entwerfen ein Curriculum für die Zukunft
+    <h2 class="press-list-item__title"><a href="#3">"Cultures d’Avenir" - Student*innen in Frankreich, Spanien und Deutschland entwerfen ein Curriculum für die Zukunft</a>
     </h2>
 
-    <div class="press-list-item__show-details">
-      <a href="#">Details anzeigen</a>
-    </div>
 
     <div class="press-list-item__published-on">
-      veröffentlicht am 29.10.2021
+      29.10.2021
     </div>
   </div>
 
   <div class="press-list-item">
-    <h2 class="press-list-item__title">Die Ausstellung The Children Have to Hear Another Story – Alanis Obomsawin eröffnet am 23. Januar 2022
-      The Children Have to Hear Another Story – Alanis Obomsawin
+    <h2 class="press-list-item__title"><a href="#4">Die Ausstellung The Children Have to Hear Another Story – Alanis Obomsawin eröffnet am 23. Januar 2022
+      The Children Have to Hear Another Story – Alanis Obomsawin </a>
     </h2>
 
-    <div class="press-list-item__show-details">
-      <a href="#">Details anzeigen</a>
-    </div>
 
     <div class="press-list-item__published-on">
-      veröffentlicht am 29.10.2021
+      29.10.2021
     </div>
   </div>
 
 
   <div class="press-list-item">
-    <h2 class="press-list-item__title">Festival "Dear Future," am 18. & 19.11.
+    <h2 class="press-list-item__title"><a href="#5">Festival "Dear Future," am 18. & 19.11.</a>
     </h2>
 
-    <div class="press-list-item__show-details">
-      <a href="#">Details anzeigen</a>
-    </div>
-
     <div class="press-list-item__published-on">
-      veröffentlicht am 29.10.2021
+      29.10.2021
     </div>
   </div>
 
   <div class="press-list-item">
-    <h2 class="press-list-item__title">"Cultures d’Avenir" - Student*innen in Frankreich, Spanien und Deutschland entwerfen ein Curriculum für die Zukunft
+    <h2 class="press-list-item__title"><a href="#6">"Cultures d’Avenir" - Student*innen in Frankreich, Spanien und Deutschland entwerfen ein Curriculum für die Zukunft</a>
     </h2>
 
-    <div class="press-list-item__show-details">
-      <a href="#">Details anzeigen</a>
-    </div>
 
     <div class="press-list-item__published-on">
-      veröffentlicht am 29.10.2021
+      29.10.2021
     </div>
   </div>
 
