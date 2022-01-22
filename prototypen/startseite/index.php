@@ -18,7 +18,7 @@
                <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/terror_contagion_forensic_architecture_2021.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="scroll-buhne-item__text">
-               <h2 class="scroll-buhne-item__title balance-text hyphenate">Digital Violence  Investigative Commons</h2>
+               <h2 class="scroll-buhne-item__title balance-text hyphenate">Transmediale</h2>
                <p class="scroll-buhne-item__subtitle balance-text hyphenate">Wie die NSO Group Staatsterror möglich macht</p>
                <p class="balance-text">Wie wird von privaten Unternehmen entwickelte Spyware für Staatsterror genutzt? Wer wird dabei gehackt und was sind die Konsequenzen? Welche ökonomische Logik steckt hinter der Ausweitung von Cyberüberwachung?</p>
                <p class="balance-text">Präsentation: Gespräche und Screenings <span class="icon-separator"></span> <span class="nobr"> Sa, 3.7.2021</span> <span class="icon-separator"></span><span class="nobr"> 19h&#8211;21h</span></p>
@@ -30,7 +30,7 @@
             <div class="scroll-buhne-item__media"><img src="https://hkw.de/media/bilder/2021/kosmoskopien/nicholas_bussmann_wanderduenen_ausstellungsansicht_imgsize_buehne.jpg" alt="Lorem Ipsum"/>
             </div>
             <div class="scroll-buhne-item__text balance-text">
-               <h2 class="scroll-buhne-item__title balance-text hyphenate">Kosmos&shy;kopien<br> </h2>
+               <h2 class="scroll-buhne-item__title balance-text hyphenate">Kosmos&shy;kopien mit soft hyphen<br> </h2>
                <p class="scroll-buhne-item__subtitle balance-text hyphenate">Ausstellung von Nicholas Bussmann</p>
                <p class="balance-text">Wie stehen Musik, soziale Praxis und Vergesellschaftung miteinander in Verbindung? Nicholas Bussmann lädt zur Mitwirkung an seinen vielschichtigen Versuchsanordnungen ein.</p>
                <p class="balance-text"><span class=" nobr">Ausstellung bis 19.9.</span> <span class="icon-separator"></span>  <span class=" nobr">	Performances 15.–17.9.</span></p>
@@ -124,7 +124,7 @@
                <div class="programmteaser-kalender-item__datum">Heute 15.Juli</div>
                <div class="programmteaser-kalender-item__uhrzeit">12-19h</div>
                <img src="https://www.hkw.de/media/bilder/2021/bildungsschock_1/austellungsansichten_bildungsschock/bildungsschock_ausstellungsansicht_03_imgsize_M.jpg" alt="Lorem Ipsum"/>
-               <h2 class="programmteaser-kalender-item__title hyphenate">Bildungsschock</h2>
+               <h2 class="programmteaser-kalender-item__title hyphenate">Langertitelbildungsschock</h2>
                <p>Lernen, Politik und Architektur in den 1960er und 1970er Jahren</p>
                <p><span class="icon-eintritt-frei"></span> Eintritt frei </p>
             </a>
