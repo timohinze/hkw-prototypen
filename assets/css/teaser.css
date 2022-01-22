@@ -141,6 +141,12 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 	font-size: 2.5em;
 }
 
+.home-page .teaser-item__title.hyphenate {
+	hyphens: manual;
+}
+
+
+
 @media only screen and (max-width: 1024px) {
 	.home-page .teaser-item__title {
 		font-size: 2.2em;
