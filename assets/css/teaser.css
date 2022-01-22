@@ -189,3 +189,9 @@ box-shadow: inset 0px 0px 1em 1em #CCDAE3;
 /* .ressourcen-teaser-item-element a{
 	text-decoration: underline!important;
 } */
+
+/* no hyphenation */
+
+.super-text-media-item__title.hyphenate{
+	hyphens: manual;
+}
