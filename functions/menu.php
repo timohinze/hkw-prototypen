@@ -1,35 +1,43 @@
 <?php
 
+$lang = "de";
+if((isset($_GET["lang"]) AND ($_GET["lang"]=="en"))) {
+$lang= "en";
+}
 
 // $current_page = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 function menu($page=null, $subpage=null){
+  global $lang;
   global $current_page;
   $menuitems = array (
     array(
-      "name" => 'Programm',
+      "name" => '<span class="programm-0">P</span><span class="programm-1">r</span><span class="programm-2">o</span><span class="programm-3">g</span><span class="programm-4">r</span><span class="programm-5">a</span><span class="programm-6">m</span><span class="programm-7">m</span>',
       "slug" => "programm",
       "has_submenu" => true,
       "submenu_id" =>"programm",
       "is_no_link" => false,
-      "url" => BASE_URL."prototypen/kalender"
+      "url" => BASE_URL."prototypen/kalender",
+      "en_name" => '<span class="program-0">P</span><span class="program-1">r</span><span class="program-2">o</span><span class="program-3">g</span><span class="program-4">r</span><span class="program-5">a</span><span class="program-6">m</span>'
     ),
     array(
-      "name" => 'Das Haus',
+      "name" => '<span class="dashaus-0">D</span><span class="dashaus-1">a</span><span class="dashaus-2">s</span> <span class="dashaus-4">H</span><span class="dashaus-5">a</span><span class="dashaus-6">u</span><span class="dashaus-7">s</span>',
       "slug" => "das-haus",
       "has_submenu" => true,
       "submenu_id" =>"das-haus",
       "is_no_link" => false,
-      "url" => "#"
+      "url" => "#",
+      "en_name" => '<span class="thehaus-0">T</span><span class="thehaus-1">h</span><span class="thehaus-2">e</span> <span class="thehaus-4">H</span><span class="thehaus-5">a</span><span class="thehaus-6">u</span><span class="thehaus-7">s</span>'
 
     ),
     array(
-      "name" =>'Medien',
+      "name" =>'<span class="medien-0">M</span><span class="medien-1">e</span><span class="medien-2">d</span><span class="medien-3">i</span><span class="medien-4">e</span><span class="medien-5">n</span>',
       "slug" => "medien",
       "submenu_id" =>"medien",
       "has_submenu" => true,
       "is_no_link" => false,
-      "url" => "#"
+      "url" => "#",
+      "en_name" =>'<span class="media-0">M</span><span class="media-1">e</span><span class="media-2">d</span><span class="media-3">i</span><span class="media-4">a</span>'
 
     ),
   );
@@ -64,15 +72,33 @@ function menu($page=null, $subpage=null){
           $status = null;
           if($page == $menuitem["slug"]) {$status= " menu__item--selected";}
 
-                echo '<li class="menu__item mainmenu__item'.$status.'">
-                          <a href="'.$menuitem["url"].'">'.$menuitem["name"].'</a>';
 
+          echo '<li class="menu__item mainmenu__item'.$status.'">';
+
+            if($lang=="en"){
+              echo '<a href="'.$menuitem["url"].'">'.$menuitem["en_name"].'</a>';
+
+            }else{
+                        echo '<a href="'.$menuitem["url"].'">'.$menuitem["name"].'</a>';
+            }
                         submenu($menuitem["submenu_id"], $subpage);
                   echo '</li>';
                 }
 
 ?>
-<li class="menu__item language-switch-btn"><a href="#">EN</a></li>
+<li class="menu__item language-switch-btn">
+
+<?php  if($lang=="en"){
+  echo '<a href="#">DE</a>';
+}else{
+  echo '<a href="#">EN</a>';
+
+}
+
+?>
+
+
+</li>
 <li class="menu__item search-btn">
 
   <a href="#">
