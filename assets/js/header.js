@@ -103,22 +103,7 @@ $( ".search-modal-close" ).click(function() {
 });
 
 
-// menu
-// wrap characters in spans for styling
-$(".mainmenu__item > a").each(function (index) {
-  var text = $(this).text().toLowerCase().replace(/ /g,'');
-  var characters = $(this).text().split("");
 
-  $this = $(this);
-  $this.empty();
-  $.each(characters, function (i, el) {
-    if(el != ' '){
-    $this.append("<span class="+ text +"-"+ i +">" + el + "</span");
-  } else{
-    $this.append(" ");
-  }
-  });
-});
 
 
 // Hide Header on on scroll down src: http://jsfiddle.net/mariusc23/s6mLJ/31/
