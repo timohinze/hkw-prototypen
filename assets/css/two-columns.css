@@ -76,11 +76,11 @@
 
 .two-column-element  .project-abstract,
 .two-column-element  .project-abstract p{
-  /* font-size: var(--textsize1);
-  line-height: 1.3; */
+  font-size: var(--textsize1);
+  line-height: 1.3;
 
-  font-size: 1.5rem;
-line-height: 1.3;
+  /* font-size: 1.5rem;
+line-height: 1.3; */
 
 }
 
@@ -103,4 +103,8 @@ line-height: 1.3;
   font-size: var(--textsize2);
 
   }
+}
+
+.project-abstract{
+  font-weight: 500;
 }

@@ -46,10 +46,10 @@
 
 .subhead-element,
 .subhead-element p{
-  /* font-size: var(--textsize1);
-  line-height: 1.3; */
-  font-size: 1.5rem;
-line-height: 1.3;
+  font-size: var(--textsize1);
+  line-height: 1.3;
+  /* font-size: 1.5rem;
+line-height: 1.3; */
 
 
 }

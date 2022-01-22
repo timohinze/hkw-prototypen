@@ -156,7 +156,7 @@ list */
 
 .text-element  ul li:before {
   content:"\2022";
-	content: "\25CB";
+	/* content: "\25CB"; */
   width: 1em;
   height: 1em;
 	margin-right: 1.3em;
@@ -164,6 +164,16 @@ list */
   left: 0;
 
 }
+.text-element ul.no-bullet li{
+	padding-left: 0;
+}
+
+
+.text-element ul.no-bullet li::before{
+	content: "";
+}
+
+
 .text-element ol {
 	padding: 0;
 }
