@@ -84,6 +84,5 @@
 }
 /* underline a */
 .super-text-media-item__text a {
-    background: aqua;
     text-decoration: underline;
 }
