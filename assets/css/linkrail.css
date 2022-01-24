@@ -47,7 +47,7 @@ padding-right: 1rem;
 .projektmenu__item {
 	margin-right: 2em;
 	margin-top: 0;
-	border-bottom: 3px solid transparent;
+	border-bottom: 0.2rem solid transparent;
 
 }
 
@@ -59,9 +59,9 @@ padding-right: 1rem;
 
 
 .projektmenu__item:hover {
-	border-bottom: 3px solid black;
+	border-bottom: 0.2rem solid #000;
 }
 
 .projektmenu__item--selected {
-	border-bottom: 3px solid black;
+	border-bottom: 0.2rem solid #000;
 }
