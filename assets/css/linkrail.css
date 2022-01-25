@@ -60,12 +60,14 @@ padding-right: 1rem;
 
 .projektmenu__item:hover {
 	 border-bottom: 0.2rem solid #000; 		
+  border-bottom: calc(3px + 0.1vw) solid #000;
 	/* border-bottom: 3px solid #000; */
 
 }
 
 .projektmenu__item--selected {
 	 border-bottom: 0.2rem solid #000; 
-	/*	border-bottom: 3px solid #000; */
+	  border-bottom: calc(3px + 0.1vw) solid #000;
+/*	border-bottom: 3px solid #000; */
 
 }
