@@ -195,22 +195,29 @@ overflow-x: auto;
  </nav>
 
 <script>
-// scrollable menu flickity
- $( document ).ready(function() {
 
-	 $('.neu-scrollable-menu').flickity({
-          cellAlign: 'left',
-          freeScroll: true,
-          prevNextButtons: true,
-          pageDots: false,
-          contain: true,
-          cellSelector: ".neu-item",
-          groupCells: true,
-          watchCSS: true,
-});
-	 
-	 
-const navs2 = document.querySelectorAll('.NOneu-scrollable-menu');
+// $( document ).ready(function() {
+//
+// $(".neu-scrollable-menu").addClass("scrollable-menu-flickity");
+//
+//   $('.neu-scrollable-menu').flickity({
+//          cellAlign: 'left',
+//          freeScroll: true,
+//          prevNextButtons: true,
+//          pageDots: false,
+//          contain: true,
+//          cellSelector: ".neu-item",
+//          groupCells: true,
+//          watchCSS: true,
+//          adaptiveHeight: true
+// });
+// });
+
+// scrollable menu flickity
+
+$( document ).ready(function() {
+
+const navs2 = document.querySelectorAll('.neu-scrollable-menu');
   for ( var i = 0, length = navs2.length; i < length; i++ ) {
     var nav2 = navs2[i];
        nav2.classList.add("scrollable-menu-flickity");
@@ -223,10 +230,13 @@ const navs2 = document.querySelectorAll('.NOneu-scrollable-menu');
           cellSelector: ".neu-item",
           groupCells: true,
           watchCSS: true,
+          adaptiveHeight: true
+
         });
 
  }
 });
+
 </script>
 
 
