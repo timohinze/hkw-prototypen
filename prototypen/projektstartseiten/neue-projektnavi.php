@@ -197,7 +197,20 @@ overflow-x: auto;
 <script>
 // scrollable menu flickity
  $( document ).ready(function() {
-const navs2 = document.querySelectorAll('.neu-scrollable-menu');
+
+	 $('.neu-scrollable-menu').flickity({
+          cellAlign: 'left',
+          freeScroll: true,
+          prevNextButtons: true,
+          pageDots: false,
+          contain: true,
+          cellSelector: ".neu-item",
+          groupCells: true,
+          watchCSS: true,
+});
+	 
+	 
+const navs2 = document.querySelectorAll('.!neu-scrollable-menu');
   for ( var i = 0, length = navs2.length; i < length; i++ ) {
     var nav2 = navs2[i];
        nav2.classList.add("scrollable-menu-flickity");
