@@ -210,7 +210,7 @@ overflow-x: auto;
 });
 	 
 	 
-const navs2 = document.querySelectorAll('.!neu-scrollable-menu');
+const navs2 = document.querySelectorAll('.NOneu-scrollable-menu');
   for ( var i = 0, length = navs2.length; i < length; i++ ) {
     var nav2 = navs2[i];
        nav2.classList.add("scrollable-menu-flickity");
