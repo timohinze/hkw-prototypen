@@ -113,7 +113,6 @@ $linkrail = array (
      /* border-bottom: 1px solid #000; */
  /*         font-size: 0; */
 
-
  box-shadow: inset 0 -1px 0 0 red;
 
      white-space: nowrap;
@@ -130,6 +129,11 @@ $linkrail = array (
      padding-left: 10px;
      padding-right: 10px;
  */
+
+
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+-ms-overflow-style: -ms-autohiding-scrollbar;
  }
  /*
  .projektmenu {
