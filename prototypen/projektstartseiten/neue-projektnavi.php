@@ -130,6 +130,9 @@ $linkrail = array (
      padding-right: 10px;
  */
 
+/* padding-bottom: 4px; */
+/* test */
+
 
 overflow-x: auto;
 -webkit-overflow-scrolling: touch;
@@ -143,7 +146,7 @@ overflow-x: auto;
  */
 
  .neu-projektmenu-wrap .neu-item {
-     display: inline;
+     /* display: inline; */
 
          font-size: 0;
 
@@ -155,10 +158,11 @@ overflow-x: auto;
 
     .neu-projektmenu-wrap .neu-item a{
  	    font-size: 20px;
+      line-height: 50px;
       /* kein em / rem für fontsize */
 
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      /* padding-top: 0.5rem;
+      padding-bottom: 0.5rem; */
 
        /* padding-top: 15px;
        padding-bottom: 15px; */
@@ -167,51 +171,82 @@ overflow-x: auto;
      text-decoration: none;
      display: inline-block;
 
+     display: block;
+
  }
 
    .neu-item.aktiv a,
    .neu-item:hover a,
    .neu-item:focus a{
- /* 	    outdivne: none; */
        box-shadow: inset 0 -4px 0 0 blue;
  }
+.flickity-viewport{
+/* height: 43px!important; */
+}
+/* .flickity-slider{
+padding-bottom: 4px;
+}  */
 
  </style>
 
 <br><br><br>
 
  <nav class="neu-projektmenu-wrap">
- <div class="neu-scrollable-menu">
-   <div class="neu-projektmenu">
-     <div class="neu-item" ><a href="#">Lorem Ipsum</a></div>
-     <div class="neu-item aktiv"><a href="#">Dolor Est</a></div>
-     <div class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></div>
+ <ul class="neu-scrollable-menu scrollable-menu-flickity">
+     <li class="neu-item" ><a href="#">Lorem Ipsum</a></li>
+     <li class="neu-item aktiv"><a href="#">Dolor Est</a></li>
+     <li class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></li>
 
-     <div class="neu-item"><a href="#">Lorem Ipsum</a></div>
-     <div class="neu-item"><a href="#">Dolor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummmsdffdsdfsdsfdfsdsfdsfdfsolor Lorem ipsummm      Est</a></div>
-     <div class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></div>
-   </div>
- </div>
+     <li class="neu-item"><a href="#">Lorem Ipsum</a></li>
+     <li class="neu-item"><a href="#">Dolor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummmsdffdsdfsdsfdfsdsfdsfdfsolor Lorem ipsummm      Est</a></li>
+     <li class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></li>
+ </ul>
  </nav>
 
 <script>
+// $( document ).ready(function() {
+// $(".neu-scrollable-menu").addClass("scrollable-menu-flickity");
 
-$( document ).ready(function() {
+$('.neu-scrollable-menu').flickity({
+             cellAlign: 'left',
+             freeScroll: true,
+             prevNextButtons: true,
+             pageDots: false,
+             contain: true,
+             // cellSelector: ".neu-item",
+             groupCells: true,
+             watchCSS: true,
+             adaptiveHeight: true,
+             // setGallerySize: false
 
-$(".neu-scrollable-menu").addClass("scrollable-menu-flickity");
 
-  $('.neu-scrollable-menu').flickity({
-         cellAlign: 'left',
-         freeScroll: true,
-         prevNextButtons: true,
-         pageDots: false,
-         contain: true,
-         cellSelector: ".neu-item",
-         groupCells: true,
-         watchCSS: true,
-         adaptiveHeight: true
 });
-});
+// });
+
+// $(window).ready( function() {
+//   $('.neu-scrollable-menu').flickity('resize');
+// });
+
+//   let $carousel =   $('.neu-scrollable-menu').flickity({
+//            cellAlign: 'left',
+//            freeScroll: true,
+//            prevNextButtons: true,
+//            pageDots: false,
+//            contain: true,
+//            cellSelector: ".neu-item",
+//            groupCells: true,
+//            watchCSS: true,
+//            adaptiveHeight: true
+//   });
+//
+//   $(window).load( function() {
+//     $carousel.flickity('resize');
+//   });
+//
+//
+
+
+
 
 // scrollable menu flickity
 
