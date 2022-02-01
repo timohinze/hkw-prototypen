@@ -86,13 +86,17 @@
 @media only screen and (max-width: 1024px){
 .neu-projektmenu-wrap {
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 }
 
 .neu-projektmenu-wrap .neu-item {
-  display: inline;
+   /* display: inline; */
+  display: inline-block;
   font-size: 0;
   margin-right: 2rem;
+  position: relative;
+  padding-bottom: 4px;
 }
 
 .neu-projektmenu-wrap .neu-item a {
@@ -100,8 +104,6 @@
   /* kein em / rem für fontsize */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-top: 9px;
-  padding-bottom: 9px;
   color: inherit;
   text-decoration: none;
   display: inline-block;
@@ -121,10 +123,21 @@
 }
 
 
-.neu-item.aktiv a,
+/* .neu-item.aktiv a,
 .neu-item:hover a,
 .neu-item:focus a {
-  box-shadow: inset 0 -4px 0 0 black; 
-  /* border-bottom: 4px solid black; */
-  
+  box-shadow: inset 0 -4px 0 0 blue;
+} */
+
+
+.neu-item.aktiv::after,
+.neu-item:hover::after,
+.neu-item:focus::after{
+  /* box-shadow: inset 0 -4px 0 0 black; */
+  border-bottom: 4px solid red;
+  content: " ";
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
