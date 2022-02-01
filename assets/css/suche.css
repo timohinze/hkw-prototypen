@@ -1,244 +1,232 @@
 /* search  overlay */
-
 @media only screen and (max-width: 768px) {
-	.header--open-search {
-		top: 0!important;
-		height: 100vh;
-		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;
-		position: fixed;
-		width: 100%;
-		z-index: 99;
-	}
+  .header--open-search {
+    top: 0 !important;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
 }
 
 .search-overlay {
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	display: none;
-	background: white;
-	position: absolute;
-	left: 0;
-	right: 0;
-	z-index: 11;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: none;
+  background: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 11;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-overlay {
-		padding-left: 1rem;
-		padding-right: 1rem;
-		position: fixed;
-		top: 0;
-		bottom: 0;
-	}
+  .search-overlay {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
 }
 
 .header--open-search .search-overlay {
-	display: block;
+  display: block;
 }
 
 .search-overlay--open {
-	display: block;
+  display: block;
 }
 
 .header--open-menu .search-overlay--open {
-	display: none;
+  display: none;
 }
 
-
 /* search form */
-
 .search-form form {
-	display: flex;
-	flex-direction: row;
-	 border-bottom: 2px solid black;
-	padding: 2px;
-	 padding-bottom: 0.2rem;
-	position: relative;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+  padding: 2px;
+  padding-bottom: 0.2rem;
+  position: relative;
 }
 
 .search-form button {
-	border: 0;
-	border-radius: 0;
-	background: transparent;
-	color: black;
-	padding: 0;
-	margin: 0;
-	cursor: pointer;
-	padding-top: 7px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  padding-top: 7px;
 }
 
 /* .search-form button:hover svg{
 	fill: rgb(210,0,255)
 
 } */
-
 .search-form svg {
-	height: 3rem;
+  height: 3rem;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-form svg {
-		height: 2rem;
-
-	}
+  .search-form svg {
+    height: 2rem;
+  }
 }
 
 .search-form input {
-	 flex-grow: 2;
-	border: none;
-	 margin-right: 0.25em;
-	font-size: 3rem;
-	line-height: 1.1;
-	font-family: inherit;
-	padding: 0.1rem;
-	padding-top: 0.5rem;
-	width: 100%;
-	outline: 0;
+  flex-grow: 2;
+  border: none;
+  margin-right: 0.25em;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-family: inherit;
+  padding: 0.1rem;
+  padding-top: 0.5rem;
+  width: 100%;
+  outline: 0;
 }
 
 /* .search-form input:focus {
 	outline: 0;
 border: 2px solid rgb(210,0,255);
 } */
-
 @media only screen and (max-width: 768px) {
-	.search-form input {
-		font-size: 1.5rem;
-	}
+  .search-form input {
+    font-size: 1.5rem;
+  }
 }
 
 .search-form input::placeholder {
-	font-size: 3rem;
-	line-height: 1.1;
-	font-family: inherit;
-	color: black;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-family: inherit;
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-form input::placeholder {
-		font-size: 1.5rem;
-	}
+  .search-form input::placeholder {
+    font-size: 1.5rem;
+  }
 }
 
 .search-form {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-
 /* result page */
-
 .search-result-page {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-result-page {
-		width: auto;
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
+  .search-result-page {
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 .search-result-number {
-	font-size: 1.5rem;
-	line-height: 1.4;
-	margin-top: 0;
-	margin-bottom: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 3rem;
 }
+
 @media only screen and (max-width: 768px) {
-	.search-result-number {
-		font-size: 1.25rem;
-
-	}
+  .search-result-number {
+    font-size: 1.25rem;
+  }
 }
-
-
 
 .search-result-number a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 /* search result item */
-
 .search-result-item p {
-	margin-top: 0;
-	line-height: 1.4;
-	margin-bottom: 1.4rem;
+  margin-top: 0;
+  line-height: 1.4;
+  margin-bottom: 1.4rem;
 }
 
 .search-result-item {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	margin-bottom: 1rem;
-	border-bottom: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-result-item {
-		flex-direction: column;
-	}
+  .search-result-item {
+    flex-direction: column;
+  }
 }
 
 .search-result-item__media {
-	width: 10rem;
-	margin-right: 1.5rem;
-	margin-bottom: 1.4rem;
+  width: 10rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.4rem;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-result-item__media {
-		width: 50%;
-		margin-right: 0;
-	}
+  .search-result-item__media {
+    width: 50%;
+    margin-right: 0;
+  }
 }
 
 .search-result-item__title {
-	font-size: inherit;
-	line-height: inherit;
-	font-weight: inherit;
-	margin: 0;
-	margin-bottom: 1.4rem;
-	text-decoration: underline;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  margin: 0;
+  margin-bottom: 1.4rem;
+  text-decoration: underline;
 }
 
 .search-result-item__date {
-	width: 8rem;
+  width: 8rem;
 }
 
 @media only screen and (max-width: 768px) {
-	.search-result-item__date {
-		width: auto;
-	}
+  .search-result-item__date {
+    width: auto;
+  }
 }
 
 .search-result-item__text {
-	flex: 1;
+  flex: 1;
 }
 
 .search-btn svg .close {
-	display: none;
+  display: none;
 }
 
 .search-btn--open svg .open {
-	display: none;
+  display: none;
 }
 
 .search-btn--open svg .close {
-	display: block;
+  display: block;
 }
 
 /* mark results */
-mark{
-	background: #ffff80;
+mark {
+  background: #ffff80;
 }

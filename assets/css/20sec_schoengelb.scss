@@ -1,0 +1,23 @@
+:root{
+    --yellow: #ffc107;
+    --dark: #343a40;
+    --bbb: #444;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--yellow);
+    //background-color: var(--bbb);
+  
+    h1{
+        color:rgb(99, 46, 46);
+    }
+}
+
+
+
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}

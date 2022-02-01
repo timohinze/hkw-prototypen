@@ -1,6 +1,4 @@
-/* 2021 12 15 */
-
-.service-info-element__columns{
+.service-info-element__columns {
   font-size: var(--textsize0);
   line-height: 1.4;
   display: flex;
@@ -10,30 +8,31 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .service-info-element__columns{
+  .service-info-element__columns {
     display: block;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 
-.service-info-element__column{
+.service-info-element__column {
   width: 33%;
   padding-right: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
-  .service-info-element__column{
+  .service-info-element__column {
     width: 100%;
     margin-right: 0;
     margin-bottom: 1em;
   }
-  .service-info-element__column:last-child{
+
+  .service-info-element__column:last-child {
     margin-bottom: 0;
   }
 }
 
-.service-info-element__header{
+.service-info-element__header {
   padding-bottom: 1.4rem;
   margin-bottom: 1.4rem;
   font-size: 100%;
@@ -45,8 +44,9 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
+
 @media only screen and (max-width: 768px) {
-  .service-info-element__header p{
+  .service-info-element__header p {
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -59,13 +59,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .service-info-element__header button{
+  .service-info-element__header button {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 }
 
-.service-info-element__header ul li{
+.service-info-element__header ul li {
   font-size: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -78,7 +78,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .service-info-element__header ul li{
+  .service-info-element__header ul li {
     padding-left: 1rem;
     padding-right: 1rem;
     grid-template-columns: 75% 25%;

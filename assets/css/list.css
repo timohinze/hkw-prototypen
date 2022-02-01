@@ -2,13 +2,13 @@
   line-height: 1.4;
 }
 
-.list-element__list--3-spaltig{
+.list-element__list--3-spaltig {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-@media only screen and (max-width: 1024px) {
-  .list-element__list--3-spaltig{
-    grid-template-columns: 1fr 1fr;
 
+@media only screen and (max-width: 1024px) {
+  .list-element__list--3-spaltig {
+    grid-template-columns: 1fr 1fr;
   }
 }

@@ -1,68 +1,59 @@
+.veranstaltungsseite-schedule {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
-.veranstaltungsseite-schedule{
-
-
-      display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-.veranstaltungsseite-schedule .schedule__headline{
+.veranstaltungsseite-schedule .schedule__headline {
   margin-bottom: 1.4rem;
 }
 
-
-  .veranstaltungsseite-schedule .schedule__day-group{
-    width: calc(50% - 1rem);
-    margin-left: auto;
-    margin-right: 0;
-    margin-bottom: 1.4rem;
-  }
-
-  @media only screen and (max-width: 840px) {
-   .veranstaltungsseite-schedule .schedule__day-group {
-     width: 100%;
-   }
-  }
-
-
-.veranstaltungsseite-schedule .schedule-item{
+.veranstaltungsseite-schedule .schedule__day-group {
+  width: calc(50% - 1rem);
+  margin-left: auto;
+  margin-right: 0;
   margin-bottom: 1.4rem;
 }
 
+@media only screen and (max-width: 840px) {
+  .veranstaltungsseite-schedule .schedule__day-group {
+    width: 100%;
+  }
+}
 
+.veranstaltungsseite-schedule .schedule-item {
+  margin-bottom: 1.4rem;
+}
 
-.veranstaltungsseite-schedule  .schedule__date{
+.veranstaltungsseite-schedule .schedule__date {
   font-size: 1.75em;
   margin-bottom: 1.4rem;
 }
+
 @media only screen and (max-width: 1024px) {
-  .veranstaltungsseite-schedule  .schedule__date{
+  .veranstaltungsseite-schedule .schedule__date {
     font-size: 1.5em;
   }
 }
 
-
-
-
-.veranstaltungsseite-schedule  .schedule-item__time{
+.veranstaltungsseite-schedule .schedule-item__time {
   font-size: 1.75em;
 }
+
 @media only screen and (max-width: 1024px) {
-  .veranstaltungsseite-schedule  .schedule-item__time{
+  .veranstaltungsseite-schedule .schedule-item__time {
     font-size: 1.5em;
   }
 }
 
-.veranstaltungsseite-schedule  .schedule-item__title{
+.veranstaltungsseite-schedule .schedule-item__title {
   margin-bottom: 0;
   font-size: 1em;
   font-size: 1.75em;
-
 }
 
 @media only screen and (max-width: 1024px) {
-  .veranstaltungsseite-schedule  .schedule-item__title{
+  .veranstaltungsseite-schedule .schedule-item__title {
     font-size: 1.5em;
   }
 }

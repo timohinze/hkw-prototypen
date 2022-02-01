@@ -1,72 +1,52 @@
-/* 2021 12 17 */
-/* 2021 12 15 */
-
-/* 2021 10 27 */
-/* 2021 10 16 */
-/* 2021 10 15 */
-/* 2021 10 13 */
-
-
 /* Links */
-
 .element p a:not(.link-button),
 .element li a:not(.link-button) {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 /* Link, der aussieht wie ein Button */
-
 .link-button {
-	padding-top: 0.35em;
-	padding-right: 0.5em;
-	padding-bottom: 0.25em;
-	padding-left: 0.5em;
-	border: 1px solid black;
-	display: inline-block;
-	font-size: 1em;
-	text-decoration: none;
-	position: relative;
-	z-index: 1;
-	line-height: 1.4;
+  padding-top: 0.35em;
+  padding-right: 0.5em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  line-height: 1.4;
 }
 
 .link-button--big {
-	font-size: 3.67rem;
+  font-size: 3.67rem;
 }
 
 .link-button--bigger {
-	font-size: var(--textsize2);
+  font-size: var(--textsize2);
 }
 
 .link-button--small {
-	font-size: 1em;
+  font-size: 1em;
 }
 
 .link-button:hover {
-	background: white;
+  background: white;
 }
 
-
-/* Externer Link */
-
-
-
+/* Externer Link / Download Link / Nach Rechts Link*/
 a.external-link::after {
-	padding-right: 0.25em;
-	content: '\00A0\2197';
+  padding-right: 0.25em;
+  content: '\00A0\2197';
 }
-
-
 
 a.download-link::after {
-	padding-right: 0.25em;
-	content: '\00A0\2193';
+  padding-right: 0.25em;
+  content: '\00A0\2193';
 }
 
-
 a.to-the-right-link::after {
-	padding-right: 0.25em;
-	content: '\00A0\2192';
-
-		}
+  padding-right: 0.25em;
+  content: '\00A0\2192';
+}

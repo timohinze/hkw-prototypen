@@ -91,130 +91,22 @@ $linkrail = array (
 
 
 
- <style>
-/*
- .neu-projektmenu-wrap::after{
-   content: " ";
-   bottom: 0;
-   left: 0;
-   right: 0;
-   border-bottom: 1px solid green;
-   width: 100%;
-   z-index: 999999;
-   position: absolute;
- } */
-
-/* .neu-scrollable-menu{
-  border-bottom: 1px solid blue;
-} */
-
- .neu-projektmenu-wrap{
-     margin: 0;
-     /* border-bottom: 1px solid #000; */
- /*         font-size: 0; */
-
- box-shadow: inset 0 -1px 0 0 red;
-
-     white-space: nowrap;
-     background: white;
-      position: sticky;
-     top: 70px;
-     background: white;
-     z-index: 99;
-
-     padding-left: 2rem;
-     padding-right: 2rem;
-
- /*
-     padding-left: 10px;
-     padding-right: 10px;
- */
-
-
-overflow-x: auto;
--webkit-overflow-scrolling: touch;
--ms-overflow-style: -ms-autohiding-scrollbar;
- }
- /*
- .projektmenu {
-             font-size: 0;
-
- }
- */
-
- .neu-projektmenu-wrap .neu-item {
-     display: inline;
-
-         font-size: 0;
-
-
-
- margin-right: 2rem;
- /* margin-right: 20px; */
- }
-
-    .neu-projektmenu-wrap .neu-item a{
- 	    font-size: 20px;
-      /* kein em / rem für fontsize */
-
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-
-       /* padding-top: 15px;
-       padding-bottom: 15px; */
-
-     color: inherit;
-     text-decoration: none;
-     display: inline-block;
-
- }
-
-   .neu-item.aktiv a,
-   .neu-item:hover a,
-   .neu-item:focus a{
- /* 	    outdivne: none; */
-       box-shadow: inset 0 -4px 0 0 blue;
- }
-
- </style>
-
 <br><br><br>
 
  <nav class="neu-projektmenu-wrap">
  <div class="neu-scrollable-menu">
    <div class="neu-projektmenu">
-     <div class="neu-item" ><a href="#">Lorem Ipsum</a></div>
-     <div class="neu-item aktiv"><a href="#">Dolor Est</a></div>
-     <div class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></div>
+     <div class="neu-item" ><a href="#">bauhaus imaginista</a></div>
+     <div class="neu-item aktiv"><a href="#">Programm</a></div>
+     <div class="neu-item"><a href="#">Konferenz</a></div>
 
-     <div class="neu-item"><a href="#">Lorem Ipsum</a></div>
-     <div class="neu-item"><a href="#">Dolor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummm   olor Lorem ipsummmsdffdsdfsdsfdfsdsfdsfdfsolor Lorem ipsummm      Est</a></div>
+     <div class="neu-item"><a href="#">Vermittlung</a></div>
+     <div class="neu-item"><a href="#">Kuratorisches Statement</a></div>
+     <div class="neu-item"><a href="#">psummm   olor Lorem ipsummm   olor Lorem ipsummmsdffdsdfsdsfdfsdsfdsfdfsolor Lorem ipsummm      Est</a></div>
      <div class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></div>
    </div>
  </div>
  </nav>
-
-<script>
-// scrollable menu flickity
- $( document ).ready(function() {
-const navs2 = document.querySelectorAll('.neu-scrollable-menu');
-  for ( var i = 0, length = navs2.length; i < length; i++ ) {
-    var nav2 = navs2[i];
-       nav2.classList.add("scrollable-menu-flickity");
-        new Flickity( nav2, {
-          cellAlign: 'left',
-          freeScroll: true,
-          prevNextButtons: true,
-          pageDots: false,
-          contain: true,
-          cellSelector: ".neu-item",
-          groupCells: true,
-          watchCSS: true,
-        });
-
- }
-});
-</script>
 
 
 
@@ -230,7 +122,7 @@ const navs2 = document.querySelectorAll('.neu-scrollable-menu');
 
 
 	.neu-external-link{
-    color: green;
+    /* color: green; */
     text-decoration: underline;
     background-image: url(https://de.wikipedia.org/w/resources/src/mediawiki.skinning/images/external-ltr.svg?59558);
     background-position: center right;
@@ -241,27 +133,20 @@ const navs2 = document.querySelectorAll('.neu-scrollable-menu');
     background-position-y: -0.1em;
 	margin-right: 0.1em;
 
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13'%3E%3Cpath fill='%2336b' d='M5.002 1.01h7v7l-2-2-3 2v-1l3-2.25 1 1V2.01h-3.75l1 1-2.25 3h-1l2-3z'/%3E%3Cpath fill='%2336b' d='M7.002 3.01h-5v8h8v-5h-1v4h-6v-6h4z'/%3E%3Cpath fill='%2315a5ea' d='M4.082 5.51c0-.621.621-.621.621-.621 1.864.621 3.107 1.864 3.728 3.728 0 0 0 .621-.62.621-1.245-1.864-1.866-2.485-3.73-3.728z'/%3E%3C/svg%3E%0A");
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166"><polygon fill="blue" points="83 26.8 65.7 61.8 27.1 67.4 55 94.7 48.5 133.2 83 115 117.5 133.2 111 94.7 138.9 67.4 100.3 61.8 83 26.8 83 26.8"/></svg>');
     }
 
     .neu-external-link:hover{
-	      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166"><polygon fill="blue" points="83 26.8 65.7 61.8 27.1 67.4 55 94.7 48.5 133.2 83 115 117.5 133.2 111 94.7 138.9 67.4 100.3 61.8 83 26.8 83 26.8"/></svg>');
+	      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166"><polygon fill="red" points="83 26.8 65.7 61.8 27.1 67.4 55 94.7 48.5 133.2 83 115 117.5 133.2 111 94.7 138.9 67.4 100.3 61.8 83 26.8 83 26.8"/></svg>');
 
     }
 
 </style>
 
-<div class="element two-column-element " style="background: "><div class="two-column-element__column"><div class="project-abstract"><p class="abstract">
-<a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a><a href="#" class="neu-external-link">Externer qLink</a>
+<div class="element two-column-element " style="background: "><div class="two-column-element__column"><div class="project-abstract"><p class="abstract"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-</p>         </div></div><div class="two-column-element__column"><p><a href="#" class="neu-external-link">Externer qLink</a><i><a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
-<a href="#" class="neu-external-link">Externer qLink</a>
+</p>         </div></div><div class="two-column-element__column"><p><a href="#" class="neu-external-link"> Externer Link</a><a href="#" class="neu-external-link">Externer Link</a><a href="#" class="neu-external-link">neuer langer externer link mit viel Text und Unterlängen</a>
+
 
 </p>
 <h2><a href="#" class="neu-external-link">Externer qLink</a></h2>

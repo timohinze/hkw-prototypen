@@ -1,3 +1,24 @@
+// neu 20220201
+// scrollable menu flickity
+ $( document ).ready(function() {
+const navs2 = document.querySelectorAll('.neu-scrollable-menu');
+  for ( var i = 0, length = navs2.length; i < length; i++ ) {
+    var nav2 = navs2[i];
+       nav2.classList.add("scrollable-menu-flickity");
+        new Flickity( nav2, {
+          cellAlign: 'left',
+          freeScroll: true,
+          prevNextButtons: true,
+          pageDots: false,
+          contain: true,
+          cellSelector: ".neu-item",
+          groupCells: true,
+          watchCSS: true,
+        });
+
+ }
+});
+
 
 // scrollable menu flickity
 

@@ -1,0 +1,457 @@
+/* Filter */
+.calendar-filter fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.calendar-filter-toggle-btn {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .calendar-filter-toggle-btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.calendar-filter-toggle-btn [type="button"]+label,
+.calendar-filter-toggle-btn [type="checkbox"]+label {
+  cursor: pointer;
+  border: 0.07em solid black;
+  padding-top: 0.75em;
+  padding-bottom: 0.50em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-block;
+  font-size: 0.85em;
+  text-decoration: none;
+  border-radius: 0.1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.calendar-filter-toggle-btn [type="checkbox"]:checked+label {
+  background: black;
+  color: white;
+}
+
+.calendar-filter-toggle-btn label span {
+  transition: transform .3s;
+  line-height: 1;
+  display: inline-block;
+}
+
+.calendar-filter-toggle-btn [type="checkbox"]:checked+label span {
+  transform: rotate(45deg);
+}
+
+.calendar-filter {
+  display: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 840px) {
+  .calendar-filter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.filter_subgroup {
+  margin-right: 2em;
+}
+
+.filter_subgroup:last-of-type {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 840px) {
+  .filter_subgroup {
+    display: block;
+  }
+}
+
+.calendar-filter [type="checkbox"]+label {
+  cursor: pointer;
+  border: 0.07em solid black;
+  padding-top: 0.55em;
+  padding-bottom: 0.35em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-block;
+  font-size: 0.85em;
+  text-decoration: none;
+  border-radius: 1.25em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.calendar-filter [type="checkbox"]:checked+label {
+  background: black;
+  color: white;
+}
+
+.calendar-filter [type="checkbox"]:checked+label {
+  fill: white;
+}
+
+/* hide inputs */
+.calendar-filter [type="checkbox"],
+.calendar-filter-toggle-btn [type="checkbox"],
+.calendar-filter-toggle-btn [type="button"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Kalender */
+.calendar__date {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+  font-size: 1.75em;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+  background: white;
+  border-bottom: 2px solid white;
+}
+
+.calendar__date--empty {
+  border-bottom: 1px solid black;
+}
+
+.calendar__item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 2px solid white;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  /* default Farbe */
+  background: #CCDAE3;
+  position: relative;
+}
+
+.calendar__item a {
+  text-decoration: underline;
+}
+
+.calendar__schwerpunktprojekt-titel {
+  width: 100%;
+  font-size: 2.25em;
+  line-height: 1.1;
+  letter-spacing: 0.033em;
+  font-family: "Lyno Stan HKW";
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+  margin-left: calc(25% + 4rem);
+  padding-right: 0.25em;
+}
+
+.calendar__topline {
+  width: 100%;
+  margin-left: calc(25% + 4rem);
+  margin-bottom: 0.5em;
+  padding-right: 1rem;
+}
+
+/* group 1 */
+.calendar__group1 {
+  width: 25%;
+  margin-left: 2rem;
+}
+
+.calendar__time {
+  margin-bottom: 0.5rem;
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+@media only screen and (max-width: 840px) {
+  .calendar__time {
+    font-size: 1.75em;
+  }
+}
+
+.calendar__place {
+  margin-bottom: 1rem;
+}
+
+.calendar__image {
+  margin-bottom: 0;
+}
+
+/* group 2  */
+.calendar__group2 {
+  width: calc(75% - 2rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar__group2-1 {
+  width: 70%;
+  margin-left: 2rem;
+  padding-right: 2rem;
+}
+
+.calendar__title {
+  font-size: 1.5em;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .calendar__title {
+    font-size: 1.75em;
+  }
+}
+
+.calendar__title a {
+  text-decoration: none;
+}
+
+.calendar__title a::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: " ";
+}
+
+.calendar__item a:not(h3 a) {
+  position: relative;
+}
+
+.calendar__subtitle {
+  margin-bottom: 1em;
+}
+
+.calendar__category {
+  margin-bottom: 0.5em;
+}
+
+.calendar__werbeinfo p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.calendar__show-details {
+  margin-bottom: 0.5rem;
+}
+
+/* group 2 1 */
+.calendar__group2-2 {
+  width: 30%;
+  margin-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 0.35em;
+  font-size: 0.75em;
+}
+
+.calendar__save-date,
+.calendar__language,
+.calendar__price,
+.calendar__info,
+.calendar__ticket,
+.calendar__save-date {
+  margin-top: 0.5em;
+}
+
+/* Abgesagt */
+.calendar__canceld {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-size: 1.75em;
+}
+
+.calendar__item--canceld {
+  color: #3d3d3d
+}
+
+.calendar__item--canceld a {
+  color: #3d3d3d;
+}
+
+.calendar__item--canceld .calendar__image {
+  display: none;
+}
+
+.calendar__item--canceld .calendar__show-details {
+  display: none;
+}
+
+.calendar__item--canceld .calendar__group2-2 p {
+  display: none;
+}
+
+.calendar__item--canceld .calendar__place {
+  display: none;
+}
+
+.calendar__item--canceld .calendar__time-wrap {
+  text-decoration: line-through;
+}
+
+/* Zweispaltiges Layout */
+@media only screen and (max-width: 1200px) {
+  .calendar__group1 {
+    order: 1;
+  }
+
+  .calendar__group2 {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    width: calc(70% - 4rem);
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .calendar__group2-1 {
+    width: 100%;
+    padding-right: 2rem;
+  }
+
+  .calendar__group2-2 {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .calendar__image {
+    max-width: 100%;
+  }
+}
+
+/* Einspaltiges Layout */
+@media only screen and (max-width: 840px) {
+  .calendar__month {
+    padding-left: 1rem;
+  }
+
+  .calendar__date {
+    padding-left: 1rem;
+  }
+
+  .calendar__schwerpunktprojekt-titel {
+    margin-left: 1rem;
+  }
+
+  .calendar__image {
+    margin-bottom: 0.5rem;
+  }
+
+  .calendar__group1 {
+    margin-left: 1rem;
+    padding-left: 0;
+  }
+
+  .calendar__topline {
+    padding-left: 1rem;
+    order: 2;
+    margin-left: auto;
+  }
+
+  .calendar__group1 {
+    width: 100%;
+    order: 1;
+    margin-right: 1rem;
+  }
+
+  .calendar__group2 {
+    order: 3;
+    width: 100%;
+    padding-right: 1rem;
+  }
+
+  .calendar__group2-1 {
+    margin-left: 1rem;
+  }
+
+  .calendar__group2-2 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .calendar__group2-2 p:first-child {
+    margin-top: 0;
+  }
+
+  .calendar__group3 {
+    order: 4;
+  }
+}
+
+/* Kalender auf Projektseiten */
+.calendar--projektseite {
+  margin-bottom: 2em;
+}
+
+.calendar--projektseite .calendar__date {
+  position: relative;
+}
+
+.calendar--projektseite .calendar__header {
+  margin: 0;
+  font-size: 2.25em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.calendar--projektseite .calendar_header h2 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 840px) {
+  .calendar--projektseite .calendar__header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.calendar--projektseite .monat-gruppe {
+  margin-top: 0;
+}
+
+.calendar--projektseite .calendar__month {
+  margin-top: 0;
+}
+
+.calendar--projektseite .calendar__month-group {
+  margin-top: 0;
+}
+
+.calendar--projektseite .calendar_footer {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .calendar--projektseite .calendar_footer {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .calendar--projektseite .calendar_footer {
+    padding-left: 1rem;
+  }
+}

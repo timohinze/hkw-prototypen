@@ -1,14 +1,8 @@
-/* 2021 10 15 */
-/* 2021 10 13 */
-
-
-.video-player-wrap{
-	position: relative;
+.video-player-wrap {
+  position: relative;
 }
 
-
-
-.video-player__play-button{
+.video-player__play-button {
   z-index: 11;
   position: absolute;
   top: 50%;
@@ -21,9 +15,8 @@
   border-style: solid;
   border-width: 8vw 0 8vw 13vw;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.9)
-	}
+}
 
-.video-player__play-button:hover{
+.video-player__play-button:hover {
   border-color: transparent transparent transparent white;
-
 }
