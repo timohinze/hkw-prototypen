@@ -1,41 +1,36 @@
-/* 2021 12 15 */
-
-/* 21 11 22 */
-
-
 .readmore-btn {
-	cursor: pointer;
-	background: transparent;
-	font-size: 1em;
-	line-height: 1.4;
-
-	border: 2px solid black;
-	height: 1.5em;
-	width: 1.5em;
-	border-radius: 50%;
-	position: relative;
-	margin-bottom: 1.4rem;
-	padding: 0;
+  cursor: pointer;
+  background: transparent;
+  font-size: 1em;
+  line-height: 1.4;
+  border: 2px solid black;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 1.4rem;
+  padding: 0;
 }
 
 .readmore-btn:hover {
   background-color: yellow;
 }
+
 .readmore-btn:after,
 .readmore-btn:before {
-		content: "";
-		display: block;
-		background-color: black;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+  content: "";
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .readmore-btn:before {
-		height: 70%;
-		width: 2px;
-	}
+  height: 70%;
+  width: 2px;
+}
 
 .readmore-btn:after {
   height: 2px;
@@ -51,6 +46,6 @@
   display: none;
 }
 
-.more{
-	margin-bottom: 1.4rem;
+.more {
+  margin-bottom: 1.4rem;
 }

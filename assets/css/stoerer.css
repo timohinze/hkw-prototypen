@@ -1,25 +1,20 @@
-/* 2021 12 17 */
-
-.stoerer-wrap{
-	  margin-left: 2rem;
+.stoerer-wrap {
+  margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-
 }
+
 @media only screen and (max-width: 768px) {
-	.stoerer-wrap{
-		  margin-left: 0;
-	  margin-right: 0;
-	  margin-top: 0;
-	  margin-bottom: 1rem;
-
-	}
+  .stoerer-wrap {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 }
 
-
-
-.stoerer{
+.stoerer {
   background: #F5FF00;
   display: inline-block;
   padding-top: 0.65rem;
@@ -30,9 +25,9 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.stoerer {
-		margin-left: 1rem;
+  .stoerer {
+    margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 0;
-	}
+  }
 }

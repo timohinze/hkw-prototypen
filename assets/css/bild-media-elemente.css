@@ -1,88 +1,73 @@
-/* 2021 12 15 */
-/* 2021 12 02 */
-/* 2021 10 21 */
-/* 2021 10 19 */
-/* 2021 10 16 */
-/* 2021 10 15 */
-
-
-/* Super Bild Media Item */
-/* Bis jetzt nur auf der Startseite */
-
-
-/* z-index ist nötig, damit die scroll bühne hinter dem teaser verschwindet*/
-
 .super-text-media-element {
-	z-index: 2;
-	position: relative;
+  z-index: 2;
+  position: relative;
 }
 
-.super-text-media-item {
-}
+.super-text-media-item {}
 
 .super-text-media-item__text {
-	margin-top: 1em;
-	max-width: 48em;
-	padding-left: 2rem;
-	padding-right: 2rem;
+  margin-top: 1em;
+  max-width: 48em;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
+
 @media only screen and (max-width: 768px) {
-	.super-text-media-item__text {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
+  .super-text-media-item__text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
-
-
-
 
 .super-text-media-item--small {
-	padding-left: 13%;
-	padding-right: 13%;
+  padding-left: 13%;
+  padding-right: 13%;
 }
+
 @media only screen and (max-width: 768px) {
-	.super-text-media-item--small {
-		padding-left: inherit;
-		padding-right: inherit;
-	}
+  .super-text-media-item--small {
+    padding-left: inherit;
+    padding-right: inherit;
+  }
 }
 
 .super-text-media-item--small .super-text-media-item__text {
-	padding-left: 0;
-	padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 @media only screen and (max-width: 768px) {
-	.super-text-media-item--small .super-text-media-item__text {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
+  .super-text-media-item--small .super-text-media-item__text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .super-text-media-item__title {
-	font-size: 2.5em;
-	line-height: 1.1;
-	margin-block-end: 0;
-	margin-block-start: 0;
+  font-size: 2.5em;
+  line-height: 1.1;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 @media only screen and (max-width: 768px) {
-	.super-text-media-item__title {
-		font-size: 2.2em;
-	}
+  .super-text-media-item__title {
+    font-size: 2.2em;
+  }
 }
 
-
 .super-text-media-item__text p {
-	margin-block-end: 0.75em;
-	margin-block-start: 0.25em;
+  margin-block-end: 0.75em;
+  margin-block-start: 0.25em;
 }
 
 /* no hyphenation */
-
-.super-text-media-item__title.hyphenate{
+/*
+.home-page .super-text-media-item__title.hyphenate{
 	hyphens: manual;
 }
+*/
 /* underline a */
 .super-text-media-item__text a {
-    text-decoration: underline;
+  text-decoration: underline;
 }

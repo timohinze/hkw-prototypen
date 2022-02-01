@@ -1,0 +1,32 @@
+/* Schriften */
+/* Fakt Pro Italic Woff2 fehlt */
+@font-face {
+  font-family: "Fakt Pro";
+  src: url("../fonts/FaktPro-Normal.woff2") format("woff2"),
+    url("../fonts/FaktPro-Normal.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Fakt Pro";
+  /* url("../fonts/FaktPro-NormalItalic.eot"); IE9 Compat Modes */
+  src: url("../fonts/FaktPro-NormalItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Fakt Pro";
+  src: url("../fonts/Fakt-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lyno Stan HKW";
+  src: url("../fonts/LynoStanHKW.woff2") format("woff2"),
+    url("../fonts/LynoStanHKW.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}

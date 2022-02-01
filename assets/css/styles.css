@@ -1,53 +1,31 @@
-/* 2021 12 17 */
-
-/* 2021 10 13 */
-
+/* timos import file */
+@import url("font.css");
 @import url("main.css");
 @import url("header.css");
 @import url("footer.css");
-
-
 @import url("image.css");
 @import url("link-button.css");
 @import url("icon.css");
-
-
 @import url("element.css");
-
-
 @import url("slideshow.css");
-
 @import url("videoplayer.css");
 @import url("verlauf.css");
-
 @import url("bild-media-elemente.css");
 @import url("teaser.css");
-
-
 @import url("startseite.css");
-
 @import url("linkrail.css");
-
 @import url("read-more.css");
-
 @import url("title.css");
 @import url("text.css");
 @import url("two-columns.css");
 @import url("service-info.css");
 @import url("list.css");
-@import url("calendar.css");
+/* timos version */
+@import url("timo_calendar.css");
 @import url("teaser.css");
-
 @import url("projektuebersicht.css");
-
-
 @import url("veranstaltungseiten.css");
-
 @import url("multiteaser.css");
-
 @import url("stoerer.css");
-
-
 @import url("suche.css");
-
 @import url("presse.css");

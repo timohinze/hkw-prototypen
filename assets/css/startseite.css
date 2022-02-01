@@ -1,184 +1,171 @@
-/* 2021 12 15 */
-
-/* 2021 12 02 */
-/* 2021 10 19 */
-/* 2021 10 15 */
-/* 2021 10 13 */
-
 /* Typografie */
-
 /* Schriftgröße für Startseite */
-
 .home-page p {
-	font-size: var(--textsize1);
+  font-size: var(--textsize1);
 }
 
 @media (min-width: 640px) {
-	.home-page p {
-		font-size: var(--textsize2);
-	}
+  .home-page p {
+    font-size: var(--textsize2);
+  }
 }
 
 .home-page h3 {
-	font-size: 2.5em;
-	line-height: 1.1;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+  font-size: 2.5em;
+  line-height: 1.1;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 1024px) {
-	.home-page h3 {
-		font-size: 2.2em;
-	}
+  .home-page h3 {
+    font-size: 2.2em;
+  }
 }
-
 
 /* Scrollbühne */
 /* damit die scrollbühne unten liegt brauchen die nachfolgenden Elemente z-index*/
-
 /* scroll buhne item */
 .scroll-buhne-element {
-	margin-bottom: 10em;
+  margin-bottom: 10em;
 }
 
 .scroll-buhne-item {
-	padding-bottom: 10em;
+  padding-bottom: 10em;
 }
 
 /* wird von javascript aktiviert */
 .scroll-buhne-item--js-prepared {
-	padding-bottom: 100vh;
-	position: relative;
+  padding-bottom: 100vh;
+  position: relative;
 }
 
 /* wird von javascript aktiviert */
 .scroll-buhne-item--js-prepared .scroll-buhne-item__text {
-	position: absolute;
-	left: 0;
-	right: 0;
-
-	opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
 }
-
 
 /* wird von javascript aktiviert, wenn item sichtbar */
 .scroll-buhne-item--visible .scroll-buhne-item__text {
-	left: 0;
-	right: 0;
-	position: fixed;
-	top: 50%;
-	transform: translate(0, -50%);
-	opacity: 1;
+  left: 0;
+  right: 0;
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  opacity: 1;
 }
 
 /* zu viel Text, passt nicht in Viewport */
 .scroll-buhne-item--too-high {
-	margin-bottom: 4rem;
-	padding-bottom: 0;
+  margin-bottom: 4rem;
+  padding-bottom: 0;
 }
 
 .scroll-buhne-item--too-high .scroll-buhne-item__text {
-	position: relative;
-	top: 0;
-	transform: none;
+  position: relative;
+  top: 0;
+  transform: none;
 }
 
-
 .scroll-buhne-item__text {
-	padding: 0 1em;
-	text-align: center;
+  padding: 0 1em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 375px) {
-	.scroll-buhne-item__text {
-		padding: 0 1.5em;
-		padding: 0 0.75em;
-
-	}
+  .scroll-buhne-item__text {
+    padding: 0 1.5em;
+    padding: 0 0.75em;
+  }
 }
 
 .scroll-buhne-item__title {
-	font-size: 2rem;
-	font-family: "Lyno Stan HKW";
-	/* -webkit-hyphens: manual;
+  font-size: 2rem;
+  font-family: "Lyno Stan HKW";
+  /* -webkit-hyphens: manual;
 	-ms-hyphens: manual;
 	hyphens: manual; */
-	letter-spacing: 0.02em;
-	line-height: 1;
-	margin-bottom: 0.25rem;
-	min-height: 0.1vh;
-	text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+  min-height: 0.1vh;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 375px) {
-	.scroll-buhne-item__title {
-		font-size: 2.5rem;
-	}
+  .scroll-buhne-item__title {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-	.scroll-buhne-item__title {
-		font-size: min(max(3rem, 10vh), 5rem);
-	}
+  .scroll-buhne-item__title {
+    font-size: min(max(3rem, 10vh), 5rem);
+  }
 }
 
 @media only screen and (min-width: 1400px) {
-	.scroll-buhne-item__title {
-		font-size: min(max(3rem, 12vh), 10em);
-	}
+  .scroll-buhne-item__title {
+    font-size: min(max(3rem, 12vh), 10em);
+  }
 }
 
 .scroll-buhne-item__text .scroll-buhne-item__subtitle {
-	font-size: 1.66rem;
-	line-height: 1.1;
-	margin-bottom: 0.8rem;
-	margin-top: 1rem;
-	min-height: 0.1vh;
+  font-size: 1.66rem;
+  line-height: 1.1;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  min-height: 0.1vh;
 }
 
 @media only screen and (max-width: 1024px) {
-	.scroll-buhne-item__text .scroll-buhne-item__subtitle {
-		font-size: 1.8rem;
-	}
+  .scroll-buhne-item__text .scroll-buhne-item__subtitle {
+    font-size: 1.8rem;
+  }
 }
 
 .scroll-buhne-item__text p {
-	line-height: 1.3;
-	margin-block-start: 0.5em;
-	margin-block-end: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 45em;
+  line-height: 1.3;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45em;
 }
 
 .scroll-buhne-item__media {
-	width: 100%;
-	height: 100vh;
-	z-index: 9;
-	position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 9;
+  position: relative;
 }
 
 .scroll-buhne-item__media img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: 50% 50%;
-	display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display: block;
 }
 
 .scroll-buhne-item__media video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* no hyphenation */
+/*
 .scroll-buhne-item__title.hyphenate{
 	hyphens: manual;
 }
-.scroll-buhne-item__subtitle.hyphenate{
-	hyphens: manual;
+*/
+.scroll-buhne-item__subtitle.hyphenate {
+  hyphens: manual;
 }

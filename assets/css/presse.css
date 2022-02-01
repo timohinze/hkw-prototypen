@@ -1,15 +1,14 @@
-.press-list-item:first-of-type{
+.press-list-item:first-of-type {
   border-top: 1px solid black;
   padding-top: 2rem;
 }
 
-.press-list-item:last-of-type{
+.press-list-item:last-of-type {
   border-bottom: none;
   padding-top: 2rem;
 }
 
-
-.press-list-item{
+.press-list-item {
   position: relative;
   border-bottom: 1px solid black;
   padding-left: 25%;
@@ -21,45 +20,40 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.press-list-item {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
+  .press-list-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-
-.press-list-item__show-details{
+.press-list-item__show-details {
   margin-bottom: 1.4rem;
 }
 
-.press-list-item__show-details a{
+.press-list-item__show-details a {
   text-decoration: underline;
 }
 
-.press-list-item__published-on{
+.press-list-item__published-on {
   font-size: 0.8em;
 }
 
-
 .press-list-item__title a::after {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: " ";
 }
 
 .press-list-item a:not(.press-list-item__title a) {
-	position: relative;
+  position: relative;
   z-index: 1;
 }
 
-
-
 /* presse fotos seite */
-
-.press-photos-item__title{
+.press-photos-item__title {
   font-size: 1.5rem;
   line-height: 1.3;
   border-top: 1px solid black;
@@ -69,18 +63,16 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-
 }
 
 @media only screen and (max-width: 768px) {
-.press-photos-item__title{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  .press-photos-item__title {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
-
-.press-photos-item__images{
+.press-photos-item__images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 2rem;
@@ -89,34 +81,32 @@
   padding-right: 2rem;
   grid-gap: 2rem;
 }
+
 @media only screen and (max-width: 768px) {
-  .press-photos-item__images{
+  .press-photos-item__images {
     grid-template-columns: 1fr;
     padding-left: 1rem;
     padding-right: 1rem;
-
   }
 }
 
-
-.press-photos-item__images img.portrait{
+.press-photos-item__images img.portrait {
   width: 66%;
   height: auto;
 }
+
 @media only screen and (max-width: 768px) {
-  .press-photos-item__images img.portrait{
+  .press-photos-item__images img.portrait {
     width: 100%;
     height: auto;
   }
 }
 
-
-
 .press-photos-item__download {
-margin-top: 1rem;
+  margin-top: 1rem;
 }
-.press-photos-item__download a{
+
+.press-photos-item__download a {
   text-decoration: underline;
   font-size: 0.75em;
-
 }

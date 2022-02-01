@@ -1,15 +1,4 @@
-/* 2021 12 15 */
-
-/* 2021 10 29 */
-/* 2021 10 21 */
-/* 2021 10 20 */
-/* 2021 10 19 */
-/* 2021 10 16 */
-/* 2021 10 15 */
-/* 2021 10 13 */
-
-
-.element{
+.element {
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 2rem;
@@ -17,30 +6,30 @@
   position: relative;
   z-index: 2;
 }
+
 @media only screen and (max-width: 768px) {
-  .element{
+  .element {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 
-.element--fullbleed{
+.element--fullbleed {
   padding: 0;
 }
-.element--full-width{
+
+.element--full-width {
   padding-left: 0;
   padding-right: 0;
 }
 
-.element--no-top-padding{
+.element--no-top-padding {
   padding-top: 0;
 }
 
-
-.element--no-bottom-padding{
+.element--no-bottom-padding {
   padding-bottom: 0;
 }
-
 
 /* margins nur unten */
 .element p,
@@ -48,7 +37,7 @@
 .element h2,
 .element h3,
 .element h4,
-.element ul{
+.element ul {
   margin-top: 0;
 }
 
@@ -58,88 +47,81 @@
 .element h2:last-child,
 .element h3:last-child,
 .element h4:last-child,
-.element ul:last-child{
+.element ul:last-child {
   margin-bottom: 0;
 }
 
-
-
-.element--padding-left{
+.element--padding-left {
   padding-left: 2rem;
   padding-right: 0;
 }
+
 @media only screen and (max-width: 768px) {
-  .element--padding-left{
+  .element--padding-left {
     padding-left: 1rem;
     padding-right: 0;
   }
 }
 
-
-.element p{
+.element p {
   line-height: 1.4;
 }
 
-
 /* Abstände Unten*/
-
-.element--abstand-unten1{
+.element--abstand-unten1 {
   margin-bottom: 5rem;
 }
+
 @media only screen and (max-width: 1024px) {
-  .element--abstand-unten1{
+  .element--abstand-unten1 {
     margin-bottom: 3rem;
   }
 }
 
-.element--abstand-unten2{
+.element--abstand-unten2 {
   margin-bottom: 10rem;
 }
 
 @media only screen and (max-width: 1024px) {
-  .element--abstand-unten2{
+  .element--abstand-unten2 {
     margin-bottom: 6rem;
   }
 }
 
-.element--abstand-unten3{
+.element--abstand-unten3 {
   margin-bottom: 15rem;
 }
+
 @media only screen and (max-width: 1024px) {
-  .element--abstand-unten3{
+  .element--abstand-unten3 {
     margin-bottom: 10rem;
   }
 }
 
-
-
 /* Abstände Oben */
-
-.element--abstand-oben2{
+.element--abstand-oben2 {
   margin-top: 10rem;
 }
+
 @media only screen and (max-width: 1024px) {
-  .element--abstand-oben2{
+  .element--abstand-oben2 {
     margin-top: 6rem;
   }
 }
 
-
 /* Padding Unten */
-
-.element--padding-unten2{
+.element--padding-unten2 {
   margin: 0;
   padding-bottom: 10em;
 }
+
 @media only screen and (max-width: 1024px) {
-  .element--padding-unten2{
+  .element--padding-unten2 {
     padding-bottom: 6rem;
   }
 }
 
-
 /* Rand */
-
-.element--rand-oben{
+.element--rand-oben {
   border-top: 1px solid black;
 }

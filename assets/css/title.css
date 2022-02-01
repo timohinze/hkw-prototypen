@@ -1,74 +1,63 @@
-/* 2021 12 15 */
-
-
-.title-element{
+.title-element {
   max-width: 70em;
- padding-bottom: 0.75em;
+  padding-bottom: 0.75em;
 }
 
 @media only screen and (max-width: 1024px) {
-.title-element {
-  -webkit-hyphens: auto;
-  -webkit-hyphenate-limit-before: 3;
-  -webkit-hyphenate-limit-after: 3;
-  -webkit-hyphenate-limit-chars: 6 3 3;
-  -webkit-hyphenate-limit-last: always;
-  -webkit-hyphenate-limit-zone: 8%;
-
-  -moz-hyphens: auto;
-  -moz-hyphenate-limit-chars: 6 3 3;
-  -moz-hyphenate-limit-last: always;
-  -moz-hyphenate-limit-zone: 8%;
-
-  -ms-hyphens: auto;
-  -ms-hyphenate-limit-chars: 6 3 3;
-  -ms-hyphenate-limit-last: always;
-  -ms-hyphenate-limit-zone: 8%;
-
-  hyphens: auto;
-  hyphenate-limit-chars: 6 3 3;
-  hyphenate-limit-last: always;
-  hyphenate-limit-zone: 8%;
-}
+  .title-element {
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+  }
 }
 
-.topline-element{
+.topline-element {
   max-width: 45em;
   padding-bottom: 1.25em;
 }
-.topline-element+.title-element{
+
+.topline-element+.title-element {
   padding-top: 0;
 }
 
-.subhead-element{
+.subhead-element {
   max-width: 45em;
 }
 
 .subhead-element,
-.subhead-element p{
+.subhead-element p {
   font-size: var(--textsize1);
   line-height: 1.3;
   /* font-size: 1.5rem;
 line-height: 1.3; */
-
-
 }
 
 @media (max-width: 840px) {
   .subhead-element,
-  .subhead-element p{
-  font-size: var(--textsize2);
+  .subhead-element p {
+    font-size: var(--textsize2);
   }
 }
 
-
-
-.title-element + .element:not(.element--full-width){
+.title-element+.element:not(.element--full-width) {
   padding-top: 0;
 }
 
-
-
-.subhead-element + .element:not(.element--full-width){
+.subhead-element+.element:not(.element--full-width) {
   padding-top: 0;
 }

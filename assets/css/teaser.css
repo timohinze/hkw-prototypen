@@ -1,197 +1,159 @@
-/* 2021 12 15 */
-
-/* 2021 12 02 */
-/* 2021 10 21 */
-/* 2021 10 20 */
-
-/* 2021 10 19 */
-/* 2021 10 16 */
-/* 2021 10 15 */
 /* Programmteaser-Kalender */
-
 /* Momentan nur auf der Startseite */
-
-
 .programmteaser-kalender-item {
-	width: 42%;
-
-/* ????? */
-	/* margin: 1rem; */
-	margin-right: 1rem;
+  width: 42%;
+  margin-right: 1rem;
 }
 
 @media only screen and (min-width: 1200px) {
-	.programmteaser-kalender-item {
-		width: 28%;
-	}
+  .programmteaser-kalender-item {
+    width: 28%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-	.programmteaser-kalender-item {
-		width: 80%;
-		margin-left: 0;
-		margin-right: 1rem;
-	}
-}
-.programmteaser-kalender-item img {
-	margin-bottom: 0.25em;
+  .programmteaser-kalender-item {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
 }
 
+.programmteaser-kalender-item img {
+  margin-bottom: 0.25em;
+}
 
 .programmteaser-kalender-item__datum {
-	min-height: 1.75em;
-	font-size: 1.75em;
+  min-height: 1.75em;
+  font-size: 1.75em;
 }
 
 .programmteaser-kalender-item__uhrzeit {
-	font-size: 1.75em;
-	margin-bottom: 0.25em;
+  font-size: 1.75em;
+  margin-bottom: 0.25em;
 }
 
 .programmteaser-kalender-item__title {
-	margin-top: 0.25em;
-	margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .programmteaser-kalender-item p {
-	margin-bottom: 0.25em;
+  margin-bottom: 0.25em;
 }
-
-
 
 /* Teaser (mit Verlauf) */
-
-
 /* Momentan nur auf der Startseite */
-
 .teaser-item-element {
-	display: flex;
-	flex-wrap: wrap;
-	z-index: 1;
-	position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: relative;
 }
-
 
 /* .teaser-item img.portrait {
 	height: auto;
 	max-height: 60vh;
 	width: auto;
 } */
-
 @media only screen and (max-width: 1024px) {
   .teaser-item img.portrait {
-  	height: auto;
-  	max-height: auto;
-  	max-width: 100%;
+    height: auto;
+    max-height: auto;
+    max-width: 100%;
   }
 }
 
-
 .teaser-item {
-	position: relative;
-	padding-bottom: 8em;
-	padding-left: 2rem;
-	padding-right: 2rem;
+  position: relative;
+  padding-bottom: 8em;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
+
 @media only screen and (max-width: 1024px) {
-	.teaser-item {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-}
-/*
-.teaser-item:hover{
-	-webkit-box-shadow: inset 0px 0px 1em 1rm #CCDAE3;
-box-shadow: inset 0px 0px 1em 1em #CCDAE3;
-} */
-
-/* to do */
-
- .teaser-item a{
-	text-decoration: none!important;
+  .teaser-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-.teaser-item p a{
- text-decoration: underline!important;
+.teaser-item a {
+  text-decoration: none !important;
+}
+
+.teaser-item p a {
+  text-decoration: underline !important;
 }
 
 .teaser-item__media {
-	margin-bottom: 0.67em;
+  margin-bottom: 0.67em;
 }
 
 .teaser-item__text {
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
-
 .teaser-item__title {
-	font-size: 1.75em;
-	line-height: 1.1;
-	margin-top: 0.5rem;
-	margin-bottom: 0.75rem;
+  font-size: 1.75em;
+  line-height: 1.1;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 @media only screen and (max-width: 1024px) {
-	.teaser-item__title {
-		font-size: 1.5em;
-	}
+  .teaser-item__title {
+    font-size: 1.5em;
+  }
 }
 
 .home-page .teaser-item__title {
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
 
+/*
 .home-page .teaser-item__title.hyphenate {
 	hyphens: manual;
 }
-
-
-
+*/
 @media only screen and (max-width: 1024px) {
-	.home-page .teaser-item__title {
-		font-size: 2.2em;
-	}
+  .home-page .teaser-item__title {
+    font-size: 2.2em;
+  }
 }
 
 .teaser-item__text p {
-	margin-block-end: 0.75em;
-	margin-block-start: 0.25em;
+  margin-block-end: 0.75em;
+  margin-block-start: 0.25em;
 }
 
-
-
-.ressourcen-teaser-item-element{
-	display: flex;
-	flex-wrap: wrap;
-	z-index: 2;
-	position: relative;
+.ressourcen-teaser-item-element {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: relative;
 }
+
 @media (max-width: 840px) {
-	.ressourcen-teaser-item-element img{
-		max-width: 100%;
-	}
+  .ressourcen-teaser-item-element img {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 840px) {
   .teaser-item img.portrait {
-  	max-width: 75%;
+    max-width: 75%;
   }
 }
 
-
-
-
-.ressourcen-teaser-item-element .teaser-item{
-	padding-bottom: 2rem;
+.ressourcen-teaser-item-element .teaser-item {
+  padding-bottom: 2rem;
 }
 
-.ressourcen-teaser-item-element .teaser-item__topline{
-	font-size: 1em;
-}
-.ressourcen-teaser-item-element .teaser-item__title{
-	font-size: 1.5em;
+.ressourcen-teaser-item-element .teaser-item__topline {
+  font-size: 1em;
 }
 
-/* .ressourcen-teaser-item-element a{
-	text-decoration: underline!important;
-} */
+.ressourcen-teaser-item-element .teaser-item__title {
+  font-size: 1.5em;
+}
