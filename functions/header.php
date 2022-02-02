@@ -12,6 +12,10 @@ function get_header($page=null, $subpage=null) { ?>
 
     <link rel="stylesheet" href="../../assets/js/flickity.min.css" />
 
+
+   <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+
+
     <link rel="stylesheet" href="../../assets/css/styles.css" />
 
 
@@ -22,6 +26,11 @@ function get_header($page=null, $subpage=null) { ?>
     </script>
 
     <script src="../../assets/js/flickity.pkgd.min.js"></script>
+
+
+ <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/balance-text/3.3.0/balancetext.min.js"></script>
     <script>
@@ -38,7 +47,7 @@ function get_header($page=null, $subpage=null) { ?>
 
     <div class="page-wrap">
 
-    
+
 
       <?php if((isset($_GET["stoerer"]) AND ($_GET["stoerer"]==1))) { ?>
         <div class="stoerer-wrap">

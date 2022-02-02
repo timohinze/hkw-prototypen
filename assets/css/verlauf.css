@@ -1,5 +1,6 @@
 .add-gradient {
   position: relative;
+  z-index: -10;
 }
 
 /* default farbe */

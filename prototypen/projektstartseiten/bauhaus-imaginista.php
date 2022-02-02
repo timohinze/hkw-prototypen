@@ -136,18 +136,81 @@ $linkrail = array (
 <div class="element element--padding-left slideshow-element">
    <h2 class="slideshow-element__titel">Fotos</h2>
    <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <div class="open-lightbox">x</div>
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est
+           </figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+           <div class="open-lightbox">x</div>
+
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+       <figure class="slideshow-element__media">
+         <div class="video-player-wrap">
+            <button class="video-player__play-button"></button>
+            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
+        </div>
+        <figcaption>Figcaption + Iframes?</figcaption>
+        </figure>
+      </div>
+
+
+
       <div class="slideshow-element__slide">
          <figure class="slideshow-element__media">
-            <img src="https://www.hkw.de/media/bilder/2019/bauhaus_imaginista_1/university_of_ife_in_ile_ife_nigeria_imgsize_buehne.jpg">
+            <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+            <div class="open-lightbox">x</div>
+
             <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
          </figure>
       </div>
       <div class="slideshow-element__slide">
          <figure class="slideshow-element__media">
-            <img src="https://www.hkw.de/media/bilder/2019/bauhaus_imaginista_1/the_otolith_group_o_horizon_imgsize_M.jpg">
+            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
             <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
          </figure>
       </div>
+   </div>
+</div>
+
+
+<div class="element element--padding-left slideshow-element">
+   <h2 class="slideshow-element__titel">Fotos</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+
+
    </div>
 </div>
 

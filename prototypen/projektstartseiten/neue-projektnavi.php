@@ -93,21 +93,6 @@ $linkrail = array (
 
 <br><br><br>
 
- <nav class="neu-projektmenu-wrap">
- <div class="neu-scrollable-menu">
-   <div class="neu-projektmenu">
-     <div class="neu-item" ><a href="#">bauhaus imaginista</a></div>
-     <div class="neu-item aktiv"><a href="#">Programm</a></div>
-     <div class="neu-item"><a href="#">Konferenz</a></div>
-
-     <div class="neu-item"><a href="#">Vermittlung</a></div>
-     <div class="neu-item"><a href="#">Kuratorisches Statement</a></div>
-     <div class="neu-item"><a href="#">psummm   olor Lorem ipsummm   olor Lorem ipsummmsdffdsdfsdsfdfsdsfdsfdfsolor Lorem ipsummm      Est</a></div>
-     <div class="neu-item"><a href="#">Lorem Ipsum Dolor Est</a></div>
-   </div>
- </div>
- </nav>
-
 
 
 
@@ -117,39 +102,49 @@ $linkrail = array (
 
 
 
+<div style="background: grey" class="service-info-element__columns"><div class="service-info-element__column"><p>Ausstellung, Konferenzen</p>
+<p>Haus der Kulturen der Welt <br><a href="#">Besucherinformationen</a></p>
+<p>Täglich (außer Di) 11–19h <br> Feiertags geöffnet</p>
+<p><a class="external-link" href="#">Lange Nacht der Ideen</a><br> 06.06. 11–0h <br>Ab 18h <span class="icon-eintritt-frei"></span> Eintritt frei</p></div><div class="service-info-element__column"><p>Eintritt: 9€/7€ <br> inkl. Zweitbesuch und Ausstellungsguide <br><a href="#">Mehr Infos</a>
+  <a href="#" class="download-link"> downl Link</a>
 
-<style>
-
-
-	.neu-external-link{
-    /* color: green; */
-    text-decoration: underline;
-    background-image: url(https://de.wikipedia.org/w/resources/src/mediawiki.skinning/images/external-ltr.svg?59558);
-    background-position: center right;
-    background-repeat: no-repeat;
-    padding-right: 1em;;
-  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166"><polygon fill="currentColor" points="83 26.8 65.7 61.8 27.1 67.4 55 94.7 48.5 133.2 83 115 117.5 133.2 111 94.7 138.9 67.4 100.3 61.8 83 26.8 83 26.8"/></svg>');
-      background-position-y: top;
-    background-position-y: -0.1em;
-	margin-right: 0.1em;
-
-  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166"><polygon fill="blue" points="83 26.8 65.7 61.8 27.1 67.4 55 94.7 48.5 133.2 83 115 117.5 133.2 111 94.7 138.9 67.4 100.3 61.8 83 26.8 83 26.8"/></svg>');
-    }
-
-    .neu-external-link:hover{
-	      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166"><polygon fill="red" points="83 26.8 65.7 61.8 27.1 67.4 55 94.7 48.5 133.2 83 115 117.5 133.2 111 94.7 138.9 67.4 100.3 61.8 83 26.8 83 26.8"/></svg>');
-
-    }
-
-</style>
+  <a href="#" class="to-the-right-link"> to the right link</a>
+</p>
+<p> <a href="#">Ausstellungsguide</a> <br><a href="#">Audioguide</a> </p>
+<p><a href="#">Tickets kaufen</a></p></div></div>
 
 <div class="element two-column-element " style="background: "><div class="two-column-element__column"><div class="project-abstract"><p class="abstract"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-</p>         </div></div><div class="two-column-element__column"><p><a href="#" class="neu-external-link"> Externer Link</a><a href="#" class="neu-external-link">Externer Link</a><a href="#" class="neu-external-link">neuer langer externer link mit viel Text und Unterlängen</a>
+</p>         </div></div><div class="two-column-element__column"><p>
+  <a href="#" class="external-link"> alter Externer Link</a>
+  <a href="#" class="external-link"> Externer Link</a>
+  <a href="#" class="external-link">Externer Link</a><a href="#" class="external-link">neuer langer externer link mit viel Text und Unterlängen</a>
+
+
+  <a href="#" class="download-link"> diwnload Link</a>
+  <a href="#" class="download-link"> downl Link</a>
+  <a href="#" class="download-link">downl Link</a><a href="#" class="download-link">neuer langer download link mit viel Text und Unterlängen</a>
+
+
+  <a href="#" class="to-the-right-link"> to the right link</a>
+  <a href="#" class="to-the-right-link"> to the right link</a>
+  <a href="#" class="to-the-right-link">to the right link</a><a href="#" class="to-the-right-link">neuer langer to the right link link mit viel Text und Unterlängen</a>
 
 
 </p>
-<h2><a href="#" class="neu-external-link">Externer qLink</a></h2>
+<h2><a href="#" class="to-the-right-link">to the right qLink</a></h2>
+
+<h2><a href="#" class="download-link">download qLink</a></h2>
+
+<h2><a href="#" class="external-link">Externer qLink</a></h2>
+
+
+<h2><a href="#" class="to-the-right-link">to the right qLink</a>lorem ipsum</h2>
+
+<h2><a href="#" class="download-link">download qLink</a>folor est</h2>
+
+<h2><a href="#" class="external-link">Externer qLink</a>loerewmewm sdf</h2>
+
 <p>Der Titel bauhaus imaginista verweist auf den Imaginationsraum, den das Bauhaus öffnete, und die vielschichtigen Lesarten, die der Begriff bis heute birgt. Zwischen Archivmaterialien und zeitgenössischen Beiträgen übersetzt das Projekt historische Perspektiven in Fragen zur Gegenwart: Wie lässt sich heute im Sinne des Bauhauses Kultur als soziales Projekt neu denken? Welche Art von Institutionen braucht ein solches Projekt? Wie regt das Bauhaus noch heute visionäre Praktiken und Diskurse an? </p>
 <p> Die Ausstellung reflektiert die künstlerische Erforschung von Handwerkstechniken, Materialitäten und Praktiken; untersucht, wie Konzepte des Bauhauses zur gesellschaftlichen Bedeutung von Gestaltung transformiert, angepasst oder auch in Frage gestellt wurden; und zeigt, wie der innovative Gebrauch von Medien am Bauhaus Kunst und Popkultur bis heute prägt. </p>
 <p>Seit März 2018 entstanden Ausstellungen, Symposien und Workshops in Rabat, Hangzhou, New York, Kyoto und Tokio, Moskau, São Paulo, Lagos und Delhi in Zusammenarbeit mit den Goethe-Instituten und Partner*innen vor Ort. Im HKW entfaltet sich auf dieser Basis nun eine Gesamtschau von bauhaus imaginista. </p>

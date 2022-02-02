@@ -1,7 +1,4 @@
 <?php
-
-
-
 function linkrail($linkrail){
  if($linkrail){ ?>
 				<nav class="projektmenu-wrap">

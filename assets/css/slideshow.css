@@ -24,22 +24,59 @@
   opacity: 0;
 }
 
-.slideshow-element img {
-  width: 100%;
+
+/* make caption width = img width */
+.slideshow-element:not(.header-slideshow) figure {
+  display: table;
+}
+.slideshow-element:not(.header-slideshow) figcaption {
+  display: table-caption; caption-side: bottom;
+}
+
+/* size landscape img */
+.slideshow-element:not(.header-slideshow) img.landscape {
+  /* width: 100%; */
+  width: 70vw;
   height: auto;
 }
 
-.slideshow-element__slide {
-  width: 70%;
+/* size portrait img */
+.slideshow-element:not(.header-slideshow) img.portrait {
+  height: 82vh;
+  width: auto;
+}
+
+/* size square img */
+.slideshow-element:not(.header-slideshow) img.square {
+  height: 82vh;
+  width: auto;
+}
+
+.slideshow-element:not(.header-slideshow) .slideshow-element__slide {
+  /* width: 70%; */
   height: auto;
   margin-right: 2rem;
 }
 
+
+/* set width of image caption for landscape img */
+.slideshow-element:not(.header-slideshow) .slideshow-element__slide figcaption{
+  background: red;
+  max-width: 50vw;
+}
+
+
 @media only screen and (max-width: 1024px) {
   .slideshow-element__slide {
-    width: 80%;
+    /* width: 80%; */
     margin-right: 1rem;
   }
+}
+
+
+
+.slideshow-element:not(.header-slideshow) .slideshow-element__slide:last-of-type{
+  padding-right: 2rem;
 }
 
 .slideshow-element__text {
@@ -84,6 +121,17 @@
     font-size: 1.75em;
   }
 }
+
+
+/* test fullscreen */
+
+.flickity-enabled.is-fullscreen{
+  z-index: 999999;
+}
+
+
+
+
 
 /* Slideshow für	Header auf Projektseiten */
 .header-slideshow {
