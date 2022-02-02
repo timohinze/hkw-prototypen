@@ -1,24 +1,25 @@
 // neu 20220201
 // scrollable menu flickity
 $( document ).ready(function() {
-  $('.neu-scrollable-menu').addClass('scrollable-menu-flickity')
-  $('.neu-scrollable-menu').flickity({
+  $('.scrollable-menu').addClass('scrollable-menu-flickity')
+  $('.scrollable-menu').flickity({
     cellAlign: 'left',
     freeScroll: true,
     prevNextButtons: true,
     pageDots: false,
     contain: true,
-    cellSelector: ".neu-item",
+    cellSelector: ".projektmenu__item, .submenu__item",
     groupCells: true,
 
   });
 
-});
+ });
 // resize menu after load to make sure the height is correct
 $( window ).on( 'load', function() {
-    $('.neu-scrollable-menu').flickity('resize');
-    console.log("resizzzzed");
+    $('.scrollable-menu').flickity('resize');
+     console.log("resizzzzed");
 });
+
 //
 //  $( document ).ready(function() {
 // const navs2 = document.querySelectorAll('.neu-scrollable-menu');
@@ -41,69 +42,72 @@ $( window ).on( 'load', function() {
 
 
 // scrollable menu flickity
+//  $( document ).ready(function() {
+// const navs = document.querySelectorAll('.scrollable-menu');
+//   for ( var i = 0, length = navs.length; i < length; i++ ) {
+//     var nav = navs[i];
+//        nav.classList.add("scrollable-menu-flickity");
+//         new Flickity( nav, {
+//           cellAlign: 'left',
+//           freeScroll: true,
+//           prevNextButtons: true,
+//           pageDots: false,
+//           contain: true,
+//           cellSelector: "li",
+//           groupCells: true,
+//           watchCSS: true
+//
+//         });
+//
+//  }
+// });
 
-const navs = document.querySelectorAll('.scrollable-menu');
-  for ( var i = 0, length = navs.length; i < length; i++ ) {
-    var nav = navs[i];
-       nav.classList.add("scrollable-menu-flickity");
-        new Flickity( nav, {
-          cellAlign: 'left',
-          freeScroll: true,
-          prevNextButtons: true,
-          pageDots: false,
-          contain: true,
-          cellSelector: "li",
-          groupCells: true,
-          watchCSS: true
 
-        });
-
- }
 
 
 
 // just a test
 // add functionality for swipe gestures
 
- $( document ).ready(function() {
-
-  function $(selector) {
-    return document.querySelector(selector);
- }
-
- var swipe_timer = 0;
-
- var carousel = document.querySelector('.scrollable-menu')
- var flkty = Flickity.data( carousel )
-
- $('.scrollable-menu').addEventListener('wheel', e => {
- e.preventDefault();
-
- clearTimeout(swipe_timer);
- swipe_timer = setTimeout(function () {
-   swipe_slide(e)
- }, 25)
-
- });
-
- function swipe_slide(e){
-   e.preventDefault();
-   console.log(e.deltaX);
-   if(e.deltaX >= 1) {
-     flkty.next();
-     console.log("next");
-     e.deltaX=0;
-   } else if (e.deltaX <= -1) {
-     flkty.previous();
-     console.log("prev");
-     e.deltaX=0;
-
-   }
- }
-
-
-});
-
+//  $( document ).ready(function() {
+//
+//   function $(selector) {
+//     return document.querySelector(selector);
+//  }
+//
+//  var swipe_timer = 0;
+//
+//  var carousel = document.querySelector('.scrollable-menu')
+//  var flkty = Flickity.data( carousel )
+//
+//  $('.scrollable-menu').addEventListener('wheel', e => {
+//  e.preventDefault();
+//
+//  clearTimeout(swipe_timer);
+//  swipe_timer = setTimeout(function () {
+//    swipe_slide(e)
+//  }, 25)
+//
+//  });
+//
+//  function swipe_slide(e){
+//    e.preventDefault();
+//    console.log(e.deltaX);
+//    if(e.deltaX >= 1) {
+//      flkty.next();
+//      console.log("next");
+//      e.deltaX=0;
+//    } else if (e.deltaX <= -1) {
+//      flkty.previous();
+//      console.log("prev");
+//      e.deltaX=0;
+//
+//    }
+//  }
+//
+//
+// });
+//
 
 
 
