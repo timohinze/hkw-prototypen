@@ -10,6 +10,7 @@ $( document ).ready(function() {
     contain: true,
     cellSelector: ".projektmenu__item, .submenu__item",
     groupCells: true,
+    watchCSS: true,
 
   });
 
@@ -17,7 +18,6 @@ $( document ).ready(function() {
 // resize menu after load to make sure the height is correct
 $( window ).on( 'load', function() {
     $('.scrollable-menu').flickity('resize');
-     console.log("resizzzzed");
 });
 
 //
