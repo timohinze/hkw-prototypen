@@ -13,7 +13,7 @@
   border: 1px solid black;
   display: inline-block;
   font-size: 1em;
-  text-decoration: none;
+  text-decoration: none!important;
   position: relative;
   z-index: 1;
   line-height: 1.4;
@@ -31,9 +31,9 @@
   font-size: 1em;
 }
 
-.link-button:hover {
+/* .link-button:hover {
   background: white;
-}
+} */
 
 /* Externer Link / Download Link / Nach Rechts Link*/
 /* a.external-link::after {
@@ -73,6 +73,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       }
 
 
+
+a.link-button.external-link,
+a.link-button.download-link,
+a.link-button.to-the-right-link{
+  padding-right: 1.75em;
+
+}
 
 /* a.download-link::after {
   padding-right: 0.25em;
