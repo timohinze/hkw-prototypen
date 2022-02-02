@@ -138,18 +138,24 @@ $linkrail = array (
    <div class="slideshow-element__slideshow">
      <div class="slideshow-element__slide">
         <figure class="slideshow-element__media">
-           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
-           <div class="open-lightbox">x</div>
-           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est
-           </figcaption>
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
         </figure>
      </div>
      <div class="slideshow-element__slide">
         <figure class="slideshow-element__media">
-           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
-           <div class="open-lightbox">x</div>
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
 
            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est
+           </figcaption>
         </figure>
      </div>
      <div class="slideshow-element__slide">
@@ -164,14 +170,6 @@ $linkrail = array (
 
 
 
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-            <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
-            <div class="open-lightbox">x</div>
-
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
       <div class="slideshow-element__slide">
          <figure class="slideshow-element__media">
             <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
@@ -193,7 +191,33 @@ $linkrail = array (
      </div>
      <div class="slideshow-element__slide">
         <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
            <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+
+
+   </div>
+</div>
+
+<div class="element element--padding-left slideshow-element">
+   <h2 class="slideshow-element__titel">Fotos</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
         </figure>
      </div>
@@ -205,15 +229,12 @@ $linkrail = array (
      </div>
      <div class="slideshow-element__slide">
         <figure class="slideshow-element__media">
-           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
         </figure>
      </div>
-
-
    </div>
 </div>
-
 
 
 <div class="calendar calendar--projektseite">

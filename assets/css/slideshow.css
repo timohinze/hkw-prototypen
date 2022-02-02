@@ -42,13 +42,13 @@
 
 /* size portrait img */
 .slideshow-element:not(.header-slideshow) img.portrait {
-  height: 82vh;
+  height: 77vh;
   width: auto;
 }
 
 /* size square img */
 .slideshow-element:not(.header-slideshow) img.square {
-  height: 82vh;
+  height: 77vh;
   width: auto;
 }
 
@@ -61,9 +61,12 @@
 
 /* set width of image caption for landscape img */
 .slideshow-element:not(.header-slideshow) .slideshow-element__slide figcaption{
-  background: red;
   max-width: 50vw;
 }
+
+
+
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -78,6 +81,19 @@
 .slideshow-element:not(.header-slideshow) .slideshow-element__slide:last-of-type{
   padding-right: 2rem;
 }
+
+
+.slideshow-element:not(.header-slideshow):hover .flickity-prev-next-button svg {
+    fill: black;
+}
+.slideshow-element:not(.header-slideshow):hover .flickity-prev-next-button svg {
+    display: block !important;
+}
+
+.slideshow-element:not(.header-slideshow) .flickity-prev-next-button {
+    top: 50%;
+}
+
 
 .slideshow-element__text {
   margin-top: 1em;
@@ -125,9 +141,9 @@
 
 /* test fullscreen */
 
-.flickity-enabled.is-fullscreen{
+/* .flickity-enabled.is-fullscreen{
   z-index: 999999;
-}
+} */
 
 
 
