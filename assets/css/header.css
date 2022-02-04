@@ -643,7 +643,7 @@ letter-spacing: -0.035em;
   display: block !important;
 }
 
-.flickity-prev-next-button .flickity-button-icon {
+.scrollable-menu-flickity .flickity-prev-next-button .flickity-button-icon {
   width: 100% !important;
   height: 100% !important;
 }
@@ -679,7 +679,7 @@ letter-spacing: -0.035em;
     width: 2rem;
   }
 
-  .flickity-prev-next-button {
+  .scrollable-menu-flickity .flickity-prev-next-button {
     pointer-events: none;
   }
 
