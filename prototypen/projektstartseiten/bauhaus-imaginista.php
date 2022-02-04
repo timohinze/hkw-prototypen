@@ -140,21 +140,21 @@ $linkrail = array (
         <figure class="slideshow-element__media">
            <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
 
-           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
         </figure>
      </div>
      <div class="slideshow-element__slide">
         <figure class="slideshow-element__media">
            <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
 
-           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
         </figure>
      </div>
 
      <div class="slideshow-element__slide">
         <figure class="slideshow-element__media">
            <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
-           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem IpsumIpsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est
+           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
            </figcaption>
         </figure>
      </div>
@@ -216,15 +216,15 @@ $linkrail = array (
    <h2 class="slideshow-element__titel">Fotos</h2>
    <div class="slideshow-element__slideshow">
      <div class="slideshow-element__slide">
-        <figure class="slideshow-element__media">
-           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
-           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        <figure class="slideshow-element__media add-blurry-bg">
+          <img src="https://picsum.photos/300/200" >
+<figcaption>Add blurry BG Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
         </figure>
      </div>
      <div class="slideshow-element__slide">
-        <figure class="slideshow-element__media">
-           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
-           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        <figure class="slideshow-element__media add-blurry-bg">
+<img src="https://picsum.photos/500/1000" >
+     <figcaption>Add blurry BG Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
         </figure>
      </div>
      <div class="slideshow-element__slide">
