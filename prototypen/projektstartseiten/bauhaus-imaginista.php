@@ -180,7 +180,37 @@ $linkrail = array (
 </div>
 
 
-<div class="element element--padding-left slideshow-element">
+
+<style>
+.slideshow-element-var2.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:black;
+  stroke: none;
+}
+.slideshow-element-var2.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+display: block!important;
+}
+.slideshow-element-var2.slideshow-element:not(.header-slideshow) .flickity-prev-next-button{
+top: -2rem;
+}
+
+.slideshow-element-var2.slideshow-element:not(.header-slideshow) .flickity-prev-next-button.previous {
+    left: unset;
+    right: 2rem;
+}
+
+.slideshow-element-var2.slideshow-element:not(.header-slideshow) .flickity-prev-next-button{
+  width: 38px;
+  height: 38px;
+}
+.slideshow-element-var2.slideshow-element:not(.header-slideshow) .slideshow-element__titel{
+  margin-right: 5rem;
+}
+
+
+</style>
+
+
+<div class="element element--padding-left slideshow-element slideshow-element-var2">
    <h2 class="slideshow-element__titel">Fotos</h2>
    <div class="slideshow-element__slideshow">
      <div class="slideshow-element__slide">
@@ -212,7 +242,15 @@ $linkrail = array (
    </div>
 </div>
 
-<div class="element element--padding-left slideshow-element">
+
+<style>
+.slideshow-element-var3.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:black;
+  stroke: none;
+}
+</style>
+
+<div class="element element--padding-left slideshow-element slideshow-element-var3">
    <h2 class="slideshow-element__titel">Fotos</h2>
    <div class="slideshow-element__slideshow">
      <div class="slideshow-element__slide">
