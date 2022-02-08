@@ -275,6 +275,398 @@ top: -2rem;
 </div>
 
 
+
+
+
+
+
+
+
+
+<style>
+.slideshow-element-var4.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:white;
+  stroke: none;
+}
+
+.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.landscape {
+    width: 55vw;
+    height: auto;
+}
+.slideshow-element-var4.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.portrait {
+    width: 36vw!important;
+    height: auto!important;
+}
+.slideshow-element-var4.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.square {
+    width: 36vw!important;
+    height: auto!important;
+}
+
+</style>
+
+
+
+<div class="element element--padding-left slideshow-element slideshow-element-var4">
+   <h2 class="slideshow-element__titel">Querformate: 55vw, Hochformate/Quadrate: 36vw</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+
+           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+
+           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
+        </figure>
+     </div>
+
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
+           </figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+       <figure class="slideshow-element__media">
+         <div class="video-player-wrap">
+            <button class="video-player__play-button"></button>
+            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
+        </div>
+        <figcaption>Figcaption + Iframes?</figcaption>
+        </figure>
+      </div>
+
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/900/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/900" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/etjbS5Z4kSEA5mvDn_SskVxDdhcdTR0LBw0Fs6cG9FI/rs:fit:1280:960/g:fp:0.2:0.44/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjIvYWxhbmlzX29ib21zYXdpbi9hbGFuaXNfb2JvbXNhd2luX3NsZWVwaW5nX2R1cmluZ190aGVfb2thX2NyaXNpcy5qcGc=" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/SLuhxewGMIc-r7M4tmJl7GAVZI3bKeQszTkDzWG2kF8/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjAvbmV3X2FscGhhYmV0X3NjaG9vbF8xL2RpbG8uanBn" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/EixhaEUsWcCkdgb_QE9UWdbjbZZoLz7R75aJ3zX-49s/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyL3B1Ymxpa2F0aW9uZW5fMS9wdWJsaWthdGlvbmVuXzIwMjIvZWluZV9hcnRfd2VsdGtyaWVnLmpwZw==" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/1000" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.slideshow-element-var5.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:white;
+  stroke: none;
+}
+
+.slideshow-element-var5.slideshow-element:not(.header-slideshow) img.landscape {
+    width: 61vw;
+    height: auto;
+}
+.slideshow-element-var5.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.portrait {
+    width: 70vh!important;
+    height: auto!important;
+}
+.slideshow-element-var5.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.square {
+  width: 70vh!important;
+  height: auto!important;
+}
+
+</style>
+
+
+
+<div class="element element--padding-left slideshow-element slideshow-element-var5">
+   <h2 class="slideshow-element__titel">Querformate: 61vw, Hochformate/Quadrate: 70vh</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+
+           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+
+           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
+        </figure>
+     </div>
+
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
+           </figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+       <figure class="slideshow-element__media">
+         <div class="video-player-wrap">
+            <button class="video-player__play-button"></button>
+            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
+        </div>
+        <figcaption>Figcaption + Iframes?</figcaption>
+        </figure>
+      </div>
+
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/900/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/900" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/etjbS5Z4kSEA5mvDn_SskVxDdhcdTR0LBw0Fs6cG9FI/rs:fit:1280:960/g:fp:0.2:0.44/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjIvYWxhbmlzX29ib21zYXdpbi9hbGFuaXNfb2JvbXNhd2luX3NsZWVwaW5nX2R1cmluZ190aGVfb2thX2NyaXNpcy5qcGc=" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/SLuhxewGMIc-r7M4tmJl7GAVZI3bKeQszTkDzWG2kF8/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjAvbmV3X2FscGhhYmV0X3NjaG9vbF8xL2RpbG8uanBn" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/EixhaEUsWcCkdgb_QE9UWdbjbZZoLz7R75aJ3zX-49s/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyL3B1Ymxpa2F0aW9uZW5fMS9wdWJsaWthdGlvbmVuXzIwMjIvZWluZV9hcnRfd2VsdGtyaWVnLmpwZw==" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/1000" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.slideshow-element-var6.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:white;
+  stroke: none;
+}
+
+.slideshow-element-var6.slideshow-element:not(.header-slideshow) img.landscape {
+    width: 40vw;
+    height: auto;
+}
+.slideshow-element-var6.slideshow-element:not(.header-slideshow) img.portrait {
+    width: 26.6666vw!important;
+    height: auto!important;
+}
+.slideshow-element-var6.slideshow-element:not(.header-slideshow) img.square {
+  width: 26.6666vw!important;
+  height: auto!important;
+}
+
+</style>
+
+
+
+<div class="element element--padding-left slideshow-element slideshow-element-var6">
+   <h2 class="slideshow-element__titel">Querformate: 40vw, Hochformate/Quadrate: 26.6vw</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+
+           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+
+           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
+        </figure>
+     </div>
+
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
+           </figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+       <figure class="slideshow-element__media">
+         <div class="video-player-wrap">
+            <button class="video-player__play-button"></button>
+            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
+        </div>
+        <figcaption>Figcaption + Iframes?</figcaption>
+        </figure>
+      </div>
+
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/900/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/900" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/etjbS5Z4kSEA5mvDn_SskVxDdhcdTR0LBw0Fs6cG9FI/rs:fit:1280:960/g:fp:0.2:0.44/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjIvYWxhbmlzX29ib21zYXdpbi9hbGFuaXNfb2JvbXNhd2luX3NsZWVwaW5nX2R1cmluZ190aGVfb2thX2NyaXNpcy5qcGc=" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/SLuhxewGMIc-r7M4tmJl7GAVZI3bKeQszTkDzWG2kF8/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjAvbmV3X2FscGhhYmV0X3NjaG9vbF8xL2RpbG8uanBn" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/EixhaEUsWcCkdgb_QE9UWdbjbZZoLz7R75aJ3zX-49s/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyL3B1Ymxpa2F0aW9uZW5fMS9wdWJsaWthdGlvbmVuXzIwMjIvZWluZV9hcnRfd2VsdGtyaWVnLmpwZw==" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/1000" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+   </div>
+</div>
+
+
+
+
+
+
+
 <div class="calendar calendar--projektseite">
   <h2 class="calendar__header">Programm bauhaus imaginista</h2>
 
