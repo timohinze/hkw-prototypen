@@ -18,6 +18,7 @@ $( document ).ready(function() {
 // resize menu after load to make sure the height is correct
 $( window ).on( 'load', function() {
     $('.scrollable-menu').flickity('resize');
+    console.log("resize scrollable-menu menu");
 });
 
 //

@@ -97,8 +97,8 @@
 .projektmenu-wrap .projektmenu__item a {
   font-size: 18px;
   /* kein em / rem für fontsize  wegen rundungsproblemen*/
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: inherit;
   text-decoration: none;
   display: inline-block;

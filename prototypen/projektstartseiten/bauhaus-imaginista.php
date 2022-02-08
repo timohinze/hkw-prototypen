@@ -414,127 +414,6 @@ top: -2rem;
 
 
 
-<style>
-.slideshow-element-var5.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
-  fill:white;
-  stroke: none;
-}
-
-.slideshow-element-var5.slideshow-element:not(.header-slideshow) img.landscape {
-    width: 61vw;
-    height: auto;
-}
-.slideshow-element-var5.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.portrait {
-    width: 70vh!important;
-    height: auto!important;
-}
-.slideshow-element-var5.slideshow-element-var4.slideshow-element:not(.header-slideshow) img.square {
-  width: 70vh!important;
-  height: auto!important;
-}
-
-</style>
-
-
-
-<div class="element element--padding-left slideshow-element slideshow-element-var5">
-   <h2 class="slideshow-element__titel">Querformate: 61vw, Hochformate/Quadrate: 70vh</h2>
-   <div class="slideshow-element__slideshow">
-     <div class="slideshow-element__slide">
-        <figure class="slideshow-element__media">
-           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
-
-           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
-        </figure>
-     </div>
-     <div class="slideshow-element__slide">
-        <figure class="slideshow-element__media">
-           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
-
-           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
-        </figure>
-     </div>
-
-     <div class="slideshow-element__slide">
-        <figure class="slideshow-element__media">
-           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
-           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
-           </figcaption>
-        </figure>
-     </div>
-     <div class="slideshow-element__slide">
-       <figure class="slideshow-element__media">
-         <div class="video-player-wrap">
-            <button class="video-player__play-button"></button>
-            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
-        </div>
-        <figcaption>Figcaption + Iframes?</figcaption>
-        </figure>
-      </div>
-
-
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://picsum.photos/900/600" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://picsum.photos/600/600" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://picsum.photos/600/900" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://hkw.de/i/etjbS5Z4kSEA5mvDn_SskVxDdhcdTR0LBw0Fs6cG9FI/rs:fit:1280:960/g:fp:0.2:0.44/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjIvYWxhbmlzX29ib21zYXdpbi9hbGFuaXNfb2JvbXNhd2luX3NsZWVwaW5nX2R1cmluZ190aGVfb2thX2NyaXNpcy5qcGc=" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://hkw.de/i/SLuhxewGMIc-r7M4tmJl7GAVZI3bKeQszTkDzWG2kF8/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjAvbmV3X2FscGhhYmV0X3NjaG9vbF8xL2RpbG8uanBn" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://hkw.de/i/EixhaEUsWcCkdgb_QE9UWdbjbZZoLz7R75aJ3zX-49s/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyL3B1Ymxpa2F0aW9uZW5fMS9wdWJsaWthdGlvbmVuXzIwMjIvZWluZV9hcnRfd2VsdGtyaWVnLmpwZw==" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-      <div class="slideshow-element__slide">
-         <figure class="slideshow-element__media">
-           <img src="https://picsum.photos/600/1000" >
-            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
-         </figure>
-      </div>
-
-   </div>
-</div>
-
-
-
-
 
 
 
@@ -561,7 +440,10 @@ top: -2rem;
   width: 26.6666vw!important;
   height: auto!important;
 }
-
+.slideshow-element-var6.slideshow-element:not(.header-slideshow) .vimeo-embed {
+    width: 40vw;
+    height: auto;
+}
 </style>
 
 
@@ -658,8 +540,324 @@ top: -2rem;
          </figure>
       </div>
 
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <div class="vimeo-embed" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70591644?h=b8c796fff8&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+
    </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.slideshow-element-var7.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:white;
+  stroke: none;
+}
+
+.slideshow-element-var7.slideshow-element:not(.header-slideshow) img.landscape {
+  max-width: 61vw!important;
+  height: auto!important;
+
+  max-height: 77vh!important;
+  width: auto!important;
+}
+.slideshow-element-var7.slideshow-element:not(.header-slideshow) img.portrait {
+  max-width: 40vw!important;
+  height: auto!important;
+
+  max-height: 77vh!important;
+  width: auto!important;
+}
+.slideshow-element-var7.slideshow-element:not(.header-slideshow) img.square {
+  max-width: 40vw!important;
+  height: auto!important;
+
+  max-height: 77vh!important;
+  width: auto!important;}
+
+
+  .slideshow-element-var7.slideshow-element:not(.header-slideshow) .vimeo-embed {
+      width: 61vw;
+      height: auto;
+  }
+</style>
+
+
+
+<div class="element element--padding-left slideshow-element slideshow-element-var7">
+   <h2 class="slideshow-element__titel">Querformate: max-width: 61vw, max-height 77vh <br>Hochformate/Quadrate: max-width 40vw, max-height 77vh</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+
+           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+
+           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
+        </figure>
+     </div>
+
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
+           </figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+       <figure class="slideshow-element__media">
+         <div class="video-player-wrap">
+            <button class="video-player__play-button"></button>
+            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
+        </div>
+        <figcaption>Figcaption + Iframes?</figcaption>
+        </figure>
+      </div>
+
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/900/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/900" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/etjbS5Z4kSEA5mvDn_SskVxDdhcdTR0LBw0Fs6cG9FI/rs:fit:1280:960/g:fp:0.2:0.44/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjIvYWxhbmlzX29ib21zYXdpbi9hbGFuaXNfb2JvbXNhd2luX3NsZWVwaW5nX2R1cmluZ190aGVfb2thX2NyaXNpcy5qcGc=" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/SLuhxewGMIc-r7M4tmJl7GAVZI3bKeQszTkDzWG2kF8/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjAvbmV3X2FscGhhYmV0X3NjaG9vbF8xL2RpbG8uanBn" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/EixhaEUsWcCkdgb_QE9UWdbjbZZoLz7R75aJ3zX-49s/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyL3B1Ymxpa2F0aW9uZW5fMS9wdWJsaWthdGlvbmVuXzIwMjIvZWluZV9hcnRfd2VsdGtyaWVnLmpwZw==" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/1000" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <div class="vimeo-embed" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70591644?h=b8c796fff8&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.slideshow-element-var8.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg{
+  fill:white;
+  stroke: none;
+}
+
+.slideshow-element-var8.slideshow-element:not(.header-slideshow) img.landscape {
+  height: 77vh!important;
+  width: auto!important;
+}
+.slideshow-element-var8.slideshow-element:not(.header-slideshow) img.portrait {
+  height: 77vh!important;
+  width: auto!important;
+}
+.slideshow-element-var8.slideshow-element:not(.header-slideshow) img.square {
+
+  height: 77vh!important;
+  width: auto!important;}
+
+
+  .slideshow-element-var8.slideshow-element:not(.header-slideshow) .vimeo-embed {
+      width: 61vw;
+      height: auto;
+  }
+</style>
+
+
+
+<div class="element element--padding-left slideshow-element slideshow-element-var8">
+   <h2 class="slideshow-element__titel">Alle Formate: height: 77vh</h2>
+   <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/university_of_ife_in_ile_ife_nigeria.jpg">
+
+           <figcaption>University of Ife in Ile-Ife, Nigeria. Architekten: Arieh Sharon, Eldar Sharon. Foto: © Arieh Sharon digital archive</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/anja_kirschner_pattern_0203.jpg">
+
+           <figcaption>Angolan Instruments for Sale, Salvador da Bahia, 2018. Foto: Satch Hoyt Courtesy of the artist</figcaption>
+        </figure>
+     </div>
+
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="../../assets/img/nicholas_grafia_times_new_roman.jpg">
+           <figcaption> Nicholas Grafia. Times New Roman (As Page Turning As Eye Opening), 2020.  Courtesy Nicholas Grafia und Peres Projects, Berlin
+           </figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+       <figure class="slideshow-element__media">
+         <div class="video-player-wrap">
+            <button class="video-player__play-button"></button>
+            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/templates/hkw-beispiel-bilder/Bildschirmfoto 2021-08-27 um 15.22.55.png" alt="Lorem Ipsum" class="landscape">
+        </div>
+        <figcaption>Figcaption + Iframes?</figcaption>
+        </figure>
+      </div>
+
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+            <img src="../../assets/img/aristilde_paz_kirby_the_art_of_picking.jpg">
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/900/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/600" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/900" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/etjbS5Z4kSEA5mvDn_SskVxDdhcdTR0LBw0Fs6cG9FI/rs:fit:1280:960/g:fp:0.2:0.44/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjIvYWxhbmlzX29ib21zYXdpbi9hbGFuaXNfb2JvbXNhd2luX3NsZWVwaW5nX2R1cmluZ190aGVfb2thX2NyaXNpcy5qcGc=" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/SLuhxewGMIc-r7M4tmJl7GAVZI3bKeQszTkDzWG2kF8/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyLzIwMjAvbmV3X2FscGhhYmV0X3NjaG9vbF8xL2RpbG8uanBn" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://hkw.de/i/EixhaEUsWcCkdgb_QE9UWdbjbZZoLz7R75aJ3zX-49s/rs:fit:1280:960/bG9jYWw6Ly8vbWVkaWEvYmlsZGVyL3B1Ymxpa2F0aW9uZW5fMS9wdWJsaWthdGlvbmVuXzIwMjIvZWluZV9hcnRfd2VsdGtyaWVnLmpwZw==" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/600/1000" >
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+
+      <div class="slideshow-element__slide">
+         <figure class="slideshow-element__media">
+           <div class="vimeo-embed" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70591644?h=b8c796fff8&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+            <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+         </figure>
+      </div>
+
+
+   </div>
+</div>
+
+
+
+
+
 
 
 
