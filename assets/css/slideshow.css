@@ -158,10 +158,65 @@ stroke-width: 4px;
 
 
 /* test fullscreen */
+.slideshow-element{
+  z-index: unset;
+}
 
-/* .flickity-enabled.is-fullscreen{
-  z-index: 999999;
+ .flickity-enabled.is-fullscreen{
+  z-index: 9999;
+  background: black;
+}
+
+.flickity-enabled.is-fullscreen figcaption{
+color: white;
+}
+
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .vimeo-embed{
+  width: 90vw!important;
+  height: auto!important;
+
+}
+
+
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.landscape,
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.portrait,
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.square  {
+ max-width: 90vw!important;
+ height: auto!important;
+
+ max-height: 90vh!important;
+ width: auto!important;
+}
+/*
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .vimeo-embed {
+ width: 90vw!important;
+ height: auto!important;
+}
+
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.portrait {
+ height: 90vh!important;
+ width: auto!important;
+}
+
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.square {
+ height: 90vh!important;
+ width: auto!important;
 } */
+
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .slideshow-element__slide{
+width: 100vw;
+height: 100vh;
+background: black;
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+
+
 
 
 
