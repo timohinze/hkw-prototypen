@@ -184,7 +184,7 @@ color: white;
  max-width: 90vw!important;
  height: auto!important;
 
- max-height: 90vh!important;
+ max-height: 80vh!important;
  width: auto!important;
 }
 /*
@@ -212,10 +212,22 @@ align-content: center;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+
+
+}
+
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen figure{
 }
 
 
+.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen figcaption{
+}
 
+ @media only screen and (max-width: 840px) {
+.slideshow-element:not(.header-slideshow) .slideshow-element__slide figcaption {
+    max-width: unset;
+}
+}
 
 
 
