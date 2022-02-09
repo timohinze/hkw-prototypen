@@ -688,6 +688,16 @@ letter-spacing: -0.035em;
   }
 }
 
+
+.flickity-prev-next-button.previous {
+    left: 0;
+}
+
+.flickity-prev-next-button.next {
+    right: 0;
+}
+
+
 /*
 to top */
 .jump-to-top {

@@ -118,10 +118,15 @@
 }
 
 
+/* test after  */
 
-
-.projektmenu__item.projektmenu__item--selected,
-.projektmenu__item:hover,
-.projektmenu__item:focus{
+.projektmenu__item.projektmenu__item--selected::after,
+.projektmenu__item:hover::after,
+.projektmenu__item:focus::after{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  content: " ";
   border-bottom: 4px solid black;
 }

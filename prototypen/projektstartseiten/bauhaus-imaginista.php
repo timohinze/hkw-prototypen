@@ -604,6 +604,15 @@ top: -2rem;
 fill: white;
 }
 
+.flickity-fullscreen-button .flickity-button-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: unset;
+    top: 4px;
+    right: 0;
+    width: 60%;
+    height: 60%;
 }
 
 </style>
