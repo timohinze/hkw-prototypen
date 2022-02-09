@@ -124,7 +124,6 @@ stroke-width: 4px;
 
 
 
-
 @media only screen and (max-width: 1024px) {
   .slideshow-element .flickity-button {
     width: 44px;
@@ -164,11 +163,11 @@ stroke-width: 4px;
 
  .flickity-enabled.is-fullscreen{
   z-index: 9999;
-  background: black;
+  background: white;
 }
 
 .flickity-enabled.is-fullscreen figcaption{
-color: white;
+color: black;
 }
 
 .slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .vimeo-embed{
@@ -206,7 +205,7 @@ color: white;
 .slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .slideshow-element__slide{
 width: 100vw;
 height: 100vh;
-background: black;
+background: white;
 display: flex;
 align-content: center;
 justify-content: center;
@@ -229,7 +228,9 @@ flex-wrap: wrap;
 }
 }
 
-
+.slideshow-element:not(.header-slideshow) .flickity-button{
+mix-blend-mode: difference;
+}
 
 
 

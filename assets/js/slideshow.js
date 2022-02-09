@@ -32,10 +32,49 @@ $( document ).ready(function() {
 
 });
 
+
+
+$('.slideshow-element__slideshow').each(function(index, element) {
+
+    $(this).on('staticClick.flickity', function (event, pointer, cellElement, cellIndex) {
+      // dismiss if cell was not clicked
+        if ( !cellElement ) {
+          return;
+        }
+        console.log("static click");
+console.log(cellElement);
+
+   $(element).flickity('viewFullscreen');
+
+
+
+    });
+});
+
 $( window ).on( 'load', function() {
     $('.slideshow-element__slideshow').flickity('resize');
 });
 
+
+// $slideshows.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+//   // dismiss if cell was not clicked
+//   if ( !cellElement ) {
+//     return;
+//   }
+//   // change cell background with .is-clicked
+//   $slideshows.find('.is-clicked').removeClass('is-clicked');
+//   $( cellElement ).addClass('is-clicked');
+//   $logger.text( 'Cell ' + ( cellIndex + 1 )  + ' clicked' );
+//
+//   console.log(cellElement);
+// });
+
+
+
+
+ // $(".slideshow-element__slideshow img" ).click(function() {
+ //   $(this).closest(".slideshow-element__slideshow").flickity('viewFullscreen');
+ // });
 
 
  // $(".slideshow-element__slideshow figcaption" ).click(function() {
@@ -46,7 +85,7 @@ $( window ).on( 'load', function() {
 
 
 
-// 
+//
 // var flkty = new Flickity('.slideshow-element__slideshow');
 //
 // flkty.on( 'fullscreenChange', function( isFullscreen ) {
