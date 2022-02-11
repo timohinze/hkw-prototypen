@@ -136,8 +136,9 @@ $linkrail = array (
 
 <style>
 .medien-slideshow-element .flickity-prev-next-button svg{
-  fill:white;
-  stroke: none;
+  fill: white;
+  stroke: black;
+  stroke-width: 3px;
 }
 
 .medien-slideshow-element img.landscape {
@@ -187,7 +188,7 @@ fill: white;
     top: 10px; */
     width: 1.5rem;
     height: 1.5rem;
-     mix-blend-mode: normal!important; 
+     mix-blend-mode: normal!important;
     color: black;
 }
 
