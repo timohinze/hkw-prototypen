@@ -38,41 +38,41 @@ background: transparent;
 
 
 /* make caption width = img width */
-.slideshow-element:not(.header-slideshow) figure {
+.medien-slideshow-element figure {
   display: table;
 }
-.slideshow-element:not(.header-slideshow) figcaption {
+.medien-slideshow-element figcaption {
   display: table-caption; caption-side: bottom;
 }
 
- .slideshow-element:not(.header-slideshow) img.landscape {
+.medien-slideshow-element img.landscape {
   width: 70vw;
   height: auto;
 }
 
-.slideshow-element:not(.header-slideshow) img.portrait {
+.medien-slideshow-element img.portrait {
   height: 77vh;
   width: auto;
 }
 
-.slideshow-element:not(.header-slideshow) img.square {
+.medien-slideshow-element img.square {
   height: 77vh;
   width: auto;
 }
 
-.slideshow-element:not(.header-slideshow) .slideshow-element__slide {
+.medien-slideshow-element.slideshow-element__slide {
   height: auto;
   margin-right: 2rem;
 }
 
-.slideshow-element:not(.header-slideshow) .add-blurry-bg {
+.medien-slideshow-element.add-blurry-bg {
   width: 70vw;
   height: auto;
 }
 
 
 /* set width of image caption for landscape img */
-.slideshow-element:not(.header-slideshow) .slideshow-element__slide figcaption{
+.medien-slideshow-element .slideshow-element__slide figcaption{
   max-width: 50vw;
 }
 
@@ -90,18 +90,18 @@ background: transparent;
 
 
 
-.slideshow-element:not(.header-slideshow) .slideshow-element__slide:last-of-type{
+.medien-slideshow-element .slideshow-element__slide:last-of-type{
   padding-right: 2rem;
 }
 
 
-.slideshow-element:not(.header-slideshow) .flickity-prev-next-button svg {
+.medien-slideshow-element .flickity-prev-next-button svg {
     fill: white;
 stroke: black;
 stroke-width: 4px;
 
 }
-.slideshow-element:not(.header-slideshow):hover .flickity-prev-next-button svg {
+.medien-slideshow-element:hover .flickity-prev-next-button svg {
     display: block !important;
 }
 
@@ -170,16 +170,16 @@ stroke-width: 4px;
 color: black;
 }
 
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .vimeo-embed{
+.medien-slideshow-element .flickity-enabled.is-fullscreen .vimeo-embed{
   width: 90vw!important;
   height: auto!important;
 
 }
 
 
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.landscape,
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.portrait,
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.square  {
+.medien-slideshow-element .flickity-enabled.is-fullscreen img.landscape,
+.medien-slideshow-element .flickity-enabled.is-fullscreen img.portrait,
+.medien-slideshow-element .flickity-enabled.is-fullscreen img.square  {
  max-width: 90vw!important;
  height: auto!important;
 
@@ -202,7 +202,7 @@ color: black;
  width: auto!important;
 } */
 
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .slideshow-element__slide{
+.medien-slideshow-element .flickity-enabled.is-fullscreen .slideshow-element__slide{
 width: 100vw;
 height: 100vh;
 background: white;
@@ -215,20 +215,14 @@ flex-wrap: wrap;
 
 }
 
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen figure{
-}
-
-
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen figcaption{
-}
 
  @media only screen and (max-width: 840px) {
-.slideshow-element:not(.header-slideshow) .slideshow-element__slide figcaption {
+.medien-slideshow-element .slideshow-element__slide figcaption {
     max-width: unset;
 }
 }
 
-.slideshow-element:not(.header-slideshow) .flickity-button{
+.medien-slideshow-element.flickity-button{
 mix-blend-mode: difference;
 }
 
