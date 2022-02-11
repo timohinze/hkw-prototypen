@@ -78,6 +78,9 @@ background: transparent;
 
 
 
+.slideshow-element__slide {
+  margin-right: 2rem;
+}
 
 
 
@@ -222,7 +225,7 @@ flex-wrap: wrap;
 }
 }
 
-.medien-slideshow-element.flickity-button{
+.medien-slideshow-element .flickity-button{
 mix-blend-mode: difference;
 }
 
