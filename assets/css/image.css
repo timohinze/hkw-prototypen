@@ -58,7 +58,6 @@ img.imgpro {
 }
 
 .blurry-bg {
-  filter: blur(20px);
   position: absolute;
   background-size: cover;
   left: 0;
