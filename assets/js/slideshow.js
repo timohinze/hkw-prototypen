@@ -2,8 +2,8 @@
 // Medien Slideshow
 
 var pathDirections = {
-  view: 'M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-4 7h-1v-3.241l-11.241 11.241h3.241v1h-5v-5h1v3.241l11.241-11.241h-3.241v-1h5v5z',
-  exit: 'M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-4 7h-1v-3.241l-11.241 11.241h3.241v1h-5v-5h1v3.241l11.241-11.241h-3.241v-1h5v5z',
+  view: 'M3.8,17.1H0V0h17.1v3.8H3.8V17.1z M24,6.8h-3.8v13.3H6.9v3.8H24V6.8z',
+  exit: 'M3.8,17.1H0V0h17.1v3.8H3.8V17.1z M24,6.8h-3.8v13.3H6.9v3.8H24V6.8z',
 };
 
 var svgURI = 'http://www.w3.org/2000/svg';
