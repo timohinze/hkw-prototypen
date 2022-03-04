@@ -10,72 +10,9 @@ background: transparent;
     height: 90%;
 }
 
-/* .flickity-prev-next-button {
-  top: 33%;
-} */
-
-/* .flickity-prev-next-button.next {
-  right: 0;
-}
-
-.flickity-prev-next-button.previous {
-  left: 0;
-} */
-
-/* .flickity-button {
-  background: transparent;
-  color: white;
-}
-
-.flickity-button:hover {
-  background: none;
-  cursor: pointer;
-} */
-
 .flickity-button:disabled {
   opacity: 0;
 }
-
-
-/* make caption width = img width */
-.medien-slideshow-element figure {
-  display: table;
-}
-.medien-slideshow-element figcaption {
-  display: table-caption; caption-side: bottom;
-}
-
-.medien-slideshow-element img.landscape {
-  width: 70vw;
-  height: auto;
-}
-
-.medien-slideshow-element img.portrait {
-  height: 77vh;
-  width: auto;
-}
-
-.medien-slideshow-element img.square {
-  height: 77vh;
-  width: auto;
-}
-
-.medien-slideshow-element.slideshow-element__slide {
-  height: auto;
-  margin-right: 2rem;
-}
-
-.medien-slideshow-element.add-blurry-bg {
-  width: 70vw;
-  height: auto;
-}
-
-
-/* set width of image caption for landscape img */
-.medien-slideshow-element .slideshow-element__slide figcaption{
-  max-width: 50vw;
-}
-
 
 
 .slideshow-element__slide {
@@ -83,47 +20,15 @@ background: transparent;
 }
 
 
-
 @media only screen and (max-width: 1024px) {
   .slideshow-element__slide {
-    /* width: 80%; */
     margin-right: 1rem;
   }
 }
 
-
-
-.medien-slideshow-element .slideshow-element__slide:last-of-type{
-  padding-right: 2rem;
-}
-
-
-.medien-slideshow-element .flickity-prev-next-button svg {
-    fill: white;
-stroke: black;
-stroke-width: 4px;
-
-}
-.medien-slideshow-element:hover .flickity-prev-next-button svg {
-    display: block !important;
-}
-
-/* .slideshow-element:not(.header-slideshow) .flickity-prev-next-button {
-    top: 50%;
-} */
-
-
 .slideshow-element__text {
   margin-top: 1em;
 }
-
-/* .slideshow-element .flickity-button {
-  background: none;
-  cursor: pointer;
-  width: 7rem;
-  height: 7rem;
-  transition: opacity 0.75s;
-} */
 
 
 
@@ -133,19 +38,6 @@ stroke-width: 4px;
     height: 44px;
   }
 }
-
-/* .flickity-prev-next-button .flickity-button-icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: auto;
-  height: auto;
-} */
-
-/* .slideshow-element .flickity-button:hover {
-  background: none;
-  cursor: pointer;
-} */
 
 .slideshow-element .slideshow-element__titel {
   font-weight: normal;
@@ -159,18 +51,134 @@ stroke-width: 4px;
 }
 
 
-/* test fullscreen */
 .slideshow-element{
   z-index: unset;
 }
 
- .flickity-enabled.is-fullscreen{
-  z-index: 9999;
-  background: white;
+
+
+
+
+
+/* Medien-Slideshow */
+
+.medien-slideshow-element .slideshow-element__slide:last-of-type{
+  padding-right: 2rem;
 }
+
+
+
+/* make caption width = img width */
+.medien-slideshow-element figure {
+  display: table;
+}
+.medien-slideshow-element figcaption {
+  display: table-caption; caption-side: bottom;
+}
+
+/* set width of image caption for landscape img */
+.medien-slideshow-element .slideshow-element__slide figcaption{
+  max-width: 50vw;
+}
+
+.medien-slideshow-element.add-blurry-bg {
+  width: 70vw;
+  height: auto;
+}
+
+
+/* Btns */
+.medien-slideshow-element .flickity-prev-next-button svg {
+  fill: white;
+  stroke: black;
+  stroke-width: 4px;
+
+}
+.medien-slideshow-element:hover .flickity-prev-next-button svg {
+    display: block !important;
+}
+
+/* fullscreen btns */
+.medien-slideshow-element .flickity-fullscreen-button .flickity-button-icon {
+    position: absolute;
+    left: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.medien-slideshow-element .flickity-fullscreen-button {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}
+
+
+
+
+
+
+
+ @media only screen and (max-width: 840px) {
+  .medien-slideshow-element .slideshow-element__slide figcaption {
+      max-width: unset;
+  }
+}
+
+.medien-slideshow-element .flickity-button{
+mix-blend-mode: difference;
+}
+
+
+.medien-slideshow-element .flickity-prev-next-button svg{
+  fill: white;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+.medien-slideshow-element img.landscape {
+  max-width: 61vw!important;
+  height: auto!important;
+
+  max-height: 77vh!important;
+  width: auto!important;
+}
+.medien-slideshow-element img.portrait {
+  max-width: 40.666vw!important;
+  height: auto!important;
+
+  max-height: 77vh!important;
+  width: auto!important;
+}
+.medien-slideshow-element img.square {
+  max-width: 40.666vw!important;
+  height: auto!important;
+
+  max-height: 77vh!important;
+  width: auto!important;}
+
+
+  .medien-slideshow-element .vimeo-embed {
+      width: 61vw;
+      height: auto;
+  }
+
+
+
+
+
+/* Fullscreen */
 
 .flickity-enabled.is-fullscreen figcaption{
 color: black;
+}
+
+
+.flickity-enabled.is-fullscreen{
+ z-index: 9999;
+ background: white;
 }
 
 .medien-slideshow-element .flickity-enabled.is-fullscreen .vimeo-embed{
@@ -183,51 +191,26 @@ color: black;
 .medien-slideshow-element .flickity-enabled.is-fullscreen img.landscape,
 .medien-slideshow-element .flickity-enabled.is-fullscreen img.portrait,
 .medien-slideshow-element .flickity-enabled.is-fullscreen img.square  {
- max-width: 90vw!important;
- height: auto!important;
-
- max-height: 80vh!important;
- width: auto!important;
+   max-width: 90vw!important;
+   height: auto!important;
+   max-height: 80vh!important;
+   width: auto!important;
 }
-/*
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen .vimeo-embed {
- width: 90vw!important;
- height: auto!important;
-}
-
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.portrait {
- height: 90vh!important;
- width: auto!important;
-}
-
-.slideshow-element:not(.header-slideshow) .flickity-enabled.is-fullscreen img.square {
- height: 90vh!important;
- width: auto!important;
-} */
 
 .medien-slideshow-element .flickity-enabled.is-fullscreen .slideshow-element__slide{
-width: 100vw;
-height: 100vh;
-background: white;
-display: flex;
-align-content: center;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-
-
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 
- @media only screen and (max-width: 840px) {
-.medien-slideshow-element .slideshow-element__slide figcaption {
-    max-width: unset;
-}
-}
 
-.medien-slideshow-element .flickity-button{
-mix-blend-mode: difference;
-}
+
 
 
 

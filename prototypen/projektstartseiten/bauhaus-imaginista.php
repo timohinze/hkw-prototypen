@@ -135,63 +135,6 @@ $linkrail = array (
 
 
 <style>
-.medien-slideshow-element .flickity-prev-next-button svg{
-  fill: white;
-  stroke: black;
-  stroke-width: 3px;
-}
-
-.medien-slideshow-element img.landscape {
-  max-width: 61vw!important;
-  height: auto!important;
-
-  max-height: 77vh!important;
-  width: auto!important;
-}
-.medien-slideshow-element img.portrait {
-  max-width: 40.666vw!important;
-  height: auto!important;
-
-  max-height: 77vh!important;
-  width: auto!important;
-}
-.medien-slideshow-element img.square {
-  max-width: 40.666vw!important;
-  height: auto!important;
-
-  max-height: 77vh!important;
-  width: auto!important;}
-
-
-  .medien-slideshow-element .vimeo-embed {
-      width: 61vw;
-      height: auto;
-  }
-
-
-/* .medien-slideshow-element .flickity-fullscreen-button svg{
-fill: white;
-} */
-
-.medien-slideshow-element .flickity-fullscreen-button .flickity-button-icon {
-    position: absolute;
-    left: unset;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.medien-slideshow-element .flickity-fullscreen-button {
-    /* display: block;
-    right: 10px;
-    top: 10px; */
-    width: 1.5rem;
-    height: 1.5rem;
-     mix-blend-mode: normal!important;
-    color: black;
-}
-
 </style>
 
 
