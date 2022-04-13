@@ -67,12 +67,27 @@ $linkrail = array (
   )
 );
 ?>
+
+
 <main class="projektstartseite-page">
 <div class="element slideshow-element element--fullbleed header-slideshow">
    <div class="slideshow-element__slideshow">
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/800/450">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+     <div class="slideshow-element__slide">
+        <figure class="slideshow-element__media">
+           <img src="https://picsum.photos/1600/900">
+           <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
+        </figure>
+     </div>
+
       <div class="slideshow-element__slide">
          <figure class="slideshow-element__media">
-            <img src="https://supercomputerstudio.com/clients/hkw-relaunch/content/programm/projekte/bauhaus-imaginista/Bildschirmfoto%202021-06-16%20um%2013.18.51.png">
+           <img src="https://picsum.photos/800/450">
             <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
          </figure>
       </div>
@@ -83,6 +98,24 @@ $linkrail = array (
          </figure>
       </div>
    </div>
+
+   <!-- Custom Buttons -->
+        <button class="slideshow-button slideshow-prev-next-button previous" type="button" aria-label="Previous">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          	 viewBox="0 0 15.3 100" style="enable-background:new 0 0 15.3 100;" xml:space="preserve">
+          	<polygon points="13.4,100 0,50 13.4,0 15.3,0.5 2.1,50 15.3,99.5 	"/>
+          </svg>
+
+       </button>
+
+       <button class="slideshow-button slideshow-prev-next-button next" type="button" aria-label="Next">
+         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 15.3 100" style="enable-background:new 0 0 15.3 100;" xml:space="preserve">
+            <polygon points="1.9,0 15.3,50 1.9,100 0,99.5 13.2,50 0,0.5 "/>
+         </svg>
+
+       </button>
+
 </div>
 
 
@@ -239,9 +272,8 @@ $linkrail = array (
             <figcaption>Lorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor EstLorem Ipsum Dolor Est</figcaption>
          </figure>
       </div>
-
-
    </div>
+
 </div>
 
 
@@ -354,29 +386,7 @@ show_kalender_element($calendar_posts);
 
 </div>
 
-<div class="element element--padding-left slideshow-element ">
-   <h2 class="slideshow-element__titel">Videos</h2>
-   <div class="slideshow-element__slideshow">
-      <div class="slideshow-element__slide">
-         <div class="slideshow-element__media">
-            <div class="video-player-wrap"><button class="video-player__play-button"></button> <img src="https://film.kbb.eu/wtu/embed/preview/70496"></div>
-         </div>
-         <div class="slideshow-element__text">
-            <h2>Die Gründung neuer Lernorte (Englisch)</h2>
-            <p><a href="#">Mehr zum Video</a></p>
-         </div>
-      </div>
-      <div class="slideshow-element__slide">
-         <div class="slideshow-element__media">
-            <div class="video-player-wrap"><button class="video-player__play-button"></button><img src="https://film.kbb.eu/wtu/embed/preview/70489"></div>
-         </div>
-         <div class="slideshow-element__text">
-            <h2>Einführung: A New School (Englisch)</h2>
-            <p><a href="#">Mehr zum Video</a></p>
-         </div>
-      </div>
-   </div>
-</div>
+
 
 
 <ul class="element element--full-width element--abstand-oben2 ressourcen-teaser-item-element">
