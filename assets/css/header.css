@@ -635,9 +635,9 @@ letter-spacing: -0.035em;
   }
 }
 
-.flickity-prev-next-button svg {
+/* .flickity-prev-next-button svg {
   display: none !important;
-}
+} */
 
 .scrollable-menu-flickity:hover .flickity-prev-next-button svg {
   display: block !important;
