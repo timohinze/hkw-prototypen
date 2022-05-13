@@ -113,7 +113,7 @@
               <hr>
 
               <div class="p">
-                  <span class="balance-text text">Ich bitte euch, heute Nacht nicht zu schlafen.</i> Die zweite Staffel <i>Schlechte Wörter</i> verhandelt Sprache als Mittel des Schweigens und das revolutionäre Potential des Wachbleibens.</span><br><br><span>Audioserie mit Fabian Saul, Thuy-Han Nguyen-Chi, Nalan u. a.</span><br>        </div>
+                  <span class="balance-text text">Ich bitte euch, heute Nacht nicht zu schlafen.</i> Die zweite Staffel <i>Schlechte Wörter</i> verhandelt Sprache als Mittel des Schweigens und das revolutionäre Potential des Wachbleibens.</span><br><br><span class="balance-text text">Audioserie mit Fabian Saul, Thuy-Han Nguyen-Chi, Nalan u. a.</span><br>        </div>
 
 
       </div>
